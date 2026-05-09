@@ -1,4 +1,4 @@
-﻿import React, { useState } from 'react';
+import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Shield, Users, Globe, Award, Clock, BarChart, ChevronDown, ChevronUp } from 'lucide-react';
 import { OptimizedImage } from '../components/OptimizedImage';
@@ -115,7 +115,7 @@ const AboutUs = () => {
         </div>
       </div>
 
-      {/* Mission Section - LOGO ALINHADA Ã€ ALTURA DO TEXTO */}
+      {/* Mission Section - LOGO ALINHADA ?? ALTURA DO TEXTO */}
       <div className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row items-stretch gap-20">
@@ -264,12 +264,12 @@ const AboutUs = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-center text-gray-800 mb-12 drop-shadow-lg">{t('aboutUsPage.partnersTitle')}</h2>
           <div className="flex flex-wrap justify-center gap-12">
             {[
-              { icon: "ðŸ›ï¸", label: t('aboutUsPage.partners.items.fema') },
-              { icon: "ðŸ¥", label: t('aboutUsPage.partners.items.redCross') },
-              { icon: "ðŸŒŠ", label: t('aboutUsPage.partners.items.noaa') },
-              { icon: "ðŸš¨", label: t('aboutUsPage.partners.items.emergencyManagement') },
-              { icon: "â›ˆï¸", label: t('aboutUsPage.partners.items.weatherService') },
-              { icon: "ðŸ¢", label: t('aboutUsPage.partners.items.localAuthorities') },
+              { icon: "🏛️", label: t('aboutUsPage.partners.items.fema') },
+              { icon: "❤️", label: t('aboutUsPage.partners.items.redCross') },
+              { icon: "🌊", label: t('aboutUsPage.partners.items.noaa') },
+              { icon: "🚨", label: t('aboutUsPage.partners.items.emergencyManagement') },
+              { icon: "⛈️", label: t('aboutUsPage.partners.items.weatherService') },
+              { icon: "🏙️", label: t('aboutUsPage.partners.items.localAuthorities') },
             ].map((partner, i) => (
               <div key={i} className="text-center bg-gray-50 p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow">
                 <div className="text-4xl font-bold mb-2">{partner.icon}</div>

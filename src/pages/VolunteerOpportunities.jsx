@@ -1,4 +1,4 @@
-﻿import React, { useState } from 'react';
+import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Heart, Users, MapPin, Clock, Star, ArrowRight, X } from 'lucide-react';
 import { Input } from '../components/ui/input';
@@ -45,7 +45,7 @@ const VolunteerOpportunities = () => {
         t('volunteerOpportunitiesPage.opportunities.items.1.requirements.2'),
         t('volunteerOpportunitiesPage.opportunities.items.1.requirements.3')
       ],
-      icon: "ðŸš¨"
+      icon: "🚨"
     },
     {
       id: 2,
@@ -59,7 +59,7 @@ const VolunteerOpportunities = () => {
         t('volunteerOpportunitiesPage.opportunities.items.2.requirements.2'),
         t('volunteerOpportunitiesPage.opportunities.items.2.requirements.3')
       ],
-      icon: "ðŸ¥½"
+      icon: "🥽"
     },
     {
       id: 3,
@@ -73,7 +73,7 @@ const VolunteerOpportunities = () => {
         t('volunteerOpportunitiesPage.opportunities.items.3.requirements.2'),
         t('volunteerOpportunitiesPage.opportunities.items.3.requirements.3')
       ],
-      icon: "ðŸ“¢"
+      icon: "📢"
     },
     {
       id: 4,
@@ -87,7 +87,7 @@ const VolunteerOpportunities = () => {
         t('volunteerOpportunitiesPage.opportunities.items.4.requirements.2'),
         t('volunteerOpportunitiesPage.opportunities.items.4.requirements.3')
       ],
-      icon: "ðŸ“Š"
+      icon: "📊"
     },
     {
       id: 5,
@@ -101,7 +101,7 @@ const VolunteerOpportunities = () => {
         t('volunteerOpportunitiesPage.opportunities.items.5.requirements.2'),
         t('volunteerOpportunitiesPage.opportunities.items.5.requirements.3')
       ],
-      icon: "âœï¸"
+      icon: "✍️"
     },
     {
       id: 6,
@@ -115,7 +115,7 @@ const VolunteerOpportunities = () => {
         t('volunteerOpportunitiesPage.opportunities.items.6.requirements.2'),
         t('volunteerOpportunitiesPage.opportunities.items.6.requirements.3')
       ],
-      icon: "ðŸ”§"
+      icon: "💻"
     }
   ];
 
@@ -230,7 +230,7 @@ const VolunteerOpportunities = () => {
                   <ul className="text-sm text-gray-600 space-y-1">
                     {opportunity.requirements.map((req, index) => (
                       <li key={index} className="flex items-start">
-                        <span className="mr-2">â€¢</span>
+                        <span className="mr-2">???</span>
                         <span className="flex-1">{req}</span>
                       </li>
                     ))}

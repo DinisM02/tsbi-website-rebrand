@@ -1,4 +1,4 @@
-﻿import React, { useState } from 'react';
+import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useNavigate } from 'react-router-dom';
 import { ArrowRight, Shield, Smartphone, Users, X } from 'lucide-react';
@@ -134,7 +134,7 @@ const CTASection = () => {
                 {t('ctaSection.watchOverview')}
               </Button>
 
-              {/* Schedule Demo â€” OPÃ‡ÃƒO A */}
+              {/* Schedule Demo button */}
               <Button
                 variant="outline"
                 size="lg"

@@ -1,10 +1,10 @@
-﻿import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { FileText, Calendar, User, Tag, ArrowLeft } from 'lucide-react';
 import { getPublishedBlogPosts } from '../firebase/firestore';
 import ScrollIndicator from '../components/ScrollIndicator';
 
-// Artigos estÃ¡ticos exibidos enquanto nÃ£o hÃ¡ posts no Firestore
+// Artigos estáticos exibidos enquanto não há posts no Firestore
 const STATIC_POSTS = [
   {
     id: 'static-1',
@@ -13,7 +13,7 @@ const STATIC_POSTS = [
     content: `Flood readiness starts well before the rain arrives. Here are the 10 essentials every household should have ready:
 
 1. Go-bag with 72-hour supplies (food, water, medication, documents)
-2. Emergency contact list â€” printed, not just digital
+2. Emergency contact list – printed, not just digital
 3. Waterproof container for vital documents (ID, insurance, passports)
 4. First aid kit fully stocked
 5. Battery-powered or hand-crank radio
@@ -57,13 +57,13 @@ HydroBeacon supports CRT formation through our training programs and the real-ti
     excerpt: 'What do the HydroBeacon alert severity levels actually mean? A practical guide to interpreting flood risk data.',
     content: `The HydroBeacon platform uses a four-tier severity system to communicate flood risk clearly and consistently:
 
-ðŸŸ¢ LOW â€” River discharge below 40 mÂ³/s, rainfall under 10 mm/h. Normal conditions. Continue monitoring.
+🟡 LOW – River discharge below 40 m³/s, rainfall under 10 mm/h. Normal conditions. Continue monitoring.
 
-ðŸŸ¡ MEDIUM â€” River discharge 40â€“60 mÂ³/s or rainfall 10â€“20 mm/h. Elevated risk. Review your evacuation plan and prepare your go-bag.
+🟠 MEDIUM – River discharge 40–60 m³/s or rainfall 10–20 mm/h. Elevated risk. Review your evacuation plan and prepare your go-bag.
 
-ðŸ”´ HIGH â€” River discharge above 60 mÂ³/s or rainfall above 20 mm/h. Imminent danger in low-lying areas. Be ready to evacuate on short notice.
+🔴 HIGH – River discharge above 60 m³/s or rainfall above 20 mm/h. Imminent danger in low-lying areas. Be ready to evacuate on short notice.
 
-ðŸš¨ CRITICAL â€” Extreme conditions. Immediate evacuation required. Follow instructions from emergency services.
+🚨 CRITICAL – Extreme conditions. Immediate evacuation required. Follow instructions from emergency services.
 
 These thresholds are calibrated using data from OpenWeatherMap and the Open-Meteo global river discharge monitoring system, updated every 2 minutes.`,
     category: 'Safety',
