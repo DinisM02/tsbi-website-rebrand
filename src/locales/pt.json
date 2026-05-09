@@ -1,13 +1,13 @@
-﻿{
+{
   "header": {
-    "home": "InÃ­cio",
-    "about": "Sobre NÃ³s",
-    "services": "ServiÃ§os",
+    "home": "Início",
+    "about": "Sobre Nós",
+    "services": "Serviços",
     "training": "Treinamento",
     "resources": "Recursos",
     "blog": "Blog",
     "contact": "Contato",
-    "emergency": "EmergÃªncia",
+    "emergency": "Emergência",
     "login": "Entrar",
     "profile": "Perfil",
     "logout": "Sair",
@@ -29,44 +29,44 @@
       },
       "responders": {
         "label": "Respondentes",
-        "access": "PainÃ©is e OperaÃ§Ãµes"
+        "access": "Painéis e Operações"
       },
       "partners": {
         "label": "Parceiros",
         "access": "Fluxos de Trabalho de Apoio"
       }
     },
-    "howtitle": "Como vocÃª usarÃ¡ o HydroBeacon?",
-    "howDescription": "Escolha seu caminho de acesso primeiro, depois continue para {0}. Isso suporta controle de acesso baseado em funÃ§Ã£o, separaÃ§Ã£o de privacidade e governanÃ§a de nÃ­vel agencial.",
+    "howtitle": "Como você usará o HydroBeacon?",
+    "howDescription": "Escolha seu caminho de acesso primeiro, depois continue para {0}. Isso suporta controle de acesso baseado em função, separação de privacidade e governança de nível agencial.",
     "resident": {
       "title": "Residente Local",
-      "description": "Receba alertas de inundaÃ§Ã£o, encontre abrigos prÃ³ximos, solicite assistÃªncia e acesse orientaÃ§Ã£o de seguranÃ§a pessoal.",
-      "badge": "Acesso comunitÃ¡rio padrÃ£o"
+      "description": "Receba alertas de inundação, encontre abrigos próximos, solicite assistência e acesse orientação de segurança pessoal.",
+      "badge": "Acesso comunitário padrão"
     },
     "responder": {
-      "title": "Respondente de EmergÃªncia",
-      "description": "Acesso operacional restrito para oficiais governamentais, serviÃ§os de emergÃªncia e equipes de comando autorizadas.",
+      "title": "Respondente de Emergência",
+      "description": "Acesso operacional restrito para oficiais governamentais, serviços de emergência e equipes de comando autorizadas.",
       "badge": "Acesso operacional restrito"
     },
     "helper": {
-      "title": "VoluntÃ¡rio / Ajudante",
-      "description": "Para ONGs, parceiros, voluntÃ¡rios e apoiadores que contribuem sem permissÃµes de nÃ­vel respondente.",
-      "badge": "Acesso de suporte e divulgaÃ§Ã£o"
+      "title": "Voluntário / Ajudante",
+      "description": "Para ONGs, parceiros, voluntários e apoiadores que contribuem sem permissões de nível respondente.",
+      "badge": "Acesso de suporte e divulgação"
     },
-    "securityNote": "As ferramentas operacionais do respondente sÃ£o intencionalmente separadas das experiÃªncias de residente e ajudante. O acesso Ã© limitado por funÃ§Ã£o e pode ser auditado para controle de governanÃ§a e privacidade.",
-    "changeLater": "Precisa de um caminho diferente mais tarde? VocÃª pode mudar de funÃ§Ã£o antes da autenticaÃ§Ã£o.",
-    "backToHome": "Voltar para InÃ­cio",
+    "securityNote": "As ferramentas operacionais do respondente são intencionalmente separadas das experiências de residente e ajudante. O acesso é limitado por função e pode ser auditado para controle de governança e privacidade.",
+    "changeLater": "Precisa de um caminho diferente mais tarde? Você pode mudar de função antes da autenticação.",
+    "backToHome": "Voltar para Início",
     "tsbiGateway": "Gateway de acesso seguro do HydroBeacon",
-    "roleBasedAccess": "Acesso baseado em funÃ§Ã£o",
+    "roleBasedAccess": "Acesso baseado em função",
     "mainTitle": "Acesso controlado para residentes, respondentes e equipes de apoio.",
-    "mainDescription": "O HydroBeacon separa informaÃ§Ãµes de seguranÃ§a pÃºblica de ferramentas operacionais restritas para que as agÃªncias possam proteger fluxos de trabalho sensÃ­veis enquanto as comunidades ainda recebem a orientaÃ§Ã£o necessÃ¡ria.",
-    "alertsShelt": "Alertas, abrigos, orientaÃ§Ã£o e recursos de seguranÃ§a pessoal.",
-    "restrictedDash": "PainÃ©is restritos, operaÃ§Ãµes em tempo real e coordenaÃ§Ã£o de incidentes.",
-    "volunteerOutreach": "Fluxos de trabalho de voluntariado, divulgaÃ§Ã£o e suporte sem permissÃµes operacionais."
+    "mainDescription": "O HydroBeacon separa informações de segurança pública de ferramentas operacionais restritas para que as agências possam proteger fluxos de trabalho sensíveis enquanto as comunidades ainda recebem a orientação necessária.",
+    "alertsShelt": "Alertas, abrigos, orientação e recursos de segurança pessoal.",
+    "restrictedDash": "Painéis restritos, operações em tempo real e coordenação de incidentes.",
+    "volunteerOutreach": "Fluxos de trabalho de voluntariado, divulgação e suporte sem permissões operacionais."
   },
   "featuresSection": {
-    "header": "Plataforma de ProteÃ§Ã£o contra InundaÃ§Ãµes em Tempo Real",
-    "subtitle": "Monitoramento de inundaÃ§Ãµes em tempo real com dados de {{count}} APIs ativas na sua localizaÃ§Ã£o ({{lat}}, {{lon}})",
+    "header": "Plataforma de Proteção contra Inundações em Tempo Real",
+    "subtitle": "Monitoramento de inundações em tempo real com dados de {{count}} APIs ativas na sua localização ({{lat}}, {{lon}})",
     "allSystemsOperational": "Todos os Sistemas Operacionais",
     "partialSystems": "Sistemas Parciais",
     "updated": "Atualizado: {{time}}",
@@ -74,46 +74,46 @@
     "refreshNow": "Atualizar Agora",
     "features": {
       "floodAlerts": {
-        "title": "Alertas de InundaÃ§Ã£o em Tempo Real",
-        "description": "NotificaÃ§Ãµes instantÃ¢neas alimentadas por sensores de IA e IoT para alertÃ¡-lo sobre riscos de inundaÃ§Ã£o iminentes."
+        "title": "Alertas de Inundação em Tempo Real",
+        "description": "Notificações instantâneas alimentadas por sensores de IA e IoT para alertá-lo sobre riscos de inundação iminentes."
       },
       "floodForecasting": {
-        "title": "PrevisÃ£o de InundaÃ§Ãµes",
-        "description": "PrevisÃ£o avanÃ§ada de inundaÃ§Ãµes usando mÃºltiplas fontes de dados e monitoramento de rios global."
+        "title": "Previsão de Inundações",
+        "description": "Previsão avançada de inundações usando múltiplas fontes de dados e monitoramento de rios global."
       },
       "riskMaps": {
         "title": "Mapas de Risco Interativos",
-        "description": "Mapeamento ao vivo com zonas de inundaÃ§Ã£o codificadas por cores mostrando risco de inundaÃ§Ã£o em tempo real."
+        "description": "Mapeamento ao vivo com zonas de inundação codificadas por cores mostrando risco de inundação em tempo real."
       },
       "vrArTraining": {
         "title": "Treinamento VR/AR",
-        "description": "SimulaÃ§Ãµes imersivas para praticar respostas a emergÃªncias e procedimentos de seguranÃ§a."
+        "description": "Simulações imersivas para praticar respostas a emergências e procedimentos de segurança."
       },
       "navigation": {
-        "title": "NavegaÃ§Ã£o de EmergÃªncia",
-        "description": "Roteamento inteligente que evita Ã¡reas inundadas e orienta para abrigos seguros."
+        "title": "Navegação de Emergência",
+        "description": "Roteamento inteligente que evita áreas inundadas e orienta para abrigos seguros."
       },
       "community": {
-        "title": "Rede ComunitÃ¡ria",
-        "description": "Conecte-se com socorristas e vizinhos para coordenaÃ§Ã£o em tempo real."
+        "title": "Rede Comunitária",
+        "description": "Conecte-se com socorristas e vizinhos para coordenação em tempo real."
       },
       "multiSource": {
-        "title": "Dados de MÃºltiplas Fontes",
-        "description": "IntegraÃ§Ã£o de dados de sistemas globais de monitoramento e sensores locais."
+        "title": "Dados de Múltiplas Fontes",
+        "description": "Integração de dados de sistemas globais de monitoramento e sensores locais."
       },
       "multiChannel": {
         "title": "Alertas Multicanal",
-        "description": "Avisos via SMS, email, notificaÃ§Ãµes push e painÃ©is internos."
+        "description": "Avisos via SMS, email, notificações push e painéis internos."
       }
     },
     "featureContent": {
       "ready": "Pronto",
       "startTraining": "Iniciar Treinamento",
-      "availableScenarios": "CenÃ¡rios DisponÃ­veis:",
-      "flashFloodEvacuation": "EvacuaÃ§Ã£o de InundaÃ§Ã£o RÃ¡pida (4 Q)",
-      "emergencyShelter": "Abrigo de EmergÃªncia (4 Q)",
+      "availableScenarios": "Cenários Disponíveis:",
+      "flashFloodEvacuation": "Evacuação de Inundação Rápida (4 Q)",
+      "emergencyShelter": "Abrigo de Emergência (4 Q)",
       "active": "Ativo",
-      "standby": "ProntidÃ£o",
+      "standby": "Prontidão",
       "stop": "Parar",
       "findShelters": "Encontrar Abrigos",
       "searching": "Procurando...",
@@ -122,28 +122,28 @@
       "high": "ALTO",
       "moderate": "MODERADO",
       "normal": "NORMAL",
-      "liveDataForLocation": "Dados ao vivo para sua localizaÃ§Ã£o",
+      "liveDataForLocation": "Dados ao vivo para sua localização",
       "connected": "Conectado",
       "offline": "Offline",
       "join": "Aderir",
       "leave": "Sair",
       "responders": "Socorristas:",
       "neighbors": "Vizinhos:",
-      "logInToJoin": "FaÃ§a login para aderir",
+      "logInToJoin": "Faça login para aderir",
       "saving": "Salvando...",
       "testAlerts": "Alertas de Teste",
-      "logInToSavePreferences": "FaÃ§a login para salvar preferÃªncias",
+      "logInToSavePreferences": "Faça login para salvar preferências",
       "viewYourLiveMap": "Ver Seu Mapa ao Vivo",
       "viewInteractiveMap": "Ver Mapa Interativo",
       "clickToOpenMap": "Clique para abrir OpenStreetMap real",
-      "nearestShelter": "Abrigo Mais PrÃ³ximo:",
+      "nearestShelter": "Abrigo Mais Próximo:",
       "safeLocations": "Locais Seguros:",
       "noneFound": "Nenhum encontrado",
       "openInternalRouteTo": "Abrir Rota Interna para {{name}}"
     },
     "apiIntegrations": {
-      "title": "IntegraÃ§Ãµes de API ao Vivo",
-      "subtitle": "Dados dinÃ¢micos de mÃºltiplas fontes globais, atualizados a cada 2 minutos",
+      "title": "Integrações de API ao Vivo",
+      "subtitle": "Dados dinâmicos de múltiplas fontes globais, atualizados a cada 2 minutos",
       "openweathermap": {
         "name": "OpenWeatherMap",
         "description": "Dados de tempo em tempo real e alertas"
@@ -153,8 +153,8 @@
         "description": "Monitoramento global de descarga de rios"
       },
       "geolocation": {
-        "name": "GeolocalizaÃ§Ã£o",
-        "description": "Rastreamento exato da sua localizaÃ§Ã£o"
+        "name": "Geolocalização",
+        "description": "Rastreamento exato da sua localização"
       },
       "overpass": {
         "name": "Overpass / OSM",
@@ -162,130 +162,141 @@
       }
     },
     "riskMap": {
-      "title": "Mapa de Risco de InundaÃ§Ã£o ao Vivo",
+      "title": "Mapa de Risco de Inundação ao Vivo",
       "internalRoute": "Rota interna para {{name}}",
-      "dynamicVisualization": "VisualizaÃ§Ã£o dinÃ¢mica de risco de inundaÃ§Ã£o em ({{lat}}, {{lon}})"
+      "dynamicVisualization": "Visualização dinâmica de risco de inundação em ({{lat}}, {{lon}})"
     },
     "riskLegend": {
       "highRisk": "Risco Alto",
-      "highRiskCondition": "Rio >60 mÂ³/s ou Chuva >20mm",
-      "mediumRisk": "Risco MÃ©dio",
-      "mediumRiskCondition": "Rio >40 mÂ³/s ou Chuva >10mm",
+      "highRiskCondition": "Rio >60 m³/s ou Chuva >20mm",
+      "mediumRisk": "Risco Médio",
+      "mediumRiskCondition": "Rio >40 m³/s ou Chuva >10mm",
       "lowRisk": "Risco Baixo",
-      "lowRiskCondition": "CondiÃ§Ãµes normais"
+      "lowRiskCondition": "Condições normais"
     },
     "alerts": {
       "title": "Alertas Ativos e Monitoramento"
+      ,
+      "criticalRiverTitle": "Rio Crítico: {{value}} m³/s",
+      "criticalRiverDesc": "Níveis do rio criticamente altos. Evacue se estiver perto das margens.",
+      "highRiverTitle": "Rio Alto: {{value}} m³/s",
+      "highRiverDesc": "Níveis do rio elevados. Fique alerta.",
+      "heavyRainTitle": "Chuva Intensa: {{value}}mm/h",
+      "heavyRainDesc": "Risco de inundação relâmpago.",
+      "heatTitle": "Calor: {{value}}°C",
+      "heatDesc": "Condições de calor extremo.",
+      "noAlertsTitle": "Sem Alertas Ativos",
+      "noAlertsDesc": "Todas as condições normais."
     },
     "footer": {
-      "liveDataStreaming": "TransmissÃ£o de Dados ao Vivo",
-      "updatesEvery2Min": "AtualizaÃ§Ãµes a cada 2 min",
-      "trackingyourLocation": "Rastreando sua localizaÃ§Ã£o",
-      "usingDefaultLocation": "Usando localizaÃ§Ã£o padrÃ£o"
+      "liveDataStreaming": "Transmissão de Dados ao Vivo",
+      "updatesEvery2Min": "Atualizações a cada 2 min",
+      "trackingyourLocation": "Rastreando sua localização",
+      "usingDefaultLocation": "Usando localização padrão"
     }
   },
   "login": {
     "title": "Entrar",
-    "email": "EndereÃ§o de Email",
+    "email": "Endereço de Email",
     "password": "Senha",
     "signIn": "Entrar",
     "forgotPassword": "Esqueceu a senha?",
-    "noAccount": "NÃ£o tem uma conta?",
+    "noAccount": "Não tem uma conta?",
     "signUp": "Cadastre-se aqui",
     "rememberMe": "Lembrar de mim",
     "loading": "Entrando...",
     "errors": {
       "fillFields": "Por favor, preencha todos os campos.",
-      "invalidEmail": "EndereÃ§o de email invÃ¡lido.",
+      "invalidEmail": "Endereço de email inválido.",
       "weakPassword": "Senha muito fraca. Use pelo menos 8 caracteres.",
       "userNotFound": "Nenhuma conta encontrada com este email.",
       "wrongPassword": "Senha incorreta.",
       "tooManyAttempts": "Muitas tentativas falhadas. Por favor, tente novamente mais tarde.",
-      "network": "Erro de rede. Por favor, verifique sua conexÃ£o com a internet.",
-      "notEnabled": "O login com Email/Senha nÃ£o estÃ¡ habilitado. Por favor, habilite-o no Console Firebase.",
+      "network": "Erro de rede. Por favor, verifique sua conexão com a internet.",
+      "notEnabled": "O login com Email/Senha não está habilitado. Por favor, habilite-o no Console Firebase.",
       "default": "Ocorreu um erro. Por favor, tente novamente."
     },
     "responderWarning": "Acesso Operacional Restrito",
-    "responderWarningText": "Este caminho Ã© destinado a oficiais governamentais autorizados e pessoal de resposta a emergÃªncias."
+    "responderWarningText": "Este caminho é destinado a oficiais governamentais autorizados e pessoal de resposta a emergências."
   },
   "signup": {
     "title": "Criar Conta",
-    "subtitle": "Junte-se Ã  HydroBeacon",
-    "secureEnrollment": "InscriÃ§Ã£o Segura",
+    "subtitle": "Junte-se à Iniciativa HydroBeacon",
+    "secureEnrollment": "Inscrição Segura",
     "fullName": "Nome Completo",
-    "email": "EndereÃ§o de Email",
+    "email": "Endereço de Email",
     "password": "Senha",
     "confirmPassword": "Confirmar Senha",
     "createAccount": "Criar Conta",
-    "agreeTerms": "Ao criar uma conta, vocÃª concorda com nossos",
-    "termsOfService": "Termos de ServiÃ§o",
+    "agreeTerms": "Ao criar uma conta, você concorda com nossos",
+    "termsOfService": "Termos de Serviço",
     "and": "e",
-    "privacyPolicy": "PolÃ­tica de Privacidade",
-    "haveAccount": "JÃ¡ tem uma conta?",
+    "privacyPolicy": "Política de Privacidade",
+    "haveAccount": "Já tem uma conta?",
     "signIn": "Entrar",
-    "changeRole": "â† Mudar papel",
+    "changeRole": "← Mudar papel",
     "creating": "Criando conta...",
     "passwordReqs": {
       "length": "8+ caracteres",
-      "uppercase": "Letra maiÃºscula",
-      "lowercase": "Letra minÃºscula",
-      "number": "NÃºmero"
+      "uppercase": "Letra maiúscula",
+      "lowercase": "Letra minúscula",
+      "number": "Número"
     },
     "operationalAccess": "Acesso Operacional",
-    "operationalAccessText": "Junte-se ao pessoal de resposta a emergÃªncias autorizado. PainÃ©is operacionais restritos com trilhas de auditoria e recursos de governanÃ§a.",
-    "volunteerAccess": "Acesso de VoluntÃ¡rio",
-    "volunteerAccessText": "Apoie a resiliÃªncia da comunidade. Acesse ferramentas de coordenaÃ§Ã£o de voluntÃ¡rios e recursos de treinamento.",
-    "communityAccess": "Acesso Ã  Comunidade",
-    "communityAccessText": "FortaleÃ§a sua comunidade. Acesse alertas de inundaÃ§Ã£o em tempo real e recursos de emergÃªncia.",
+    "operationalAccessText": "Junte-se ao pessoal de resposta a emergências autorizado. Painéis operacionais restritos com trilhas de auditoria e recursos de governança.",
+    "volunteerAccess": "Acesso de Voluntário",
+    "volunteerAccessText": "Apoie a resiliência da comunidade. Acesse ferramentas de coordenação de voluntários e recursos de treinamento.",
+    "communityAccess": "Acesso à Comunidade",
+    "communityAccessText": "Fortaleça sua comunidade. Acesse alertas de inundação em tempo real e recursos de emergência.",
     "accountRole": "Papel da Conta",
-    "accessLevel": "NÃ­vel de Acesso",
-    "verification": "VerificaÃ§Ã£o",
+    "accessLevel": "Nível de Acesso",
+    "verification": "Verificação",
     "restrictedOperational": "Acesso Operacional Restrito",
     "community": "Comunidade",
-    "emailPasswordRequired": "Email + Senha ObrigatÃ³rios",
+    "emailPasswordRequired": "Email + Senha Obrigatórios",
     "responderWarning": "Acesso Operacional Restrito",
-    "responderWarningText": "Esta conta serÃ¡ configurada para oficiais governamentais autorizados e pessoal de resposta a emergÃªncias. As atividades operacionais sÃ£o registradas e auditÃ¡veis.",
+    "responderWarningText": "Esta conta será configurada para oficiais governamentais autorizados e pessoal de resposta a emergências. As atividades operacionais são registradas e auditáveis.",
     "errors": {
       "fillFields": "Por favor, preencha todos os campos.",
-      "passwordMismatch": "As senhas nÃ£o correspondem.",
+      "passwordMismatch": "As senhas não correspondem.",
       "passwordNotStrong": "Por favor, atenda a todos os requisitos de senha.",
-      "emailExists": "Uma conta com este email jÃ¡ existe.",
+      "emailExists": "Uma conta com este email já existe.",
       "weakPassword": "Senha muito fraca. Use pelo menos 8 caracteres.",
-      "invalidEmail": "EndereÃ§o de email invÃ¡lido.",
-      "notEnabled": "O login com Email/Senha nÃ£o estÃ¡ habilitado. Por favor, habilite-o no Console Firebase â†’ AutenticaÃ§Ã£o â†’ MÃ©todo de login.",
-      "network": "Erro de rede. Por favor, verifique sua conexÃ£o com a internet.",
+      "invalidEmail": "Endereço de email inválido.",
+      "notEnabled": "O login com Email/Senha não está habilitado. Por favor, habilite-o no Console Firebase → Autenticação → Método de login.",
+      "network": "Erro de rede. Por favor, verifique sua conexão com a internet.",
       "default": "Ocorreu um erro. Por favor, tente novamente."
     }
   },
   "hero": {
-    "title": "FortaleÃ§a Sua Comunidade",
-    "subtitle": "Alertas de inundaÃ§Ã£o em tempo real, recursos de emergÃªncia e ferramentas de seguranÃ§a da comunidade",
-    "getStarted": "ComeÃ§ar",
+    "title": "Fortaleça Sua Comunidade",
+    "subtitle": "Alertas de inundação em tempo real, recursos de emergência e ferramentas de segurança da comunidade",
+    "getStarted": "Começar",
     "learnMore": "Saiba Mais"
   },
   "features": {
     "title": "Recursos Principais",
     "realTimeAlerts": "Alertas em Tempo Real",
-    "realTimeAlertsText": "Receba notificaÃ§Ãµes imediatas sobre riscos de inundaÃ§Ã£o em sua Ã¡rea",
+    "realTimeAlertsText": "Receba notificações imediatas sobre riscos de inundação em sua área",
     "shelterLocator": "Localizador de Abrigos",
-    "shelterLocatorText": "Encontre abrigos e recursos de emergÃªncia prÃ³ximos",
+    "shelterLocatorText": "Encontre abrigos e recursos de emergência próximos",
     "training": "Programas de Treinamento",
-    "trainingText": "Acesse treinamento abrangente sobre seguranÃ§a de inundaÃ§Ã£o e preparaÃ§Ã£o",
-    "community": "Apoio ComunitÃ¡rio",
-    "communityText": "Conecte-se com sua comunidade atravÃ©s de nossa plataforma"
+    "trainingText": "Acesse treinamento abrangente sobre segurança de inundação e preparação",
+    "community": "Apoio Comunitário",
+    "communityText": "Conecte-se com sua comunidade através de nossa plataforma"
   },
   "footer": {
     "about": "Sobre",
-    "services": "ServiÃ§os",
+    "services": "Serviços",
     "contact": "Contato",
     "legal": "Legal",
-    "termsOfService": "Termos de ServiÃ§o",
-    "privacyPolicy": "PolÃ­tica de Privacidade",
-    "cookieStatement": "DeclaraÃ§Ã£o de Cookies",
+    "termsOfService": "Termos de Serviço",
+    "privacyPolicy": "Política de Privacidade",
+    "cookieStatement": "Declaração de Cookies",
     "communityGuidelines": "Diretrizes da Comunidade",
     "followUs": "Siga-nos",
     "rights": "Todos os direitos reservados",
-    "version": "VersÃ£o"
+    "version": "Versão"
   },
   "dashboard": {
     "title": "Painel",
@@ -294,13 +305,13 @@
     "shelters": "Abrigos",
     "training": "Cursos de Treinamento",
     "profile": "Meu Perfil",
-    "settings": "ConfiguraÃ§Ãµes"
+    "settings": "Configurações"
   },
   "responderDashboard": {
     "title": "Painel do Respondente",
-    "createAlert": "Criar Alerta de InundaÃ§Ã£o",
+    "createAlert": "Criar Alerta de Inundação",
     "addShelter": "Adicionar Abrigo",
-    "activeAlerts": "Alertas de InundaÃ§Ã£o Ativos",
+    "activeAlerts": "Alertas de Inundação Ativos",
     "registeredShelters": "Abrigos Registrados"
   },
   "responderDashboardBatch": {
@@ -504,19 +515,19 @@
   },
   "heroSection": {
     "title": "Mantenha-se Seguro com",
-    "subtitle": "Alertas de InundaÃ§Ã£o em Tempo Real",
-    "description": "DeteÃ§Ã£o de inundaÃ§Ãµes alimentada por IA, treinamento VR/AR em emergÃªncias e alertas comunitÃ¡rios instantÃ¢neos para proteger vidas e propriedades de desastres de inundaÃ§Ã£o.",
+    "subtitle": "Alertas de Inundação em Tempo Real",
+    "description": "Deteção de inundações alimentada por IA, treinamento VR/AR em emergências e alertas comunitários instantâneos para proteger vidas e propriedades de desastres de inundação.",
     "realTimeAlerts": "Alertas em Tempo Real",
-    "realTimeAlertsDesc": "NotificaÃ§Ãµes instantÃ¢neas quando riscos de inundaÃ§Ã£o sÃ£o detetados",
+    "realTimeAlertsDesc": "Notificações instantâneas quando riscos de inundação são detetados",
     "interactiveMaps": "Mapas Interativos",
-    "interactiveMapsDesc": "Zonas de inundaÃ§Ã£o ao vivo e rotas de evacuaÃ§Ã£o",
+    "interactiveMapsDesc": "Zonas de inundação ao vivo e rotas de evacuação",
     "vrArTraining": "Treinamento VR/AR",
-    "vrArTrainingDesc": "SimulaÃ§Ãµes imersivas de resposta a emergÃªncias",
-    "getStarted": "ComeÃ§ar",
-    "watchDemo": "Ver DemonstraÃ§Ã£o",
-    "platformDemo": "DemonstraÃ§Ã£o da Plataforma",
-    "demoDescription": "Veja esta demonstraÃ§Ã£o para entender como nossa plataforma de monitoramento de inundaÃ§Ãµes funciona e como ela pode ajudÃ¡-lo a permanecer seguro durante eventos de inundaÃ§Ã£o.",
-    "empoweringCommunities": "Fortalecendo Comunidades Contra InundaÃ§Ãµes",
+    "vrArTrainingDesc": "Simulações imersivas de resposta a emergências",
+    "getStarted": "Começar",
+    "watchDemo": "Ver Demonstração",
+    "platformDemo": "Demonstração da Plataforma",
+    "demoDescription": "Veja esta demonstração para entender como nossa plataforma de monitoramento de inundações funciona e como ela pode ajudá-lo a permanecer seguro durante eventos de inundação.",
+    "empoweringCommunities": "Fortalecendo Comunidades Contra Inundações",
     "videoUnsupported": "Seu navegador nao suporta a tag de video.",
     "imageAlt": "Resposta de emergencia a inundacao",
     "stats": {
@@ -534,66 +545,66 @@
   },
   "ctaSection": {
     "title": "Pronto para Proteger a Sua Comunidade?",
-    "description": "Junte-se a milhares de comunidades que jÃ¡ usam o HydroBeacon para se manterem seguras contra desastres de inundaÃ§Ã£o. Comece hoje e experimente o futuro da seguranÃ§a contra cheias.",
+    "description": "Junte-se a milhares de comunidades que já usam o HydroBeacon para se manterem seguras contra desastres de inundação. Comece hoje e experimente o futuro da segurança contra cheias.",
     "startFreeTrial": "Iniciar Teste Gratuito",
-    "watchOverview": "Ver VisÃ£o Geral",
-    "scheduleDemo": "Agendar DemonstraÃ§Ã£o",
-    "contactText": "Precisa de ajuda para comeÃ§ar? Os nossos especialistas em resposta a emergÃªncias estÃ£o aqui para ajudar.",
+    "watchOverview": "Ver Visão Geral",
+    "scheduleDemo": "Agendar Demonstração",
+    "contactText": "Precisa de ajuda para começar? Os nossos especialistas em resposta a emergências estão aqui para ajudar.",
     "email": "Email",
     "contactEmail": "Email: {{email}}",
-    "available": "DisponÃ­vel 24/7",
+    "available": "Disponível 24/7",
     "cards": {
       "instantProtection": {
-        "title": "ProteÃ§Ã£o Imediata",
-        "description": "Obtenha acesso imediato a alertas de inundaÃ§Ã£o em tempo real e recursos de emergÃªncia"
+        "title": "Proteção Imediata",
+        "description": "Obtenha acesso imediato a alertas de inundação em tempo real e recursos de emergência"
       },
       "mobileReady": {
         "title": "Pronto para Mobile",
-        "description": "Funciona em qualquer dispositivo com capacidades offline para situaÃ§Ãµes de emergÃªncia"
+        "description": "Funciona em qualquer dispositivo com capacidades offline para situações de emergência"
       },
       "communitySupport": {
-        "title": "Apoio ComunitÃ¡rio",
-        "description": "Conecte-se com socorristas locais e vizinhos para seguranÃ§a coordenada"
+        "title": "Apoio Comunitário",
+        "description": "Conecte-se com socorristas locais e vizinhos para segurança coordenada"
       }
     },
     "modal": {
       "title": "Inicie o Seu Teste Gratuito",
-      "videoUnsupported": "O seu navegador nÃ£o suporta a tag de vÃ­deo.",
-      "description": "Veja esta visÃ£o geral rÃ¡pida para perceber como a nossa plataforma funciona e o que receberÃ¡ durante o seu perÃ­odo de teste gratuito.",
+      "videoUnsupported": "O seu navegador não suporta a tag de vídeo.",
+      "description": "Veja esta visão geral rápida para perceber como a nossa plataforma funciona e o que receberá durante o seu período de teste gratuito.",
       "includesTitle": "O Teste Gratuito Inclui:",
       "startNow": "Iniciar Teste Gratuito Agora",
       "learnMore": "Saiba Mais",
       "includes": {
-        "access": "Acesso total a todas as funcionalidades de monitorizaÃ§Ã£o durante 14 dias",
-        "alerts": "Alertas e notificaÃ§Ãµes de inundaÃ§Ã£o em tempo real",
-        "maps": "Mapas de risco interativos e rotas de evacuaÃ§Ã£o",
-        "training": "SimulaÃ§Ãµes de treino em VR",
+        "access": "Acesso total a todas as funcionalidades de monitorização durante 14 dias",
+        "alerts": "Alertas e notificações de inundação em tempo real",
+        "maps": "Mapas de risco interativos e rotas de evacuação",
+        "training": "Simulações de treino em VR",
         "support": "Suporte ao cliente 24/7"
       }
     }
   },
   "testimonialsSection": {
     "title": "Confiado por Comunidades em Todo o Mundo",
-    "description": "Socorristas, lÃ­deres comunitÃ¡rios e residentes confiam no HydroBeacon para manter as suas comunidades seguras contra desastres de inundaÃ§Ã£o.",
-    "partnersTitle": "Acolhendo OrganizaÃ§Ãµes de ReferÃªncia",
+    "description": "Socorristas, líderes comunitários e residentes confiam no HydroBeacon para manter as suas comunidades seguras contra desastres de inundação.",
+    "partnersTitle": "Acolhendo Organizações de Referência",
     "items": {
       "sarah": {
         "name": "Sarah Johnson",
         "location": "Houston, TX",
-        "role": "Coordenadora de Resposta a EmergÃªncias",
-        "content": "Os alertas em tempo real do HydroBeacon salvaram a nossa comunidade durante o FuracÃ£o Harvey. O treino em VR preparou os nossos residentes para a emergÃªncia real, e as rotas de evacuaÃ§Ã£o foram precisas e salvaram vidas."
+        "role": "Coordenadora de Resposta a Emergências",
+        "content": "Os alertas em tempo real do HydroBeacon salvaram a nossa comunidade durante o Furacão Harvey. O treino em VR preparou os nossos residentes para a emergência real, e as rotas de evacuação foram precisas e salvaram vidas."
       },
       "chen": {
         "name": "Dr. Michael Chen",
         "location": "Miami, FL",
-        "role": "Especialista em GestÃ£o de Desastres",
-        "content": "A integraÃ§Ã£o de IA e sensores IoT oferece uma precisÃ£o sem precedentes na previsÃ£o de inundaÃ§Ãµes. Esta plataforma estÃ¡ a revolucionar a forma como abordamos a seguranÃ§a contra cheias e a preparaÃ§Ã£o comunitÃ¡ria."
+        "role": "Especialista em Gestão de Desastres",
+        "content": "A integração de IA e sensores IoT oferece uma precisão sem precedentes na previsão de inundações. Esta plataforma está a revolucionar a forma como abordamos a segurança contra cheias e a preparação comunitária."
       },
       "maria": {
         "name": "Maria Rodriguez",
         "location": "Nova Orleans, LA",
-        "role": "LÃ­der ComunitÃ¡ria",
-        "content": "Como alguÃ©m que viveu o Katrina, nÃ£o consigo expressar o valor desta tecnologia. A aplicaÃ§Ã£o mÃ³vel funciona mesmo quando as torres de rede falham, e as funcionalidades comunitÃ¡rias mantÃªm-nos ligados."
+        "role": "Líder Comunitária",
+        "content": "Como alguém que viveu o Katrina, não consigo expressar o valor desta tecnologia. A aplicação móvel funciona mesmo quando as torres de rede falham, e as funcionalidades comunitárias mantêm-nos ligados."
       }
     },
     "partners": {
@@ -609,8 +620,8 @@
     "stats": {
       "livesToProtect": "Vidas a Proteger",
       "communitiesToServe": "Comunidades a Servir",
-      "targetAlertAccuracy": "PrecisÃ£o Alvo dos Alertas",
-      "plannedMonitoring": "MonitorizaÃ§Ã£o Planeada",
+      "targetAlertAccuracy": "Precisão Alvo dos Alertas",
+      "plannedMonitoring": "Monitorização Planeada",
       "values": {
         "livesToProtect": "10.000+",
         "communitiesToServe": "500+",
@@ -623,63 +634,63 @@
     "demoAlerts": {
       "downtown": {
         "location": "Zona Central",
-        "message": "Aviso de inundaÃ§Ã£o repentina emitido para as ruas centrais"
+        "message": "Aviso de inundação repentina emitido para as ruas centrais"
       },
       "riverside": {
         "location": "Distrito Ribeirinho",
-        "message": "NÃ­vel do rio a subir - aviso emitido"
+        "message": "Nível do rio a subir - aviso emitido"
       }
     },
     "time": {
-      "minutesAgo": "hÃ¡ {{count}} min",
-      "hoursAgo": "hÃ¡ {{count}} horas",
-      "daysAgo": "hÃ¡ {{count}} dias"
+      "minutesAgo": "há {{count}} min",
+      "hoursAgo": "há {{count}} horas",
+      "daysAgo": "há {{count}} dias"
     },
     "severity": {
       "high": "Alta",
-      "medium": "MÃ©dia",
+      "medium": "Média",
       "low": "Baixa"
     },
     "header": {
       "title": "Mantenha-se Seguro, Mantenha-se Informado",
-      "description": "Alertas de inundaÃ§Ã£o em tempo real, abrigos prÃ³ximos e recursos de emergÃªncia para a sua comunidade.",
+      "description": "Alertas de inundação em tempo real, abrigos próximos e recursos de emergência para a sua comunidade.",
       "refresh": "Atualizar",
-      "demoBanner": "A mostrar dados de exemplo - ainda nÃ£o existem alertas ao vivo no Firestore"
+      "demoBanner": "A mostrar dados de exemplo - ainda não existem alertas ao vivo no Firestore"
     },
     "alerts": {
-      "title": "Alertas Ativos de InundaÃ§Ã£o",
+      "title": "Alertas Ativos de Inundação",
       "openInternalMap": "Abrir Mapa Interno",
-      "empty": "NÃ£o hÃ¡ alertas ativos na sua Ã¡rea. Mantenha-se vigilante!"
+      "empty": "Não há alertas ativos na sua área. Mantenha-se vigilante!"
     },
     "shelters": {
-      "title": "Abrigos PrÃ³ximos",
+      "title": "Abrigos Próximos",
       "capacity": "Capacidade: {{count}}",
       "occupied": "Ocupado: {{current}} / {{total}}",
       "showRoute": "Mostrar Rota Interna"
     },
     "map": {
-      "title": "Mapa Interno de SeguranÃ§a",
+      "title": "Mapa Interno de Segurança",
       "routeTo": "Rota para {{name}}",
       "selectedShelter": "abrigo selecionado",
-      "description": "Ãrea de inundaÃ§Ã£o e abrigos dentro da plataforma"
+      "description": "Área de inundação e abrigos dentro da plataforma"
     },
     "training": {
-      "title": "Treino de SeguranÃ§a",
+      "title": "Treino de Segurança",
       "cards": {
         "basics": {
-          "title": "SeguranÃ§a em Cheias 101",
-          "description": "Aprenda procedimentos essenciais de seguranÃ§a e preparaÃ§Ã£o para cheias.",
+          "title": "Segurança em Cheias 101",
+          "description": "Aprenda procedimentos essenciais de segurança e preparação para cheias.",
           "action": "Iniciar Treino"
         },
         "procedures": {
-          "title": "Procedimentos de EmergÃªncia",
-          "description": "Treino VR/AR para resgate em cheias e resposta a emergÃªncias.",
+          "title": "Procedimentos de Emergência",
+          "description": "Treino VR/AR para resgate em cheias e resposta a emergências.",
           "action": "Abrir Treino VR"
         }
       }
     },
     "quickActions": {
-      "title": "AÃ§Ãµes RÃ¡pidas",
+      "title": "Ações Rápidas",
       "reportHazard": "Reportar Perigo",
       "findShelter": "Encontrar Abrigo",
       "volunteer": "Voluntariado",
@@ -691,15 +702,15 @@
     "userFallback": "Utilizador",
     "adminBadge": "Admin",
     "notAvailable": "N/D",
-    "emailLocked": "O email nÃ£o pode ser alterado",
+    "emailLocked": "O email não pode ser alterado",
     "fields": {
-      "displayName": "Nome PÃºblico",
+      "displayName": "Nome Público",
       "email": "Email",
-      "role": "FunÃ§Ã£o",
+      "role": "Função",
       "memberSince": "Membro Desde"
     },
     "placeholders": {
-      "displayName": "O seu nome pÃºblico"
+      "displayName": "O seu nome público"
     },
     "roles": {
       "admin": "Administrador",
@@ -708,191 +719,191 @@
     "actions": {
       "saving": "A guardar...",
       "saved": "Guardado!",
-      "saveChanges": "Guardar AlteraÃ§Ãµes"
+      "saveChanges": "Guardar Alterações"
     }
   },
   "dashboardPreview": {
     "realTimeData": "Dados em Tempo Real",
-    "title": "Seu Painel de SeguranÃ§a Pessoal",
-    "description": "Monitoramento de inundaÃ§Ãµes em tempo real com dados da sua localizaÃ§Ã£o exata.",
-    "lastUpdate": "Ãšltima atualizaÃ§Ã£o: {{time}}",
-    "location": "LocalizaÃ§Ã£o: {{name}}",
-    "gettingLocation": "Obtendo sua localizaÃ§Ã£o...",
+    "title": "Seu Painel de Segurança Pessoal",
+    "description": "Monitoramento de inundações em tempo real com dados da sua localização exata.",
+    "lastUpdate": "Última atualização: {{time}}",
+    "location": "Localização: {{name}}",
+    "gettingLocation": "Obtendo sua localização...",
     "updateData": "Atualizar Dados",
     "updating": "Atualizando...",
     "riskDescription": {
-      "high": "AÃ§Ã£o imediata recomendada. Monitore alertas de perto.",
-      "moderate": "As condiÃ§Ãµes estÃ£o mudando. Fique alerta para atualizaÃ§Ãµes.",
-      "low": "As condiÃ§Ãµes atuais sÃ£o favorÃ¡veis. Continue monitorando."
+      "high": "Ação imediata recomendada. Monitore alertas de perto.",
+      "moderate": "As condições estão mudando. Fique alerta para atualizações.",
+      "low": "As condições atuais são favoráveis. Continue monitorando."
     },
-    "riverLevel": "NÃ­vel do rio",
-    "rainfall": "PrecipitaÃ§Ã£o",
+    "riverLevel": "Nível do rio",
+    "rainfall": "Precipitação",
     "wind": "Vento",
     "activeAlerts": "Alertas Ativos",
     "alertCount": "{{count}} ativos",
     "riskZone": "Zona de Risco {{level}}",
-    "yourArea": "Sua Ã¡rea",
+    "yourArea": "Sua área",
     "coordinates": "Coordenadas",
     "realtimeData": "Dados em tempo real das APIs de monitoramento",
     "realTimeWeather": "Tempo em Tempo Real",
     "live": "Ao vivo",
     "humidity": "Humidade",
-    "pressure": "PressÃ£o",
+    "pressure": "Pressão",
     "rain": "Chuva",
     "loadingWeather": "Carregando dados de tempo...",
-    "quickActions": "AÃ§Ãµes RÃ¡pidas",
-    "evacuationRoutes": "Rotas de EvacuaÃ§Ã£o",
+    "quickActions": "Ações Rápidas",
+    "evacuationRoutes": "Rotas de Evacuação",
     "findShelters": "Encontrar Abrigos",
-    "emergencyContacts": "Contatos de EmergÃªncia",
-    "emergencySOS": "SOS de EmergÃªncia",
+    "emergencyContacts": "Contatos de Emergência",
+    "emergencySOS": "SOS de Emergência",
     "recentActivity": "Atividade Recente",
-    "riskAssessment": "AvaliaÃ§Ã£o de Risco",
-    "riskAssessmentText": "NÃ­vel {{level}} calculado - {{time}}",
-    "weatherUpdate": "AtualizaÃ§Ã£o de Tempo",
+    "riskAssessment": "Avaliação de Risco",
+    "riskAssessmentText": "Nível {{level}} calculado - {{time}}",
+    "weatherUpdate": "Atualização de Tempo",
     "dataUpdated": "Dados atualizados - {{time}}",
-    "locationTracking": "Rastreamento de LocalizaÃ§Ã£o",
+    "locationTracking": "Rastreamento de Localização",
     "gpsActive": "GPS ativo - {{name}}",
     "accessDashboard": "Acessar Painel Completo",
     "startVRTraining": "Iniciar Treinamento VR",
-    "dataSource": "Dados em tempo real do OpenWeatherMap e Open-Meteo APIs â€¢ AtualizaÃ§Ãµes a cada 2 minutos",
+    "dataSource": "Dados em tempo real do OpenWeatherMap e Open-Meteo APIs • Atualizações a cada 2 minutos",
     "modal": {
-      "shelters": "Locais Seguros PrÃ³ximos",
-      "contacts": "Contatos de EmergÃªncia",
-      "sos": "SOS de EmergÃªncia",
-      "map": "Mapa de SeguranÃ§a Interno",
-      "sheltersText": "Esses locais sÃ£o extraÃ­dos ao vivo do OpenStreetMap perto de {{name}}.",
-      "searchingShelters": "Procurando abrigos e instalaÃ§Ãµes de emergÃªncia prÃ³ximas...",
-      "unnamedLocation": "Local de emergÃªncia sem nome",
+      "shelters": "Locais Seguros Próximos",
+      "contacts": "Contatos de Emergência",
+      "sos": "SOS de Emergência",
+      "map": "Mapa de Segurança Interno",
+      "sheltersText": "Esses locais são extraídos ao vivo do OpenStreetMap perto de {{name}}.",
+      "searchingShelters": "Procurando abrigos e instalações de emergência próximas...",
+      "unnamedLocation": "Local de emergência sem nome",
       "showRoute": "Mostrar Rota Interna",
-      "noShelters": "Nenhum abrigo prÃ³ximo foi encontrado ainda. VocÃª ainda pode inspecionar sua Ã¡rea dentro do mapa ao vivo.",
+      "noShelters": "Nenhum abrigo próximo foi encontrado ainda. Você ainda pode inspecionar sua área dentro do mapa ao vivo.",
       "openMap": "Abrir Mapa Interno",
       "showingRoute": "Mostrando uma rota interna para {{name}}.",
       "selectedShelter": "o abrigo selecionado",
-      "showingFloodArea": "Mostrando a Ã¡rea de inundaÃ§Ã£o ao vivo e abrigos prÃ³ximos dentro da plataforma.",
-      "immediateEmergency": "EmergÃªncia imediata",
-      "callEmergency": "Se houver perigo imediato, ligue para os serviÃ§os de emergÃªncia local agora.",
+      "showingFloodArea": "Mostrando a área de inundação ao vivo e abrigos próximos dentro da plataforma.",
+      "immediateEmergency": "Emergência imediata",
+      "callEmergency": "Se houver perigo imediato, ligue para os serviços de emergência local agora.",
       "call112": "Ligar para 112",
       "call911": "Ligar para 911",
       "tsbiChannels": "Canais de resposta HydroBeacon",
       "email": "Email",
       "hazardReport": "Relato de risco",
-      "openHazardReport": "Abrir pÃ¡gina de relato de risco",
+      "openHazardReport": "Abrir página de relato de risco",
       "preparingSOS": "Preparando seus detalhes de SOS...",
-      "callEmergencyServices": "Ligar para ServiÃ§os de EmergÃªncia",
+      "callEmergencyServices": "Ligar para Serviços de Emergência",
       "shareSOS": "Compartilhar Detalhes de SOS",
       "emailSOS": "Enviar SOS por Email",
-      "emailSubject": "SOS de EmergÃªncia"
+      "emailSubject": "SOS de Emergência"
     },
     "sos": {
-      "title": "SOS de EmergÃªncia da HydroBeacon",
-      "riskLevel": "NÃ­vel de risco: {{level}} ({{percentage}}%)",
-      "location": "LocalizaÃ§Ã£o: {{name}}",
+      "title": "SOS de Emergência da HydroBeacon",
+      "riskLevel": "Nível de risco: {{level}} ({{percentage}}%)",
+      "location": "Localização: {{name}}",
       "coordinates": "Coordenadas: {{lat}}, {{lon}}",
-      "instruction": "Abra o mapa ao vivo da HydroBeacon para orientaÃ§Ã£o de rota e abrigos prÃ³ximos."
+      "instruction": "Abra o mapa ao vivo da HydroBeacon para orientação de rota e abrigos próximos."
     },
     "geolocation": {
-      "notSupported": "Seu navegador nÃ£o suporta geolocalizaÃ§Ã£o",
-      "permissionDenied": "PermissÃ£o de localizaÃ§Ã£o negada. Permita o acesso Ã  localizaÃ§Ã£o nas configuraÃ§Ãµes do navegador.",
-      "positionUnavailable": "InformaÃ§Ã£o de localizaÃ§Ã£o indisponÃ­vel.",
-      "timeout": "Tempo limite de espera para obter a localizaÃ§Ã£o expirou.",
-      "unknown": "Erro desconhecido ao obter a localizaÃ§Ã£o.",
-      "approximateLocation": "LocalizaÃ§Ã£o Aproximada",
-      "yourLocation": "Sua LocalizaÃ§Ã£o",
-      "couldNotGetLocation": "NÃ£o foi possÃ­vel obter sua localizaÃ§Ã£o"
+      "notSupported": "Seu navegador não suporta geolocalização",
+      "permissionDenied": "Permissão de localização negada. Permita o acesso à localização nas configurações do navegador.",
+      "positionUnavailable": "Informação de localização indisponível.",
+      "timeout": "Tempo limite de espera para obter a localização expirou.",
+      "unknown": "Erro desconhecido ao obter a localização.",
+      "approximateLocation": "Localização Aproximada",
+      "yourLocation": "Sua Localização",
+      "couldNotGetLocation": "Não foi possível obter sua localização"
     }
   },
   "aboutUs": {
-    "title": "Sobre a HydroBeacon",
-    "mission": "Nossa MissÃ£o",
-    "missionDescription": "Empoderar comunidades com inteligÃªncia de inundaÃ§Ã£o em tempo real e treinamento de resposta a emergÃªncias, salvando vidas e protegendo infraestruturas crÃ­ticas.",
-    "vision": "Nossa VisÃ£o",
-    "visionDescription": "Um mundo onde tecnologia avanÃ§ada e colaboraÃ§Ã£o comunitÃ¡ria garantem que ninguÃ©m seja pego de surpresa por desastres de inundaÃ§Ã£o.",
+    "title": "Sobre A Iniciativa HydroBeacon",
+    "mission": "Nossa Missão",
+    "missionDescription": "Empoderar comunidades com inteligência de inundação em tempo real e treinamento de resposta a emergências, salvando vidas e protegendo infraestruturas críticas.",
+    "vision": "Nossa Visão",
+    "visionDescription": "Um mundo onde tecnologia avançada e colaboração comunitária garantem que ninguém seja pego de surpresa por desastres de inundação.",
     "coreTeam": "Equipa Principal",
     "fullTeam": "Equipa Completa",
     "showMore": "Mostrar Equipa Completa",
     "showLess": "Mostrar Menos",
-    "teamDescription": "LÃ­der visionÃ¡rio com especializaÃ§Ã£o em design de produtos e planejamento estratÃ©gico para soluÃ§Ãµes de resposta a emergÃªncias."
+    "teamDescription": "Líder visionário com especialização em design de produtos e planejamento estratégico para soluções de resposta a emergências."
   },
   "aboutUsPage": {
     "hero": {
-      "alt": "MissÃ£o HydroBeacon",
+      "alt": "Missão HydroBeacon",
       "title": "Sobre HydroBeacon",
-      "description": "A proteger comunidades com deteÃ§Ã£o avanÃ§ada de cheias, alertas em tempo real e treino inovador de resposta a emergÃªncias."
+      "description": "A proteger comunidades com deteção avançada de cheias, alertas em tempo real e treino inovador de resposta a emergências."
     },
     "mission": {
-      "title": "A Nossa MissÃ£o",
+      "title": "A Nossa Missão",
       "logoAlt": "Logotipo HydroBeacon",
-      "paragraph1": "A HydroBeacon foi fundada em 2024 com uma missÃ£o clara: revolucionar a forma como as comunidades se preparam, respondem e recuperam de desastres de inundaÃ§Ã£o. Combinamos tecnologia de ponta com estratÃ©gias prÃ¡ticas de resposta a emergÃªncias para salvar vidas e proteger bens.",
-      "paragraph2": "A nossa equipa de especialistas em meteorologia, gestÃ£o de emergÃªncias, inteligÃªncia artificial e treino em realidade virtual trabalha em conjunto para criar a plataforma de seguranÃ§a contra cheias mais completa disponÃ­vel atualmente."
+      "paragraph1": "A HydroBeacon foi fundada em 2024 com uma missão clara: revolucionar a forma como as comunidades se preparam, respondem e recuperam de desastres de inundação. Combinamos tecnologia de ponta com estratégias práticas de resposta a emergências para salvar vidas e proteger bens.",
+      "paragraph2": "A nossa equipa de especialistas em meteorologia, gestão de emergências, inteligência artificial e treino em realidade virtual trabalha em conjunto para criar a plataforma de segurança contra cheias mais completa disponível atualmente."
     },
     "impact": {
       "title": "O Nosso Impacto Esperado",
       "stats": {
         "livesToProtect": "Vidas a Proteger",
         "communitiesToServe": "Comunidades a Servir",
-        "targetAlertAccuracy": "PrecisÃ£o Alvo dos Alertas",
-        "plannedMonitoring": "MonitorizaÃ§Ã£o Planeada"
+        "targetAlertAccuracy": "Precisão Alvo dos Alertas",
+        "plannedMonitoring": "Monitorização Planeada"
       }
     },
     "values": {
       "title": "Os Nossos Valores",
       "items": {
         "safetyFirst": {
-          "title": "SeguranÃ§a em Primeiro Lugar",
-          "text": "Priorizamos a seguranÃ§a e o bem-estar das comunidades acima de tudo, garantindo que a nossa tecnologia e programas de treino cumprem os mais altos padrÃµes."
+          "title": "Segurança em Primeiro Lugar",
+          "text": "Priorizamos a segurança e o bem-estar das comunidades acima de tudo, garantindo que a nossa tecnologia e programas de treino cumprem os mais altos padrões."
         },
         "excellence": {
-          "title": "ExcelÃªncia",
-          "text": "Procuramos excelÃªncia em tudo o que fazemos, desde a precisÃ£o dos nossos sistemas de alerta Ã  qualidade dos nossos programas de treino."
+          "title": "Excelência",
+          "text": "Procuramos excelência em tudo o que fazemos, desde a precisão dos nossos sistemas de alerta à qualidade dos nossos programas de treino."
         },
         "communityFocused": {
           "title": "Foco na Comunidade",
-          "text": "Desenhamos soluÃ§Ãµes com pessoas reais em mente, criando ferramentas acessÃ­veis e eficazes para todos na comunidade."
+          "text": "Desenhamos soluções com pessoas reais em mente, criando ferramentas acessíveis e eficazes para todos na comunidade."
         },
         "timeliness": {
           "title": "Rapidez",
-          "text": "Em situaÃ§Ãµes de emergÃªncia, cada segundo conta. Os nossos sistemas sÃ£o desenhados para fornecer alertas e orientaÃ§Ã£o de resposta o mais rÃ¡pido possÃ­vel."
+          "text": "Em situações de emergência, cada segundo conta. Os nossos sistemas são desenhados para fornecer alertas e orientação de resposta o mais rápido possível."
         },
         "globalPerspective": {
           "title": "Perspetiva Global",
-          "text": "As cheias afetam comunidades em todo o mundo. Desenvolvemos soluÃ§Ãµes que podem ser adaptadas a diferentes regiÃµes e condiÃ§Ãµes ambientais."
+          "text": "As cheias afetam comunidades em todo o mundo. Desenvolvemos soluções que podem ser adaptadas a diferentes regiões e condições ambientais."
         },
         "dataDriven": {
           "title": "Baseado em Dados",
-          "text": "Usamos anÃ¡lise avanÃ§ada de dados e IA para melhorar continuamente os nossos modelos de previsÃ£o e recomendaÃ§Ãµes de resposta a emergÃªncias."
+          "text": "Usamos análise avançada de dados e IA para melhorar continuamente os nossos modelos de previsão e recomendações de resposta a emergências."
         }
       }
     },
     "team": {
-      "title": "A Nossa Equipa de LideranÃ§a",
+      "title": "A Nossa Equipa de Liderança",
       "exploreButton": "Explorar a Nossa Equipa",
       "showLess": "Mostrar Menos",
       "core": {
         "aswathy": {
           "position": "Product Designer e CEO",
-          "description": "LÃ­der visionÃ¡ria com especializaÃ§Ã£o em design de produto e planeamento estratÃ©gico para soluÃ§Ãµes de resposta a emergÃªncias."
+          "description": "Líder visionária com especialização em design de produto e planeamento estratégico para soluções de resposta a emergências."
         },
         "francis": {
           "position": "Associate Product Head",
-          "description": "Organizador comunitÃ¡rio com vasta experiÃªncia em recuperaÃ§Ã£o de desastres e construÃ§Ã£o de resiliÃªncia."
+          "description": "Organizador comunitário com vasta experiência em recuperação de desastres e construção de resiliência."
         },
         "joseph": {
           "position": "Product Head",
-          "description": "Especialista em IA e machine learning com foco em modelaÃ§Ã£o preditiva para desastres naturais."
+          "description": "Especialista em IA e machine learning com foco em modelação preditiva para desastres naturais."
         }
       },
       "full": {
         "dinis": {
           "position": "Developer Head",
-          "description": "LÃ­der de desenvolvimento focado na criaÃ§Ã£o de plataformas robustas e escalÃ¡veis para resposta a emergÃªncias."
+          "description": "Líder de desenvolvimento focado na criação de plataformas robustas e escaláveis para resposta a emergências."
         },
         "vaishnavi": {
           "position": "UX/UI Designer",
-          "description": "Especialista em criar interfaces intuitivas e acessÃ­veis para aplicaÃ§Ãµes de resposta a emergÃªncias."
+          "description": "Especialista em criar interfaces intuitivas e acessíveis para aplicações de resposta a emergências."
         },
         "viktoria": {
           "position": "UX Designer",
-          "description": "Especialista em experiÃªncia do utilizador para gestÃ£o de crise e ferramentas de preparaÃ§Ã£o para emergÃªncias."
+          "description": "Especialista em experiência do utilizador para gestão de crise e ferramentas de preparação para emergências."
         },
         "pooja": {
           "position": "UX/UI Designer",
@@ -900,11 +911,11 @@
         },
         "saee": {
           "position": "UX Researcher",
-          "description": "Especialista em investigaÃ§Ã£o dedicada a compreender as necessidades dos utilizadores em situaÃ§Ãµes de emergÃªncia."
+          "description": "Especialista em investigação dedicada a compreender as necessidades dos utilizadores em situações de emergência."
         },
         "jinesh": {
           "position": "Content Designer",
-          "description": "Estratega de conteÃºdo com foco em comunicaÃ§Ã£o de emergÃªncia clara e eficaz."
+          "description": "Estratega de conteúdo com foco em comunicação de emergência clara e eficaz."
         }
       }
     },
@@ -924,21 +935,21 @@
     "hero": {
       "alt": "Contato HydroBeacon",
       "title": "Entre em Contacto",
-      "descriptionLine1": "Tem perguntas sobre a nossa plataforma de seguranÃ§a contra cheias?",
-      "descriptionLine2": "Precisa de treino personalizado para a sua organizaÃ§Ã£o? Estamos aqui para ajudar."
+      "descriptionLine1": "Tem perguntas sobre a nossa plataforma de segurança contra cheias?",
+      "descriptionLine2": "Precisa de treino personalizado para a sua organização? Estamos aqui para ajudar."
     },
     "validation": {
-      "nameRequired": "O nome Ã© obrigatÃ³rio",
-      "emailRequired": "O email Ã© obrigatÃ³rio",
-      "emailInvalid": "EndereÃ§o de email invÃ¡lido",
-      "subjectRequired": "O assunto Ã© obrigatÃ³rio",
-      "messageRequired": "A mensagem Ã© obrigatÃ³ria"
+      "nameRequired": "O nome é obrigatório",
+      "emailRequired": "O email é obrigatório",
+      "emailInvalid": "Endereço de email inválido",
+      "subjectRequired": "O assunto é obrigatório",
+      "messageRequired": "A mensagem é obrigatória"
     },
     "submitError": "Falha ao enviar a sua mensagem. Tente novamente ou envie email diretamente para support@hydrobeacon.org",
     "cards": {
       "email": {
         "title": "Envie-nos um Email",
-        "subtitle": "QuestÃµes gerais:"
+        "subtitle": "Questões gerais:"
       },
       "support": {
         "title": "Suporte Online",
@@ -950,15 +961,15 @@
       "platform": {
         "title": "Plataforma Online",
         "item1": "Plataforma MVP Digital",
-        "item2": "AplicaÃ§Ã£o Web",
-        "item3": "AcessÃ­vel Mundialmente",
-        "item4": "Internet NecessÃ¡ria"
+        "item2": "Aplicação Web",
+        "item3": "Acessível Mundialmente",
+        "item4": "Internet Necessária"
       },
       "hours": {
-        "title": "HorÃ¡rio",
+        "title": "Horário",
         "weekdays": "Seg-Sex",
         "weekdaysTime": "09:00 - 18:00",
-        "saturday": "SÃ¡bado",
+        "saturday": "Sábado",
         "saturdayTime": "10:00 - 14:00",
         "sunday": "Domingo",
         "closed": "Encerrado"
@@ -970,42 +981,42 @@
       "successSubtitle": "Entraremos em contacto consigo em 24-48 horas.",
       "fields": {
         "name": "Seu Nome",
-        "email": "EndereÃ§o de Email",
-        "phone": "NÃºmero de Telefone (Opcional)",
+        "email": "Endereço de Email",
+        "phone": "Número de Telefone (Opcional)",
         "subject": "Assunto",
         "message": "Mensagem"
       },
       "placeholders": {
-        "name": "JoÃ£o Silva",
+        "name": "João Silva",
         "email": "seu@email.com",
         "phone": "(123) 456-7890",
         "subject": "Como podemos ajudar?",
-        "message": "Por favor, forneÃ§a detalhes sobre o seu pedido..."
+        "message": "Por favor, forneça detalhes sobre o seu pedido..."
       },
       "privacyPrefix": "Concordo com a",
-      "privacyPolicy": "PolÃ­tica de Privacidade",
+      "privacyPolicy": "Política de Privacidade",
       "sending": "A enviar...",
       "sendButton": "Enviar Mensagem"
     },
     "faq": {
       "title": "Perguntas Frequentes",
-      "imageAlt": "IlustraÃ§Ã£o FAQ",
+      "imageAlt": "Ilustração FAQ",
       "items": {
         "responseTime": {
           "question": "Com que rapidez posso esperar uma resposta ao meu pedido?",
-          "answer": "Normalmente respondemos a todos os pedidos em 24-48 horas Ãºteis."
+          "answer": "Normalmente respondemos a todos os pedidos em 24-48 horas úteis."
         },
         "onsiteTraining": {
-          "question": "Oferecem treino presencial para organizaÃ§Ãµes?",
-          "answer": "Sim, fornecemos programas de treino presencial personalizados para organizaÃ§Ãµes de todos os tamanhos."
+          "question": "Oferecem treino presencial para organizações?",
+          "answer": "Sim, fornecemos programas de treino presencial personalizados para organizações de todos os tamanhos."
         },
         "scheduleDemo": {
-          "question": "Como posso agendar uma demonstraÃ§Ã£o da plataforma de treino VR?",
-          "answer": "Pode solicitar uma demonstraÃ§Ã£o atravÃ©s do formulÃ¡rio de contacto ou por email."
+          "question": "Como posso agendar uma demonstração da plataforma de treino VR?",
+          "answer": "Pode solicitar uma demonstração através do formulário de contacto ou por email."
         },
         "languages": {
-          "question": "Os recursos estÃ£o disponÃ­veis em vÃ¡rios idiomas?",
-          "answer": "Atualmente disponÃ­veis em inglÃªs. Se precisar de outros idiomas, diga-nos."
+          "question": "Os recursos estão disponíveis em vários idiomas?",
+          "answer": "Atualmente disponíveis em inglês. Se precisar de outros idiomas, diga-nos."
         }
       }
     }
@@ -1013,36 +1024,36 @@
   "resourcesPage": {
     "learnMore": "Saber mais",
     "hero": {
-      "alt": "Recursos de seguranÃ§a contra cheias",
-      "title": "Recursos de SeguranÃ§a contra Cheias",
-      "description": "Aceda Ã  nossa coleÃ§Ã£o completa de guias de seguranÃ§a contra cheias, materiais de treino e recursos de resposta a emergÃªncias."
+      "alt": "Recursos de segurança contra cheias",
+      "title": "Recursos de Segurança contra Cheias",
+      "description": "Aceda à nossa coleção completa de guias de segurança contra cheias, materiais de treino e recursos de resposta a emergências."
     },
     "categories": {
       "title": "Categorias de Recursos",
       "items": {
         "preparedness": {
-          "title": "Guias de PreparaÃ§Ã£o para Cheias",
-          "description": "Guias completos para pessoas, famÃ­lias e empresas sobre como se preparar para potenciais eventos de inundaÃ§Ã£o."
+          "title": "Guias de Preparação para Cheias",
+          "description": "Guias completos para pessoas, famílias e empresas sobre como se preparar para potenciais eventos de inundação."
         },
         "education": {
           "title": "Materiais Educativos",
-          "description": "Recursos educativos para escolas, grupos comunitÃ¡rios e organizaÃ§Ãµes para promover a consciencializaÃ§Ã£o sobre cheias."
+          "description": "Recursos educativos para escolas, grupos comunitários e organizações para promover a consciencialização sobre cheias."
         },
         "trainingVideos": {
-          "title": "VÃ­deos de Treino",
-          "description": "VÃ­deos instrutivos sobre procedimentos de seguranÃ§a contra cheias, protocolos de evacuaÃ§Ã£o e tÃ©cnicas de resposta a emergÃªncias."
+          "title": "Vídeos de Treino",
+          "description": "Vídeos instrutivos sobre procedimentos de segurança contra cheias, protocolos de evacuação e técnicas de resposta a emergências."
         },
         "maps": {
           "title": "Mapas de Zonas de Cheia",
-          "description": "Mapas interativos com zonas de risco de inundaÃ§Ã£o, dados histÃ³ricos e rotas de evacuaÃ§Ã£o para a sua Ã¡rea."
+          "description": "Mapas interativos com zonas de risco de inundação, dados históricos e rotas de evacuação para a sua área."
         },
         "checklists": {
-          "title": "Checklists DescarregÃ¡veis",
-          "description": "Checklists imprimÃ­veis para kits de emergÃªncia, planos de evacuaÃ§Ã£o e medidas de proteÃ§Ã£o da casa contra cheias."
+          "title": "Checklists Descarregáveis",
+          "description": "Checklists imprimíveis para kits de emergência, planos de evacuação e medidas de proteção da casa contra cheias."
         },
         "podcasts": {
-          "title": "Podcasts de EmergÃªncia",
-          "description": "SÃ©rie Ã¡udio com entrevistas de especialistas, histÃ³rias de sobreviventes e conselhos prÃ¡ticos de seguranÃ§a contra cheias."
+          "title": "Podcasts de Emergência",
+          "description": "Série áudio com entrevistas de especialistas, histórias de sobreviventes e conselhos práticos de segurança contra cheias."
         }
       }
     },
@@ -1050,23 +1061,23 @@
       "title": "Recursos em Destaque",
       "items": {
         "familyPlan": {
-          "title": "Modelo de Plano de EmergÃªncia Familiar",
-          "description": "Um modelo completo para ajudar famÃ­lias a criar o seu plano personalizado de emergÃªncia para situaÃ§Ãµes de cheia. Inclui folhas de contacto, pontos de encontro e checklists de evacuaÃ§Ã£o.",
-          "meta": "PDF - 12 pÃ¡ginas"
+          "title": "Modelo de Plano de Emergência Familiar",
+          "description": "Um modelo completo para ajudar famílias a criar o seu plano personalizado de emergência para situações de cheia. Inclui folhas de contacto, pontos de encontro e checklists de evacuação.",
+          "meta": "PDF - 12 páginas"
         },
         "completeGuide": {
-          "title": "SeguranÃ§a contra Cheias: Guia Completo",
-          "description": "O nosso recurso mais completo, cobrindo todos os aspetos da seguranÃ§a contra cheias, da preparaÃ§Ã£o Ã  recuperaÃ§Ã£o. Inclui investigaÃ§Ã£o recente e boas prÃ¡ticas de especialistas.",
-          "meta": "PDF - 45 pÃ¡ginas"
+          "title": "Segurança contra Cheias: Guia Completo",
+          "description": "O nosso recurso mais completo, cobrindo todos os aspetos da segurança contra cheias, da preparação à recuperação. Inclui investigação recente e boas práticas de especialistas.",
+          "meta": "PDF - 45 páginas"
         },
         "vrDemo": {
-          "title": "DemonstraÃ§Ã£o de Treino em Realidade Virtual",
-          "description": "Experimente o nosso treino VR de resposta a cheias com esta demo gratuita. Aprenda a navegar Ã¡guas de cheia, identificar riscos e executar tÃ©cnicas bÃ¡sicas de resgate.",
-          "meta": "AplicaÃ§Ã£o - 2.3 GB"
+          "title": "Demonstração de Treino em Realidade Virtual",
+          "description": "Experimente o nosso treino VR de resposta a cheias com esta demo gratuita. Aprenda a navegar águas de cheia, identificar riscos e executar técnicas básicas de resgate.",
+          "meta": "Aplicação - 2.3 GB"
         },
         "toolkit": {
-          "title": "Toolkit de ResiliÃªncia ComunitÃ¡ria",
-          "description": "Toolkit concebido para lÃ­deres comunitÃ¡rios fortalecerem a resiliÃªncia local contra cheias. Inclui materiais de workshops, campanhas pÃºblicas e guias de avaliaÃ§Ã£o de infraestrutura.",
+          "title": "Toolkit de Resiliência Comunitária",
+          "description": "Toolkit concebido para líderes comunitários fortalecerem a resiliência local contra cheias. Inclui materiais de workshops, campanhas públicas e guias de avaliação de infraestrutura.",
           "meta": "ZIP - 156 MB"
         }
       }
@@ -1076,38 +1087,38 @@
       "columns": {
         "resourceName": "Nome do Recurso",
         "type": "Tipo",
-        "dateAdded": "Data de AdiÃ§Ã£o",
+        "dateAdded": "Data de Adição",
         "size": "Tamanho",
-        "action": "AÃ§Ã£o"
+        "action": "Ação"
       },
       "rows": {
         "row1": {
-          "name": "PreparaÃ§Ã£o para Cheias para Idosos",
+          "name": "Preparação para Cheias para Idosos",
           "type": "Guia PDF",
           "date": "15 de junho de 2025"
         },
         "row2": {
-          "name": "SeguranÃ§a de Animais durante Cheias",
+          "name": "Segurança de Animais durante Cheias",
           "type": "Guia PDF",
           "date": "10 de junho de 2025"
         },
         "row3": {
-          "name": "Seguro contra InundaÃ§Ãµes Explicado",
-          "type": "VÃ­deo",
+          "name": "Seguro contra Inundações Explicado",
+          "type": "Vídeo",
           "date": "28 de maio de 2025"
         },
         "row4": {
-          "name": "Guia de ProteÃ§Ã£o da Casa contra Cheias",
+          "name": "Guia de Proteção da Casa contra Cheias",
           "type": "Guia PDF",
           "date": "22 de maio de 2025"
         },
         "row5": {
-          "name": "Plano de ComunicaÃ§Ã£o de EmergÃªncia",
+          "name": "Plano de Comunicação de Emergência",
           "type": "Modelo",
           "date": "15 de maio de 2025"
         },
         "row6": {
-          "name": "SeguranÃ§a da Ãgua apÃ³s Cheias",
+          "name": "Segurança da Água após Cheias",
           "type": "Infografia",
           "date": "10 de maio de 2025"
         }
@@ -1115,7 +1126,7 @@
     },
     "custom": {
       "title": "Precisa de Recursos Personalizados?",
-      "description": "Podemos criar recursos personalizados de seguranÃ§a contra cheias adaptados Ã s necessidades, geografia e demografia da sua comunidade.",
+      "description": "Podemos criar recursos personalizados de segurança contra cheias adaptados às necessidades, geografia e demografia da sua comunidade.",
       "action": "Solicitar Recursos Personalizados"
     },
     "actions": {
@@ -1133,93 +1144,93 @@
   "communityGuidelinesPage": {
     "hero": {
       "title": "Diretrizes da Comunidade",
-      "description": "A construir uma comunidade segura, solidÃ¡ria e inclusiva para seguranÃ§a contra cheias e preparaÃ§Ã£o para emergÃªncias."
+      "description": "A construir uma comunidade segura, solidária e inclusiva para segurança contra cheias e preparação para emergências."
     },
     "mission": {
-      "title": "Nossa MissÃ£o ComunitÃ¡ria",
-      "p1": "A comunidade HydroBeacon existe para salvar vidas e proteger comunidades contra desastres de cheias. Somos unidos pelo compromisso com seguranÃ§a, preparaÃ§Ã£o e apoio mÃºtuo durante emergÃªncias.",
-      "p2": "Estas diretrizes ajudam a garantir que a nossa comunidade permaneÃ§a um espaÃ§o positivo, Ãºtil e seguro para todos."
+      "title": "Nossa Missão Comunitária",
+      "p1": "A comunidade HydroBeacon existe para salvar vidas e proteger comunidades contra desastres de cheias. Somos unidos pelo compromisso com segurança, preparação e apoio mútuo durante emergências.",
+      "p2": "Estas diretrizes ajudam a garantir que a nossa comunidade permaneça um espaço positivo, útil e seguro para todos."
     },
     "values": {
       "title": "Valores Essenciais",
       "safetyFirst": {
-        "title": "SeguranÃ§a em Primeiro Lugar",
-        "text": "Priorize sempre a seguranÃ§a em discussÃµes e recomendaÃ§Ãµes. Partilhe informaÃ§Ã£o precisa e verificada."
+        "title": "Segurança em Primeiro Lugar",
+        "text": "Priorize sempre a segurança em discussões e recomendações. Partilhe informação precisa e verificada."
       },
       "mutualSupport": {
-        "title": "Apoio MÃºtuo",
-        "text": "Ajude outros membros da comunidade com gentileza, paciÃªncia e compreensÃ£o."
+        "title": "Apoio Mútuo",
+        "text": "Ajude outros membros da comunidade com gentileza, paciência e compreensão."
       },
       "inclusivity": {
-        "title": "InclusÃ£o",
-        "text": "Acolha pessoas de todas as origens, experiÃªncias e nÃ­veis de preparaÃ§Ã£o."
+        "title": "Inclusão",
+        "text": "Acolha pessoas de todas as origens, experiências e níveis de preparação."
       },
       "continuousLearning": {
-        "title": "Aprendizagem ContÃ­nua",
-        "text": "Partilhe conhecimento, aprenda com os outros e mantenha-se atualizado com boas prÃ¡ticas."
+        "title": "Aprendizagem Contínua",
+        "text": "Partilhe conhecimento, aprenda com os outros e mantenha-se atualizado com boas práticas."
       }
     },
     "standards": {
-      "title": "PadrÃµes da Comunidade",
-      "doTitle": "FaÃ§a:",
-      "dontTitle": "NÃ£o faÃ§a:",
+      "title": "Padrões da Comunidade",
+      "doTitle": "Faça:",
+      "dontTitle": "Não faça:",
       "doItems": {
-        "1": "Partilhe informaÃ§Ã£o precisa e Ãºtil sobre seguranÃ§a contra cheias",
-        "2": "Seja respeitoso e construtivo em todas as interaÃ§Ãµes",
-        "3": "Reporte emergÃªncias primeiro Ã s autoridades apropriadas",
-        "4": "Verifique informaÃ§Ãµes antes de partilhar",
-        "5": "Apoie membros da comunidade em momentos difÃ­ceis",
-        "6": "Siga protocolos e diretrizes locais de emergÃªncia",
-        "7": "Use canais apropriados para diferentes tipos de conteÃºdo"
+        "1": "Partilhe informação precisa e útil sobre segurança contra cheias",
+        "2": "Seja respeitoso e construtivo em todas as interações",
+        "3": "Reporte emergências primeiro às autoridades apropriadas",
+        "4": "Verifique informações antes de partilhar",
+        "5": "Apoie membros da comunidade em momentos difíceis",
+        "6": "Siga protocolos e diretrizes locais de emergência",
+        "7": "Use canais apropriados para diferentes tipos de conteúdo"
       },
       "dontItems": {
-        "1": "Partilhar informaÃ§Ãµes falsas ou nÃ£o verificadas sobre emergÃªncias",
-        "2": "Usar linguagem ofensiva, discriminatÃ³ria ou prejudicial",
-        "3": "Fazer spam ou publicar conteÃºdo irrelevante",
+        "1": "Partilhar informações falsas ou não verificadas sobre emergências",
+        "2": "Usar linguagem ofensiva, discriminatória ou prejudicial",
+        "3": "Fazer spam ou publicar conteúdo irrelevante",
         "4": "Partilhar dados pessoais de terceiros sem consentimento",
-        "5": "Promover produtos ou serviÃ§os comerciais de forma inadequada",
-        "6": "Praticar assÃ©dio ou intimidaÃ§Ã£o",
-        "7": "Ignorar ou atrasar o reporte de emergÃªncias reais"
+        "5": "Promover produtos ou serviços comerciais de forma inadequada",
+        "6": "Praticar assédio ou intimidação",
+        "7": "Ignorar ou atrasar o reporte de emergências reais"
       }
     },
     "emergency": {
-      "title": "ComunicaÃ§Ã£o de EmergÃªncia",
-      "critical": "CRÃTICO:",
-      "contactNow": "Para emergÃªncias imediatas com risco de vida, contacte diretamente os serviÃ§os de emergÃªncia:",
-      "servicesLabel": "ServiÃ§os de EmergÃªncia:",
-      "servicesValue": "911 (EUA), 112 (UE), ou o nÃºmero local de emergÃªncia",
-      "hotlineLabel": "Linha Direta de EmergÃªncia HydroBeacon:",
-      "nonEmergencyLabel": "Suporte NÃ£o Emergencial:",
-      "note": "Use as nossas plataformas comunitÃ¡rias para discussÃµes de preparaÃ§Ã£o, nÃ£o para resposta ativa a emergÃªncias."
+      "title": "Comunicação de Emergência",
+      "critical": "CRÍTICO:",
+      "contactNow": "Para emergências imediatas com risco de vida, contacte diretamente os serviços de emergência:",
+      "servicesLabel": "Serviços de Emergência:",
+      "servicesValue": "911 (EUA), 112 (UE), ou o número local de emergência",
+      "hotlineLabel": "Linha Direta de Emergência HydroBeacon:",
+      "nonEmergencyLabel": "Suporte Não Emergencial:",
+      "note": "Use as nossas plataformas comunitárias para discussões de preparação, não para resposta ativa a emergências."
     },
     "reporting": {
-      "title": "DenÃºncia e ModeraÃ§Ã£o",
+      "title": "Denúncia e Moderação",
       "intro": "Ajude-nos a manter uma comunidade segura reportando:",
       "items": {
-        "1": "ConteÃºdo inapropriado ou prejudicial",
-        "2": "DesinformaÃ§Ã£o sobre procedimentos de seguranÃ§a",
-        "3": "AssÃ©dio ou comportamento discriminatÃ³rio",
+        "1": "Conteúdo inapropriado ou prejudicial",
+        "2": "Desinformação sobre procedimentos de segurança",
+        "3": "Assédio ou comportamento discriminatório",
         "4": "Spam ou abuso comercial",
-        "5": "Problemas tÃ©cnicos ou preocupaÃ§Ãµes de seguranÃ§a"
+        "5": "Problemas técnicos ou preocupações de segurança"
       },
-      "outro": "A nossa equipa de moderaÃ§Ã£o analisa os reportes rapidamente e toma aÃ§Ãµes apropriadas para manter os padrÃµes da comunidade."
+      "outro": "A nossa equipa de moderação analisa os reportes rapidamente e toma ações apropriadas para manter os padrões da comunidade."
     },
     "consequences": {
-      "title": "ConsequÃªncias",
-      "intro": "ViolaÃ§Ãµes destas diretrizes podem resultar em:",
+      "title": "Consequências",
+      "intro": "Violações destas diretrizes podem resultar em:",
       "warningLabel": "Aviso:",
-      "warningText": "Primeiras violaÃ§Ãµes leves",
-      "suspensionLabel": "SuspensÃ£o TemporÃ¡ria:",
-      "suspensionText": "ViolaÃ§Ãµes repetidas ou moderadas",
+      "warningText": "Primeiras violações leves",
+      "suspensionLabel": "Suspensão Temporária:",
+      "suspensionText": "Violações repetidas ou moderadas",
       "banLabel": "Banimento Permanente:",
-      "banText": "ViolaÃ§Ãµes graves ou mÃ¡ conduta contÃ­nua",
-      "legalLabel": "AÃ§Ã£o Legal:",
-      "legalText": "Atividade criminosa ou ameaÃ§as Ã  seguranÃ§a",
+      "banText": "Violações graves ou má conduta contínua",
+      "legalLabel": "Ação Legal:",
+      "legalText": "Atividade criminosa ou ameaças à segurança",
       "outro": "Procuramos ser justos e educativos na abordagem, ajudando membros da comunidade a aprender e melhorar."
     },
     "questions": {
-      "title": "DÃºvidas ou PreocupaÃ§Ãµes",
-      "intro": "Se tiver dÃºvidas sobre estas diretrizes ou precisar reportar um problema:",
+      "title": "Dúvidas ou Preocupações",
+      "intro": "Se tiver dúvidas sobre estas diretrizes ou precisar reportar um problema:",
       "communityTeam": "Equipa da Comunidade:",
       "generalContact": "Contacto Geral:"
     }
@@ -1227,55 +1238,55 @@
   "trainingPage": {
     "hero": {
       "alt": "Treino de resgate em cheias",
-      "title": "Treino Imersivo de PreparaÃ§Ã£o para Cheias",
-      "description": "Experimente os nossos mÃ³dulos avanÃ§ados de treino em AR, concebidos para preparar indivÃ­duos e comunidades para emergÃªncias de cheias."
+      "title": "Treino Imersivo de Preparação para Cheias",
+      "description": "Experimente os nossos módulos avançados de treino em AR, concebidos para preparar indivíduos e comunidades para emergências de cheias."
     },
     "videoModal": {
-      "unsupported": "O seu navegador nÃ£o suporta a tag de vÃ­deo.",
-      "description": "PrÃ©-visualizaÃ§Ã£o rÃ¡pida das nossas simulaÃ§Ãµes imersivas de treino em AR."
+      "unsupported": "O seu navegador não suporta a tag de vídeo.",
+      "description": "Pré-visualização rápida das nossas simulações imersivas de treino em AR."
     },
     "overview": {
       "title": "Por Que Escolher o Nosso Treino?",
-      "description": "A HydroBeacon oferece treino avanÃ§ado para emergÃªncias de cheias, combinando simulaÃ§Ãµes realistas com instruÃ§Ã£o especializada e exercÃ­cios prÃ¡ticos.",
-      "playAriaLabel": "Reproduzir vÃ­deo de prÃ©-visualizaÃ§Ã£o do treino",
-      "previewAlt": "PrÃ©-visualizaÃ§Ã£o do treino AR de resposta a cheias",
+      "description": "A Safety Beacon Initiative oferece treino avançado para emergências de cheias, combinando simulações realistas com instrução especializada e exercícios práticos.",
+      "playAriaLabel": "Reproduzir vídeo de pré-visualização do treino",
+      "previewAlt": "Pré-visualização do treino AR de resposta a cheias",
       "play": "Reproduzir",
-      "previewTitle": "MÃ³dulo AR de Resposta a Cheias",
-      "previewSubtitle": "Clique para ver a simulaÃ§Ã£o",
+      "previewTitle": "Módulo AR de Resposta a Cheias",
+      "previewSubtitle": "Clique para ver a simulação",
       "highlights": {
         "immersiveAr": {
           "title": "AR Imersiva",
-          "text": "SimulaÃ§Ãµes realistas de cenÃ¡rios de cheias"
+          "text": "Simulações realistas de cenários de cheias"
         },
         "expertInstructors": {
           "title": "Instrutores Especialistas",
-          "text": "Conduzido por profissionais de resposta a emergÃªncias"
+          "text": "Conduzido por profissionais de resposta a emergências"
         },
         "locationSpecific": {
-          "title": "EspecÃ­fico da Localidade",
-          "text": "Personalizado para os riscos de cheia da sua Ã¡rea"
+          "title": "Específico da Localidade",
+          "text": "Personalizado para os riscos de cheia da sua área"
         },
         "certification": {
-          "title": "CertificaÃ§Ã£o",
-          "text": "Credenciais reconhecidas de resposta a emergÃªncias"
+          "title": "Certificação",
+          "text": "Credenciais reconhecidas de resposta a emergências"
         }
       }
     },
-    "coursesTitle": "Cursos de Treino DisponÃ­veis",
-    "coursesDescription": "Escolha um curso e inscreva-se â€” a nossa equipa entrarÃ¡ em contacto com os detalhes de agendamento.",
+    "coursesTitle": "Cursos de Treino Disponíveis",
+    "coursesDescription": "Escolha um curso e inscreva-se — a nossa equipa entrará em contacto com os detalhes de agendamento.",
     "enrollNow": "Inscrever-se",
     "customTraining": {
       "title": "Precisa de Treino Personalizado?",
-      "description": "Oferecemos programas de treino personalizados para organizaÃ§Ãµes, escolas, empresas e Ã³rgÃ£os governamentais. A nossa equipa pode adaptar o conteÃºdo Ã s suas necessidades e localizaÃ§Ã£o.",
+      "description": "Oferecemos programas de treino personalizados para organizações, escolas, empresas e órgãos governamentais. A nossa equipa pode adaptar o conteúdo às suas necessidades e localização.",
       "action": "Solicitar Treino Personalizado"
     },
     "courses": {
-      "1": { "title": "PreparaÃ§Ã£o BÃ¡sica para Cheias", "description": "SeguranÃ§a essencial contra cheias para famÃ­lias e indivÃ­duos.", "level": "Iniciante", "duration": "4 horas", "format": "Presencial", "startDate": "InÃ­cio semanal" },
-      "2": { "title": "Workshop de Resposta ComunitÃ¡ria", "description": "Coordene equipas de resposta de emergÃªncia no bairro.", "level": "IntermÃ©dio", "duration": "1 dia", "format": "HÃ­brido", "startDate": "Mensal" },
-      "3": { "title": "LaboratÃ³rio de SimulaÃ§Ã£o AR de Cheias", "description": "CenÃ¡rios AR prÃ¡ticos para tomada de decisÃ£o sob pressÃ£o.", "level": "IntermÃ©dio", "duration": "6 horas", "format": "LaboratÃ³rio AR", "startDate": "Quinzenal" },
-      "4": { "title": "OperaÃ§Ãµes AvanÃ§adas para Respondentes", "description": "Protocolos avanÃ§ados de resgate e comunicaÃ§Ã£o para equipas.", "level": "AvanÃ§ado", "duration": "2 dias", "format": "Presencial", "startDate": "Trimestral" },
-      "5": { "title": "Programa de SeguranÃ§a Escolar", "description": "Treino de preparaÃ§Ã£o para educadores e equipa escolar.", "level": "Iniciante", "duration": "3 horas", "format": "No local", "startDate": "Sob solicitaÃ§Ã£o" },
-      "6": { "title": "Continuidade de NegÃ³cio para Cheias", "description": "Proteja operaÃ§Ãµes e equipa durante interrupÃ§Ãµes por cheias.", "level": "IntermÃ©dio", "duration": "5 horas", "format": "Workshop", "startDate": "Mensal" }
+      "1": { "title": "Preparação Básica para Cheias", "description": "Segurança essencial contra cheias para famílias e indivíduos.", "level": "Iniciante", "duration": "4 horas", "format": "Presencial", "startDate": "Início semanal" },
+      "2": { "title": "Workshop de Resposta Comunitária", "description": "Coordene equipas de resposta de emergência no bairro.", "level": "Intermédio", "duration": "1 dia", "format": "Híbrido", "startDate": "Mensal" },
+      "3": { "title": "Laboratório de Simulação AR de Cheias", "description": "Cenários AR práticos para tomada de decisão sob pressão.", "level": "Intermédio", "duration": "6 horas", "format": "Laboratório AR", "startDate": "Quinzenal" },
+      "4": { "title": "Operações Avançadas para Respondentes", "description": "Protocolos avançados de resgate e comunicação para equipas.", "level": "Avançado", "duration": "2 dias", "format": "Presencial", "startDate": "Trimestral" },
+      "5": { "title": "Programa de Segurança Escolar", "description": "Treino de preparação para educadores e equipa escolar.", "level": "Iniciante", "duration": "3 horas", "format": "No local", "startDate": "Sob solicitação" },
+      "6": { "title": "Continuidade de Negócio para Cheias", "description": "Proteja operações e equipa durante interrupções por cheias.", "level": "Intermédio", "duration": "5 horas", "format": "Workshop", "startDate": "Mensal" }
     },
     "enrollModal": {
       "title": "Inscrever em {{course}}",
@@ -1286,11 +1297,11 @@
       "enroll": "Inscrever",
       "submitting": "A enviar...",
       "close": "Fechar",
-      "successTitle": "InscriÃ§Ã£o Recebida!",
-      "successDescription": "Entraremos em contacto com os detalhes da prÃ³xima sessÃ£o.",
-      "submitError": "NÃ£o foi possÃ­vel enviar a sua inscriÃ§Ã£o agora. Tente novamente ou use o fallback por email abaixo.",
-      "emailFallback": "Prefere email? Envie a inscriÃ§Ã£o manualmente",
-      "temporaryUnavailable": "A inscriÃ§Ã£o automÃ¡tica estÃ¡ temporariamente indisponÃ­vel. Pode usar o fallback por email abaixo e a nossa equipa entrarÃ¡ em contacto.",
+      "successTitle": "Inscrição Recebida!",
+      "successDescription": "Entraremos em contacto com os detalhes da próxima sessão.",
+      "submitError": "Não foi possível enviar a sua inscrição agora. Tente novamente ou use o fallback por email abaixo.",
+      "emailFallback": "Prefere email? Envie a inscrição manualmente",
+      "temporaryUnavailable": "A inscrição automática está temporariamente indisponível. Pode usar o fallback por email abaixo e a nossa equipa entrará em contacto.",
       "placeholders": {
         "name": "Seu nome",
         "email": "seu@email.com",
@@ -1298,38 +1309,38 @@
       }
     },
     "customModal": {
-      "title": "Solicitar SoluÃ§Ã£o Personalizada de Treino AR",
-      "subtitle": "PreparaÃ§Ã£o para Cheias â€¢ Diga-nos do que precisa",
+      "title": "Solicitar Solução Personalizada de Treino AR",
+      "subtitle": "Preparação para Cheias • Diga-nos do que precisa",
       "primaryTrainees": "Principais formandos",
-      "mainFocus": "Foco principal (escolha atÃ© 2)",
+      "mainFocus": "Foco principal (escolha até 2)",
       "directContact": "Prefere contacto direto? Email:",
       "cancel": "Cancelar",
       "submit": "Enviar Pedido",
       "sections": {
         "contact": "1) Contacto",
-        "location": "2) LocalizaÃ§Ã£o e Contexto",
-        "audience": "3) Para quem Ã© o treino?",
+        "location": "2) Localização e Contexto",
+        "audience": "3) Para quem é o treino?",
         "trainingScope": "4) O que o treino AR deve ensinar?",
         "technology": "5) Tecnologia",
         "timeline": "6) Prazo",
         "biggestChallenge": "7) Maior desafio"
       },
       "select": {
-        "typeOfArea": "Tipo de Ã¡rea",
-        "groupSize": "NÂº aproximado de pessoas",
+        "typeOfArea": "Tipo de área",
+        "groupSize": "Nº aproximado de pessoas",
         "usageTiming": "Quando este treino deve ser usado?",
-        "devices": "Dispositivos disponÃ­veis",
+        "devices": "Dispositivos disponíveis",
         "format": "Formato de treino preferido",
         "timeline": "Quando precisa deste treino?"
       },
       "placeholders": {
         "fullName": "Nome completo",
-        "organization": "OrganizaÃ§Ã£o / Departamento",
-        "roleTitle": "FunÃ§Ã£o / Cargo",
+        "organization": "Organização / Departamento",
+        "roleTitle": "Função / Cargo",
         "email": "Email",
         "phone": "Telefone / WhatsApp",
-        "regionCity": "RegiÃ£o / Cidade",
-        "biggestRisk": "Qual Ã© o maior risco ou desafio que pretende prevenir com este treino?"
+        "regionCity": "Região / Cidade",
+        "biggestRisk": "Qual é o maior risco ou desafio que pretende prevenir com este treino?"
       },
       "areaTypes": {
         "urban": "Urbana",
@@ -1339,371 +1350,371 @@
         "mixed": "Mista"
       },
       "traineeOptions": {
-        "responders": "Respondentes de emergÃªncia",
-        "disasterTeams": "Equipas de gestÃ£o de desastres",
-        "volunteers": "VoluntÃ¡rios",
+        "responders": "Respondentes de emergência",
+        "disasterTeams": "Equipas de gestão de desastres",
+        "volunteers": "Voluntários",
         "authorities": "Autoridades locais",
         "communityMembers": "Membros da comunidade"
       },
       "focusOptions": {
         "earlyWarning": "Resposta de alerta precoce para cheias",
-        "evacuation": "Procedimentos de evacuaÃ§Ã£o",
+        "evacuation": "Procedimentos de evacuação",
         "rescueFirstAid": "Resgate e primeiros socorros",
         "equipmentUsage": "Uso de equipamentos",
-        "communicationCoordination": "ComunicaÃ§Ã£o e coordenaÃ§Ã£o",
-        "crowdManagement": "GestÃ£o de multidÃµes / comunidade"
+        "communicationCoordination": "Comunicação e coordenação",
+        "crowdManagement": "Gestão de multidões / comunidade"
       },
       "usageOptions": {
-        "beforeSeason": "Antes da Ã©poca de cheias (preparaÃ§Ã£o)",
-        "duringFlood": "Durante a cheia (orientaÃ§Ã£o em tempo real)",
-        "postFlood": "RecuperaÃ§Ã£o pÃ³s-cheia"
+        "beforeSeason": "Antes da época de cheias (preparação)",
+        "duringFlood": "Durante a cheia (orientação em tempo real)",
+        "postFlood": "Recuperação pós-cheia"
       },
       "deviceOptions": {
-        "mobilePhones": "TelemÃ³veis",
+        "mobilePhones": "Telemóveis",
         "tablets": "Tablets",
-        "arGlasses": "Ã“culos AR",
-        "notSureYet": "Ainda nÃ£o tenho certeza"
+        "arGlasses": "Óculos AR",
+        "notSureYet": "Ainda não tenho certeza"
       },
       "formatOptions": {
-        "stepByStep": "OrientaÃ§Ã£o AR passo a passo",
-        "simulationScenarios": "CenÃ¡rios de simulaÃ§Ã£o AR",
-        "practiceDrills": "ExercÃ­cios prÃ¡ticos curtos",
-        "combination": "CombinaÃ§Ã£o"
+        "stepByStep": "Orientação AR passo a passo",
+        "simulationScenarios": "Cenários de simulação AR",
+        "practiceDrills": "Exercícios práticos curtos",
+        "combination": "Combinação"
       },
       "timelineOptions": {
         "immediately": "Imediatamente",
-        "withinOneMonth": "Dentro de 1 mÃªs",
-        "beforeNextSeason": "Antes da prÃ³xima Ã©poca de cheias",
-        "exploringOptions": "A explorar opÃ§Ãµes"
+        "withinOneMonth": "Dentro de 1 mês",
+        "beforeNextSeason": "Antes da próxima época de cheias",
+        "exploringOptions": "A explorar opções"
       }
     },
     "testimonials": {
       "title": "O Que os Participantes Dizem",
-      "description": "Respondentes de emergÃªncia, lÃ­deres comunitÃ¡rios e residentes confiam no treino HydroBeacon para manter as suas comunidades seguras contra desastres de cheias.",
+      "description": "Respondentes de emergência, líderes comunitários e residentes confiam no treino HydroBeacon para manter as suas comunidades seguras contra desastres de cheias.",
       "items": {
-        "1": { "content": "Os exercÃ­cios em AR pareceram reais e tornaram a nossa equipa mais rÃ¡pida nas simulaÃ§Ãµes.", "role": "Coordenador de EmergÃªncia" },
-        "2": { "content": "Claro, prÃ¡tico e fÃ¡cil de aplicar no nosso plano de resposta comunitÃ¡ria.", "role": "LÃ­der ComunitÃ¡ria" },
-        "3": { "content": "Finalmente sinto confianÃ§a nos protocolos de evacuaÃ§Ã£o.", "role": "Gestora Escolar" },
-        "4": { "content": "Excelente estrutura e apoio dos instrutores durante todo o curso.", "role": "LÃ­der de Equipa de VoluntÃ¡rios" },
-        "5": { "content": "Os cenÃ¡rios corresponderam aos riscos reais de cheia da nossa Ã¡rea.", "role": "Planeador Municipal" },
-        "6": { "content": "Altamente recomendado para qualquer rede local de resposta.", "role": "Oficial de SeguranÃ§a PÃºblica" }
+        "1": { "content": "Os exercícios em AR pareceram reais e tornaram a nossa equipa mais rápida nas simulações.", "role": "Coordenador de Emergência" },
+        "2": { "content": "Claro, prático e fácil de aplicar no nosso plano de resposta comunitária.", "role": "Líder Comunitária" },
+        "3": { "content": "Finalmente sinto confiança nos protocolos de evacuação.", "role": "Gestora Escolar" },
+        "4": { "content": "Excelente estrutura e apoio dos instrutores durante todo o curso.", "role": "Líder de Equipa de Voluntários" },
+        "5": { "content": "Os cenários corresponderam aos riscos reais de cheia da nossa área.", "role": "Planeador Municipal" },
+        "6": { "content": "Altamente recomendado para qualquer rede local de resposta.", "role": "Oficial de Segurança Pública" }
       }
     }
   },
   "cookieStatementPage": {
     "hero": {
-      "title": "DeclaraÃ§Ã£o de Cookies",
-      "description": "Saiba como usamos cookies e tecnologias semelhantes para melhorar a sua experiÃªncia na nossa plataforma."
+      "title": "Declaração de Cookies",
+      "description": "Saiba como usamos cookies e tecnologias semelhantes para melhorar a sua experiência na nossa plataforma."
     },
-    "lastUpdatedLabel": "Ãšltima atualizaÃ§Ã£o:",
+    "lastUpdatedLabel": "Última atualização:",
     "lastUpdatedValue": "Janeiro de 2025",
     "examplesLabel": "Exemplos:",
     "whatAreCookies": {
-      "title": "O Que SÃ£o Cookies?",
-      "p1": "Cookies sÃ£o pequenos ficheiros de texto armazenados no seu dispositivo quando visita o nosso site. Eles ajudam-nos a oferecer uma experiÃªncia melhor ao lembrar as suas preferÃªncias e ativar certos recursos.",
-      "p2": "TambÃ©m usamos tecnologias semelhantes como web beacons, pixels e armazenamento local para melhorar os nossos serviÃ§os."
+      "title": "O Que São Cookies?",
+      "p1": "Cookies são pequenos ficheiros de texto armazenados no seu dispositivo quando visita o nosso site. Eles ajudam-nos a oferecer uma experiência melhor ao lembrar as suas preferências e ativar certos recursos.",
+      "p2": "Também usamos tecnologias semelhantes como web beacons, pixels e armazenamento local para melhorar os nossos serviços."
     },
     "types": {
       "title": "Tipos de Cookies que Utilizamos",
       "essential": {
         "title": "Cookies Essenciais",
-        "text": "Estes cookies sÃ£o necessÃ¡rios para o funcionamento adequado do site. Ativam funcionalidades principais como seguranÃ§a, gestÃ£o de rede e acessibilidade.",
-        "examples": "AutenticaÃ§Ã£o, gestÃ£o de sessÃ£o, balanceamento de carga"
+        "text": "Estes cookies são necessários para o funcionamento adequado do site. Ativam funcionalidades principais como segurança, gestão de rede e acessibilidade.",
+        "examples": "Autenticação, gestão de sessão, balanceamento de carga"
       },
       "functional": {
         "title": "Cookies Funcionais",
-        "text": "Estes cookies permitem funcionalidades avanÃ§adas e personalizaÃ§Ã£o, como lembrar preferÃªncias e configuraÃ§Ãµes.",
-        "examples": "PreferÃªncias de idioma, definiÃ§Ãµes de localizaÃ§Ã£o, preferÃªncias de alerta"
+        "text": "Estes cookies permitem funcionalidades avançadas e personalização, como lembrar preferências e configurações.",
+        "examples": "Preferências de idioma, definições de localização, preferências de alerta"
       },
       "analytics": {
         "title": "Cookies de Analytics",
-        "text": "Estes cookies ajudam-nos a compreender como visitantes interagem com o site ao recolher e reportar informaÃ§Ãµes de forma anÃ³nima.",
-        "examples": "Google Analytics, estatÃ­sticas de uso, monitorizaÃ§Ã£o de desempenho"
+        "text": "Estes cookies ajudam-nos a compreender como visitantes interagem com o site ao recolher e reportar informações de forma anónima.",
+        "examples": "Google Analytics, estatísticas de uso, monitorização de desempenho"
       },
       "performance": {
         "title": "Cookies de Desempenho",
-        "text": "Estes cookies recolhem informaÃ§Ãµes sobre como usa o nosso site para melhorar desempenho e experiÃªncia.",
-        "examples": "Tempo de carregamento de pÃ¡ginas, rastreio de erros, uso de funcionalidades"
+        "text": "Estes cookies recolhem informações sobre como usa o nosso site para melhorar desempenho e experiência.",
+        "examples": "Tempo de carregamento de páginas, rastreio de erros, uso de funcionalidades"
       }
     },
     "howWeUse": {
       "title": "Como Usamos Cookies",
       "intro": "Usamos cookies para:",
       "items": {
-        "1": "Manter a sua sessÃ£o iniciada na conta",
-        "2": "Lembrar as suas preferÃªncias de alertas de cheias",
-        "3": "Personalizar o seu painel e conteÃºdo",
-        "4": "Analisar trÃ¡fego e padrÃµes de uso do site",
-        "5": "Melhorar os nossos serviÃ§os e experiÃªncia do utilizador",
-        "6": "Garantir a seguranÃ§a da nossa plataforma",
-        "7": "Fornecer alertas de cheias com base na localizaÃ§Ã£o"
+        "1": "Manter a sua sessão iniciada na conta",
+        "2": "Lembrar as suas preferências de alertas de cheias",
+        "3": "Personalizar o seu painel e conteúdo",
+        "4": "Analisar tráfego e padrões de uso do site",
+        "5": "Melhorar os nossos serviços e experiência do utilizador",
+        "6": "Garantir a segurança da nossa plataforma",
+        "7": "Fornecer alertas de cheias com base na localização"
       }
     },
     "thirdParty": {
-      "title": "ServiÃ§os de Terceiros",
-      "intro": "Usamos serviÃ§os de terceiros confiÃ¡veis que podem definir os seus prÃ³prios cookies:",
+      "title": "Serviços de Terceiros",
+      "intro": "Usamos serviços de terceiros confiáveis que podem definir os seus próprios cookies:",
       "items": {
         "googleAnalytics": {
           "label": "Google Analytics:",
-          "text": "Analytics do site e monitorizaÃ§Ã£o de desempenho"
+          "text": "Analytics do site e monitorização de desempenho"
         },
         "openStreetMap": {
           "label": "OpenStreetMap e OSRM:",
-          "text": "Mapas interativos, renderizaÃ§Ã£o de rotas e serviÃ§os de localizaÃ§Ã£o"
+          "text": "Mapas interativos, renderização de rotas e serviços de localização"
         },
         "weatherApis": {
           "label": "APIs de Clima:",
           "text": "Dados de clima e cheias em tempo real"
         },
         "cdn": {
-          "label": "ServiÃ§os CDN:",
-          "text": "Entrega de conteÃºdo e otimizaÃ§Ã£o de desempenho"
+          "label": "Serviços CDN:",
+          "text": "Entrega de conteúdo e otimização de desempenho"
         }
       },
-      "outro": "Esses serviÃ§os tÃªm as suas prÃ³prias polÃ­ticas de privacidade e prÃ¡ticas de cookies. Recomendamos consultar as suas polÃ­ticas para mais informaÃ§Ãµes."
+      "outro": "Esses serviços têm as suas próprias políticas de privacidade e práticas de cookies. Recomendamos consultar as suas políticas para mais informações."
     },
     "managing": {
-      "title": "Gerir as Suas PreferÃªncias de Cookies",
-      "intro": "Tem vÃ¡rias opÃ§Ãµes para gerir cookies:",
+      "title": "Gerir as Suas Preferências de Cookies",
+      "intro": "Tem várias opções para gerir cookies:",
       "browser": {
-        "title": "DefiniÃ§Ãµes do Navegador",
+        "title": "Definições do Navegador",
         "intro": "A maioria dos navegadores permite:",
         "items": {
           "1": "Ver e eliminar cookies",
-          "2": "Bloquear cookies de sites especÃ­ficos",
+          "2": "Bloquear cookies de sites específicos",
           "3": "Bloquear cookies de terceiros",
           "4": "Limpar todos os cookies ao fechar o navegador"
         }
       },
       "ourSettings": {
-        "title": "Nossas DefiniÃ§Ãµes de Cookies",
-        "text": "Pode gerir as suas preferÃªncias de cookies atravÃ©s do nosso banner de consentimento ou entrando em contacto connosco diretamente."
+        "title": "Nossas Definições de Cookies",
+        "text": "Pode gerir as suas preferências de cookies através do nosso banner de consentimento ou entrando em contacto connosco diretamente."
       },
       "importantLabel": "Importante:",
-      "importantText": "Desativar certos cookies pode afetar a funcionalidade do nosso site e a sua capacidade de receber alertas crÃ­ticos de cheias."
+      "importantText": "Desativar certos cookies pode afetar a funcionalidade do nosso site e a sua capacidade de receber alertas críticos de cheias."
     },
     "questions": {
-      "title": "DÃºvidas Sobre Cookies",
-      "intro": "Se tiver dÃºvidas sobre o uso de cookies ou precisar de ajuda para gerir preferÃªncias:",
+      "title": "Dúvidas Sobre Cookies",
+      "intro": "Se tiver dúvidas sobre o uso de cookies ou precisar de ajuda para gerir preferências:",
       "privacyTeam": "Equipa de Privacidade:",
       "generalContact": "Contacto Geral:"
     }
   },
   "termsOfServicePage": {
     "hero": {
-      "title": "Termos de ServiÃ§o",
-      "description": "Leia estes termos com atenÃ§Ã£o antes de utilizar os nossos serviÃ§os e plataforma de seguranÃ§a contra cheias."
+      "title": "Termos de Serviço",
+      "description": "Leia estes termos com atenção antes de utilizar os nossos serviços e plataforma de segurança contra cheias."
     },
-    "lastUpdatedLabel": "Ãšltima atualizaÃ§Ã£o:",
+    "lastUpdatedLabel": "Última atualização:",
     "lastUpdatedValue": "Janeiro de 2025",
     "acceptance": {
-      "title": "AceitaÃ§Ã£o dos Termos",
-      "text": "Ao aceder ou utilizar os serviÃ§os da HydroBeacon, concorda em cumprir estes Termos de ServiÃ§o e todas as leis e regulamentaÃ§Ãµes aplicÃ¡veis. Se nÃ£o concordar com algum destes termos, estÃ¡ proibido de utilizar os nossos serviÃ§os."
+      "title": "Aceitação dos Termos",
+      "text": "Ao aceder ou utilizar os serviços da HydroBeacon (HydroBeacon), concorda em cumprir estes Termos de Serviço e todas as leis e regulamentações aplicáveis. Se não concordar com algum destes termos, está proibido de utilizar os nossos serviços."
     },
     "serviceDescription": {
-      "title": "DescriÃ§Ã£o do ServiÃ§o",
+      "title": "Descrição do Serviço",
       "intro": "A HydroBeacon oferece:",
       "items": {
-        "1": "NotificaÃ§Ãµes de alertas de cheias em tempo real",
-        "2": "SimulaÃ§Ãµes de treino de emergÃªncia em VR/AR",
+        "1": "Notificações de alertas de cheias em tempo real",
+        "2": "Simulações de treino de emergência em VR/AR",
         "3": "Mapeamento interativo de risco de cheias",
-        "4": "Ferramentas de coordenaÃ§Ã£o de resposta a emergÃªncias",
+        "4": "Ferramentas de coordenação de resposta a emergências",
         "5": "Recursos e materiais educativos",
-        "6": "Funcionalidades de rede de seguranÃ§a comunitÃ¡ria"
+        "6": "Funcionalidades de rede de segurança comunitária"
       },
-      "outro": "Os nossos serviÃ§os sÃ£o concebidos para melhorar a seguranÃ§a contra cheias e a preparaÃ§Ã£o para emergÃªncias, mas nÃ£o substituem serviÃ§os oficiais de emergÃªncia ou aconselhamento profissional."
+      "outro": "Os nossos serviços são concebidos para melhorar a segurança contra cheias e a preparação para emergências, mas não substituem serviços oficiais de emergência ou aconselhamento profissional."
     },
     "userResponsibilities": {
       "title": "Responsabilidades do Utilizador",
-      "intro": "Como utilizador dos nossos serviÃ§os, concorda em:",
+      "intro": "Como utilizador dos nossos serviços, concorda em:",
       "items": {
-        "1": "Fornecer informaÃ§Ãµes precisas e atuais",
-        "2": "Manter a seguranÃ§a das credenciais da sua conta",
-        "3": "Usar os nossos serviÃ§os apenas para fins legais",
-        "4": "Respeitar os direitos e a seguranÃ§a de outros utilizadores",
-        "5": "Seguir todas as diretrizes e polÃ­ticas da comunidade",
-        "6": "Reportar prontamente problemas tÃ©cnicos ou preocupaÃ§Ãµes de seguranÃ§a"
+        "1": "Fornecer informações precisas e atuais",
+        "2": "Manter a segurança das credenciais da sua conta",
+        "3": "Usar os nossos serviços apenas para fins legais",
+        "4": "Respeitar os direitos e a segurança de outros utilizadores",
+        "5": "Seguir todas as diretrizes e políticas da comunidade",
+        "6": "Reportar prontamente problemas técnicos ou preocupações de segurança"
       }
     },
     "emergencyDisclaimer": {
-      "title": "IsenÃ§Ã£o de Responsabilidade em EmergÃªncia",
+      "title": "Isenção de Responsabilidade em Emergência",
       "importantLabel": "IMPORTANTE:",
-      "intro": "Os serviÃ§os HydroBeacon sÃ£o ferramentas complementares e nÃ£o devem ser a sua Ãºnica fonte de informaÃ§Ã£o de emergÃªncia.",
+      "intro": "Os serviços HydroBeacon são ferramentas complementares e não devem ser a sua única fonte de informação de emergência.",
       "items": {
-        "1": "Siga sempre os serviÃ§os oficiais de emergÃªncia e autoridades locais",
-        "2": "Em caso de perigo imediato, ligue para os serviÃ§os de emergÃªncia (911, 112, etc.)",
-        "3": "Os nossos alertas podem ter atrasos ou limitaÃ§Ãµes tÃ©cnicas",
-        "4": "As condiÃ§Ãµes meteorolÃ³gicas e de cheias podem mudar rapidamente",
-        "5": "Use mÃºltiplas fontes de informaÃ§Ã£o para decisÃµes crÃ­ticas"
+        "1": "Siga sempre os serviços oficiais de emergência e autoridades locais",
+        "2": "Em caso de perigo imediato, ligue para os serviços de emergência (911, 112, etc.)",
+        "3": "Os nossos alertas podem ter atrasos ou limitações técnicas",
+        "4": "As condições meteorológicas e de cheias podem mudar rapidamente",
+        "5": "Use múltiplas fontes de informação para decisões críticas"
       }
     },
     "liability": {
-      "title": "LimitaÃ§Ã£o de Responsabilidade",
-      "intro": "A HydroBeacon fornece serviÃ§os \"tal como estÃ£o\" sem garantias de qualquer tipo. NÃ£o somos responsÃ¡veis por:",
+      "title": "Limitação de Responsabilidade",
+      "intro": "A HydroBeacon fornece serviços \"tal como estão\" sem garantias de qualquer tipo. Não somos responsáveis por:",
       "items": {
-        "1": "Danos resultantes de interrupÃ§Ãµes de serviÃ§o ou falhas tÃ©cnicas",
-        "2": "PrecisÃ£o ou pontualidade de alertas e previsÃµes de cheias",
-        "3": "DecisÃµes tomadas com base nas nossas informaÃ§Ãµes ou recomendaÃ§Ãµes",
-        "4": "ConteÃºdo de terceiros ou links externos",
-        "5": "Perda de dados ou acesso nÃ£o autorizado a contas"
+        "1": "Danos resultantes de interrupções de serviço ou falhas técnicas",
+        "2": "Precisão ou pontualidade de alertas e previsões de cheias",
+        "3": "Decisões tomadas com base nas nossas informações ou recomendações",
+        "4": "Conteúdo de terceiros ou links externos",
+        "5": "Perda de dados ou acesso não autorizado a contas"
       },
-      "outro": "A utilizaÃ§Ã£o dos nossos serviÃ§os Ã© por sua conta e risco."
+      "outro": "A utilização dos nossos serviços é por sua conta e risco."
     },
     "privacyData": {
       "title": "Privacidade e Dados",
-      "p1": "A sua privacidade Ã© importante para nÃ³s. Consulte a nossa",
-      "privacyPolicyLink": "PolÃ­tica de Privacidade",
-      "p1End": "para entender como recolhemos, usamos e protegemos as suas informaÃ§Ãµes.",
-      "p2": "Ao utilizar os nossos serviÃ§os, consente na recolha e uso das suas informaÃ§Ãµes conforme descrito na nossa PolÃ­tica de Privacidade."
+      "p1": "A sua privacidade é importante para nós. Consulte a nossa",
+      "privacyPolicyLink": "Política de Privacidade",
+      "p1End": "para entender como recolhemos, usamos e protegemos as suas informações.",
+      "p2": "Ao utilizar os nossos serviços, consente na recolha e uso das suas informações conforme descrito na nossa Política de Privacidade."
     },
     "contact": {
       "title": "Contacte-nos",
-      "intro": "Se tiver dÃºvidas sobre estes Termos de ServiÃ§o, contacte-nos:",
+      "intro": "Se tiver dúvidas sobre estes Termos de Serviço, contacte-nos:",
       "emailLabel": "Email:",
       "generalContact": "Contacto Geral:"
     }
   },
   "privacyPolicyPage": {
     "hero": {
-      "title": "PolÃ­tica de Privacidade",
-      "description": "A sua privacidade Ã© importante para nÃ³s. Esta polÃ­tica explica como recolhemos, usamos e protegemos as suas informaÃ§Ãµes pessoais."
+      "title": "Política de Privacidade",
+      "description": "A sua privacidade é importante para nós. Esta política explica como recolhemos, usamos e protegemos as suas informações pessoais."
     },
-    "lastUpdatedLabel": "Ãšltima atualizaÃ§Ã£o:",
+    "lastUpdatedLabel": "Última atualização:",
     "lastUpdatedValue": "Janeiro de 2025",
     "informationCollected": {
-      "title": "InformaÃ§Ãµes que Recolhemos",
-      "intro": "Recolhemos informaÃ§Ãµes que fornece diretamente para nÃ³s, como quando:",
+      "title": "Informações que Recolhemos",
+      "intro": "Recolhemos informações que fornece diretamente para nós, como quando:",
       "items": {
-        "1": "Cria uma conta ou regista-se nos nossos serviÃ§os",
-        "2": "Subscreve as nossas notificaÃ§Ãµes de alerta de cheias",
-        "3": "Participa em programas de treino ou simulaÃ§Ãµes",
+        "1": "Cria uma conta ou regista-se nos nossos serviços",
+        "2": "Subscreve as nossas notificações de alerta de cheias",
+        "3": "Participa em programas de treino ou simulações",
         "4": "Contacta-nos para suporte ou feedback",
-        "5": "Usa a nossa aplicaÃ§Ã£o mÃ³vel ou website"
+        "5": "Usa a nossa aplicação móvel ou website"
       },
-      "outro": "Isto pode incluir o seu nome, email, nÃºmero de telefone, dados de localizaÃ§Ã£o e informaÃ§Ãµes de contacto de emergÃªncia."
+      "outro": "Isto pode incluir o seu nome, email, número de telefone, dados de localização e informações de contacto de emergência."
     },
     "howWeUse": {
-      "title": "Como Usamos as Suas InformaÃ§Ãµes",
-      "intro": "Usamos as informaÃ§Ãµes recolhidas para:",
+      "title": "Como Usamos as Suas Informações",
+      "intro": "Usamos as informações recolhidas para:",
       "items": {
-        "1": "Fornecer alertas de cheias e notificaÃ§Ãµes de emergÃªncia em tempo real",
-        "2": "Entregar recomendaÃ§Ãµes de seguranÃ§a personalizadas",
+        "1": "Fornecer alertas de cheias e notificações de emergência em tempo real",
+        "2": "Entregar recomendações de segurança personalizadas",
         "3": "Melhorar os nossos programas de treino VR/AR",
-        "4": "Comunicar consigo sobre os nossos serviÃ§os",
-        "5": "Analisar padrÃµes de uso para melhorar a nossa plataforma",
-        "6": "Cumprir obrigaÃ§Ãµes legais e requisitos de resposta a emergÃªncias"
+        "4": "Comunicar consigo sobre os nossos serviços",
+        "5": "Analisar padrões de uso para melhorar a nossa plataforma",
+        "6": "Cumprir obrigações legais e requisitos de resposta a emergências"
       }
     },
     "security": {
-      "title": "ProteÃ§Ã£o e SeguranÃ§a de Dados",
-      "intro": "Implementamos medidas tÃ©cnicas e organizacionais apropriadas para proteger as suas informaÃ§Ãµes pessoais:",
+      "title": "Proteção e Segurança de Dados",
+      "intro": "Implementamos medidas técnicas e organizacionais apropriadas para proteger as suas informações pessoais:",
       "items": {
-        "1": "Criptografia ponta a ponta para transmissÃ£o de dados sensÃ­veis",
+        "1": "Criptografia ponta a ponta para transmissão de dados sensíveis",
         "2": "Armazenamento em nuvem seguro com backups regulares",
-        "3": "Controlo de acessos e protocolos de autenticaÃ§Ã£o",
-        "4": "Auditorias de seguranÃ§a e avaliaÃ§Ãµes de vulnerabilidade regulares",
-        "5": "Treino da equipa em boas prÃ¡ticas de proteÃ§Ã£o de dados"
+        "3": "Controlo de acessos e protocolos de autenticação",
+        "4": "Auditorias de segurança e avaliações de vulnerabilidade regulares",
+        "5": "Treino da equipa em boas práticas de proteção de dados"
       }
     },
     "rights": {
       "title": "Os Seus Direitos",
       "intro": "Tem o direito de:",
       "items": {
-        "1": "Aceder e rever as suas informaÃ§Ãµes pessoais",
+        "1": "Aceder e rever as suas informações pessoais",
         "2": "Corrigir dados imprecisos ou incompletos",
         "3": "Eliminar a sua conta e dados associados",
-        "4": "Cancelar comunicaÃ§Ãµes nÃ£o essenciais",
-        "5": "Portar os seus dados para outro serviÃ§o",
+        "4": "Cancelar comunicações não essenciais",
+        "5": "Portar os seus dados para outro serviço",
         "6": "Opor-se a determinadas atividades de processamento"
       },
       "contactPrefix": "Para exercer estes direitos, contacte-nos em"
     },
     "contact": {
       "title": "Contacte-nos",
-      "intro": "Se tiver dÃºvidas sobre esta PolÃ­tica de Privacidade ou as nossas prÃ¡ticas de dados, contacte-nos:",
+      "intro": "Se tiver dúvidas sobre esta Política de Privacidade ou as nossas práticas de dados, contacte-nos:",
       "emailLabel": "Email:",
       "generalContact": "Contacto Geral:"
     }
   },
   "legalContent": {
-    "notFound": "ConteÃºdo nÃ£o encontrado",
+    "notFound": "Conteúdo não encontrado",
     "privacyPolicy": {
-      "title": "PolÃ­tica de Privacidade",
+      "title": "Política de Privacidade",
       "sections": {
         "1": {
-          "title": "1. InformaÃ§Ãµes que Recolhemos",
-          "intro": "A HydroBeacon recolhe informaÃ§Ãµes para fornecer melhores serviÃ§os aos utilizadores. Recolhemos informaÃ§Ãµes das seguintes formas:",
+          "title": "1. Informações que Recolhemos",
+          "intro": "A Safety Beacon Initiative recolhe informações para fornecer melhores serviços aos utilizadores. Recolhemos informações das seguintes formas:",
           "items": {
-            "1": "InformaÃ§Ãµes fornecidas diretamente (registo de conta, formulÃ¡rios de contacto)",
-            "2": "InformaÃ§Ãµes obtidas do uso dos serviÃ§os (dados de localizaÃ§Ã£o para alertas de emergÃªncia)",
-            "3": "InformaÃ§Ãµes do dispositivo (tipo de dispositivo mÃ³vel, sistema operativo)"
+            "1": "Informações fornecidas diretamente (registo de conta, formulários de contacto)",
+            "2": "Informações obtidas do uso dos serviços (dados de localização para alertas de emergência)",
+            "3": "Informações do dispositivo (tipo de dispositivo móvel, sistema operativo)"
           }
         },
         "2": {
-          "title": "2. Como Usamos as InformaÃ§Ãµes",
-          "intro": "Usamos as informaÃ§Ãµes recolhidas para:",
+          "title": "2. Como Usamos as Informações",
+          "intro": "Usamos as informações recolhidas para:",
           "items": {
-            "1": "Fornecer alertas de cheias e notificaÃ§Ãµes de emergÃªncia em tempo real",
-            "2": "Melhorar os nossos sistemas de previsÃ£o e alerta de cheias",
-            "3": "Comunicar consigo sobre atualizaÃ§Ãµes do serviÃ§o e informaÃ§Ãµes de seguranÃ§a",
-            "4": "Garantir a seguranÃ§a e fiabilidade dos nossos serviÃ§os"
+            "1": "Fornecer alertas de cheias e notificações de emergência em tempo real",
+            "2": "Melhorar os nossos sistemas de previsão e alerta de cheias",
+            "3": "Comunicar consigo sobre atualizações do serviço e informações de segurança",
+            "4": "Garantir a segurança e fiabilidade dos nossos serviços"
           }
         },
         "3": {
-          "title": "3. Partilha de InformaÃ§Ãµes",
-          "intro": "NÃ£o vendemos, trocamos nem transferimos as suas informaÃ§Ãµes pessoais para terceiros, exceto:",
+          "title": "3. Partilha de Informações",
+          "intro": "Não vendemos, trocamos nem transferimos as suas informações pessoais para terceiros, exceto:",
           "items": {
-            "1": "Com agÃªncias de resposta a emergÃªncias durante eventos ativos de cheias",
-            "2": "Quando exigido por lei ou para proteger a seguranÃ§a pÃºblica",
-            "3": "Com o seu consentimento explÃ­cito"
+            "1": "Com agências de resposta a emergências durante eventos ativos de cheias",
+            "2": "Quando exigido por lei ou para proteger a segurança pública",
+            "3": "Com o seu consentimento explícito"
           }
         },
         "4": {
-          "title": "4. SeguranÃ§a de Dados",
-          "text": "Implementamos medidas de seguranÃ§a apropriadas para proteger as suas informaÃ§Ãµes pessoais contra acesso nÃ£o autorizado, alteraÃ§Ã£o, divulgaÃ§Ã£o ou destruiÃ§Ã£o. Isto inclui encriptaÃ§Ã£o de dados sensÃ­veis e auditorias regulares de seguranÃ§a."
+          "title": "4. Segurança de Dados",
+          "text": "Implementamos medidas de segurança apropriadas para proteger as suas informações pessoais contra acesso não autorizado, alteração, divulgação ou destruição. Isto inclui encriptação de dados sensíveis e auditorias regulares de segurança."
         },
         "5": {
           "title": "5. Os Seus Direitos",
           "intro": "Tem o direito de:",
           "items": {
-            "1": "Aceder e atualizar as suas informaÃ§Ãµes pessoais",
-            "2": "Solicitar eliminaÃ§Ã£o dos seus dados (sujeito a requisitos de serviÃ§os de emergÃªncia)",
-            "3": "Cancelar comunicaÃ§Ãµes nÃ£o emergenciais",
-            "4": "Solicitar uma cÃ³pia dos seus dados"
+            "1": "Aceder e atualizar as suas informações pessoais",
+            "2": "Solicitar eliminação dos seus dados (sujeito a requisitos de serviços de emergência)",
+            "3": "Cancelar comunicações não emergenciais",
+            "4": "Solicitar uma cópia dos seus dados"
           }
         },
         "6": {
           "title": "6. Contacte-nos",
-          "p1": "Se tiver dÃºvidas sobre esta PolÃ­tica de Privacidade, contacte-nos em:",
+          "p1": "Se tiver dúvidas sobre esta Política de Privacidade, contacte-nos em:",
           "email": "Email: support@hydrobeacon.org",
-          "p2": "Esta polÃ­tica foi atualizada pela Ãºltima vez em 1 de janeiro de 2025."
+          "p2": "Esta política foi atualizada pela última vez em 1 de janeiro de 2025."
         }
       }
     },
     "termsOfService": {
-      "title": "Termos de ServiÃ§o",
+      "title": "Termos de Serviço",
       "sections": {
         "1": {
-          "title": "1. AceitaÃ§Ã£o dos Termos",
-          "text": "Ao aceder e usar os serviÃ§os da HydroBeacon, aceita e concorda em ficar vinculado aos termos e disposiÃ§Ãµes deste acordo."
+          "title": "1. Aceitação dos Termos",
+          "text": "Ao aceder e usar os serviços da HydroBeacon, aceita e concorda em ficar vinculado aos termos e disposições deste acordo."
         },
         "2": {
-          "title": "2. DescriÃ§Ã£o do ServiÃ§o",
-          "text": "A HydroBeacon fornece monitorizaÃ§Ã£o de cheias, sistemas de alerta precoce e treino de resposta a emergÃªncias. Os nossos serviÃ§os sÃ£o concebidos para melhorar a seguranÃ§a comunitÃ¡ria, mas nÃ£o devem ser a Ãºnica fonte de informaÃ§Ã£o de emergÃªncia."
+          "title": "2. Descrição do Serviço",
+          "text": "A HydroBeacon fornece monitorização de cheias, sistemas de alerta precoce e treino de resposta a emergências. Os nossos serviços são concebidos para melhorar a segurança comunitária, mas não devem ser a única fonte de informação de emergência."
         },
         "3": {
           "title": "3. Responsabilidades do Utilizador",
-          "intro": "Os utilizadores sÃ£o responsÃ¡veis por:",
+          "intro": "Os utilizadores são responsáveis por:",
           "items": {
-            "1": "Fornecer informaÃ§Ãµes precisas durante o registo",
-            "2": "Manter a seguranÃ§a das credenciais da conta",
-            "3": "Usar o serviÃ§o em conformidade com leis e regulamentos locais",
-            "4": "Seguir procedimentos oficiais de emergÃªncia e orientaÃ§Ãµes das autoridades locais"
+            "1": "Fornecer informações precisas durante o registo",
+            "2": "Manter a segurança das credenciais da conta",
+            "3": "Usar o serviço em conformidade com leis e regulamentos locais",
+            "4": "Seguir procedimentos oficiais de emergência e orientações das autoridades locais"
           }
         },
         "4": {
-          "title": "4. LimitaÃ§Ã£o de Responsabilidade",
-          "text": "Embora procuremos precisÃ£o, a HydroBeacon nÃ£o pode garantir integridade ou pontualidade de todos os alertas. Os utilizadores devem sempre seguir orientaÃ§Ãµes oficiais de emergÃªncia das autoridades locais."
+          "title": "4. Limitação de Responsabilidade",
+          "text": "Embora procuremos precisão, a HydroBeacon não pode garantir integridade ou pontualidade de todos os alertas. Os utilizadores devem sempre seguir orientações oficiais de emergência das autoridades locais."
         }
       }
     },
@@ -1711,39 +1722,39 @@
       "title": "Diretrizes da Comunidade",
       "sections": {
         "1": {
-          "title": "1. ComunicaÃ§Ã£o Respeitosa",
-          "text": "Todos os membros da comunidade devem comunicar com respeito e de forma construtiva. AssÃ©dio, discriminaÃ§Ã£o ou linguagem abusiva nÃ£o serÃ£o tolerados."
+          "title": "1. Comunicação Respeitosa",
+          "text": "Todos os membros da comunidade devem comunicar com respeito e de forma construtiva. Assédio, discriminação ou linguagem abusiva não serão tolerados."
         },
         "2": {
-          "title": "2. InformaÃ§Ã£o Precisa",
-          "text": "Partilhe apenas informaÃ§Ãµes verificadas sobre condiÃ§Ãµes de cheias e emergÃªncias. A divulgaÃ§Ã£o de informaÃ§Ã£o falsa pode colocar vidas em risco e resultarÃ¡ em suspensÃ£o da conta."
+          "title": "2. Informação Precisa",
+          "text": "Partilhe apenas informações verificadas sobre condições de cheias e emergências. A divulgação de informação falsa pode colocar vidas em risco e resultará em suspensão da conta."
         },
         "3": {
-          "title": "3. Protocolo de EmergÃªncia",
-          "text": "Durante emergÃªncias ativas, priorize comunicaÃ§Ãµes oficiais dos serviÃ§os de emergÃªncia. Use recursos da comunidade para apoiar, nÃ£o substituir, a resposta oficial."
+          "title": "3. Protocolo de Emergência",
+          "text": "Durante emergências ativas, priorize comunicações oficiais dos serviços de emergência. Use recursos da comunidade para apoiar, não substituir, a resposta oficial."
         }
       }
     },
     "cookieStatement": {
-      "title": "DeclaraÃ§Ã£o de Cookies",
+      "title": "Declaração de Cookies",
       "sections": {
         "1": {
-          "title": "1. O Que SÃ£o Cookies",
-          "text": "Cookies sÃ£o pequenos ficheiros de texto armazenados no seu dispositivo quando visita o nosso site. Eles ajudam-nos a oferecer melhor experiÃªncia e melhorar os nossos serviÃ§os."
+          "title": "1. O Que São Cookies",
+          "text": "Cookies são pequenos ficheiros de texto armazenados no seu dispositivo quando visita o nosso site. Eles ajudam-nos a oferecer melhor experiência e melhorar os nossos serviços."
         },
         "2": {
           "title": "2. Como Usamos Cookies",
           "intro": "Usamos cookies para:",
           "items": {
-            "1": "Lembrar as suas preferÃªncias e definiÃ§Ãµes",
-            "2": "Analisar trÃ¡fego e padrÃµes de uso do site",
-            "3": "Melhorar desempenho do site e experiÃªncia do utilizador",
-            "4": "Fornecer conteÃºdo e recomendaÃ§Ãµes personalizadas"
+            "1": "Lembrar as suas preferências e definições",
+            "2": "Analisar tráfego e padrões de uso do site",
+            "3": "Melhorar desempenho do site e experiência do utilizador",
+            "4": "Fornecer conteúdo e recomendações personalizadas"
           }
         },
         "3": {
           "title": "3. Gerir Cookies",
-          "text": "Pode controlar e gerir cookies nas definiÃ§Ãµes do navegador. No entanto, desativar certos cookies pode afetar a funcionalidade do nosso site."
+          "text": "Pode controlar e gerir cookies nas definições do navegador. No entanto, desativar certos cookies pode afetar a funcionalidade do nosso site."
         }
       }
     }
@@ -1751,7 +1762,7 @@
   "partnerWithUsPage": {
     "hero": {
       "title": "Seja Nosso Parceiro",
-      "description": "Junte forÃ§as com a HydroBeacon para criar um mundo mais seguro e resiliente. Juntos, podemos proteger mais comunidades contra desastres de cheias."
+      "description": "Junte forças com a HydroBeacon para criar um mundo mais seguro e resiliente. Juntos, podemos proteger mais comunidades contra desastres de cheias."
     },
     "whyPartner": {
       "title": "Por Que Fazer Parceria com a HydroBeacon?",
@@ -1759,99 +1770,99 @@
       "cards": {
         "expandedReach": {
           "title": "Alcance Expandido",
-          "text": "Aproveite a nossa rede para alcanÃ§ar mais comunidades e ampliar o seu impacto em Ã¡reas geogrÃ¡ficas mais amplas."
+          "text": "Aproveite a nossa rede para alcançar mais comunidades e ampliar o seu impacto em áreas geográficas mais amplas."
         },
         "sharedExpertise": {
           "title": "Expertise Compartilhada",
-          "text": "Combine o seu conhecimento especializado com a nossa experiÃªncia em seguranÃ§a contra cheias para criar soluÃ§Ãµes mais eficazes."
+          "text": "Combine o seu conhecimento especializado com a nossa experiência em segurança contra cheias para criar soluções mais eficazes."
         },
         "provenImpact": {
           "title": "Impacto Comprovado",
-          "text": "Junte-se a uma plataforma que jÃ¡ protegeu milhares de vidas e comprovou eficÃ¡cia em emergÃªncias reais."
+          "text": "Junte-se a uma plataforma que já protegeu milhares de vidas e comprovou eficácia em emergências reais."
         }
       }
     },
     "partnerTypes": {
       "title": "Oportunidades de Parceria",
-      "description": "AdorarÃ­amos trabalhar com organizaÃ§Ãµes diversas para criar soluÃ§Ãµes abrangentes de seguranÃ§a contra cheias.",
-      "benefitsTitle": "BenefÃ­cios da Parceria:",
+      "description": "Adoraríamos trabalhar com organizações diversas para criar soluções abrangentes de segurança contra cheias.",
+      "benefitsTitle": "Benefícios da Parceria:",
       "items": {
         "government": {
-          "title": "AgÃªncias Governamentais",
-          "description": "Ã“rgÃ£os de gestÃ£o de emergÃªncia, governos locais e agÃªncias federais que atuam em preparaÃ§Ã£o e resposta a desastres.",
+          "title": "Agências Governamentais",
+          "description": "Órgãos de gestão de emergência, governos locais e agências federais que atuam em preparação e resposta a desastres.",
           "benefits": {
             "1": "Acesso a dados de cheias em tempo real",
-            "2": "Sistemas integrados de resposta a emergÃªncias",
-            "3": "DistribuiÃ§Ã£o de alertas para toda a comunidade",
-            "4": "ImplementaÃ§Ã£o de programas de treino"
+            "2": "Sistemas integrados de resposta a emergências",
+            "3": "Distribuição de alertas para toda a comunidade",
+            "4": "Implementação de programas de treino"
           }
         },
         "education": {
-          "title": "InstituiÃ§Ãµes Educacionais",
-          "description": "Universidades, escolas e instituiÃ§Ãµes de pesquisa interessadas em educaÃ§Ã£o sobre seguranÃ§a contra cheias e colaboraÃ§Ã£o cientÃ­fica.",
+          "title": "Instituições Educacionais",
+          "description": "Universidades, escolas e instituições de pesquisa interessadas em educação sobre segurança contra cheias e colaboração científica.",
           "benefits": {
-            "1": "Oportunidades de colaboraÃ§Ã£o em pesquisa",
-            "2": "Programas de estÃ¡gio para estudantes",
-            "3": "Desenvolvimento de conteÃºdo educativo",
-            "4": "Parcerias para publicaÃ§Ãµes acadÃ©micas"
+            "1": "Oportunidades de colaboração em pesquisa",
+            "2": "Programas de estágio para estudantes",
+            "3": "Desenvolvimento de conteúdo educativo",
+            "4": "Parcerias para publicações académicas"
           }
         },
         "technology": {
           "title": "Empresas de Tecnologia",
-          "description": "Empresas de tecnologia especializadas em IoT, IA, VR/AR ou tecnologias de gestÃ£o de emergÃªncias.",
+          "description": "Empresas de tecnologia especializadas em IoT, IA, VR/AR ou tecnologias de gestão de emergências.",
           "benefits": {
-            "1": "Parcerias de integraÃ§Ã£o tecnolÃ³gica",
+            "1": "Parcerias de integração tecnológica",
             "2": "Desenvolvimento conjunto de produtos",
-            "3": "Acesso a API e colaboraÃ§Ã£o",
-            "4": "ParticipaÃ§Ã£o em laboratÃ³rio de inovaÃ§Ã£o"
+            "3": "Acesso a API e colaboração",
+            "4": "Participação em laboratório de inovação"
           }
         },
         "nonProfit": {
-          "title": "OrganizaÃ§Ãµes Sem Fins Lucrativos",
-          "description": "ONGs, organizaÃ§Ãµes comunitÃ¡rias e grupos humanitÃ¡rios focados em socorro a desastres e seguranÃ§a comunitÃ¡ria.",
+          "title": "Organizações Sem Fins Lucrativos",
+          "description": "ONGs, organizações comunitárias e grupos humanitários focados em socorro a desastres e segurança comunitária.",
           "benefits": {
             "1": "Acordos de partilha de recursos",
-            "2": "AÃ§Ãµes comunitÃ¡rias conjuntas",
-            "3": "Oportunidades de colaboraÃ§Ã£o em financiamentos",
-            "4": "IntegraÃ§Ã£o de programas de voluntariado"
+            "2": "Ações comunitárias conjuntas",
+            "3": "Oportunidades de colaboração em financiamentos",
+            "4": "Integração de programas de voluntariado"
           }
         }
       }
     },
     "levels": {
-      "title": "NÃ­veis de Parceria",
-      "description": "Escolha o nÃ­vel de parceria que melhor se adapta Ã s necessidades e capacidades da sua organizaÃ§Ã£o.",
-      "commitmentLabel": "NÃ­vel de Compromisso:",
+      "title": "Níveis de Parceria",
+      "description": "Escolha o nível de parceria que melhor se adapta às necessidades e capacidades da sua organização.",
+      "commitmentLabel": "Nível de Compromisso:",
       "learnMore": "Saiba Mais",
       "items": {
         "community": {
-          "level": "Parceiro ComunitÃ¡rio",
-          "description": "OrganizaÃ§Ãµes locais e pequenas agÃªncias",
-          "commitment": "MÃ­nimo",
+          "level": "Parceiro Comunitário",
+          "description": "Organizações locais e pequenas agências",
+          "commitment": "Mínimo",
           "features": {
-            "1": "Acesso bÃ¡sico Ã  API",
-            "2": "Alertas comunitÃ¡rios",
+            "1": "Acesso básico à API",
+            "2": "Alertas comunitários",
             "3": "Materiais de treino",
             "4": "Suporte por email"
           }
         },
         "strategic": {
-          "level": "Parceiro EstratÃ©gico",
-          "description": "AgÃªncias regionais e organizaÃ§Ãµes mÃ©dias",
+          "level": "Parceiro Estratégico",
+          "description": "Agências regionais e organizações médias",
           "commitment": "Moderado",
           "features": {
-            "1": "Acesso avanÃ§ado Ã  API",
-            "2": "IntegraÃ§Ãµes personalizadas",
-            "3": "Suporte prioritÃ¡rio",
+            "1": "Acesso avançado à API",
+            "2": "Integrações personalizadas",
+            "3": "Suporte prioritário",
             "4": "Oportunidades conjuntas de marketing"
           }
         },
         "enterprise": {
           "level": "Parceiro Empresarial",
-          "description": "Grandes agÃªncias e grandes organizaÃ§Ãµes",
+          "description": "Grandes agências e grandes organizações",
           "commitment": "Significativo",
           "features": {
-            "1": "Acesso completo Ã  plataforma",
+            "1": "Acesso completo à plataforma",
             "2": "Desenvolvimento personalizado",
             "3": "Suporte dedicado",
             "4": "Oportunidades de codesenvolvimento"
@@ -1861,42 +1872,42 @@
     },
     "impact": {
       "title": "Impacto Esperado da Parceria",
-      "description": "Veja o tipo de impacto que pretendemos criar atravÃ©s de parcerias estratÃ©gicas com organizaÃ§Ãµes como a sua.",
+      "description": "Veja o tipo de impacto que pretendemos criar através de parcerias estratégicas com organizações como a sua.",
       "expectedLabel": "Impacto Esperado:",
       "cards": {
         "government": {
-          "title": "AgÃªncias de GestÃ£o de EmergÃªncias",
+          "title": "Agências de Gestão de Emergências",
           "subtitle": "Potencial Parceria Governamental",
-          "quote": "\"AtravÃ©s de parcerias com agÃªncias de gestÃ£o de emergÃªncias, pretendemos revolucionar as capacidades de resposta a cheias. O nosso objetivo Ã© ajudar na evacuaÃ§Ã£o de residentes horas antes do que hoje Ã© possÃ­vel, potencialmente salvando milhares de vidas.\"",
-          "expected": "EvacuaÃ§Ãµes mais rÃ¡pidas, resposta de emergÃªncia aprimorada, vidas protegidas"
+          "quote": "\"Através de parcerias com agências de gestão de emergências, pretendemos revolucionar as capacidades de resposta a cheias. O nosso objetivo é ajudar na evacuação de residentes horas antes do que hoje é possível, potencialmente salvando milhares de vidas.\"",
+          "expected": "Evacuações mais rápidas, resposta de emergência aprimorada, vidas protegidas"
         },
         "research": {
-          "title": "InstituiÃ§Ãµes de Pesquisa",
-          "subtitle": "Potencial Parceria AcadÃ©mica",
-          "quote": "\"Aspiramos colaborar com instituiÃ§Ãµes de pesquisa lÃ­deres para acelerar estudos em algoritmos de previsÃ£o de cheias. Juntos, pretendemos melhorar a precisÃ£o da previsÃ£o e reduzir significativamente alertas falsos.\"",
-          "expected": "Maior precisÃ£o de previsÃ£o, menos alertas falsos, pesquisa avanÃ§ada"
+          "title": "Instituições de Pesquisa",
+          "subtitle": "Potencial Parceria Académica",
+          "quote": "\"Aspiramos colaborar com instituições de pesquisa líderes para acelerar estudos em algoritmos de previsão de cheias. Juntos, pretendemos melhorar a precisão da previsão e reduzir significativamente alertas falsos.\"",
+          "expected": "Maior precisão de previsão, menos alertas falsos, pesquisa avançada"
         }
       }
     },
     "steps": {
       "title": "Como Se Tornar Parceiro",
-      "description": "Pronto para juntar-se Ã  nossa missÃ£o? Veja como iniciar uma parceria com a HydroBeacon.",
+      "description": "Pronto para juntar-se à nossa missão? Veja como iniciar uma parceria com a HydroBeacon.",
       "items": {
         "1": {
           "title": "Contacto Inicial",
-          "description": "Entre em contacto com a nossa equipa de parcerias para discutir objetivos e necessidades da sua organizaÃ§Ã£o."
+          "description": "Entre em contacto com a nossa equipa de parcerias para discutir objetivos e necessidades da sua organização."
         },
         "2": {
-          "title": "AvaliaÃ§Ã£o de Necessidades",
-          "description": "Trabalharemos juntos para identificar a melhor estrutura de parceria e oportunidades de colaboraÃ§Ã£o."
+          "title": "Avaliação de Necessidades",
+          "description": "Trabalharemos juntos para identificar a melhor estrutura de parceria e oportunidades de colaboração."
         },
         "3": {
           "title": "Acordo",
-          "description": "Formalize a parceria com objetivos claros, responsabilidades e mÃ©tricas de sucesso."
+          "description": "Formalize a parceria com objetivos claros, responsabilidades e métricas de sucesso."
         },
         "4": {
-          "title": "LanÃ§amento",
-          "description": "Inicie a colaboraÃ§Ã£o com suporte completo das nossas equipas de parceria e tecnologia."
+          "title": "Lançamento",
+          "description": "Inicie a colaboração com suporte completo das nossas equipas de parceria e tecnologia."
         }
       }
     },
@@ -1907,152 +1918,152 @@
     },
     "form": {
       "title": "Conversa de Parceria",
-      "description": "Estamos entusiasmados em explorar oportunidades de parceria com a sua organizaÃ§Ã£o. Preencha o formulÃ¡rio abaixo e entraremos em contacto em breve.",
+      "description": "Estamos entusiasmados em explorar oportunidades de parceria com a sua organização. Preencha o formulário abaixo e entraremos em contacto em breve.",
       "fields": {
         "name": "Seu Nome",
-        "email": "EndereÃ§o de Email",
-        "organization": "OrganizaÃ§Ã£o",
+        "email": "Endereço de Email",
+        "organization": "Organização",
         "message": "Mensagem"
       },
       "placeholders": {
-        "name": "JoÃ£o Silva",
+        "name": "João Silva",
         "email": "joao@organizacao.com",
-        "organization": "Nome da sua organizaÃ§Ã£o",
-        "message": "Conte-nos sobre a sua organizaÃ§Ã£o e como gostaria de fazer parceria com a HydroBeacon..."
+        "organization": "Nome da sua organização",
+        "message": "Conte-nos sobre a sua organização e como gostaria de fazer parceria com a HydroBeacon..."
       },
       "cancel": "Cancelar",
       "sending": "A enviar...",
       "send": "Enviar Mensagem",
       "status": {
-        "success": "Obrigado pelo seu interesse. A nossa equipa de parcerias entrarÃ¡ em contacto em breve.",
-        "error": "NÃ£o conseguimos enviar sua mensagem neste momento. Tente novamente."
+        "success": "Obrigado pelo seu interesse. A nossa equipa de parcerias entrará em contacto em breve.",
+        "error": "Não conseguimos enviar sua mensagem neste momento. Tente novamente."
       }
     }
   },
   "volunteerOpportunitiesPage": {
     "hero": {
       "title": "Oportunidades de Voluntariado",
-      "description": "Junte-se Ã  nossa missÃ£o de proteger comunidades contra desastres de cheias. As suas competÃªncias e paixÃ£o podem fazer uma diferenÃ§a real para salvar vidas."
+      "description": "Junte-se à nossa missão de proteger comunidades contra desastres de cheias. As suas competências e paixão podem fazer uma diferença real para salvar vidas."
     },
     "whyVolunteer": {
-      "title": "Por Que Ser VoluntÃ¡rio na HydroBeacon?",
-      "description": "Cause impacto real, desenvolva novas competÃªncias e conecte-se com pessoas comprometidas com seguranÃ§a comunitÃ¡ria.",
+      "title": "Por Que Ser Voluntário na HydroBeacon?",
+      "description": "Cause impacto real, desenvolva novas competências e conecte-se com pessoas comprometidas com segurança comunitária.",
       "cards": {
         "saveLives": {
           "title": "Salvar Vidas",
-          "text": "Contribua diretamente para proteger comunidades e salvar vidas durante emergÃªncias de cheias."
+          "text": "Contribua diretamente para proteger comunidades e salvar vidas durante emergências de cheias."
         },
         "developSkills": {
-          "title": "Desenvolver CompetÃªncias",
-          "text": "Ganhe experiÃªncia em gestÃ£o de emergÃªncias, tecnologia e trabalho comunitÃ¡rio."
+          "title": "Desenvolver Competências",
+          "text": "Ganhe experiência em gestão de emergências, tecnologia e trabalho comunitário."
         },
         "buildCommunity": {
           "title": "Fortalecer a Comunidade",
-          "text": "Conecte-se com pessoas apaixonadas e construa relaÃ§Ãµes duradouras na comunidade de seguranÃ§a."
+          "text": "Conecte-se com pessoas apaixonadas e construa relações duradouras na comunidade de segurança."
         }
       }
     },
     "opportunities": {
       "title": "Oportunidades Atuais",
-      "description": "Encontre a funÃ§Ã£o voluntÃ¡ria ideal para as suas competÃªncias e disponibilidade.",
+      "description": "Encontre a função voluntária ideal para as suas competências e disponibilidade.",
       "prioritySuffix": "Prioridade",
       "requirementsLabel": "Requisitos:",
       "applyNow": "Candidatar-se Agora",
       "urgency": {
         "high": "Alta",
-        "medium": "MÃ©dia",
+        "medium": "Média",
         "low": "Baixa"
       },
       "items": {
         "1": {
-          "title": "Coordenador de Resposta a EmergÃªncias",
+          "title": "Coordenador de Resposta a Emergências",
           "location": "Remoto/Presencial",
           "time": "10-15 horas/semana",
-          "description": "Ajude a coordenar esforÃ§os de resposta durante eventos de cheias. Apoie a comunicaÃ§Ã£o entre serviÃ§os de emergÃªncia e comunidades afetadas.",
+          "description": "Ajude a coordenar esforços de resposta durante eventos de cheias. Apoie a comunicação entre serviços de emergência e comunidades afetadas.",
           "requirements": {
-            "1": "ExperiÃªncia em gestÃ£o de emergÃªncias (preferencial)",
-            "2": "Boas competÃªncias de comunicaÃ§Ã£o",
-            "3": "Disponibilidade durante emergÃªncias"
+            "1": "Experiência em gestão de emergências (preferencial)",
+            "2": "Boas competências de comunicação",
+            "3": "Disponibilidade durante emergências"
           }
         },
         "2": {
           "title": "Desenvolvedor de Treino VR/AR",
           "location": "Remoto",
           "time": "5-10 horas/semana",
-          "description": "Crie simulaÃ§Ãµes imersivas para preparaÃ§Ã£o de emergÃªncia em cheias. Ajude a desenvolver cenÃ¡rios realistas e conteÃºdo educativo.",
+          "description": "Crie simulações imersivas para preparação de emergência em cheias. Ajude a desenvolver cenários realistas e conteúdo educativo.",
           "requirements": {
-            "1": "ExperiÃªncia com desenvolvimento VR/AR",
+            "1": "Experiência com desenvolvimento VR/AR",
             "2": "Conhecimento de Unity ou Unreal Engine",
-            "3": "Interesse em preparaÃ§Ã£o para emergÃªncias"
+            "3": "Interesse em preparação para emergências"
           }
         },
         "3": {
-          "title": "Especialista de AÃ§Ã£o ComunitÃ¡ria",
+          "title": "Especialista de Ação Comunitária",
           "location": "Comunidades locais",
           "time": "8-12 horas/semana",
-          "description": "Atue com comunidades locais para promover consciÃªncia sobre seguranÃ§a contra cheias e serviÃ§os da HydroBeacon. Organize workshops e eventos educativos.",
+          "description": "Atue com comunidades locais para promover consciência sobre segurança contra cheias e serviços da HydroBeacon. Organize workshops e eventos educativos.",
           "requirements": {
-            "1": "Fortes competÃªncias interpessoais",
-            "2": "ExperiÃªncia em fala pÃºblica",
-            "3": "PaixÃ£o por seguranÃ§a comunitÃ¡ria"
+            "1": "Fortes competências interpessoais",
+            "2": "Experiência em fala pública",
+            "3": "Paixão por segurança comunitária"
           }
         },
         "4": {
           "title": "Analista de Dados",
           "location": "Remoto",
           "time": "6-8 horas/semana",
-          "description": "Analise padrÃµes de dados de cheias e ajude a melhorar os nossos algoritmos de previsÃ£o. Trabalhe com dados meteorolÃ³gicos e mÃ©tricas de resposta.",
+          "description": "Analise padrões de dados de cheias e ajude a melhorar os nossos algoritmos de previsão. Trabalhe com dados meteorológicos e métricas de resposta.",
           "requirements": {
-            "1": "ExperiÃªncia em anÃ¡lise de dados",
-            "2": "ProgramaÃ§Ã£o em Python/R",
-            "3": "Base em estatÃ­stica"
+            "1": "Experiência em análise de dados",
+            "2": "Programação em Python/R",
+            "3": "Base em estatística"
           }
         },
         "5": {
-          "title": "Criador de ConteÃºdo",
+          "title": "Criador de Conteúdo",
           "location": "Remoto",
           "time": "4-6 horas/semana",
-          "description": "Crie conteÃºdo educativo sobre seguranÃ§a contra cheias, preparaÃ§Ã£o para emergÃªncias e resiliÃªncia comunitÃ¡ria para blog e redes sociais.",
+          "description": "Crie conteúdo educativo sobre segurança contra cheias, preparação para emergências e resiliência comunitária para blog e redes sociais.",
           "requirements": {
-            "1": "CompetÃªncias de escrita/produÃ§Ã£o de vÃ­deo",
-            "2": "Conhecimento em preparaÃ§Ã£o para emergÃªncias",
-            "3": "ExperiÃªncia com redes sociais"
+            "1": "Competências de escrita/produção de vídeo",
+            "2": "Conhecimento em preparação para emergências",
+            "3": "Experiência com redes sociais"
           }
         },
         "6": {
-          "title": "VoluntÃ¡rio de Suporte TÃ©cnico",
+          "title": "Voluntário de Suporte Técnico",
           "location": "Remoto",
           "time": "5-8 horas/semana",
-          "description": "ForneÃ§a suporte tÃ©cnico a utilizadores da plataforma. Ajude a resolver problemas e melhorar a experiÃªncia do utilizador.",
+          "description": "Forneça suporte técnico a utilizadores da plataforma. Ajude a resolver problemas e melhorar a experiência do utilizador.",
           "requirements": {
-            "1": "CompetÃªncias de resoluÃ§Ã£o de problemas tÃ©cnicos",
-            "2": "ExperiÃªncia em atendimento ao cliente",
-            "3": "PaciÃªncia e empatia"
+            "1": "Competências de resolução de problemas técnicos",
+            "2": "Experiência em atendimento ao cliente",
+            "3": "Paciência e empatia"
           }
         }
       }
     },
     "howToApply": {
       "title": "Como Candidatar-se",
-      "description": "Pronto para fazer a diferenÃ§a? Veja como comeÃ§ar a voluntariar na HydroBeacon.",
+      "description": "Pronto para fazer a diferença? Veja como começar a voluntariar na HydroBeacon.",
       "steps": {
         "1": {
-          "title": "Escolha sua FunÃ§Ã£o",
-          "text": "Revise as oportunidades acima e selecione a funÃ§Ã£o que melhor combina com suas competÃªncias e interesses."
+          "title": "Escolha sua Função",
+          "text": "Revise as oportunidades acima e selecione a função que melhor combina com suas competências e interesses."
         },
         "2": {
           "title": "Envie a Candidatura",
-          "text": "Preencha o formulÃ¡rio de candidatura com seu histÃ³rico, experiÃªncia e disponibilidade."
+          "text": "Preencha o formulário de candidatura com seu histórico, experiência e disponibilidade."
         },
         "3": {
           "title": "Comece a Contribuir",
-          "text": "ApÃ³s uma breve orientaÃ§Ã£o, estarÃ¡ pronto para fazer diferenÃ§a na seguranÃ§a contra cheias e preparaÃ§Ã£o para emergÃªncias."
+          "text": "Após uma breve orientação, estará pronto para fazer diferença na segurança contra cheias e preparação para emergências."
         }
       }
     },
     "contact": {
-      "title": "DÃºvidas Sobre Voluntariado?",
-      "description": "Estamos aqui para ajudar a encontrar a oportunidade ideal e responder Ã s suas dÃºvidas.",
+      "title": "Dúvidas Sobre Voluntariado?",
+      "description": "Estamos aqui para ajudar a encontrar a oportunidade ideal e responder às suas dúvidas.",
       "coordinatorLabel": "Coordenador de Voluntariado",
       "coordinatorName": "Janesh Kumar",
       "generalContactLabel": "Contacto Geral"
@@ -2068,189 +2079,189 @@
         "fullName": "Nome Completo",
         "email": "Email",
         "phone": "Telefone",
-        "experience": "ExperiÃªncia Relevante",
+        "experience": "Experiência Relevante",
         "availability": "Disponibilidade",
-        "motivation": "Por que deseja ser voluntÃ¡rio?"
+        "motivation": "Por que deseja ser voluntário?"
       },
       "placeholders": {
         "fullName": "Seu nome completo",
         "email": "voce@exemplo.com",
-        "phone": "Seu nÃºmero de telefone",
-        "experience": "Descreva brevemente sua experiÃªncia relevante...",
+        "phone": "Seu número de telefone",
+        "experience": "Descreva brevemente sua experiência relevante...",
         "availability": "ex.: 10 horas/semana, fins de semana",
-        "motivation": "Conte-nos sobre sua motivaÃ§Ã£o..."
+        "motivation": "Conte-nos sobre sua motivação..."
       }
     }
   },
   "signUpPage": {
     "createAccount": "Criar Conta",
-    "joinTsbi": "Junte-se Ã  HydroBeacon",
+    "joinTsbi": "Junte-se à HydroBeacon",
     "badges": {
       "secureEnrollment": "Registo Seguro"
     },
     "roleHeadlines": {
       "responder": "Acesso Operacional",
-      "helper": "Acesso de VoluntÃ¡rio",
-      "resident": "Acesso ComunitÃ¡rio"
+      "helper": "Acesso de Voluntário",
+      "resident": "Acesso Comunitário"
     },
     "roleDescriptions": {
-      "responder": "Junte-se a profissionais autorizados de resposta a emergÃªncias. PainÃ©is operacionais restritos com trilhas de auditoria e recursos de governanÃ§a.",
-      "helper": "Apoie a resiliÃªncia comunitÃ¡ria. Aceda a ferramentas de coordenaÃ§Ã£o de voluntÃ¡rios e recursos de treino.",
-      "resident": "Empodere a sua comunidade. Aceda a alertas de cheias em tempo real e recursos de emergÃªncia."
+      "responder": "Junte-se a profissionais autorizados de resposta a emergências. Painéis operacionais restritos com trilhas de auditoria e recursos de governança.",
+      "helper": "Apoie a resiliência comunitária. Aceda a ferramentas de coordenação de voluntários e recursos de treino.",
+      "resident": "Empodere a sua comunidade. Aceda a alertas de cheias em tempo real e recursos de emergência."
     },
     "roles": {
       "localResident": "Residente Local",
-      "emergencyResponder": "Respondente de EmergÃªncia",
-      "volunteerHelper": "VoluntÃ¡rio / Ajudante"
+      "emergencyResponder": "Respondente de Emergência",
+      "volunteerHelper": "Voluntário / Ajudante"
     },
     "accessLevels": {
       "restrictedOperational": "Operacional Restrito",
-      "community": "ComunitÃ¡rio"
+      "community": "Comunitário"
     },
     "info": {
-      "accountRole": "FunÃ§Ã£o da Conta",
-      "accessLevel": "NÃ­vel de Acesso",
-      "verification": "VerificaÃ§Ã£o",
-      "verificationValue": "Email + Palavra-passe ObrigatÃ³rios"
+      "accountRole": "Função da Conta",
+      "accessLevel": "Nível de Acesso",
+      "verification": "Verificação",
+      "verificationValue": "Email + Palavra-passe Obrigatórios"
     },
     "responderNotice": {
       "title": "Acesso Operacional Restrito",
-      "description": "Esta conta serÃ¡ configurada para agentes governamentais autorizados e profissionais de resposta a emergÃªncias. Atividades operacionais sÃ£o registadas e auditÃ¡veis."
+      "description": "Esta conta será configurada para agentes governamentais autorizados e profissionais de resposta a emergências. Atividades operacionais são registadas e auditáveis."
     },
     "form": {
       "fullName": "Nome Completo",
-      "email": "EndereÃ§o de Email",
-      "organization": "OrganizaÃ§Ã£o / ONG (Opcional)",
-      "skills": "CompetÃªncias / Capacidades",
+      "email": "Endereço de Email",
+      "organization": "Organização / ONG (Opcional)",
+      "skills": "Competências / Capacidades",
       "availability": "Disponibilidade",
       "password": "Palavra-passe",
       "confirmPassword": "Confirmar Palavra-passe",
       "creatingAccount": "A criar conta...",
       "placeholders": {
-        "fullName": "JoÃ£o Silva",
+        "fullName": "João Silva",
         "email": "voce@exemplo.com",
-        "organization": "ONG comunitÃ¡ria / iniciativa local",
+        "organization": "ONG comunitária / iniciativa local",
         "password": "Crie uma palavra-passe forte",
         "confirmPassword": "Digite a palavra-passe novamente"
       }
     },
     "passwordChecks": {
       "length": "8+ caracteres",
-      "uppercase": "Letra maiÃºscula",
-      "lowercase": "Letra minÃºscula",
-      "number": "NÃºmero"
+      "uppercase": "Letra maiúscula",
+      "lowercase": "Letra minúscula",
+      "number": "Número"
     },
     "helperOptions": {
       "skills": {
         "firstAid": "Primeiros Socorros",
-        "driving": "ConduÃ§Ã£o",
-        "translation": "TraduÃ§Ã£o",
+        "driving": "Condução",
+        "translation": "Tradução",
         "cooking": "Cozinha",
-        "logistics": "LogÃ­stica",
-        "medical": "MÃ©dico",
+        "logistics": "Logística",
+        "medical": "Médico",
         "childcare": "Cuidados infantis"
       },
       "availability": {
-        "weekdays": "Dias Ãºteis",
+        "weekdays": "Dias úteis",
         "weekends": "Fins de semana",
-        "onCall": "De plantÃ£o"
+        "onCall": "De plantão"
       }
     },
     "legal": {
-      "prefix": "Ao criar uma conta, vocÃª concorda com os nossos",
-      "terms": "Termos de ServiÃ§o",
+      "prefix": "Ao criar uma conta, você concorda com os nossos",
+      "terms": "Termos de Serviço",
       "and": "e",
-      "privacy": "PolÃ­tica de Privacidade"
+      "privacy": "Política de Privacidade"
     },
-    "haveAccount": "JÃ¡ tem uma conta?",
-    "signIn": "Iniciar sessÃ£o",
-    "changeRole": "â† Alterar funÃ§Ã£o",
+    "haveAccount": "Já tem uma conta?",
+    "signIn": "Iniciar sessão",
+    "changeRole": "← Alterar função",
     "errors": {
       "fillAllFields": "Preencha todos os campos.",
       "passwordRequirements": "Cumpra todos os requisitos de palavra-passe.",
-      "passwordMismatch": "As palavras-passe nÃ£o coincidem.",
-      "selectSkill": "Selecione pelo menos uma competÃªncia/capacidade de voluntÃ¡rio.",
-      "selectAvailability": "Selecione pelo menos uma opÃ§Ã£o de disponibilidade.",
-      "emailExists": "JÃ¡ existe uma conta com este email.",
-      "weakPassword": "A palavra-passe Ã© fraca. Use pelo menos 8 caracteres.",
-      "invalidEmail": "EndereÃ§o de email invÃ¡lido.",
-      "signInNotEnabled": "O login por Email/Palavra-passe nÃ£o estÃ¡ ativado. Ative em Firebase Console -> Authentication -> Sign-in method.",
-      "networkError": "Erro de rede. Verifique sua conexÃ£o com a internet.",
+      "passwordMismatch": "As palavras-passe não coincidem.",
+      "selectSkill": "Selecione pelo menos uma competência/capacidade de voluntário.",
+      "selectAvailability": "Selecione pelo menos uma opção de disponibilidade.",
+      "emailExists": "Já existe uma conta com este email.",
+      "weakPassword": "A palavra-passe é fraca. Use pelo menos 8 caracteres.",
+      "invalidEmail": "Endereço de email inválido.",
+      "signInNotEnabled": "O login por Email/Palavra-passe não está ativado. Ative em Firebase Console -> Authentication -> Sign-in method.",
+      "networkError": "Erro de rede. Verifique sua conexão com a internet.",
       "generic": "Ocorreu um erro. Tente novamente."
     }
   },
   "reportHazardPage": {
     "hero": {
       "title": "Reportar um Perigo",
-      "description": "Ajude a proteger sua comunidade reportando perigos de cheias, problemas de infraestrutura ou preocupaÃ§Ãµes de seguranÃ§a imediatamente."
+      "description": "Ajude a proteger sua comunidade reportando perigos de cheias, problemas de infraestrutura ou preocupações de segurança imediatamente."
     },
     "hazardTypes": {
       "1": "Cheia em andamento",
-      "2": "NÃ­veis de Ã¡gua em subida",
+      "2": "Níveis de água em subida",
       "3": "Drenagem bloqueada",
-      "4": "PreocupaÃ§Ã£o com barragem/dique",
+      "4": "Preocupação com barragem/dique",
       "5": "Ponte/estrada fechada",
-      "6": "Detritos a bloquear curso d'Ã¡gua",
-      "7": "ContaminaÃ§Ã£o da Ã¡gua",
+      "6": "Detritos a bloquear curso d'água",
+      "7": "Contaminação da água",
       "8": "Danos em infraestrutura",
       "9": "Outro"
     },
     "severity": {
-      "low": "Baixo - PreocupaÃ§Ã£o menor, sem perigo imediato",
-      "medium": "MÃ©dio - SituaÃ§Ã£o em evoluÃ§Ã£o, monitorizaÃ§Ã£o necessÃ¡ria",
-      "high": "Alto - PreocupaÃ§Ã£o sÃ©ria, aÃ§Ã£o necessÃ¡ria em breve",
-      "critical": "CrÃ­tico - Perigo imediato, resposta de emergÃªncia necessÃ¡ria"
+      "low": "Baixo - Preocupação menor, sem perigo imediato",
+      "medium": "Médio - Situação em evolução, monitorização necessária",
+      "high": "Alto - Preocupação séria, ação necessária em breve",
+      "critical": "Crítico - Perigo imediato, resposta de emergência necessária"
     },
     "success": {
-      "title": "RelatÃ³rio Enviado",
-      "description": "Obrigado por reportar este perigo. Nossa equipa de resposta a emergÃªncias foi notificada e irÃ¡ investigar imediatamente.",
-      "reportIdLabel": "ID do RelatÃ³rio:",
+      "title": "Relatório Enviado",
+      "description": "Obrigado por reportar este perigo. Nossa equipa de resposta a emergências foi notificada e irá investigar imediatamente.",
+      "reportIdLabel": "ID do Relatório:",
       "reportAnother": "Reportar Outro Perigo"
     },
     "emergencyNotice": {
-      "title": "EmergÃªncia com Risco de Vida?",
+      "title": "Emergência com Risco de Vida?",
       "prefix": "Se estiver em perigo imediato, ligue para",
-      "suffix": "ou para os serviÃ§os locais de emergÃªncia primeiro, depois reporte aqui."
+      "suffix": "ou para os serviços locais de emergência primeiro, depois reporte aqui."
     },
     "form": {
-      "hazardTypeLabel": "Que tipo de perigo estÃ¡ a reportar?",
-      "locationLabel": "Onde este perigo estÃ¡ localizado?",
-      "locationPlaceholder": "ForneÃ§a o mÃ¡ximo de detalhes possÃ­vel: endereÃ§o, pontos de referÃªncia, coordenadas GPS, etc.",
-      "locationHelp": "Seja o mais especÃ­fico possÃ­vel para ajudar os respondentes a localizar o perigo rapidamente.",
+      "hazardTypeLabel": "Que tipo de perigo está a reportar?",
+      "locationLabel": "Onde este perigo está localizado?",
+      "locationPlaceholder": "Forneça o máximo de detalhes possível: endereço, pontos de referência, coordenadas GPS, etc.",
+      "locationHelp": "Seja o mais específico possível para ajudar os respondentes a localizar o perigo rapidamente.",
       "descriptionLabel": "Descreva o perigo em detalhe",
-      "descriptionPlaceholder": "O que exatamente observou? HÃ¡ quanto tempo isso estÃ¡ a acontecer? Pessoas ou bens estÃ£o em risco?",
-      "urgencyLabel": "Qual a urgÃªncia desta situaÃ§Ã£o?",
-      "contactLabel": "Sua informaÃ§Ã£o de contacto (opcional, mas recomendada)",
-      "contactPlaceholder": "NÃºmero de telefone ou email - caso precisemos de acompanhamento",
-      "contactHelp": "Fornecer contacto ajuda-nos a obter detalhes adicionais e atualizar vocÃª sobre a resposta.",
+      "descriptionPlaceholder": "O que exatamente observou? Há quanto tempo isso está a acontecer? Pessoas ou bens estão em risco?",
+      "urgencyLabel": "Qual a urgência desta situação?",
+      "contactLabel": "Sua informação de contacto (opcional, mas recomendada)",
+      "contactPlaceholder": "Número de telefone ou email - caso precisemos de acompanhamento",
+      "contactHelp": "Fornecer contacto ajuda-nos a obter detalhes adicionais e atualizar você sobre a resposta.",
       "photosLabel": "Fotos (se for seguro tirar)",
-      "photosHelp": "As fotos ajudam os respondentes a entender melhor a situaÃ§Ã£o. Tire fotos apenas se for seguro.",
+      "photosHelp": "As fotos ajudam os respondentes a entender melhor a situação. Tire fotos apenas se for seguro.",
       "submitting": "A enviar...",
-      "submit": "Enviar RelatÃ³rio de Perigo"
+      "submit": "Enviar Relatório de Perigo"
     },
     "nextSteps": {
       "title": "O que acontece a seguir?",
       "items": {
-        "1": "Seu relatÃ³rio Ã© enviado imediatamente para nossa equipa de resposta",
-        "2": "Verificamos as informaÃ§Ãµes e avaliamos o nÃ­vel de ameaÃ§a",
-        "3": "As autoridades apropriadas sÃ£o notificadas com base na gravidade",
-        "4": "Alertas comunitÃ¡rios sÃ£o emitidos se necessÃ¡rio",
-        "5": "ReceberÃ¡ atualizaÃ§Ãµes se tiver fornecido contacto"
+        "1": "Seu relatório é enviado imediatamente para nossa equipa de resposta",
+        "2": "Verificamos as informações e avaliamos o nível de ameaça",
+        "3": "As autoridades apropriadas são notificadas com base na gravidade",
+        "4": "Alertas comunitários são emitidos se necessário",
+        "5": "Receberá atualizações se tiver fornecido contacto"
       }
     },
     "contacts": {
-      "title": "Contactos de EmergÃªncia",
-      "lifeThreatening": "EmergÃªncia com risco de vida:",
-      "nonEmergency": "RelatÃ³rios nÃ£o emergenciais:"
+      "title": "Contactos de Emergência",
+      "lifeThreatening": "Emergência com risco de vida:",
+      "nonEmergency": "Relatórios não emergenciais:"
     }
   },
   "adminBlogPage": {
-    "title": "GestÃ£o do Blog",
-    "postsCountLabel": "publicaÃ§Ãµes",
-    "newPost": "Nova PublicaÃ§Ã£o",
+    "title": "Gestão do Blog",
+    "postsCountLabel": "publicações",
+    "newPost": "Nova Publicação",
     "notAvailable": "N/D",
-    "confirmDelete": "Tem certeza de que deseja eliminar esta publicaÃ§Ã£o?",
-    "emptyState": "Ainda nÃ£o hÃ¡ publicaÃ§Ãµes. Clique em \"Nova PublicaÃ§Ã£o\" para criar a primeira.",
+    "confirmDelete": "Tem certeza de que deseja eliminar esta publicação?",
+    "emptyState": "Ainda não há publicações. Clique em \"Nova Publicação\" para criar a primeira.",
     "byAuthor": "Por {{author}}",
     "status": {
       "published": "Publicado",
@@ -2261,35 +2272,35 @@
       "unpublish": "Despublicar"
     },
     "messages": {
-      "updated": "PublicaÃ§Ã£o atualizada com sucesso.",
-      "published": "PublicaÃ§Ã£o publicada com sucesso.",
-      "storageNotConfigured": "Upload de imagem indisponÃ­vel porque o Firebase Storage nÃ£o estÃ¡ configurado. Cole uma URL externa de imagem.",
-      "saveFailed": "Falha ao guardar publicaÃ§Ã£o. Tente novamente."
+      "updated": "Publicação atualizada com sucesso.",
+      "published": "Publicação publicada com sucesso.",
+      "storageNotConfigured": "Upload de imagem indisponível porque o Firebase Storage não está configurado. Cole uma URL externa de imagem.",
+      "saveFailed": "Falha ao guardar publicação. Tente novamente."
     },
     "form": {
-      "createPost": "Criar Nova PublicaÃ§Ã£o",
-      "editPost": "Editar PublicaÃ§Ã£o",
+      "createPost": "Criar Nova Publicação",
+      "editPost": "Editar Publicação",
       "saving": "A guardar...",
-      "updatePost": "Atualizar PublicaÃ§Ã£o",
-      "publishPost": "Publicar PublicaÃ§Ã£o",
+      "updatePost": "Atualizar Publicação",
+      "publishPost": "Publicar Publicação",
       "cancel": "Cancelar",
-      "coverImageHelp": "Opcional. Se o upload estiver indisponÃ­vel, use o campo URL da imagem abaixo.",
+      "coverImageHelp": "Opcional. Se o upload estiver indisponível, use o campo URL da imagem abaixo.",
       "fields": {
-        "title": "TÃ­tulo",
+        "title": "Título",
         "category": "Categoria",
         "author": "Autor",
         "coverImage": "Imagem de Capa",
         "imageUrl": "URL da Imagem",
         "excerpt": "Resumo",
-        "content": "ConteÃºdo"
+        "content": "Conteúdo"
       },
       "placeholders": {
-        "title": "TÃ­tulo da publicaÃ§Ã£o",
-        "category": "ex.: SeguranÃ§a contra cheias, NotÃ­cias",
+        "title": "Título da publicação",
+        "category": "ex.: Segurança contra cheias, Notícias",
         "author": "Nome do autor",
         "imageUrl": "https://...",
         "excerpt": "Resumo curto exibido na lista do blog...",
-        "content": "Escreva o conteÃºdo da publicaÃ§Ã£o..."
+        "content": "Escreva o conteúdo da publicação..."
       }
     }
   },
@@ -2381,7 +2392,7 @@
               "3": "Ir para terreno mais alto por vias longe da agua",
               "4": "Ir para o porao para se abrigar"
             },
-            "explanation": "VÃ¡ sempre para terreno mais alto. Nunca conduza em agua de inundacao (15 cm podem derrubar voce, 60 cm podem fazer um carro flutuar). Nunca va para poroes durante cheias."
+            "explanation": "Vá sempre para terreno mais alto. Nunca conduza em agua de inundacao (15 cm podem derrubar voce, 60 cm podem fazer um carro flutuar). Nunca va para poroes durante cheias."
           },
           "3": {
             "question": "Encontrou uma estrada inundada. O que deve fazer?",
@@ -2454,39 +2465,39 @@
     }
   },
   "footer": {
-    "description": "A HydroBeacon fornece alertas de inundaÃ§Ã£o em tempo real, treinamento VR/AR e ferramentas de resposta a emergÃªncias para manter as comunidades seguras de desastres de inundaÃ§Ã£o.",
+    "description": "A Iniciativa HydroBeacon fornece alertas de inundação em tempo real, treinamento VR/AR e ferramentas de resposta a emergências para manter as comunidades seguras de desastres de inundação.",
     "followUs": "Siga-nos",
-    "quickLinks": "Links RÃ¡pidos",
+    "quickLinks": "Links Rápidos",
     "legal": "Legal",
-    "version": "VersÃ£o",
+    "version": "Versão",
     "explore": "Explorar",
     "resources": "Recursos",
     "getInvolved": "Participar",
     "emailUs": "Enviar-nos email",
-    "copyright": "Â© 2025 HydroBeacon. Todos os direitos reservados.",
-    "tagline": "A proteger comunidades atravÃ©s de tecnologia avanÃ§ada",
+    "copyright": "© 2025 HydroBeacon. Todos os direitos reservados.",
+    "tagline": "A proteger comunidades através de tecnologia avançada",
     "links": {
-      "privacyPolicy": "PolÃ­tica de Privacidade",
-      "termsOfService": "Termos de ServiÃ§o",
+      "privacyPolicy": "Política de Privacidade",
+      "termsOfService": "Termos de Serviço",
       "communityGuidelines": "Diretrizes da Comunidade",
-      "cookieStatement": "DeclaraÃ§Ã£o de Cookies",
-      "home": "InÃ­cio",
-      "aboutUs": "Sobre nÃ³s",
+      "cookieStatement": "Declaração de Cookies",
+      "home": "Início",
+      "aboutUs": "Sobre nós",
       "trainingPrograms": "Programas de treino",
-      "blogNews": "Blog e notÃ­cias",
+      "blogNews": "Blog e notícias",
       "resourceLibrary": "Biblioteca de recursos",
-      "safetyDashboard": "Painel de seguranÃ§a",
-      "trainingDemo": "DemonstraÃ§Ã£o de treino",
+      "safetyDashboard": "Painel de segurança",
+      "trainingDemo": "Demonstração de treino",
       "requestMaterials": "Pedir materiais",
       "volunteerOpportunities": "Oportunidades de voluntariado",
       "partnerWithUs": "Seja nosso parceiro",
       "reportHazard": "Reportar um perigo",
-      "feedbackForm": "FormulÃ¡rio de feedback"
+      "feedbackForm": "Formulário de feedback"
     }
   },
   "contact": {
     "title": "Entre em Contacto",
-    "description": "Entre em contacto com a equipa da HydroBeacon",
+    "description": "Entre em contacto com a equipa da Iniciativa HydroBeacon",
     "name": "Seu Nome",
     "email": "Seu Email",
     "subject": "Assunto",
@@ -2496,7 +2507,7 @@
   },
   "training": {
     "title": "Programas de Treinamento",
-    "description": "Treinamento abrangente sobre seguranÃ§a de inundaÃ§Ã£o e preparaÃ§Ã£o",
+    "description": "Treinamento abrangente sobre segurança de inundação e preparação",
     "enrollNow": "Inscrever-se Agora",
     "courseDescription": "Inscreva-se neste curso de treinamento abrangente"
   },
@@ -2504,13 +2515,13 @@
     "title": "Blog",
     "readMore": "Ler Mais",
     "publishedOn": "Publicado em",
-    "noArticles": "Sem artigos disponÃ­veis"
+    "noArticles": "Sem artigos disponíveis"
   },
   "common": {
     "name": "Nome",
     "email": "Email",
     "phone": "Telefone",
-    "address": "EndereÃ§o",
+    "address": "Endereço",
     "city": "Cidade",
     "state": "Estado",
     "zipCode": "CEP",
@@ -2520,16 +2531,16 @@
     "delete": "Eliminar",
     "edit": "Editar",
     "back": "Voltar",
-    "next": "PrÃ³ximo",
+    "next": "Próximo",
     "previous": "Anterior",
     "loading": "Carregando...",
     "error": "Erro",
     "success": "Sucesso",
     "warning": "Aviso",
     "confirm": "Confirmar",
-    "noData": "Nenhum dado disponÃ­vel",
-    "selectOption": "Selecione uma opÃ§Ã£o",
-    "home": "InÃ­cio",
+    "noData": "Nenhum dado disponível",
+    "selectOption": "Selecione uma opção",
+    "home": "Início",
     "about": "Sobre",
     "contact": "Contacto",
     "learnMore": "Saiba Mais"
@@ -2537,9 +2548,8 @@
   "errorBoundary": {
     "title": "Algo correu mal",
     "genericMessage": "Ocorreu um erro inesperado. Por favor, tente novamente.",
-    "goHome": "Ir para InÃ­cio"
+    "goHome": "Ir para Início"
   }
 }
-
 
 

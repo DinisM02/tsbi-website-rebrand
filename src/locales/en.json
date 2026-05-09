@@ -1,4 +1,4 @@
-﻿{
+{
   "header": {
     "home": "Home",
     "about": "About Us",
@@ -168,14 +168,25 @@
     },
     "riskLegend": {
       "highRisk": "High Risk",
-      "highRiskCondition": "River >60 mÂ³/s or Rain >20mm",
+      "highRiskCondition": "River >60 m³/s or Rain >20mm",
       "mediumRisk": "Medium Risk",
-      "mediumRiskCondition": "River >40 mÂ³/s or Rain >10mm",
+      "mediumRiskCondition": "River >40 m³/s or Rain >10mm",
       "lowRisk": "Low Risk",
       "lowRiskCondition": "Normal conditions"
     },
     "alerts": {
       "title": "Active Alerts & Monitoring"
+      ,
+      "criticalRiverTitle": "Critical River: {{value}} m³/s",
+      "criticalRiverDesc": "River levels critically high. Evacuate if near riverside.",
+      "highRiverTitle": "High River: {{value}} m³/s",
+      "highRiverDesc": "River levels elevated. Stay alert.",
+      "heavyRainTitle": "Heavy Rain: {{value}}mm/h",
+      "heavyRainDesc": "Flash flooding risk.",
+      "heatTitle": "Heat: {{value}}°C",
+      "heatDesc": "Extreme heat conditions.",
+      "noAlertsTitle": "No Active Alerts",
+      "noAlertsDesc": "All conditions normal."
     },
     "footer": {
       "liveDataStreaming": "Live Data Streaming",
@@ -223,7 +234,7 @@
     "privacyPolicy": "Privacy Policy",
     "haveAccount": "Already have an account?",
     "signIn": "Sign in",
-    "changeRole": "â† Change role",
+    "changeRole": "← Change role",
     "creating": "Creating account...",
     "passwordReqs": {
       "length": "8+ characters",
@@ -252,7 +263,7 @@
       "emailExists": "An account with this email already exists.",
       "weakPassword": "Password is too weak. Use at least 8 characters.",
       "invalidEmail": "Invalid email address.",
-      "notEnabled": "Email/Password sign-in is not enabled. Please enable it in Firebase Console â†’ Authentication â†’ Sign-in method.",
+      "notEnabled": "Email/Password sign-in is not enabled. Please enable it in Firebase Console → Authentication → Sign-in method.",
       "network": "Network error. Please check your internet connection.",
       "default": "An error occurred. Please try again."
     }
@@ -754,7 +765,7 @@
     "gpsActive": "GPS active - {{name}}",
     "accessDashboard": "Access Full Dashboard",
     "startVRTraining": "Start VR Training",
-    "dataSource": "Real-time data from OpenWeatherMap & Open-Meteo APIs â€¢ Updates every 2 minutes",
+    "dataSource": "Real-time data from OpenWeatherMap & Open-Meteo APIs • Updates every 2 minutes",
     "modal": {
       "shelters": "Nearby Safe Locations",
       "contacts": "Emergency Contacts",
@@ -1262,7 +1273,7 @@
       }
     },
     "coursesTitle": "Available Training Courses",
-    "coursesDescription": "Choose a course and enroll â€” our team will contact you with scheduling details.",
+    "coursesDescription": "Choose a course and enroll — our team will contact you with scheduling details.",
     "enrollNow": "Enroll Now",
     "customTraining": {
       "title": "Need Custom Training?",
@@ -1299,7 +1310,7 @@
     },
     "customModal": {
       "title": "Request Custom AR Training Solution",
-      "subtitle": "Flood Preparedness â€¢ Tell us what you need",
+      "subtitle": "Flood Preparedness • Tell us what you need",
       "primaryTrainees": "Primary trainees",
       "mainFocus": "Main focus (choose up to 2)",
       "directContact": "Prefer direct contact? Email:",
@@ -1498,7 +1509,7 @@
     "lastUpdatedValue": "January 2025",
     "acceptance": {
       "title": "Acceptance of Terms",
-      "text": "By accessing or using HydroBeacon services, you agree to be bound by these Terms of Service and all applicable laws and regulations. If you do not agree with any of these terms, you are prohibited from using our services."
+      "text": "By accessing or using HydroBeacon (HydroBeacon) services, you agree to be bound by these Terms of Service and all applicable laws and regulations. If you do not agree with any of these terms, you are prohibited from using our services."
     },
     "serviceDescription": {
       "title": "Service Description",
@@ -2164,7 +2175,7 @@
     },
     "haveAccount": "Already have an account?",
     "signIn": "Sign in",
-    "changeRole": "â† Change role",
+    "changeRole": "← Change role",
     "errors": {
       "fillAllFields": "Please fill in all fields.",
       "passwordRequirements": "Please meet all password requirements.",
@@ -2463,7 +2474,7 @@
     "resources": "Resources",
     "getInvolved": "Get Involved",
     "emailUs": "Email us",
-    "copyright": "Â© 2025 HydroBeacon. All rights reserved.",
+    "copyright": "© 2025 HydroBeacon. All rights reserved.",
     "tagline": "Protecting communities through advanced technology",
     "links": {
       "privacyPolicy": "Privacy Policy",
@@ -2540,7 +2551,6 @@
     "goHome": "Go to Home"
   }
 }
-
 
 
 
