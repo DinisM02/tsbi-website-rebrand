@@ -1,0 +1,399 @@
+/**
+ * TSBI Firebase Cloud Functions
+ * 
+ * Backend validation for role-based operations
+ * Deploy: firebase deploy --only functions
+ * 
+ * Required packages:
+ * npm install firebase-functions firebase-admin express cors
+ */
+
+const functions = require('firebase-functions');
+const admin = require('firebase-admin');
+const express = require('express');
+const cors = require('cors');
+
+admin.initializeApp();
+
+const app = express();
+app.use(cors({ origin: true }));
+
+// ============================================================================
+// CLOUD FUNCTION 1: Validate and Create Flood Alert
+// ============================================================================
+
+exports.validateFloodAlert = functions.https.onCall(async (data, context) => {
+  // Ensure user is authenticated
+  if (!context.auth) {
+    throw new functions.https.HttpsError(
+      'unauthenticated',
+      'User must be authenticated to create flood alerts'
+    );
+  }
+
+  try {
+    // Get user role from Firestore
+    const userDoc = await admin
+      .firestore()
+      .collection('users')
+      .doc(context.auth.uid)
+      .get();
+
+    const userRole = userDoc.data()?.role;
+
+    // Check if user has permission (responder or admin)
+    if (userRole !== 'responder' && userRole !== 'admin') {
+      throw new functions.https.HttpsError(
+        'permission-denied',
+        'Only emergency responders and admins can create flood alerts'
+      );
+    }
+
+    // Validate flood alert data
+    const { location, severity, message } = data;
+
+    if (!location || !severity || !message) {
+      throw new functions.https.HttpsError(
+        'invalid-argument',
+        'Missing required fields: location, severity, message'
+      );
+    }
+
+    // Validate severity enum
+    const validSeverities = ['low', 'medium', 'high', 'critical'];
+    if (!validSeverities.includes(severity)) {
+      throw new functions.https.HttpsError(
+        'invalid-argument',
+        `Invalid severity level. Must be one of: ${validSeverities.join(', ')}`
+      );
+    }
+
+    // Validate string lengths
+    if (location.length < 3 || location.length > 100) {
+      throw new functions.https.HttpsError(
+        'invalid-argument',
+        'Location must be between 3 and 100 characters'
+      );
+    }
+
+    if (message.length < 10 || message.length > 500) {
+      throw new functions.https.HttpsError(
+        'invalid-argument',
+        'Message must be between 10 and 500 characters'
+      );
+    }
+
+    // Create flood alert in Firestore
+    const alertRef = admin.firestore().collection('floodAlerts').doc();
+    
+    await alertRef.set({
+      location,
+      severity,
+      message,
+      createdBy: context.auth.uid,
+      createdByRole: userRole,
+      timestamp: admin.firestore.FieldValue.serverTimestamp(),
+      status: 'active',
+      views: 0,
+    });
+
+    // Audit log
+    await admin.firestore().collection('auditLogs').add({
+      action: 'FLOOD_ALERT_CREATED',
+      userId: context.auth.uid,
+      userRole,
+      resourceId: alertRef.id,
+      timestamp: admin.firestore.FieldValue.serverTimestamp(),
+    });
+
+    return {
+      success: true,
+      alertId: alertRef.id,
+      message: 'Flood alert created and distributed to residents',
+    };
+  } catch (error) {
+    console.error('Error creating flood alert:', error);
+    throw error;
+  }
+});
+
+// ============================================================================
+// CLOUD FUNCTION 2: Validate and Update User Role
+// ============================================================================
+
+exports.updateUserRole = functions.https.onCall(async (data, context) => {
+  if (!context.auth) {
+    throw new functions.https.HttpsError(
+      'unauthenticated',
+      'Admin authentication required'
+    );
+  }
+
+  try {
+    // Get admin's role from Firestore
+    const adminDoc = await admin
+      .firestore()
+      .collection('users')
+      .doc(context.auth.uid)
+      .get();
+
+    const adminRole = adminDoc.data()?.role;
+
+    // Only admins can update roles
+    if (adminRole !== 'admin') {
+      throw new functions.https.HttpsError(
+        'permission-denied',
+        'Only system admins can manage user roles'
+      );
+    }
+
+    const { userId, newRole } = data;
+
+    // Validate new role
+    const validRoles = ['resident', 'responder', 'admin'];
+    if (!validRoles.includes(newRole)) {
+      throw new functions.https.HttpsError(
+        'invalid-argument',
+        `Invalid role. Must be one of: ${validRoles.join(', ')}`
+      );
+    }
+
+    // Prevent admins from removing their own admin status
+    if (userId === context.auth.uid && newRole !== 'admin') {
+      throw new functions.https.HttpsError(
+        'failed-precondition',
+        'Cannot remove your own admin status'
+      );
+    }
+
+    // Update user role
+    await admin
+      .firestore()
+      .collection('users')
+      .doc(userId)
+      .update({
+        role: newRole,
+        roleUpdatedAt: admin.firestore.FieldValue.serverTimestamp(),
+        roleUpdatedBy: context.auth.uid,
+      });
+
+    // Audit log
+    await admin.firestore().collection('auditLogs').add({
+      action: 'USER_ROLE_UPDATED',
+      adminId: context.auth.uid,
+      targetUserId: userId,
+      newRole,
+      timestamp: admin.firestore.FieldValue.serverTimestamp(),
+    });
+
+    return {
+      success: true,
+      message: `User role updated to ${newRole}`,
+    };
+  } catch (error) {
+    console.error('Error updating user role:', error);
+    throw error;
+  }
+});
+
+// ============================================================================
+// CLOUD FUNCTION 3: Validate and Submit Incident Report
+// ============================================================================
+
+exports.submitIncidentReport = functions.https.onCall(
+  async (data, context) => {
+    if (!context.auth) {
+      throw new functions.https.HttpsError(
+        'unauthenticated',
+        'User must be authenticated to report incidents'
+      );
+    }
+
+    try {
+      const { type, location, description, severity } = data;
+
+      // Validate required fields
+      const requiredFields = ['type', 'location', 'description'];
+      for (const field of requiredFields) {
+        if (!data[field] || data[field].trim() === '') {
+          throw new functions.https.HttpsError(
+            'invalid-argument',
+            `Missing required field: ${field}`
+          );
+        }
+      }
+
+      // Validate field lengths
+      if (location.length < 3 || location.length > 100) {
+        throw new functions.https.HttpsError(
+          'invalid-argument',
+          'Location must be 3-100 characters'
+        );
+      }
+
+      if (description.length < 10 || description.length > 500) {
+        throw new functions.https.HttpsError(
+          'invalid-argument',
+          'Description must be 10-500 characters'
+        );
+      }
+
+      // Rate limiting: Check recent reports from this user
+      const oneHourAgo = Date.now() - 3600000;
+      const recentReports = await admin
+        .firestore()
+        .collection('incidentReports')
+        .where('reportedByUid', '==', context.auth.uid)
+        .where('timestamp', '>', new Date(oneHourAgo))
+        .get();
+
+      if (recentReports.size > 5) {
+        throw new functions.https.HttpsError(
+          'resource-exhausted',
+          'Too many reports in the last hour. Please wait before submitting another.'
+        );
+      }
+
+      // Create incident report
+      const reportRef = admin
+        .firestore()
+        .collection('incidentReports')
+        .doc();
+
+      await reportRef.set({
+        type,
+        location,
+        description,
+        severity: severity || 'medium',
+        status: 'reported',
+        reportedByUid: context.auth.uid,
+        timestamp: admin.firestore.FieldValue.serverTimestamp(),
+        views: 0,
+      });
+
+      // Audit log
+      await admin.firestore().collection('auditLogs').add({
+        action: 'INCIDENT_REPORT_SUBMITTED',
+        userId: context.auth.uid,
+        resourceId: reportRef.id,
+        timestamp: admin.firestore.FieldValue.serverTimestamp(),
+      });
+
+      return {
+        success: true,
+        reportId: reportRef.id,
+        message:
+          'Incident reported successfully. Responders are being notified.',
+      };
+    } catch (error) {
+      console.error('Error submitting incident report:', error);
+      throw error;
+    }
+  }
+);
+
+// ============================================================================
+// CLOUD FUNCTION 4: Get User Statistics (Admin Only)
+// ============================================================================
+
+exports.getUserStatistics = functions.https.onCall(
+  async (data, context) => {
+    if (!context.auth) {
+      throw new functions.https.HttpsError(
+        'unauthenticated',
+        'Authentication required'
+      );
+    }
+
+    try {
+      // Check admin role
+      const adminDoc = await admin
+        .firestore()
+        .collection('users')
+        .doc(context.auth.uid)
+        .get();
+
+      if (adminDoc.data()?.role !== 'admin') {
+        throw new functions.https.HttpsError(
+          'permission-denied',
+          'Only admins can view statistics'
+        );
+      }
+
+      // Get statistics
+      const userCount = await admin
+        .firestore()
+        .collection('users')
+        .countDocuments()
+        .get();
+
+      const residentCount = await admin
+        .firestore()
+        .collection('users')
+        .where('role', '==', 'resident')
+        .countDocuments()
+        .get();
+
+      const responderCount = await admin
+        .firestore()
+        .collection('users')
+        .where('role', '==', 'responder')
+        .countDocuments()
+        .get();
+
+      return {
+        success: true,
+        statistics: {
+          totalUsers: userCount.toNumber(),
+          residents: residentCount.toNumber(),
+          responders: responderCount.toNumber(),
+          admins: userCount.toNumber() - residentCount.toNumber() - responderCount.toNumber(),
+        },
+      };
+    } catch (error) {
+      console.error('Error getting user statistics:', error);
+      throw error;
+    }
+  }
+);
+
+// ============================================================================
+// EXPRESS ENDPOINT: Health Check
+// ============================================================================
+
+app.get('/health', (req, res) => {
+  res.status(200).json({ status: 'OK', timestamp: new Date() });
+});
+
+exports.api = functions.https.onRequest(app);
+
+// ============================================================================
+// SCHEDULED FUNCTION: Cleanup Expired Alerts (Daily)
+// ============================================================================
+
+exports.cleanupExpiredAlerts = functions.pubsub
+  .schedule('every 24 hours')
+  .onRun(async (context) => {
+    try {
+      const thirtyDaysAgo = Date.now() - 30 * 24 * 60 * 60 * 1000;
+
+      const expiredAlerts = await admin
+        .firestore()
+        .collection('floodAlerts')
+        .where('timestamp', '<', new Date(thirtyDaysAgo))
+        .where('status', '==', 'active')
+        .get();
+
+      let deletedCount = 0;
+      expiredAlerts.forEach(async (doc) => {
+        await doc.ref.update({ status: 'archived' });
+        deletedCount++;
+      });
+
+      console.log(`Archived ${deletedCount} expired flood alerts`);
+      return null;
+    } catch (error) {
+      console.error('Error in cleanup function:', error);
+      throw error;
+    }
+  });

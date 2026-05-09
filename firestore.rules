@@ -1,0 +1,109 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    function userPath() {
+      return /databases/$(database)/documents/users/$(request.auth.uid);
+    }
+
+    function userRole() {
+      return isSignedIn() && exists(userPath())
+        ? get(userPath()).data.role
+        : null;
+    }
+
+    function isAdmin() {
+      return userRole() == 'admin';
+    }
+
+    function isResponder() {
+      return userRole() == 'responder';
+    }
+
+    function isPrivilegedResponder() {
+      return isAdmin() || isResponder();
+    }
+
+    function isOwnUserDoc(userId) {
+      return isSignedIn() && request.auth.uid == userId;
+    }
+
+    function validRole(role) {
+      return role in ['user', 'resident', 'responder', 'admin'];
+    }
+
+    match /users/{userId} {
+      allow read: if isOwnUserDoc(userId) || isAdmin();
+      allow create: if isOwnUserDoc(userId)
+        && request.resource.data.uid == userId
+        && validRole(request.resource.data.role);
+      allow update: if (isOwnUserDoc(userId) && request.resource.data.role == resource.data.role)
+        || isAdmin();
+      allow delete: if isAdmin();
+    }
+
+    match /contacts/{contactId} {
+      allow create: if true;
+      allow read, update, delete: if isAdmin();
+    }
+
+    match /hazardReports/{reportId} {
+      allow create: if true;
+      allow read, update, delete: if isAdmin();
+    }
+
+    match /trainingRequests/{requestId} {
+      allow create: if true;
+      allow read, update, delete: if isAdmin();
+    }
+
+    match /volunteerApplications/{applicationId} {
+      allow create: if true;
+      allow read, update, delete: if isAdmin();
+    }
+
+    match /partnerInquiries/{inquiryId} {
+      allow create: if true;
+      allow read, update, delete: if isAdmin();
+    }
+
+    match /blogPosts/{postId} {
+      allow read: if true;
+      allow create, update, delete: if isAdmin();
+    }
+
+    match /floodAlerts/{alertId} {
+      allow read: if true;
+      allow create, update, delete: if isPrivilegedResponder();
+    }
+
+    match /shelters/{shelterId} {
+      allow read: if true;
+      allow create, update, delete: if isPrivilegedResponder();
+    }
+
+    match /incidentReports/{reportId} {
+      allow read: if isPrivilegedResponder() || isAdmin();
+      allow create: if isSignedIn()
+        && request.resource.data.reportedByUid == request.auth.uid;
+      allow update, delete: if isPrivilegedResponder() || isAdmin();
+    }
+
+    match /operationalTeams/{teamId} {
+      allow read, create, update, delete: if isPrivilegedResponder();
+    }
+
+    match /auditLogs/{logId} {
+      allow read: if isAdmin();
+      allow write: if false;
+    }
+
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

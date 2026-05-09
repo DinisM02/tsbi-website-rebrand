@@ -1,0 +1,189 @@
+{
+  "projectId": "tsbi-website",
+  "generatedAt": "2026-04-21T13:30:00Z",
+  "collections": {
+    "users": [
+      {
+        "id": "demo-admin",
+        "data": {
+          "uid": "demo-admin",
+          "email": "admin@thesafetybeacon.com",
+          "displayName": "TSBI Admin",
+          "role": "admin",
+          "createdAt": "2026-04-21T13:00:00Z"
+        }
+      },
+      {
+        "id": "demo-responder",
+        "data": {
+          "uid": "demo-responder",
+          "email": "responder@thesafetybeacon.com",
+          "displayName": "Emergency Responder",
+          "role": "responder",
+          "createdAt": "2026-04-21T13:00:00Z"
+        }
+      },
+      {
+        "id": "demo-resident",
+        "data": {
+          "uid": "demo-resident",
+          "email": "resident@thesafetybeacon.com",
+          "displayName": "Community Resident",
+          "role": "resident",
+          "createdAt": "2026-04-21T13:00:00Z"
+        }
+      }
+    ],
+    "blogPosts": [
+      {
+        "id": "seed-blog-1",
+        "data": {
+          "title": "Flood Preparedness: 10 Essentials Every Family Should Have",
+          "excerpt": "A practical checklist to prepare your home and family before flood season.",
+          "content": "Flood readiness starts before the rain. Build a household plan, secure documents, and prepare a go-bag with essentials for 72 hours.",
+          "category": "Preparedness",
+          "author": "TSBI Team",
+          "published": true,
+          "image": "https://images.unsplash.com/photo-1527489377706-5bf97e608852?auto=format&fit=crop&w=1200&q=80",
+          "createdAt": "2026-04-21T13:00:00Z"
+        }
+      },
+      {
+        "id": "seed-blog-2",
+        "data": {
+          "title": "How Community Response Teams Reduce Flood Risk",
+          "excerpt": "Why local coordination can save lives during heavy rainfall events.",
+          "content": "Community-level coordination improves response time and helps vulnerable residents evacuate safely during fast-changing conditions.",
+          "category": "Community",
+          "author": "TSBI Operations",
+          "published": true,
+          "image": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=1200&q=80",
+          "createdAt": "2026-04-21T13:05:00Z"
+        }
+      }
+    ],
+    "floodAlerts": [
+      {
+        "id": "seed-alert-1",
+        "data": {
+          "location": "Maputo Riverfront",
+          "message": "River levels are stable. Continue monitoring weather updates.",
+          "severity": "low",
+          "status": "active",
+          "active": true,
+          "views": 0,
+          "createdBy": "demo-responder",
+          "createdByRole": "responder",
+          "createdAt": "2026-04-21T13:10:00Z",
+          "timestamp": "2026-04-21T13:10:00Z"
+        }
+      },
+      {
+        "id": "seed-alert-2",
+        "data": {
+          "location": "Incomati Basin",
+          "message": "Heavy rainfall expected in the next 6 hours. Prepare evacuation kits.",
+          "severity": "medium",
+          "status": "active",
+          "active": true,
+          "views": 0,
+          "createdBy": "demo-responder",
+          "createdByRole": "responder",
+          "createdAt": "2026-04-21T13:11:00Z",
+          "timestamp": "2026-04-21T13:11:00Z"
+        }
+      }
+    ],
+    "shelters": [
+      {
+        "id": "seed-shelter-1",
+        "data": {
+          "name": "Central High School Shelter",
+          "location": "Downtown",
+          "address": "Avenida 25 de Setembro",
+          "capacity": 350,
+          "currentOccupancy": 74,
+          "resources": ["water", "medical", "food", "power"],
+          "active": true,
+          "status": "open",
+          "createdAt": "2026-04-21T13:12:00Z"
+        }
+      },
+      {
+        "id": "seed-shelter-2",
+        "data": {
+          "name": "Riverside Community Hall",
+          "location": "Riverside",
+          "address": "Rua da Marginal",
+          "capacity": 220,
+          "currentOccupancy": 98,
+          "resources": ["water", "food", "sanitation"],
+          "active": true,
+          "status": "open",
+          "createdAt": "2026-04-21T13:13:00Z"
+        }
+      },
+      {
+        "id": "seed-shelter-3",
+        "data": {
+          "name": "North District Sports Center",
+          "location": "North District",
+          "address": "Rua da Esperanca",
+          "capacity": 180,
+          "currentOccupancy": 45,
+          "resources": ["water", "medical"],
+          "active": true,
+          "status": "open",
+          "createdAt": "2026-04-21T13:14:00Z"
+        }
+      }
+    ],
+    "operationalTeams": [
+      {
+        "id": "seed-team-1",
+        "data": {
+          "name": "Squad Alpha",
+          "location": "Downtown",
+          "status": "active",
+          "teams": 4,
+          "lead": "Officer M. Santos",
+          "createdAt": "2026-04-21T13:15:00Z"
+        }
+      },
+      {
+        "id": "seed-team-2",
+        "data": {
+          "name": "Squad Bravo",
+          "location": "Riverside",
+          "status": "active",
+          "teams": 3,
+          "lead": "Officer N. Matola",
+          "createdAt": "2026-04-21T13:16:00Z"
+        }
+      }
+    ],
+    "community": [
+      {
+        "id": "demo-responder",
+        "data": {
+          "uid": "demo-responder",
+          "role": "responder",
+          "online": true,
+          "updatedAt": "2026-04-21T13:17:00Z"
+        }
+      }
+    ],
+    "alertPreferences": [
+      {
+        "id": "demo-resident",
+        "data": {
+          "sms": true,
+          "email": true,
+          "push": true,
+          "voice": false,
+          "updatedAt": "2026-04-21T13:18:00Z"
+        }
+      }
+    ]
+  }
+}

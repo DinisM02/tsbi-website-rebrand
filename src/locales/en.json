@@ -1,0 +1,2556 @@
+﻿{
+  "header": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "training": "Training",
+    "resources": "Resources",
+    "blog": "Blog",
+    "contact": "Contact",
+    "emergency": "Emergency",
+    "login": "Login",
+    "profile": "Profile",
+    "logout": "Logout",
+    "dashboard": "Dashboard",
+    "admin": "Admin",
+    "adminDashboard": "Admin Dashboard",
+    "userFallback": "User"
+  },
+  "roleSelection": {
+    "title": "Access Portal",
+    "description": "Controlled access for residents, responders, and support teams",
+    "secureEntry": "Secure Entry",
+    "info": {
+      "create": "create your account",
+      "signin": "sign in",
+      "residents": {
+        "label": "Residents",
+        "access": "Alerts & Shelters"
+      },
+      "responders": {
+        "label": "Responders",
+        "access": "Dashboards & Operations"
+      },
+      "partners": {
+        "label": "Partners",
+        "access": "Support Workflows"
+      }
+    },
+    "howtitle": "How will you use HydroBeacon?",
+    "howDescription": "Choose your access path first, then continue to {0}. This supports role-based access control, privacy separation, and agency-grade governance.",
+    "resident": {
+      "title": "Local Resident",
+      "description": "Get flood alerts, find nearby shelters, request assistance, and access personal safety guidance.",
+      "badge": "Standard community access"
+    },
+    "responder": {
+      "title": "Emergency Responder",
+      "description": "Restricted operational access for government officials, emergency services, and authorized command teams.",
+      "badge": "Restricted operational access"
+    },
+    "helper": {
+      "title": "Volunteer / Helper",
+      "description": "For NGOs, partners, volunteers, and supporters who contribute without responder-level permissions.",
+      "badge": "Support and outreach access"
+    },
+    "securityNote": "Operational responder tools are intentionally separated from resident and helper experiences. Access is limited by role and can be audited for governance and privacy control.",
+    "changeLater": "Need a different path later? You can change role before authentication.",
+    "backToHome": "Back to Home",
+    "tsbiGateway": "HydroBeacon secure access gateway",
+    "roleBasedAccess": "Role-based access",
+    "mainTitle": "Controlled access for residents, responders, and support teams.",
+    "mainDescription": "HydroBeacon separates public safety information from restricted operational tooling so agencies can protect sensitive workflows while communities still receive the guidance they need.",
+    "alertsShelt": "Alerts, shelters, guidance, and personal safety resources.",
+    "restrictedDash": "Restricted dashboards, live operations, and incident coordination.",
+    "volunteerOutreach": "Volunteer, outreach, and support workflows without operational permissions."
+  },
+  "featuresSection": {
+    "header": "Live Flood Protection Platform",
+    "subtitle": "Real-time flood monitoring with data from {{count}} active APIs at your location ({{lat}}, {{lon}})",
+    "allSystemsOperational": "All Systems Operational",
+    "partialSystems": "Partial Systems",
+    "updated": "Updated: {{time}}",
+    "updating": "Updating...",
+    "refreshNow": "Refresh Now",
+    "features": {
+      "floodAlerts": {
+        "title": "Real-Time Flood Alerts",
+        "description": "Instant notifications powered by AI and IoT sensors to warn you of incoming flood risks."
+      },
+      "floodForecasting": {
+        "title": "Flood Forecasting",
+        "description": "Advanced flood prediction using multiple data sources and global river monitoring."
+      },
+      "riskMaps": {
+        "title": "Interactive Risk Maps",
+        "description": "Live mapping with color-coded flood zones showing real-time flood risk."
+      },
+      "vrArTraining": {
+        "title": "VR/AR Training",
+        "description": "Immersive simulations to practice emergency responses and safety procedures."
+      },
+      "navigation": {
+        "title": "Emergency Navigation",
+        "description": "Smart routing that avoids flooded areas and guides to safe shelters."
+      },
+      "community": {
+        "title": "Community Network",
+        "description": "Connect with emergency responders and neighbors for real-time coordination."
+      },
+      "multiSource": {
+        "title": "Multi-Source Data",
+        "description": "Integrating data from global monitoring systems and local sensors."
+      },
+      "multiChannel": {
+        "title": "Multi-Channel Alerts",
+        "description": "Warnings via SMS, email, push notifications, and internal dashboards."
+      }
+    },
+    "featureContent": {
+      "ready": "Ready",
+      "startTraining": "Start Training",
+      "availableScenarios": "Available Scenarios:",
+      "flashFloodEvacuation": "Flash Flood Evacuation (4 Q)",
+      "emergencyShelter": "Emergency Shelter (4 Q)",
+      "active": "Active",
+      "standby": "Standby",
+      "stop": "Stop",
+      "findShelters": "Find Shelters",
+      "searching": "Searching...",
+      "riverDischarge": "River Discharge:",
+      "status": "Status:",
+      "high": "HIGH",
+      "moderate": "MODERATE",
+      "normal": "NORMAL",
+      "liveDataForLocation": "Live data for your location",
+      "connected": "Connected",
+      "offline": "Offline",
+      "join": "Join",
+      "leave": "Leave",
+      "responders": "Responders:",
+      "neighbors": "Neighbors:",
+      "logInToJoin": "Log in to join",
+      "saving": "Saving...",
+      "testAlerts": "Test Alerts",
+      "logInToSavePreferences": "Log in to save preferences",
+      "viewYourLiveMap": "View Your Live Map",
+      "viewInteractiveMap": "View Interactive Map",
+      "clickToOpenMap": "Click to open real OpenStreetMap",
+      "nearestShelter": "Nearest Shelter:",
+      "safeLocations": "Safe Locations:",
+      "noneFound": "None found",
+      "openInternalRouteTo": "Open Internal Route to {{name}}"
+    },
+    "apiIntegrations": {
+      "title": "Live API Integrations",
+      "subtitle": "Dynamic data from multiple global sources, refreshed every 2 minutes",
+      "openweathermap": {
+        "name": "OpenWeatherMap",
+        "description": "Real-time weather data & alerts"
+      },
+      "openMeteoFlood": {
+        "name": "Open-Meteo Flood",
+        "description": "Global river discharge monitoring"
+      },
+      "geolocation": {
+        "name": "Geolocation",
+        "description": "Your exact location tracking"
+      },
+      "overpass": {
+        "name": "Overpass / OSM",
+        "description": "Shelter & hospital finder"
+      }
+    },
+    "riskMap": {
+      "title": "Live Flood Risk Map",
+      "internalRoute": "Internal route to {{name}}",
+      "dynamicVisualization": "Dynamic flood risk visualization at ({{lat}}, {{lon}})"
+    },
+    "riskLegend": {
+      "highRisk": "High Risk",
+      "highRiskCondition": "River >60 mÂ³/s or Rain >20mm",
+      "mediumRisk": "Medium Risk",
+      "mediumRiskCondition": "River >40 mÂ³/s or Rain >10mm",
+      "lowRisk": "Low Risk",
+      "lowRiskCondition": "Normal conditions"
+    },
+    "alerts": {
+      "title": "Active Alerts & Monitoring"
+    },
+    "footer": {
+      "liveDataStreaming": "Live Data Streaming",
+      "updatesEvery2Min": "Updates every 2 min",
+      "trackingyourLocation": "Tracking your location",
+      "usingDefaultLocation": "Using default location"
+    }
+  },
+  "login": {
+    "title": "Sign In",
+    "email": "Email Address",
+    "password": "Password",
+    "signIn": "Sign In",
+    "forgotPassword": "Forgot password?",
+    "noAccount": "Don't have an account?",
+    "signUp": "Sign up here",
+    "rememberMe": "Remember me",
+    "loading": "Signing in...",
+    "errors": {
+      "fillFields": "Please fill in all fields.",
+      "invalidEmail": "Invalid email address.",
+      "weakPassword": "Password is too weak. Use at least 8 characters.",
+      "userNotFound": "No account found with this email.",
+      "wrongPassword": "Incorrect password.",
+      "tooManyAttempts": "Too many failed attempts. Please try again later.",
+      "network": "Network error. Please check your internet connection.",
+      "notEnabled": "Email/Password sign-in is not enabled. Please enable it in Firebase Console.",
+      "default": "An error occurred. Please try again."
+    },
+    "responderWarning": "Restricted Operational Access",
+    "responderWarningText": "This path is intended for authorized government officials and emergency response personnel."
+  },
+  "signup": {
+    "title": "Create Account",
+    "subtitle": "Join HydroBeacon",
+    "secureEnrollment": "Secure Enrollment",
+    "fullName": "Full Name",
+    "email": "Email Address",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "createAccount": "Create Account",
+    "agreeTerms": "By creating an account, you agree to our",
+    "termsOfService": "Terms of Service",
+    "and": "and",
+    "privacyPolicy": "Privacy Policy",
+    "haveAccount": "Already have an account?",
+    "signIn": "Sign in",
+    "changeRole": "â† Change role",
+    "creating": "Creating account...",
+    "passwordReqs": {
+      "length": "8+ characters",
+      "uppercase": "Uppercase letter",
+      "lowercase": "Lowercase letter",
+      "number": "Number"
+    },
+    "operationalAccess": "Operational Access",
+    "operationalAccessText": "Join authorized emergency response personnel. Restricted operational dashboards with audit trails and governance features.",
+    "volunteerAccess": "Volunteer Access",
+    "volunteerAccessText": "Support community resilience. Access volunteer coordination tools and training resources.",
+    "communityAccess": "Community Access",
+    "communityAccessText": "Empower your community. Access real-time flood alerts and emergency resources.",
+    "accountRole": "Account Role",
+    "accessLevel": "Access Level",
+    "verification": "Verification",
+    "restrictedOperational": "Restricted Operational",
+    "community": "Community",
+    "emailPasswordRequired": "Email + Password Required",
+    "responderWarning": "Restricted Operational Access",
+    "responderWarningText": "This account will be configured for authorized government officials and emergency response personnel. Operational activities are logged and auditable.",
+    "errors": {
+      "fillFields": "Please fill in all fields.",
+      "passwordMismatch": "Passwords do not match.",
+      "passwordNotStrong": "Please meet all password requirements.",
+      "emailExists": "An account with this email already exists.",
+      "weakPassword": "Password is too weak. Use at least 8 characters.",
+      "invalidEmail": "Invalid email address.",
+      "notEnabled": "Email/Password sign-in is not enabled. Please enable it in Firebase Console â†’ Authentication â†’ Sign-in method.",
+      "network": "Network error. Please check your internet connection.",
+      "default": "An error occurred. Please try again."
+    }
+  },
+  "hero": {
+    "title": "Empower Your Community",
+    "subtitle": "Real-time flood alerts, emergency resources, and community safety tools",
+    "getStarted": "Get Started",
+    "learnMore": "Learn More"
+  },
+  "features": {
+    "title": "Key Features",
+    "realTimeAlerts": "Real-Time Alerts",
+    "realTimeAlertsText": "Receive immediate notifications about flood risks in your area",
+    "shelterLocator": "Shelter Locator",
+    "shelterLocatorText": "Find nearby emergency shelters and resources",
+    "training": "Training Programs",
+    "trainingText": "Access comprehensive flood safety and preparedness training",
+    "community": "Community Support",
+    "communityText": "Connect with your community through our platform"
+  },
+  "footer": {
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact",
+    "legal": "Legal",
+    "termsOfService": "Terms of Service",
+    "privacyPolicy": "Privacy Policy",
+    "cookieStatement": "Cookie Statement",
+    "communityGuidelines": "Community Guidelines",
+    "followUs": "Follow Us",
+    "rights": "All rights reserved",
+    "version": "Version"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Welcome",
+    "activeAlerts": "Active Alerts",
+    "shelters": "Shelters",
+    "training": "Training Courses",
+    "profile": "My Profile",
+    "settings": "Settings"
+  },
+  "responderDashboard": {
+    "title": "Responder Dashboard",
+    "createAlert": "Create Flood Alert",
+    "addShelter": "Add Shelter",
+    "activeAlerts": "Active Flood Alerts",
+    "registeredShelters": "Registered Shelters"
+  },
+  "responderDashboardBatch": {
+    "modals": {
+      "createAlert": {
+        "title": "Create Flood Alert",
+        "locationLabel": "Location *",
+        "locationPlaceholder": "e.g. Downtown Area",
+        "messageLabel": "Message *",
+        "messagePlaceholder": "Describe the flood alert...",
+        "severityLabel": "Severity",
+        "submit": "Create Alert",
+        "creating": "Creating..."
+      },
+      "addShelter": {
+        "title": "Add Shelter",
+        "nameLabel": "Shelter Name *",
+        "namePlaceholder": "e.g. Community Center",
+        "addressLabel": "Address",
+        "addressPlaceholder": "Street address",
+        "capacityLabel": "Capacity *",
+        "capacityPlaceholder": "e.g. 200",
+        "phoneLabel": "Phone",
+        "phonePlaceholder": "Contact number",
+        "submit": "Add Shelter",
+        "adding": "Adding..."
+      }
+    },
+    "severity": {
+      "low": "Low",
+      "medium": "Medium",
+      "high": "High",
+      "critical": "Critical"
+    },
+    "squadStatus": {
+      "active": "Active",
+      "response": "Response",
+      "standby": "Standby"
+    },
+    "shelterStatus": {
+      "operational": "Operational"
+    },
+    "header": {
+      "title": "Emergency Command Center",
+      "subtitle": "Real-time situational awareness and coordination platform",
+      "secureAccess": "Secure Government Access",
+      "refresh": "Refresh",
+      "demoBanner": "Showing sample data - no live operational data in Firestore yet"
+    },
+    "metrics": {
+      "activeAlerts": "Active Alerts",
+      "registeredUsers": "Registered Users",
+      "sheltersActive": "Shelters Active",
+      "responseTime": "Response Time"
+    },
+    "liveMonitoringTitle": "Live Flood Monitoring",
+    "quickActions": {
+      "createFloodAlert": "Create Flood Alert",
+      "addShelter": "Add Shelter"
+    },
+    "operationalTeams": {
+      "title": "Operational Teams",
+      "columns": {
+        "squadName": "Squad Name",
+        "location": "Location",
+        "status": "Status",
+        "teams": "Teams",
+        "actions": "Actions"
+      },
+      "assignMission": "Assign Mission"
+    },
+    "shelterManagement": {
+      "title": "Shelter Capacity Management",
+      "manage": "Manage"
+    },
+    "incidentManagement": {
+      "title": "Incident Management",
+      "reportNewIncident": "Report New Incident",
+      "criticalTitle": "Critical: Multiple Evacuations Needed",
+      "criticalDescription": "Downtown residential area - 200+ residents affected",
+      "criticalReported": "Reported 15 mins ago",
+      "responseTitle": "Active Response: Water Rescue",
+      "responseDescription": "Riverside district - Squad Charlie deployed",
+      "responseReported": "Squad active for 45 mins"
+    },
+    "analytics": {
+      "responseStatsTitle": "Response Statistics",
+      "responseTimeAverage": "Response Time (avg)",
+      "minutes": "minutes",
+      "successRate": "Success Rate",
+      "peopleAssistedToday": "People Assisted (Today)",
+      "scheduledOperationsTitle": "Scheduled Operations",
+      "perimeterPatrol": "Perimeter Patrol",
+      "communityBriefing": "Community Briefing",
+      "shiftChange": "Shift Change"
+    }
+  },
+  "helperDashboard": {
+    "header": {
+      "title": "Community Support Hub",
+      "description": "Coordinate volunteer action, support NGOs, and strengthen local flood resilience.",
+      "verifiedByNgo": "Verified by NGO",
+      "verificationActionNeeded": "Verification Action Needed",
+      "verificationPending": "Verification Pending",
+      "availableToHelp": "Available to help",
+      "notAvailable": "Not available"
+    },
+    "operations": {
+      "title": "Volunteer and NGO Operations",
+      "openHelpRequests": {
+        "title": "Open Help Requests",
+        "description": "Non-emergency support: delivery, check-ins, shelter transport support."
+      },
+      "donationDrives": {
+        "title": "Donation Drives and Supplies",
+        "description": "Coordinate water, food, blankets, and drop-off commitments."
+      },
+      "shelterSupport": {
+        "title": "Shelter Support",
+        "description": "Assist shelter desks, food service, childcare, and shift coverage."
+      },
+      "communityOutreach": {
+        "title": "Community Outreach",
+        "description": "Help residents onboard, share verified alerts, support translation."
+      },
+      "trainingCenter": {
+        "title": "Training Center",
+        "description": "Earn certifications to unlock advanced volunteer task types."
+      }
+    },
+    "boundaries": {
+      "title": "Role Boundaries",
+      "noSosDispatch": {
+        "title": "No SOS Dispatch",
+        "description": "Critical emergency dispatch and mission acceptance are responder-only."
+      },
+      "limitedDataAccess": {
+        "title": "Limited Data Access",
+        "description": "Personal resident data is restricted to minimum task-needed visibility."
+      },
+      "coordinatorChannel": {
+        "title": "Coordinator Channel",
+        "description": "Communication with responders happens through shelter coordinators."
+      }
+    },
+    "quickActions": {
+      "title": "Quick Actions",
+      "volunteer": "Volunteer",
+      "ngoPartner": "NGO Partner",
+      "training": "Training",
+      "contactTsbi": "Contact HydroBeacon"
+    }
+  },
+  "forgotPasswordPage": {
+    "title": "Reset Password",
+    "subtitle": {
+      "default": "Enter your email to receive a 6-digit OTP code",
+      "otpRequested": "Enter OTP and choose your new password",
+      "success": "Your password reset flow is complete"
+    },
+    "fields": {
+      "email": "Email Address",
+      "otp": "6-digit OTP",
+      "newPassword": "New Password",
+      "confirmNewPassword": "Confirm New Password"
+    },
+    "placeholders": {
+      "email": "you@example.com",
+      "otp": "123456",
+      "newPassword": "At least 8 characters",
+      "confirmPassword": "Re-enter password"
+    },
+    "actions": {
+      "sendOtpCode": "Send OTP Code",
+      "sendingOtp": "Sending OTP...",
+      "verifyOtpAndReset": "Verify OTP and Reset Password",
+      "verifyingOtp": "Verifying OTP...",
+      "resendOtp": "Resend OTP"
+    },
+    "success": {
+      "title": "Success!",
+      "otpMessage": "Your password has been updated using OTP verification. You can now sign in with your new password.",
+      "emailLinkPrefix": "We have sent a reset link to",
+      "emailLinkSuffix": "Check your inbox and follow the link to continue.",
+      "emailLinkHint": "Did not receive the email? Check your spam folder or try again."
+    },
+    "errors": {
+      "enterEmail": "Please enter your email address.",
+      "tooManyRequests": "Too many requests. Please wait a minute before requesting another code.",
+      "invalidEmail": "Please enter a valid email address.",
+      "unableStartOtp": "Unable to start OTP reset right now. Please try again.",
+      "invalidOtpFormat": "Enter the 6-digit OTP code sent to your email.",
+      "passwordMinLength": "New password must be at least 8 characters.",
+      "passwordMismatch": "Password confirmation does not match.",
+      "otpExpired": "OTP expired. Request a new code.",
+      "invalidOtpCode": "Invalid OTP code.",
+      "tooManyFailedAttempts": "Too many failed OTP attempts. Request a new code.",
+      "unableResetWithOtp": "Unable to reset password with OTP. Please try again."
+    },
+    "backToLogin": "Back to Login"
+  },
+  "heroSection": {
+    "title": "Stay Safe with",
+    "subtitle": "Real-Time Flood Alerts",
+    "description": "Advanced AI-powered flood detection, VR/AR emergency training, and instant community alerts to protect lives and property from flood disasters.",
+    "realTimeAlerts": "Real-Time Alerts",
+    "realTimeAlertsDesc": "Instant notifications when flood risks are detected",
+    "interactiveMaps": "Interactive Maps",
+    "interactiveMapsDesc": "Live flood zones and evacuation routes",
+    "vrArTraining": "VR/AR Training",
+    "vrArTrainingDesc": "Immersive emergency response simulations",
+    "getStarted": "Get Started",
+    "watchDemo": "Watch Demo",
+    "platformDemo": "Platform Demo",
+    "demoDescription": "Watch this demo to see how our flood monitoring platform works and how it can help keep you safe during flood events.",
+    "empoweringCommunities": "Empowering Communities Against Floods",
+    "videoUnsupported": "Your browser does not support the video tag.",
+    "imageAlt": "Flood emergency response",
+    "stats": {
+      "livesToProtect": "Lives to Protect",
+      "communitiesToServe": "Communities to Serve",
+      "plannedMonitoring": "Planned Monitoring",
+      "uptime": "Uptime",
+      "values": {
+        "livesToProtect": "10K+",
+        "communitiesToServe": "500+",
+        "plannedMonitoring": "24/7",
+        "uptime": "99.9%"
+      }
+    }
+  },
+  "ctaSection": {
+    "title": "Ready to Protect Your Community?",
+    "description": "Join thousands of communities already using HydroBeacon to stay safe from flood disasters. Get started today and experience the future of flood safety.",
+    "startFreeTrial": "Start Free Trial",
+    "watchOverview": "Watch Overview",
+    "scheduleDemo": "Schedule Demo",
+    "contactText": "Need help getting started? Our emergency response specialists are here to help.",
+    "email": "Email",
+    "contactEmail": "Email: {{email}}",
+    "available": "Available 24/7",
+    "cards": {
+      "instantProtection": {
+        "title": "Instant Protection",
+        "description": "Get immediate access to real-time flood alerts and emergency resources"
+      },
+      "mobileReady": {
+        "title": "Mobile Ready",
+        "description": "Works on any device with offline capabilities for emergency situations"
+      },
+      "communitySupport": {
+        "title": "Community Support",
+        "description": "Connect with local responders and neighbors for coordinated safety"
+      }
+    },
+    "modal": {
+      "title": "Start Your Free Trial",
+      "videoUnsupported": "Your browser does not support the video tag.",
+      "description": "Watch this quick overview to see how our platform works and what you'll get during your free trial period.",
+      "includesTitle": "Free Trial Includes:",
+      "startNow": "Start Free Trial Now",
+      "learnMore": "Learn More",
+      "includes": {
+        "access": "Full access to all monitoring features for 14 days",
+        "alerts": "Real-time flood alerts and notifications",
+        "maps": "Interactive risk maps and evacuation routes",
+        "training": "VR training simulations",
+        "support": "24/7 customer support"
+      }
+    }
+  },
+  "testimonialsSection": {
+    "title": "Trusted by Communities Worldwide",
+    "description": "Emergency responders, community leaders, and residents rely on HydroBeacon to keep their communities safe from flood disasters.",
+    "partnersTitle": "Welcoming Leading Organizations",
+    "items": {
+      "sarah": {
+        "name": "Sarah Johnson",
+        "location": "Houston, TX",
+        "role": "Emergency Response Coordinator",
+        "content": "HydroBeacon's real-time alerts saved our community during Hurricane Harvey. The VR training prepared our residents for the actual emergency, and the evacuation routes were accurate and life-saving."
+      },
+      "chen": {
+        "name": "Dr. Michael Chen",
+        "location": "Miami, FL",
+        "role": "Disaster Management Specialist",
+        "content": "The integration of AI and IoT sensors provides unprecedented accuracy in flood prediction. This platform is revolutionizing how we approach flood safety and community preparedness."
+      },
+      "maria": {
+        "name": "Maria Rodriguez",
+        "location": "New Orleans, LA",
+        "role": "Community Leader",
+        "content": "As someone who lived through Katrina, I can't express how valuable this technology is. The mobile app works even when cell towers are down, and the community features keep us connected."
+      }
+    },
+    "partners": {
+      "items": {
+        "fema": "FEMA",
+        "redCross": "Red Cross",
+        "noaa": "NOAA",
+        "emergencyManagement": "Emergency Management",
+        "weatherService": "Weather Service",
+        "localAuthorities": "Local Authorities"
+      }
+    },
+    "stats": {
+      "livesToProtect": "Lives to Protect",
+      "communitiesToServe": "Communities to Serve",
+      "targetAlertAccuracy": "Target Alert Accuracy",
+      "plannedMonitoring": "Planned Monitoring",
+      "values": {
+        "livesToProtect": "10,000+",
+        "communitiesToServe": "500+",
+        "targetAlertAccuracy": "95.6%",
+        "plannedMonitoring": "24/7"
+      }
+    }
+  },
+  "residentDashboard": {
+    "demoAlerts": {
+      "downtown": {
+        "location": "Downtown Area",
+        "message": "Flash flood warning issued for downtown streets"
+      },
+      "riverside": {
+        "location": "Riverside District",
+        "message": "River water level rising - advisory issued"
+      }
+    },
+    "time": {
+      "minutesAgo": "{{count}} mins ago",
+      "hoursAgo": "{{count}} hours ago",
+      "daysAgo": "{{count}} days ago"
+    },
+    "severity": {
+      "high": "High",
+      "medium": "Medium",
+      "low": "Low"
+    },
+    "header": {
+      "title": "Stay Safe, Stay Informed",
+      "description": "Real-time flood alerts, nearby shelters, and emergency resources for your community.",
+      "refresh": "Refresh",
+      "demoBanner": "Showing sample data - no live alerts in Firestore yet"
+    },
+    "alerts": {
+      "title": "Active Flood Alerts",
+      "openInternalMap": "Open Internal Map",
+      "empty": "No active alerts in your area. Stay vigilant!"
+    },
+    "shelters": {
+      "title": "Nearby Shelters",
+      "capacity": "Capacity: {{count}}",
+      "occupied": "Occupied: {{current}} / {{total}}",
+      "showRoute": "Show Internal Route"
+    },
+    "map": {
+      "title": "Internal Safety Map",
+      "routeTo": "Route to {{name}}",
+      "selectedShelter": "selected shelter",
+      "description": "Flood area and shelters inside the platform"
+    },
+    "training": {
+      "title": "Safety Training",
+      "cards": {
+        "basics": {
+          "title": "Flood Safety 101",
+          "description": "Learn essential flood safety procedures and preparation.",
+          "action": "Start Training"
+        },
+        "procedures": {
+          "title": "Emergency Procedures",
+          "description": "VR/AR training for flood rescue and emergency response.",
+          "action": "Launch VR Training"
+        }
+      }
+    },
+    "quickActions": {
+      "title": "Quick Actions",
+      "reportHazard": "Report Hazard",
+      "findShelter": "Find Shelter",
+      "volunteer": "Volunteer",
+      "myTrainings": "My Trainings"
+    }
+  },
+  "profilePage": {
+    "title": "My Profile",
+    "userFallback": "User",
+    "adminBadge": "Admin",
+    "notAvailable": "N/A",
+    "emailLocked": "Email cannot be changed",
+    "fields": {
+      "displayName": "Display Name",
+      "email": "Email",
+      "role": "Role",
+      "memberSince": "Member Since"
+    },
+    "placeholders": {
+      "displayName": "Your display name"
+    },
+    "roles": {
+      "admin": "Administrator",
+      "user": "User"
+    },
+    "actions": {
+      "saving": "Saving...",
+      "saved": "Saved!",
+      "saveChanges": "Save Changes"
+    }
+  },
+  "dashboardPreview": {
+    "realTimeData": "Real-Time Data",
+    "title": "Your Personal Safety Dashboard",
+    "description": "Real-time flood monitoring with data from your exact location.",
+    "lastUpdate": "Last update: {{time}}",
+    "location": "Location: {{name}}",
+    "gettingLocation": "Getting your location...",
+    "updateData": "Update Data",
+    "updating": "Updating...",
+    "riskDescription": {
+      "high": "Immediate action recommended. Monitor alerts closely.",
+      "moderate": "Conditions are changing. Stay alert for updates.",
+      "low": "Current conditions are favorable. Continue monitoring."
+    },
+    "riverLevel": "River level",
+    "rainfall": "Rainfall",
+    "wind": "Wind",
+    "activeAlerts": "Active Alerts",
+    "alertCount": "{{count}} active",
+    "riskZone": "Risk Zone {{level}}",
+    "yourArea": "Your area",
+    "coordinates": "Coordinates",
+    "realtimeData": "Real-time data from monitoring APIs",
+    "realTimeWeather": "Real-Time Weather",
+    "live": "Live",
+    "humidity": "Humidity",
+    "pressure": "Pressure",
+    "rain": "Rain",
+    "loadingWeather": "Loading weather data...",
+    "quickActions": "Quick Actions",
+    "evacuationRoutes": "Evacuation Routes",
+    "findShelters": "Find Shelters",
+    "emergencyContacts": "Emergency Contacts",
+    "emergencySOS": "Emergency SOS",
+    "recentActivity": "Recent Activity",
+    "riskAssessment": "Risk Assessment",
+    "riskAssessmentText": "{{level}} Level calculated - {{time}}",
+    "weatherUpdate": "Weather Update",
+    "dataUpdated": "Data updated - {{time}}",
+    "locationTracking": "Location Tracking",
+    "gpsActive": "GPS active - {{name}}",
+    "accessDashboard": "Access Full Dashboard",
+    "startVRTraining": "Start VR Training",
+    "dataSource": "Real-time data from OpenWeatherMap & Open-Meteo APIs â€¢ Updates every 2 minutes",
+    "modal": {
+      "shelters": "Nearby Safe Locations",
+      "contacts": "Emergency Contacts",
+      "sos": "Emergency SOS",
+      "map": "Internal Safety Map",
+      "sheltersText": "These locations are pulled live from OpenStreetMap near {{name}}.",
+      "searchingShelters": "Searching nearby shelters and emergency facilities...",
+      "unnamedLocation": "Unnamed emergency location",
+      "showRoute": "Show Internal Route",
+      "noShelters": "No nearby shelters were found yet. You can still inspect your area inside the live map.",
+      "openMap": "Open Internal Map",
+      "showingRoute": "Showing an internal route to {{name}}.",
+      "selectedShelter": "the selected shelter",
+      "showingFloodArea": "Showing the live flood area and nearby shelters inside the platform.",
+      "immediateEmergency": "Immediate emergency",
+      "callEmergency": "If there is immediate danger, call your local emergency services now.",
+      "call112": "Call 112",
+      "call911": "Call 911",
+      "tsbiChannels": "HydroBeacon response channels",
+      "email": "Email",
+      "hazardReport": "Hazard report",
+      "openHazardReport": "Open hazard reporting page",
+      "preparingSOS": "Preparing your SOS details...",
+      "callEmergencyServices": "Call Emergency Services",
+      "shareSOS": "Share SOS Details",
+      "emailSOS": "Email SOS",
+      "emailSubject": "Emergency SOS"
+    },
+    "sos": {
+      "title": "Emergency SOS from HydroBeacon",
+      "riskLevel": "Risk level: {{level}} ({{percentage}}%)",
+      "location": "Location: {{name}}",
+      "coordinates": "Coordinates: {{lat}}, {{lon}}",
+      "instruction": "Open the HydroBeacon live map for route guidance and nearby shelters."
+    },
+    "geolocation": {
+      "notSupported": "Your browser does not support geolocation",
+      "permissionDenied": "Location permission denied. Please allow location access in your browser settings.",
+      "positionUnavailable": "Location information unavailable.",
+      "timeout": "Timeout while trying to get location.",
+      "unknown": "Unknown error getting location.",
+      "approximateLocation": "Approximate Location",
+      "yourLocation": "Your Location",
+      "couldNotGetLocation": "Could not get your location"
+    }
+  },
+  "aboutUs": {
+    "title": "About HydroBeacon",
+    "mission": "Our Mission",
+    "missionDescription": "To empower communities with real-time flood intelligence and emergency response training, saving lives and protecting critical infrastructure.",
+    "vision": "Our Vision",
+    "visionDescription": "A world where advanced technology and community collaboration ensure no one is caught unprepared by flood disasters.",
+    "coreTeam": "Core Team",
+    "fullTeam": "Full Team",
+    "showMore": "Show Full Team",
+    "showLess": "Show Less",
+    "teamDescription": "Visionary leader with expertise in product design and strategic planning for emergency response solutions."
+  },
+  "aboutUsPage": {
+    "hero": {
+      "alt": "HydroBeacon mission",
+      "title": "About HydroBeacon",
+      "description": "Protecting communities through advanced flood detection, real-time alerts, and innovative emergency response training."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "logoAlt": "HydroBeacon Logo",
+      "paragraph1": "HydroBeacon was founded in 2024 with a clear mission: to revolutionize how communities prepare for, respond to, and recover from flood disasters. We combine cutting-edge technology with practical emergency response strategies to save lives and protect property.",
+      "paragraph2": "Our team of experts in meteorology, emergency management, artificial intelligence, and virtual reality training work together to create the most comprehensive flood safety platform available today."
+    },
+    "impact": {
+      "title": "Our Expected Impact",
+      "stats": {
+        "livesToProtect": "Lives to Protect",
+        "communitiesToServe": "Communities to Serve",
+        "targetAlertAccuracy": "Target Alert Accuracy",
+        "plannedMonitoring": "Planned Monitoring"
+      }
+    },
+    "values": {
+      "title": "Our Core Values",
+      "items": {
+        "safetyFirst": {
+          "title": "Safety First",
+          "text": "We prioritize the safety and well-being of communities above all else, ensuring our technology and training programs meet the highest standards."
+        },
+        "excellence": {
+          "title": "Excellence",
+          "text": "We strive for excellence in everything we do, from the accuracy of our alert systems to the quality of our training programs."
+        },
+        "communityFocused": {
+          "title": "Community Focused",
+          "text": "We design our solutions with real people in mind, creating tools that are accessible and effective for everyone in the community."
+        },
+        "timeliness": {
+          "title": "Timeliness",
+          "text": "In emergency situations, every second counts. Our systems are designed to provide the fastest possible alerts and response guidance."
+        },
+        "globalPerspective": {
+          "title": "Global Perspective",
+          "text": "Flood disasters affect communities worldwide. We develop solutions that can be adapted to different regions and environmental conditions."
+        },
+        "dataDriven": {
+          "title": "Data-Driven",
+          "text": "We use advanced data analysis and AI to continuously improve our prediction models and emergency response recommendations."
+        }
+      }
+    },
+    "team": {
+      "title": "Our Leadership Team",
+      "exploreButton": "Explore Our Team",
+      "showLess": "Show Less",
+      "core": {
+        "aswathy": {
+          "position": "Product Designer & CEO",
+          "description": "Visionary leader with expertise in product design and strategic planning for emergency response solutions."
+        },
+        "francis": {
+          "position": "Associate Product Head",
+          "description": "Community organizer with extensive experience in disaster recovery and resilience building."
+        },
+        "joseph": {
+          "position": "Product Head",
+          "description": "AI and machine learning expert specializing in predictive modeling for natural disasters."
+        }
+      },
+      "full": {
+        "dinis": {
+          "position": "Developer Head",
+          "description": "Lead developer focused on building robust and scalable emergency response platforms."
+        },
+        "vaishnavi": {
+          "position": "UX/UI Designer",
+          "description": "Expert in creating intuitive and accessible interfaces for emergency response applications."
+        },
+        "viktoria": {
+          "position": "UX Designer",
+          "description": "Specialist in user experience design for crisis management and emergency preparedness tools."
+        },
+        "pooja": {
+          "position": "UX/UI Designer",
+          "description": "Creative designer focused on developing user-friendly interfaces for disaster response systems."
+        },
+        "saee": {
+          "position": "UX Researcher",
+          "description": "Research specialist dedicated to understanding user needs in emergency situations."
+        },
+        "jinesh": {
+          "position": "Content Designer",
+          "description": "Content strategist specializing in clear and effective emergency communication design."
+        }
+      }
+    },
+    "partnersTitle": "Welcoming Partners",
+    "partners": {
+      "items": {
+        "fema": "FEMA",
+        "redCross": "Red Cross",
+        "noaa": "NOAA",
+        "emergencyManagement": "Emergency Management",
+        "weatherService": "Weather Service",
+        "localAuthorities": "Local Authorities"
+      }
+    }
+  },
+  "contactPage": {
+    "hero": {
+      "alt": "Contact HydroBeacon",
+      "title": "Contact Us",
+      "descriptionLine1": "Have questions about our flood safety platform?",
+      "descriptionLine2": "Need custom training for your organization? We're here to help."
+    },
+    "validation": {
+      "nameRequired": "Name is required",
+      "emailRequired": "Email is required",
+      "emailInvalid": "Invalid email address",
+      "subjectRequired": "Subject is required",
+      "messageRequired": "Message is required"
+    },
+    "submitError": "Failed to send your message. Please try again or email us directly at support@hydrobeacon.org",
+    "cards": {
+      "email": {
+        "title": "Email Us",
+        "subtitle": "General inquiries:"
+      },
+      "support": {
+        "title": "Online Support",
+        "platformLabel": "Digital Platform:",
+        "platformValue": "Web-based MVP",
+        "responseLabel": "Response Time:",
+        "responseValue": "24-48 hours via email"
+      },
+      "platform": {
+        "title": "Online Platform",
+        "item1": "Digital MVP Platform",
+        "item2": "Web-based Application",
+        "item3": "Accessible Worldwide",
+        "item4": "Internet Required"
+      },
+      "hours": {
+        "title": "Hours",
+        "weekdays": "Mon-Fri",
+        "weekdaysTime": "9:00 AM - 6:00 PM",
+        "saturday": "Saturday",
+        "saturdayTime": "10:00 AM - 2:00 PM",
+        "sunday": "Sunday",
+        "closed": "Closed"
+      }
+    },
+    "form": {
+      "title": "Send Us a Message",
+      "successTitle": "Message Sent Successfully!",
+      "successSubtitle": "We'll get back to you within 24-48 hours.",
+      "fields": {
+        "name": "Your Name",
+        "email": "Email Address",
+        "phone": "Phone Number (Optional)",
+        "subject": "Subject",
+        "message": "Message"
+      },
+      "placeholders": {
+        "name": "John Doe",
+        "email": "your@email.com",
+        "phone": "(123) 456-7890",
+        "subject": "How can we help you?",
+        "message": "Please provide details about your inquiry..."
+      },
+      "privacyPrefix": "I agree to the",
+      "privacyPolicy": "Privacy Policy",
+      "sending": "Sending...",
+      "sendButton": "Send Message"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "imageAlt": "FAQ Illustration",
+      "items": {
+        "responseTime": {
+          "question": "How quickly can I expect a response to my inquiry?",
+          "answer": "We typically respond to all inquiries within 24-48 business hours."
+        },
+        "onsiteTraining": {
+          "question": "Do you offer on-site training for organizations?",
+          "answer": "Yes, we provide customized on-site training programs for organizations of all sizes."
+        },
+        "scheduleDemo": {
+          "question": "How can I schedule a demo of your VR training platform?",
+          "answer": "You can request a demo through our contact form or by emailing us directly."
+        },
+        "languages": {
+          "question": "Are your resources available in multiple languages?",
+          "answer": "Currently available in English. If you need other languages, please let us know."
+        }
+      }
+    }
+  },
+  "resourcesPage": {
+    "learnMore": "Learn more",
+    "hero": {
+      "alt": "Flood safety resources",
+      "title": "Flood Safety Resources",
+      "description": "Access our comprehensive collection of flood safety guides, training materials, and emergency response resources."
+    },
+    "categories": {
+      "title": "Resource Categories",
+      "items": {
+        "preparedness": {
+          "title": "Flood Preparedness Guides",
+          "description": "Comprehensive guides for individuals, families, and businesses on how to prepare for potential flood events."
+        },
+        "education": {
+          "title": "Educational Materials",
+          "description": "Educational resources for schools, community groups, and organizations to promote flood awareness."
+        },
+        "trainingVideos": {
+          "title": "Training Videos",
+          "description": "Instructional videos on flood safety procedures, evacuation protocols, and emergency response techniques."
+        },
+        "maps": {
+          "title": "Flood Zone Maps",
+          "description": "Interactive maps showing flood risk zones, historical flood data, and evacuation routes for your area."
+        },
+        "checklists": {
+          "title": "Downloadable Checklists",
+          "description": "Printable checklists for emergency kits, evacuation plans, and home flood-proofing measures."
+        },
+        "podcasts": {
+          "title": "Emergency Podcasts",
+          "description": "Audio series featuring expert interviews, survivor stories, and practical flood safety advice."
+        }
+      }
+    },
+    "featured": {
+      "title": "Featured Resources",
+      "items": {
+        "familyPlan": {
+          "title": "Family Emergency Plan Template",
+          "description": "A comprehensive template to help families create their own personalized emergency plan for flood situations. Includes contact information sheets, meeting point designations, and evacuation checklists.",
+          "meta": "PDF - 12 pages"
+        },
+        "completeGuide": {
+          "title": "Flood Safety: The Complete Guide",
+          "description": "Our most comprehensive resource covering all aspects of flood safety, from preparation to recovery. Includes the latest research and best practices from emergency management experts.",
+          "meta": "PDF - 45 pages"
+        },
+        "vrDemo": {
+          "title": "Virtual Reality Training Demo",
+          "description": "Experience our VR flood response training program with this free demo. Learn how to navigate flood waters, identify hazards, and perform basic rescue techniques in a safe, virtual environment.",
+          "meta": "Application - 2.3 GB"
+        },
+        "toolkit": {
+          "title": "Community Resilience Toolkit",
+          "description": "A toolkit designed for community leaders to build flood resilience at the local level. Includes workshop materials, public awareness campaigns, and infrastructure assessment guides.",
+          "meta": "ZIP - 156 MB"
+        }
+      }
+    },
+    "library": {
+      "title": "Resource Library",
+      "columns": {
+        "resourceName": "Resource Name",
+        "type": "Type",
+        "dateAdded": "Date Added",
+        "size": "Size",
+        "action": "Action"
+      },
+      "rows": {
+        "row1": {
+          "name": "Flood Preparedness for Seniors",
+          "type": "PDF Guide",
+          "date": "June 15, 2025"
+        },
+        "row2": {
+          "name": "Pet Safety During Floods",
+          "type": "PDF Guide",
+          "date": "June 10, 2025"
+        },
+        "row3": {
+          "name": "Flood Insurance Explained",
+          "type": "Video",
+          "date": "May 28, 2025"
+        },
+        "row4": {
+          "name": "Home Flood-Proofing Guide",
+          "type": "PDF Guide",
+          "date": "May 22, 2025"
+        },
+        "row5": {
+          "name": "Emergency Communication Plan",
+          "type": "Template",
+          "date": "May 15, 2025"
+        },
+        "row6": {
+          "name": "Water Safety After Floods",
+          "type": "Infographic",
+          "date": "May 10, 2025"
+        }
+      }
+    },
+    "custom": {
+      "title": "Need Custom Resources?",
+      "description": "We can create customized flood safety resources tailored to your community's specific needs, geography, and demographics.",
+      "action": "Request Custom Resources"
+    },
+    "actions": {
+      "requestAccess": "Request Access",
+      "openGuide": "Open Guide",
+      "openDemo": "Open Demo",
+      "requestToolkit": "Request Toolkit",
+      "request": "Request",
+      "open": "Open",
+      "watch": "Watch",
+      "view": "View",
+      "viewAllResources": "View All Resources"
+    }
+  },
+  "communityGuidelinesPage": {
+    "hero": {
+      "title": "Community Guidelines",
+      "description": "Building a safe, supportive, and inclusive community for flood safety and emergency preparedness."
+    },
+    "mission": {
+      "title": "Our Community Mission",
+      "p1": "The HydroBeacon community exists to save lives and protect communities from flood disasters. We are united by our commitment to safety, preparedness, and mutual support during emergencies.",
+      "p2": "These guidelines help ensure our community remains a positive, helpful, and safe space for everyone."
+    },
+    "values": {
+      "title": "Core Values",
+      "safetyFirst": {
+        "title": "Safety First",
+        "text": "Always prioritize safety in discussions and recommendations. Share accurate, verified information."
+      },
+      "mutualSupport": {
+        "title": "Mutual Support",
+        "text": "Help fellow community members with kindness, patience, and understanding."
+      },
+      "inclusivity": {
+        "title": "Inclusivity",
+        "text": "Welcome people from all backgrounds, experiences, and levels of preparedness."
+      },
+      "continuousLearning": {
+        "title": "Continuous Learning",
+        "text": "Share knowledge, learn from others, and stay updated on best practices."
+      }
+    },
+    "standards": {
+      "title": "Community Standards",
+      "doTitle": "Do:",
+      "dontTitle": "Don't:",
+      "doItems": {
+        "1": "Share accurate, helpful information about flood safety",
+        "2": "Be respectful and constructive in all interactions",
+        "3": "Report emergencies to appropriate authorities first",
+        "4": "Verify information before sharing",
+        "5": "Support community members during difficult times",
+        "6": "Follow local emergency protocols and guidelines",
+        "7": "Use appropriate channels for different types of content"
+      },
+      "dontItems": {
+        "1": "Share false or unverified emergency information",
+        "2": "Use offensive, discriminatory, or harmful language",
+        "3": "Spam or post irrelevant content",
+        "4": "Share personal information of others without consent",
+        "5": "Promote commercial products or services inappropriately",
+        "6": "Engage in harassment or bullying behavior",
+        "7": "Ignore or delay reporting actual emergencies"
+      }
+    },
+    "emergency": {
+      "title": "Emergency Communication",
+      "critical": "CRITICAL:",
+      "contactNow": "For immediate life-threatening emergencies, contact emergency services directly:",
+      "servicesLabel": "Emergency Services:",
+      "servicesValue": "911 (US), 112 (EU), or your local emergency number",
+      "hotlineLabel": "HydroBeacon Emergency Hotline:",
+      "nonEmergencyLabel": "Non-Emergency Support:",
+      "note": "Use our community platforms for preparedness discussions, not active emergency response."
+    },
+    "reporting": {
+      "title": "Reporting and Moderation",
+      "intro": "Help us maintain a safe community by reporting:",
+      "items": {
+        "1": "Inappropriate or harmful content",
+        "2": "Misinformation about safety procedures",
+        "3": "Harassment or discriminatory behavior",
+        "4": "Spam or commercial abuse",
+        "5": "Technical issues or security concerns"
+      },
+      "outro": "Our moderation team reviews reports promptly and takes appropriate action to maintain community standards."
+    },
+    "consequences": {
+      "title": "Consequences",
+      "intro": "Violations of these guidelines may result in:",
+      "warningLabel": "Warning:",
+      "warningText": "First-time minor violations",
+      "suspensionLabel": "Temporary Suspension:",
+      "suspensionText": "Repeated or moderate violations",
+      "banLabel": "Permanent Ban:",
+      "banText": "Severe violations or continued misconduct",
+      "legalLabel": "Legal Action:",
+      "legalText": "Criminal activity or threats to safety",
+      "outro": "We aim to be fair and educational in our approach, helping community members learn and improve."
+    },
+    "questions": {
+      "title": "Questions or Concerns",
+      "intro": "If you have questions about these guidelines or need to report an issue:",
+      "communityTeam": "Community Team:",
+      "generalContact": "General Contact:"
+    }
+  },
+  "trainingPage": {
+    "hero": {
+      "alt": "Flood rescue training",
+      "title": "Immersive Flood Preparedness Training",
+      "description": "Experience our cutting-edge AR training modules designed to prepare individuals and communities for flood emergencies."
+    },
+    "videoModal": {
+      "unsupported": "Your browser does not support the video tag.",
+      "description": "Quick preview of our immersive AR training simulations."
+    },
+    "overview": {
+      "title": "Why Choose Our Training?",
+      "description": "HydroBeacon offers advanced flood emergency training, combining realistic simulations with expert-led instruction and hands-on exercises.",
+      "playAriaLabel": "Play training preview video",
+      "previewAlt": "Flood Response AR Training preview",
+      "play": "Play",
+      "previewTitle": "Flood Response AR Training Module",
+      "previewSubtitle": "Click to watch the simulation",
+      "highlights": {
+        "immersiveAr": {
+          "title": "Immersive AR",
+          "text": "Realistic simulations of flood scenarios"
+        },
+        "expertInstructors": {
+          "title": "Expert Instructors",
+          "text": "Led by emergency response professionals"
+        },
+        "locationSpecific": {
+          "title": "Location-Specific",
+          "text": "Customized to your local flood risks"
+        },
+        "certification": {
+          "title": "Certification",
+          "text": "Recognized emergency response credentials"
+        }
+      }
+    },
+    "coursesTitle": "Available Training Courses",
+    "coursesDescription": "Choose a course and enroll â€” our team will contact you with scheduling details.",
+    "enrollNow": "Enroll Now",
+    "customTraining": {
+      "title": "Need Custom Training?",
+      "description": "We offer customized training programs for organizations, schools, businesses, and government agencies. Our team can tailor the content to your specific needs and location.",
+      "action": "Request Custom Training"
+    },
+    "courses": {
+      "1": { "title": "Basic Flood Preparedness", "description": "Essential flood safety for families and individuals.", "level": "Beginner", "duration": "4 hours", "format": "In-person", "startDate": "Starts weekly" },
+      "2": { "title": "Community Response Workshop", "description": "Coordinate neighborhood emergency response teams.", "level": "Intermediate", "duration": "1 day", "format": "Hybrid", "startDate": "Monthly" },
+      "3": { "title": "AR Flood Simulation Lab", "description": "Hands-on AR scenarios for decision-making under pressure.", "level": "Intermediate", "duration": "6 hours", "format": "AR Lab", "startDate": "Bi-weekly" },
+      "4": { "title": "Responder Advanced Operations", "description": "Advanced rescue and communication protocols for teams.", "level": "Advanced", "duration": "2 days", "format": "In-person", "startDate": "Quarterly" },
+      "5": { "title": "School Safety Program", "description": "Preparedness training for educators and school staff.", "level": "Beginner", "duration": "3 hours", "format": "On-site", "startDate": "By request" },
+      "6": { "title": "Business Continuity for Floods", "description": "Protect operations and staff during flood disruption.", "level": "Intermediate", "duration": "5 hours", "format": "Workshop", "startDate": "Monthly" }
+    },
+    "enrollModal": {
+      "title": "Enroll in {{course}}",
+      "fullName": "Full Name",
+      "email": "Email",
+      "phone": "Phone",
+      "cancel": "Cancel",
+      "enroll": "Enroll",
+      "submitting": "Submitting...",
+      "close": "Close",
+      "successTitle": "Enrollment Received!",
+      "successDescription": "We'll contact you with details about the next session.",
+      "submitError": "We could not submit your enrollment right now. Please try again or use the email fallback below.",
+      "emailFallback": "Prefer email? Send enrollment manually",
+      "temporaryUnavailable": "Automatic enrollment is temporarily unavailable. You can use the email fallback below and our team will contact you.",
+      "placeholders": {
+        "name": "Your name",
+        "email": "your@email.com",
+        "phone": "+258..."
+      }
+    },
+    "customModal": {
+      "title": "Request Custom AR Training Solution",
+      "subtitle": "Flood Preparedness â€¢ Tell us what you need",
+      "primaryTrainees": "Primary trainees",
+      "mainFocus": "Main focus (choose up to 2)",
+      "directContact": "Prefer direct contact? Email:",
+      "cancel": "Cancel",
+      "submit": "Submit Request",
+      "sections": {
+        "contact": "1) Contact",
+        "location": "2) Location & Context",
+        "audience": "3) Who is the training for?",
+        "trainingScope": "4) What should the AR training teach?",
+        "technology": "5) Technology",
+        "timeline": "6) Timeline",
+        "biggestChallenge": "7) Biggest challenge"
+      },
+      "select": {
+        "typeOfArea": "Type of area",
+        "groupSize": "Approx. number of people",
+        "usageTiming": "When should this training be used?",
+        "devices": "Devices available",
+        "format": "Preferred training format",
+        "timeline": "When do you need this training?"
+      },
+      "placeholders": {
+        "fullName": "Full name",
+        "organization": "Organization / Department",
+        "roleTitle": "Role / Title",
+        "email": "Email",
+        "phone": "Phone / WhatsApp",
+        "regionCity": "Region / City",
+        "biggestRisk": "What is the biggest risk or challenge you want this training to prevent?"
+      },
+      "areaTypes": {
+        "urban": "Urban",
+        "coastal": "Coastal",
+        "riverBasin": "River basin",
+        "ruralForest": "Rural / Forest",
+        "mixed": "Mixed"
+      },
+      "traineeOptions": {
+        "responders": "Emergency responders",
+        "disasterTeams": "Disaster management teams",
+        "volunteers": "Volunteers",
+        "authorities": "Local authorities",
+        "communityMembers": "Community members"
+      },
+      "focusOptions": {
+        "earlyWarning": "Flood early-warning response",
+        "evacuation": "Evacuation procedures",
+        "rescueFirstAid": "Rescue & first aid",
+        "equipmentUsage": "Equipment usage",
+        "communicationCoordination": "Communication & coordination",
+        "crowdManagement": "Crowd / community management"
+      },
+      "usageOptions": {
+        "beforeSeason": "Before flood season (preparedness)",
+        "duringFlood": "During flood (just-in-time guidance)",
+        "postFlood": "Post-flood recovery"
+      },
+      "deviceOptions": {
+        "mobilePhones": "Mobile phones",
+        "tablets": "Tablets",
+        "arGlasses": "AR glasses",
+        "notSureYet": "Not sure yet"
+      },
+      "formatOptions": {
+        "stepByStep": "AR step-by-step guidance",
+        "simulationScenarios": "AR simulation scenarios",
+        "practiceDrills": "Short practice drills",
+        "combination": "Combination"
+      },
+      "timelineOptions": {
+        "immediately": "Immediately",
+        "withinOneMonth": "Within 1 month",
+        "beforeNextSeason": "Before next flood season",
+        "exploringOptions": "Exploring options"
+      }
+    },
+    "testimonials": {
+      "title": "What Participants Say",
+      "description": "Emergency responders, community leaders, and residents rely on HydroBeacon training to keep their communities safe from flood disasters.",
+      "items": {
+        "1": { "content": "The AR drills felt real and made our team faster during simulations.", "role": "Emergency Coordinator" },
+        "2": { "content": "Clear, practical, and easy to apply in our neighborhood response plan.", "role": "Community Leader" },
+        "3": { "content": "I finally feel confident about evacuation protocols.", "role": "School Administrator" },
+        "4": { "content": "Excellent structure and instructor support throughout the course.", "role": "Volunteer Team Lead" },
+        "5": { "content": "The scenarios matched the real flood risks in our area.", "role": "Municipal Planner" },
+        "6": { "content": "Highly recommended for any local response network.", "role": "Public Safety Officer" }
+      }
+    }
+  },
+  "cookieStatementPage": {
+    "hero": {
+      "title": "Cookie Statement",
+      "description": "Learn how we use cookies and similar technologies to improve your experience on our platform."
+    },
+    "lastUpdatedLabel": "Last updated:",
+    "lastUpdatedValue": "January 2025",
+    "examplesLabel": "Examples:",
+    "whatAreCookies": {
+      "title": "What Are Cookies?",
+      "p1": "Cookies are small text files that are stored on your device when you visit our website. They help us provide you with a better experience by remembering your preferences and enabling certain features.",
+      "p2": "We also use similar technologies like web beacons, pixels, and local storage to enhance our services."
+    },
+    "types": {
+      "title": "Types of Cookies We Use",
+      "essential": {
+        "title": "Essential Cookies",
+        "text": "These cookies are necessary for the website to function properly. They enable core functionality such as security, network management, and accessibility.",
+        "examples": "Authentication, session management, load balancing"
+      },
+      "functional": {
+        "title": "Functional Cookies",
+        "text": "These cookies enable enhanced functionality and personalization, such as remembering your preferences and settings.",
+        "examples": "Language preferences, location settings, alert preferences"
+      },
+      "analytics": {
+        "title": "Analytics Cookies",
+        "text": "These cookies help us understand how visitors interact with our website by collecting and reporting information anonymously.",
+        "examples": "Google Analytics, usage statistics, performance monitoring"
+      },
+      "performance": {
+        "title": "Performance Cookies",
+        "text": "These cookies collect information about how you use our website to help us improve its performance and your experience.",
+        "examples": "Page load times, error tracking, feature usage"
+      }
+    },
+    "howWeUse": {
+      "title": "How We Use Cookies",
+      "intro": "We use cookies to:",
+      "items": {
+        "1": "Keep you signed in to your account",
+        "2": "Remember your flood alert preferences",
+        "3": "Personalize your dashboard and content",
+        "4": "Analyze website traffic and usage patterns",
+        "5": "Improve our services and user experience",
+        "6": "Ensure the security of our platform",
+        "7": "Provide location-based flood alerts"
+      }
+    },
+    "thirdParty": {
+      "title": "Third-Party Services",
+      "intro": "We use trusted third-party services that may set their own cookies:",
+      "items": {
+        "googleAnalytics": {
+          "label": "Google Analytics:",
+          "text": "Website analytics and performance monitoring"
+        },
+        "openStreetMap": {
+          "label": "OpenStreetMap and OSRM:",
+          "text": "Interactive mapping, route rendering, and location services"
+        },
+        "weatherApis": {
+          "label": "Weather APIs:",
+          "text": "Real-time weather and flood data"
+        },
+        "cdn": {
+          "label": "CDN Services:",
+          "text": "Content delivery and performance optimization"
+        }
+      },
+      "outro": "These services have their own privacy policies and cookie practices. We recommend reviewing their policies for more information."
+    },
+    "managing": {
+      "title": "Managing Your Cookie Preferences",
+      "intro": "You have several options for managing cookies:",
+      "browser": {
+        "title": "Browser Settings",
+        "intro": "Most browsers allow you to:",
+        "items": {
+          "1": "View and delete cookies",
+          "2": "Block cookies from specific sites",
+          "3": "Block third-party cookies",
+          "4": "Clear all cookies when you close the browser"
+        }
+      },
+      "ourSettings": {
+        "title": "Our Cookie Settings",
+        "text": "You can manage your cookie preferences through our cookie consent banner or by contacting us directly."
+      },
+      "importantLabel": "Important:",
+      "importantText": "Disabling certain cookies may affect the functionality of our website and your ability to receive critical flood alerts."
+    },
+    "questions": {
+      "title": "Questions About Cookies",
+      "intro": "If you have questions about our use of cookies or need help managing your preferences:",
+      "privacyTeam": "Privacy Team:",
+      "generalContact": "General Contact:"
+    }
+  },
+  "termsOfServicePage": {
+    "hero": {
+      "title": "Terms of Service",
+      "description": "Please read these terms carefully before using our flood safety services and platform."
+    },
+    "lastUpdatedLabel": "Last updated:",
+    "lastUpdatedValue": "January 2025",
+    "acceptance": {
+      "title": "Acceptance of Terms",
+      "text": "By accessing or using HydroBeacon services, you agree to be bound by these Terms of Service and all applicable laws and regulations. If you do not agree with any of these terms, you are prohibited from using our services."
+    },
+    "serviceDescription": {
+      "title": "Service Description",
+      "intro": "HydroBeacon provides:",
+      "items": {
+        "1": "Real-time flood alert notifications",
+        "2": "VR/AR emergency training simulations",
+        "3": "Interactive flood risk mapping",
+        "4": "Emergency response coordination tools",
+        "5": "Educational resources and materials",
+        "6": "Community safety networking features"
+      },
+      "outro": "Our services are designed to enhance flood safety and emergency preparedness but do not replace official emergency services or professional advice."
+    },
+    "userResponsibilities": {
+      "title": "User Responsibilities",
+      "intro": "As a user of our services, you agree to:",
+      "items": {
+        "1": "Provide accurate and current information",
+        "2": "Maintain the security of your account credentials",
+        "3": "Use our services only for lawful purposes",
+        "4": "Respect the rights and safety of other users",
+        "5": "Follow all community guidelines and policies",
+        "6": "Report any technical issues or safety concerns promptly"
+      }
+    },
+    "emergencyDisclaimer": {
+      "title": "Emergency Disclaimer",
+      "importantLabel": "IMPORTANT:",
+      "intro": "HydroBeacon services are supplementary tools and should not be your sole source of emergency information.",
+      "items": {
+        "1": "Always follow official emergency services and local authorities",
+        "2": "In case of immediate danger, call emergency services (911, 112, etc.)",
+        "3": "Our alerts may have delays or technical limitations",
+        "4": "Weather and flood conditions can change rapidly",
+        "5": "Use multiple sources of information for critical decisions"
+      }
+    },
+    "liability": {
+      "title": "Limitation of Liability",
+      "intro": "HydroBeacon provides services \"as is\" without warranties of any kind. We are not liable for:",
+      "items": {
+        "1": "Damages resulting from service interruptions or technical failures",
+        "2": "Accuracy or timeliness of flood alerts and predictions",
+        "3": "Decisions made based on our information or recommendations",
+        "4": "Third-party content or external website links",
+        "5": "Loss of data or unauthorized access to accounts"
+      },
+      "outro": "Your use of our services is at your own risk and discretion."
+    },
+    "privacyData": {
+      "title": "Privacy and Data",
+      "p1": "Your privacy is important to us. Please review our",
+      "privacyPolicyLink": "Privacy Policy",
+      "p1End": "to understand how we collect, use, and protect your information.",
+      "p2": "By using our services, you consent to the collection and use of your information as described in our Privacy Policy."
+    },
+    "contact": {
+      "title": "Contact Us",
+      "intro": "If you have questions about these Terms of Service, please contact us:",
+      "emailLabel": "Email:",
+      "generalContact": "General Contact:"
+    }
+  },
+  "privacyPolicyPage": {
+    "hero": {
+      "title": "Privacy Policy",
+      "description": "Your privacy is important to us. This policy explains how we collect, use, and protect your personal information."
+    },
+    "lastUpdatedLabel": "Last updated:",
+    "lastUpdatedValue": "January 2025",
+    "informationCollected": {
+      "title": "Information We Collect",
+      "intro": "We collect information you provide directly to us, such as when you:",
+      "items": {
+        "1": "Create an account or register for our services",
+        "2": "Subscribe to our flood alert notifications",
+        "3": "Participate in training programs or simulations",
+        "4": "Contact us for support or feedback",
+        "5": "Use our mobile application or website"
+      },
+      "outro": "This may include your name, email address, phone number, location data, and emergency contact information."
+    },
+    "howWeUse": {
+      "title": "How We Use Your Information",
+      "intro": "We use the information we collect to:",
+      "items": {
+        "1": "Provide real-time flood alerts and emergency notifications",
+        "2": "Deliver personalized safety recommendations",
+        "3": "Improve our VR/AR training programs",
+        "4": "Communicate with you about our services",
+        "5": "Analyze usage patterns to enhance our platform",
+        "6": "Comply with legal obligations and emergency response requirements"
+      }
+    },
+    "security": {
+      "title": "Data Protection & Security",
+      "intro": "We implement appropriate technical and organizational measures to protect your personal information:",
+      "items": {
+        "1": "End-to-end encryption for sensitive data transmission",
+        "2": "Secure cloud storage with regular backups",
+        "3": "Access controls and authentication protocols",
+        "4": "Regular security audits and vulnerability assessments",
+        "5": "Staff training on data protection best practices"
+      }
+    },
+    "rights": {
+      "title": "Your Rights",
+      "intro": "You have the right to:",
+      "items": {
+        "1": "Access and review your personal information",
+        "2": "Correct inaccurate or incomplete data",
+        "3": "Delete your account and associated data",
+        "4": "Opt-out of non-essential communications",
+        "5": "Port your data to another service",
+        "6": "Object to certain processing activities"
+      },
+      "contactPrefix": "To exercise these rights, please contact us at"
+    },
+    "contact": {
+      "title": "Contact Us",
+      "intro": "If you have questions about this Privacy Policy or our data practices, please contact us:",
+      "emailLabel": "Email:",
+      "generalContact": "General Contact:"
+    }
+  },
+  "legalContent": {
+    "notFound": "Content not found",
+    "privacyPolicy": {
+      "title": "Privacy Policy",
+      "sections": {
+        "1": {
+          "title": "1. Information We Collect",
+          "intro": "HydroBeacon collects information to provide better services to our users. We collect information in the following ways:",
+          "items": {
+            "1": "Information you give us directly (account registration, contact forms)",
+            "2": "Information we get from your use of our services (location data for emergency alerts)",
+            "3": "Device information (mobile device type, operating system)"
+          }
+        },
+        "2": {
+          "title": "2. How We Use Information",
+          "intro": "We use the information we collect to:",
+          "items": {
+            "1": "Provide real-time flood alerts and emergency notifications",
+            "2": "Improve our flood prediction and warning systems",
+            "3": "Communicate with you about service updates and safety information",
+            "4": "Ensure the security and reliability of our services"
+          }
+        },
+        "3": {
+          "title": "3. Information Sharing",
+          "intro": "We do not sell, trade, or otherwise transfer your personal information to third parties except:",
+          "items": {
+            "1": "With emergency response agencies during active flood events",
+            "2": "When required by law or to protect public safety",
+            "3": "With your explicit consent"
+          }
+        },
+        "4": {
+          "title": "4. Data Security",
+          "text": "We implement appropriate security measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction. This includes encryption of sensitive data and regular security audits."
+        },
+        "5": {
+          "title": "5. Your Rights",
+          "intro": "You have the right to:",
+          "items": {
+            "1": "Access and update your personal information",
+            "2": "Request deletion of your data (subject to emergency service requirements)",
+            "3": "Opt-out of non-emergency communications",
+            "4": "Request a copy of your data"
+          }
+        },
+        "6": {
+          "title": "6. Contact Us",
+          "p1": "If you have any questions about this Privacy Policy, please contact us at:",
+          "email": "Email: support@hydrobeacon.org",
+          "p2": "This policy was last updated on January 1, 2025."
+        }
+      }
+    },
+    "termsOfService": {
+      "title": "Terms of Service",
+      "sections": {
+        "1": {
+          "title": "1. Acceptance of Terms",
+          "text": "By accessing and using HydroBeacon services, you accept and agree to be bound by the terms and provision of this agreement."
+        },
+        "2": {
+          "title": "2. Service Description",
+          "text": "HydroBeacon provides flood monitoring, early warning systems, and emergency response training. Our services are designed to enhance community safety but should not be the sole source of emergency information."
+        },
+        "3": {
+          "title": "3. User Responsibilities",
+          "intro": "Users are responsible for:",
+          "items": {
+            "1": "Providing accurate information during registration",
+            "2": "Maintaining the security of their account credentials",
+            "3": "Using the service in compliance with local laws and regulations",
+            "4": "Following official emergency procedures and local authority guidance"
+          }
+        },
+        "4": {
+          "title": "4. Limitation of Liability",
+          "text": "While we strive for accuracy, HydroBeacon cannot guarantee the completeness or timeliness of all alerts. Users should always follow official emergency guidance from local authorities."
+        }
+      }
+    },
+    "communityGuidelines": {
+      "title": "Community Guidelines",
+      "sections": {
+        "1": {
+          "title": "1. Respectful Communication",
+          "text": "All community members must communicate respectfully and constructively. Harassment, discrimination, or abusive language will not be tolerated."
+        },
+        "2": {
+          "title": "2. Accurate Information",
+          "text": "Share only verified information about flood conditions and emergencies. Spreading false information can endanger lives and will result in account suspension."
+        },
+        "3": {
+          "title": "3. Emergency Protocol",
+          "text": "During active emergencies, prioritize official communications from emergency services. Use community features to support, not replace, official emergency response."
+        }
+      }
+    },
+    "cookieStatement": {
+      "title": "Cookie Statement",
+      "sections": {
+        "1": {
+          "title": "1. What Are Cookies",
+          "text": "Cookies are small text files that are stored on your device when you visit our website. They help us provide you with a better experience and improve our services."
+        },
+        "2": {
+          "title": "2. How We Use Cookies",
+          "intro": "We use cookies to:",
+          "items": {
+            "1": "Remember your preferences and settings",
+            "2": "Analyze website traffic and usage patterns",
+            "3": "Improve website performance and user experience",
+            "4": "Provide personalized content and recommendations"
+          }
+        },
+        "3": {
+          "title": "3. Managing Cookies",
+          "text": "You can control and manage cookies through your browser settings. However, disabling certain cookies may affect the functionality of our website."
+        }
+      }
+    }
+  },
+  "partnerWithUsPage": {
+    "hero": {
+      "title": "Partner With Us",
+      "description": "Join forces with HydroBeacon to create a safer, more resilient world. Together, we can protect more communities from flood disasters."
+    },
+    "whyPartner": {
+      "title": "Why Partner with HydroBeacon?",
+      "description": "Our partnerships create synergies that amplify impact, combining expertise and resources to save more lives and protect more communities.",
+      "cards": {
+        "expandedReach": {
+          "title": "Expanded Reach",
+          "text": "Leverage our network to reach more communities and extend your impact across broader geographic areas."
+        },
+        "sharedExpertise": {
+          "title": "Shared Expertise",
+          "text": "Combine your specialized knowledge with our flood safety expertise to create more effective solutions."
+        },
+        "provenImpact": {
+          "title": "Proven Impact",
+          "text": "Join a platform that has already protected thousands of lives and proven its effectiveness in real emergencies."
+        }
+      }
+    },
+    "partnerTypes": {
+      "title": "Partnership Opportunities",
+      "description": "We would love to work with diverse organizations to create comprehensive flood safety solutions.",
+      "benefitsTitle": "Partnership Benefits:",
+      "items": {
+        "government": {
+          "title": "Government Agencies",
+          "description": "Emergency management offices, local governments, and federal agencies working on disaster preparedness and response.",
+          "benefits": {
+            "1": "Access to real-time flood data",
+            "2": "Integrated emergency response systems",
+            "3": "Community-wide alert distribution",
+            "4": "Training program implementation"
+          }
+        },
+        "education": {
+          "title": "Educational Institutions",
+          "description": "Universities, schools, and research institutions interested in flood safety education and research collaboration.",
+          "benefits": {
+            "1": "Research collaboration opportunities",
+            "2": "Student internship programs",
+            "3": "Educational content development",
+            "4": "Academic publication partnerships"
+          }
+        },
+        "technology": {
+          "title": "Technology Companies",
+          "description": "Tech companies specializing in IoT, AI, VR/AR, or emergency management technologies.",
+          "benefits": {
+            "1": "Technology integration partnerships",
+            "2": "Joint product development",
+            "3": "API access and collaboration",
+            "4": "Innovation lab participation"
+          }
+        },
+        "nonProfit": {
+          "title": "Non-Profit Organizations",
+          "description": "NGOs, community organizations, and humanitarian groups focused on disaster relief and community safety.",
+          "benefits": {
+            "1": "Resource sharing agreements",
+            "2": "Joint community outreach",
+            "3": "Grant collaboration opportunities",
+            "4": "Volunteer program integration"
+          }
+        }
+      }
+    },
+    "levels": {
+      "title": "Partnership Levels",
+      "description": "Choose the partnership level that best fits your organization's needs and capabilities.",
+      "commitmentLabel": "Commitment Level:",
+      "learnMore": "Learn More",
+      "items": {
+        "community": {
+          "level": "Community Partner",
+          "description": "Local organizations and small agencies",
+          "commitment": "Minimal",
+          "features": {
+            "1": "Basic API access",
+            "2": "Community alerts",
+            "3": "Training materials",
+            "4": "Email support"
+          }
+        },
+        "strategic": {
+          "level": "Strategic Partner",
+          "description": "Regional agencies and medium organizations",
+          "commitment": "Moderate",
+          "features": {
+            "1": "Advanced API access",
+            "2": "Custom integrations",
+            "3": "Priority support",
+            "4": "Joint marketing opportunities"
+          }
+        },
+        "enterprise": {
+          "level": "Enterprise Partner",
+          "description": "Large agencies and major organizations",
+          "commitment": "Significant",
+          "features": {
+            "1": "Full platform access",
+            "2": "Custom development",
+            "3": "Dedicated support",
+            "4": "Co-development opportunities"
+          }
+        }
+      }
+    },
+    "impact": {
+      "title": "Expected Partnership Impact",
+      "description": "See the kind of impact we aim to create through strategic partnerships with organizations like yours.",
+      "expectedLabel": "Expected Impact:",
+      "cards": {
+        "government": {
+          "title": "Emergency Management Agencies",
+          "subtitle": "Potential Government Partnership",
+          "quote": "\"Through partnerships with emergency management agencies, we aim to revolutionize flood response capabilities. Our goal is to help evacuate residents hours earlier than currently possible, potentially saving thousands of lives.\"",
+          "expected": "Faster evacuations, enhanced emergency response, lives protected"
+        },
+        "research": {
+          "title": "Research Institutions",
+          "subtitle": "Potential Academic Partnership",
+          "quote": "\"We aspire to collaborate with leading research institutions to accelerate research in flood prediction algorithms. Together, we aim to improve prediction accuracy and reduce false alerts significantly.\"",
+          "expected": "Improved prediction accuracy, fewer false alerts, advanced research"
+        }
+      }
+    },
+    "steps": {
+      "title": "How to Become a Partner",
+      "description": "Ready to join our mission? Here's how to start a partnership with HydroBeacon.",
+      "items": {
+        "1": {
+          "title": "Initial Contact",
+          "description": "Reach out to our partnerships team to discuss your organization's goals and needs."
+        },
+        "2": {
+          "title": "Needs Assessment",
+          "description": "We'll work together to identify the best partnership structure and collaboration opportunities."
+        },
+        "3": {
+          "title": "Agreement",
+          "description": "Formalize the partnership with clear goals, responsibilities, and success metrics."
+        },
+        "4": {
+          "title": "Launch",
+          "description": "Begin collaboration with full support from our partnerships and technical teams."
+        }
+      }
+    },
+    "cta": {
+      "title": "Ready to Partner with Us?",
+      "description": "Let's discuss how we can work together to create a safer, more resilient world.",
+      "action": "Start Partnership Discussion"
+    },
+    "form": {
+      "title": "Partnership Discussion",
+      "description": "We're excited to explore partnership opportunities with your organization. Please fill out the form below and we'll get back to you soon.",
+      "fields": {
+        "name": "Your Name",
+        "email": "Email Address",
+        "organization": "Organization",
+        "message": "Message"
+      },
+      "placeholders": {
+        "name": "John Doe",
+        "email": "john@organization.com",
+        "organization": "Your Organization Name",
+        "message": "Tell us about your organization and how you'd like to partner with HydroBeacon..."
+      },
+      "cancel": "Cancel",
+      "sending": "Sending...",
+      "send": "Send Message",
+      "status": {
+        "success": "Thank you for your interest. Our partnerships team will contact you soon.",
+        "error": "We could not send your message right now. Please try again."
+      }
+    }
+  },
+  "volunteerOpportunitiesPage": {
+    "hero": {
+      "title": "Volunteer Opportunities",
+      "description": "Join our mission to protect communities from flood disasters. Your skills and passion can make a real difference in saving lives."
+    },
+    "whyVolunteer": {
+      "title": "Why Volunteer with HydroBeacon?",
+      "description": "Make a meaningful impact while developing new skills and connecting with like-minded individuals committed to community safety.",
+      "cards": {
+        "saveLives": {
+          "title": "Save Lives",
+          "text": "Directly contribute to protecting communities and saving lives during flood emergencies."
+        },
+        "developSkills": {
+          "title": "Develop Skills",
+          "text": "Gain experience in emergency management, technology, and community outreach."
+        },
+        "buildCommunity": {
+          "title": "Build Community",
+          "text": "Connect with passionate individuals and build lasting relationships in the safety community."
+        }
+      }
+    },
+    "opportunities": {
+      "title": "Current Opportunities",
+      "description": "Find the perfect volunteer role that matches your skills and availability.",
+      "prioritySuffix": "Priority",
+      "requirementsLabel": "Requirements:",
+      "applyNow": "Apply Now",
+      "urgency": {
+        "high": "High",
+        "medium": "Medium",
+        "low": "Low"
+      },
+      "items": {
+        "1": {
+          "title": "Emergency Response Coordinator",
+          "location": "Remote/On-site",
+          "time": "10-15 hours/week",
+          "description": "Help coordinate emergency response efforts during flood events. Assist with communication between emergency services and affected communities.",
+          "requirements": {
+            "1": "Emergency management experience preferred",
+            "2": "Strong communication skills",
+            "3": "Available during emergencies"
+          }
+        },
+        "2": {
+          "title": "VR/AR Training Developer",
+          "location": "Remote",
+          "time": "5-10 hours/week",
+          "description": "Create immersive training simulations for flood emergency preparedness. Help develop realistic scenarios and educational content.",
+          "requirements": {
+            "1": "Experience with VR/AR development",
+            "2": "Unity or Unreal Engine knowledge",
+            "3": "Interest in emergency preparedness"
+          }
+        },
+        "3": {
+          "title": "Community Outreach Specialist",
+          "location": "Local communities",
+          "time": "8-12 hours/week",
+          "description": "Engage with local communities to promote flood safety awareness and HydroBeacon services. Organize workshops and educational events.",
+          "requirements": {
+            "1": "Strong interpersonal skills",
+            "2": "Public speaking experience",
+            "3": "Passion for community safety"
+          }
+        },
+        "4": {
+          "title": "Data Analyst",
+          "location": "Remote",
+          "time": "6-8 hours/week",
+          "description": "Analyze flood data patterns and help improve our prediction algorithms. Work with weather data and emergency response metrics.",
+          "requirements": {
+            "1": "Data analysis experience",
+            "2": "Python/R programming",
+            "3": "Statistics background"
+          }
+        },
+        "5": {
+          "title": "Content Creator",
+          "location": "Remote",
+          "time": "4-6 hours/week",
+          "description": "Create educational content about flood safety, emergency preparedness, and community resilience for our blog and social media.",
+          "requirements": {
+            "1": "Writing/video production skills",
+            "2": "Knowledge of emergency preparedness",
+            "3": "Social media experience"
+          }
+        },
+        "6": {
+          "title": "Technical Support Volunteer",
+          "location": "Remote",
+          "time": "5-8 hours/week",
+          "description": "Provide technical support to users of our platform. Help troubleshoot issues and improve user experience.",
+          "requirements": {
+            "1": "Technical troubleshooting skills",
+            "2": "Customer service experience",
+            "3": "Patience and empathy"
+          }
+        }
+      }
+    },
+    "howToApply": {
+      "title": "How to Apply",
+      "description": "Ready to make a difference? Here's how to get started with volunteering at HydroBeacon.",
+      "steps": {
+        "1": {
+          "title": "Choose Your Role",
+          "text": "Review the opportunities above and select the role that best matches your skills and interests."
+        },
+        "2": {
+          "title": "Submit Application",
+          "text": "Fill out our volunteer application form with your background, experience, and availability."
+        },
+        "3": {
+          "title": "Start Contributing",
+          "text": "After a brief orientation, you'll be ready to start making a difference in flood safety and emergency preparedness."
+        }
+      }
+    },
+    "contact": {
+      "title": "Questions About Volunteering?",
+      "description": "We're here to help you find the perfect volunteer opportunity and answer any questions you may have.",
+      "coordinatorLabel": "Volunteer Coordinator",
+      "coordinatorName": "Janesh Kumar",
+      "generalContactLabel": "General Contact"
+    },
+    "modal": {
+      "submittedTitle": "Application Sent!",
+      "applyTitle": "Apply: {{role}}",
+      "submittedMessage": "Thank you for applying! We'll review your application and get back to you soon.",
+      "close": "Close",
+      "submitting": "Submitting...",
+      "submit": "Submit Application",
+      "fields": {
+        "fullName": "Full Name",
+        "email": "Email",
+        "phone": "Phone",
+        "experience": "Relevant Experience",
+        "availability": "Availability",
+        "motivation": "Why do you want to volunteer?"
+      },
+      "placeholders": {
+        "fullName": "Your full name",
+        "email": "you@example.com",
+        "phone": "Your phone number",
+        "experience": "Briefly describe relevant experience...",
+        "availability": "e.g. 10 hours/week, weekends",
+        "motivation": "Tell us about your motivation..."
+      }
+    }
+  },
+  "signUpPage": {
+    "createAccount": "Create Account",
+    "joinTsbi": "Join HydroBeacon",
+    "badges": {
+      "secureEnrollment": "Secure Enrollment"
+    },
+    "roleHeadlines": {
+      "responder": "Operational Access",
+      "helper": "Volunteer Access",
+      "resident": "Community Access"
+    },
+    "roleDescriptions": {
+      "responder": "Join authorized emergency response personnel. Restricted operational dashboards with audit trails and governance features.",
+      "helper": "Support community resilience. Access volunteer coordination tools and training resources.",
+      "resident": "Empower your community. Access real-time flood alerts and emergency resources."
+    },
+    "roles": {
+      "localResident": "Local Resident",
+      "emergencyResponder": "Emergency Responder",
+      "volunteerHelper": "Volunteer / Helper"
+    },
+    "accessLevels": {
+      "restrictedOperational": "Restricted Operational",
+      "community": "Community"
+    },
+    "info": {
+      "accountRole": "Account Role",
+      "accessLevel": "Access Level",
+      "verification": "Verification",
+      "verificationValue": "Email + Password Required"
+    },
+    "responderNotice": {
+      "title": "Restricted Operational Access",
+      "description": "This account will be configured for authorized government officials and emergency response personnel. Operational activities are logged and auditable."
+    },
+    "form": {
+      "fullName": "Full Name",
+      "email": "Email Address",
+      "organization": "Organization / NGO (Optional)",
+      "skills": "Skills / Capabilities",
+      "availability": "Availability",
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "creatingAccount": "Creating account...",
+      "placeholders": {
+        "fullName": "John Doe",
+        "email": "you@example.com",
+        "organization": "Community NGO / Local initiative",
+        "password": "Create a strong password",
+        "confirmPassword": "Re-enter your password"
+      }
+    },
+    "passwordChecks": {
+      "length": "8+ characters",
+      "uppercase": "Uppercase letter",
+      "lowercase": "Lowercase letter",
+      "number": "Number"
+    },
+    "helperOptions": {
+      "skills": {
+        "firstAid": "First Aid",
+        "driving": "Driving",
+        "translation": "Translation",
+        "cooking": "Cooking",
+        "logistics": "Logistics",
+        "medical": "Medical",
+        "childcare": "Childcare"
+      },
+      "availability": {
+        "weekdays": "Weekdays",
+        "weekends": "Weekends",
+        "onCall": "On-call"
+      }
+    },
+    "legal": {
+      "prefix": "By creating an account, you agree to our",
+      "terms": "Terms of Service",
+      "and": "and",
+      "privacy": "Privacy Policy"
+    },
+    "haveAccount": "Already have an account?",
+    "signIn": "Sign in",
+    "changeRole": "â† Change role",
+    "errors": {
+      "fillAllFields": "Please fill in all fields.",
+      "passwordRequirements": "Please meet all password requirements.",
+      "passwordMismatch": "Passwords do not match.",
+      "selectSkill": "Select at least one volunteer skill/capability.",
+      "selectAvailability": "Select at least one availability option.",
+      "emailExists": "An account with this email already exists.",
+      "weakPassword": "Password is too weak. Use at least 8 characters.",
+      "invalidEmail": "Invalid email address.",
+      "signInNotEnabled": "Email/Password sign-in is not enabled. Please enable it in Firebase Console -> Authentication -> Sign-in method.",
+      "networkError": "Network error. Please check your internet connection.",
+      "generic": "An error occurred. Please try again."
+    }
+  },
+  "reportHazardPage": {
+    "hero": {
+      "title": "Report a Hazard",
+      "description": "Help protect your community by reporting flood hazards, infrastructure issues, or safety concerns immediately."
+    },
+    "hazardTypes": {
+      "1": "Flooding in progress",
+      "2": "Rising water levels",
+      "3": "Blocked drainage",
+      "4": "Dam/levee concern",
+      "5": "Bridge/road closure",
+      "6": "Debris blocking waterway",
+      "7": "Water contamination",
+      "8": "Infrastructure damage",
+      "9": "Other"
+    },
+    "severity": {
+      "low": "Low - Minor concern, no immediate danger",
+      "medium": "Medium - Developing situation, monitoring needed",
+      "high": "High - Serious concern, action needed soon",
+      "critical": "Critical - Immediate danger, emergency response needed"
+    },
+    "success": {
+      "title": "Report Submitted",
+      "description": "Thank you for reporting this hazard. Our emergency response team has been notified and will investigate immediately.",
+      "reportIdLabel": "Report ID:",
+      "reportAnother": "Report Another Hazard"
+    },
+    "emergencyNotice": {
+      "title": "Life-Threatening Emergency?",
+      "prefix": "If you are in immediate danger, call",
+      "suffix": "or your local emergency services first, then report here."
+    },
+    "form": {
+      "hazardTypeLabel": "What type of hazard are you reporting?",
+      "locationLabel": "Where is this hazard located?",
+      "locationPlaceholder": "Provide as much detail as possible: street address, landmarks, GPS coordinates, etc.",
+      "locationHelp": "Be as specific as possible to help emergency responders locate the hazard quickly.",
+      "descriptionLabel": "Describe the hazard in detail",
+      "descriptionPlaceholder": "What exactly did you observe? How long has this been happening? Are people or property at risk?",
+      "urgencyLabel": "How urgent is this situation?",
+      "contactLabel": "Your contact information (optional but recommended)",
+      "contactPlaceholder": "Phone number or email - in case we need to follow up",
+      "contactHelp": "Providing contact info helps us get additional details if needed and update you on the response.",
+      "photosLabel": "Photos (if safe to take)",
+      "photosHelp": "Photos help emergency responders understand the situation better. Only take photos if it's safe to do so.",
+      "submitting": "Submitting...",
+      "submit": "Submit Hazard Report"
+    },
+    "nextSteps": {
+      "title": "What happens next?",
+      "items": {
+        "1": "Your report is immediately sent to our emergency response team",
+        "2": "We verify the information and assess the threat level",
+        "3": "Appropriate authorities are notified based on severity",
+        "4": "Community alerts are issued if necessary",
+        "5": "You'll receive updates if you provided contact information"
+      }
+    },
+    "contacts": {
+      "title": "Emergency Contacts",
+      "lifeThreatening": "Life-threatening emergency:",
+      "nonEmergency": "Non-emergency reports:"
+    }
+  },
+  "adminBlogPage": {
+    "title": "Blog Management",
+    "postsCountLabel": "posts",
+    "newPost": "New Post",
+    "notAvailable": "N/A",
+    "confirmDelete": "Are you sure you want to delete this post?",
+    "emptyState": "No blog posts yet. Click \"New Post\" to create your first post.",
+    "byAuthor": "By {{author}}",
+    "status": {
+      "published": "Published",
+      "draft": "Draft"
+    },
+    "actions": {
+      "publish": "Publish",
+      "unpublish": "Unpublish"
+    },
+    "messages": {
+      "updated": "Post updated successfully.",
+      "published": "Post published successfully.",
+      "storageNotConfigured": "Image upload is unavailable because Firebase Storage is not configured. Paste an external image URL instead.",
+      "saveFailed": "Failed to save post. Please try again."
+    },
+    "form": {
+      "createPost": "Create New Post",
+      "editPost": "Edit Post",
+      "saving": "Saving...",
+      "updatePost": "Update Post",
+      "publishPost": "Publish Post",
+      "cancel": "Cancel",
+      "coverImageHelp": "Optional. If upload is unavailable, use the Image URL field below.",
+      "fields": {
+        "title": "Title",
+        "category": "Category",
+        "author": "Author",
+        "coverImage": "Cover Image",
+        "imageUrl": "Image URL",
+        "excerpt": "Excerpt",
+        "content": "Content"
+      },
+      "placeholders": {
+        "title": "Post title",
+        "category": "e.g. Flood Safety, News",
+        "author": "Author name",
+        "imageUrl": "https://...",
+        "excerpt": "Brief summary shown in blog listing...",
+        "content": "Write your blog post content..."
+      }
+    }
+  },
+  "adminUsersPage": {
+    "title": "User Management",
+    "registeredUsers": "registered users",
+    "notAvailable": "N/A",
+    "stats": {
+      "totalUsers": "Total Users",
+      "admins": "Admins",
+      "regularUsers": "Regular Users"
+    },
+    "table": {
+      "user": "User",
+      "email": "Email",
+      "role": "Role",
+      "joined": "Joined",
+      "actions": "Actions",
+      "noName": "No name"
+    },
+    "roles": {
+      "admin": "Admin",
+      "user": "User"
+    }
+  },
+  "helperTutorialPage": {
+    "title": "Volunteer / Helper Onboarding",
+    "subtitle": "You are joining the community support layer: logistics, outreach, and shelter support.",
+    "canDo": {
+      "title": "What You Can Do",
+      "items": {
+        "1": "Open Help Requests (non-emergency support)",
+        "2": "Donation drives and supply coordination",
+        "3": "Shelter support shifts and local outreach",
+        "4": "Training center and volunteer certification track"
+      }
+    },
+    "boundaries": {
+      "title": "Safety Boundaries",
+      "items": {
+        "1": "No SOS dispatch or rescue mission acceptance",
+        "2": "No unrestricted access to resident personal data",
+        "3": "No official evacuation route authority",
+        "4": "No direct emergency responder command channel"
+      }
+    },
+    "confirmation": "By continuing, you confirm you understand helper responsibilities and role boundaries.",
+    "settingUp": "Setting up...",
+    "continue": "Continue to Helper Dashboard"
+  },
+  "trainingScenario": {
+    "ui": {
+      "emergencyTraining": "Emergency Training",
+      "chooseScenario": "Choose a scenario to practice your emergency response skills:",
+      "questions": "questions",
+      "question": "Question",
+      "close": "Close",
+      "seeResults": "See Results",
+      "nextQuestion": "Next Question",
+      "results": {
+        "excellent": "Excellent!",
+        "goodJob": "Good Job!",
+        "keepPracticing": "Keep Practicing!",
+        "youScored": "You scored",
+        "tryAgain": "Try Again",
+        "otherScenarios": "Other Scenarios"
+      }
+    },
+    "scenarios": {
+      "flashFlood": {
+        "title": "Flash Flood Evacuation",
+        "description": "Learn the correct steps to evacuate during a flash flood.",
+        "steps": {
+          "1": {
+            "question": "You receive a flash flood warning for your area. What should you do first?",
+            "options": {
+              "1": "Go outside to check the water level",
+              "2": "Gather emergency supplies and important documents",
+              "3": "Wait to see if water reaches your door",
+              "4": "Turn on the TV and relax"
+            },
+            "explanation": "Immediately gather emergency supplies (water, first-aid kit, flashlight) and important documents (ID, insurance). Time is critical in flash floods."
+          },
+          "2": {
+            "question": "Your area is flooding. Which is the safest evacuation route?",
+            "options": {
+              "1": "Drive through a road with flowing water",
+              "2": "Walk along the river bank",
+              "3": "Move to higher ground using roads away from water",
+              "4": "Go to the basement for shelter"
+            },
+            "explanation": "Always move to higher ground. Never drive through floodwater (6 inches can knock you down, 2 feet can float a car). Never go to basements during floods."
+          },
+          "3": {
+            "question": "You encounter a flooded road. What should you do?",
+            "options": {
+              "1": "Drive through slowly",
+              "2": "Turn around, don't drown - find an alternate route",
+              "3": "Wait for the water to recede",
+              "4": "Speed through quickly"
+            },
+            "explanation": "Turn around, don't drown. Just 12 inches of moving water can carry away a small car. Always find an alternate route to higher ground."
+          },
+          "4": {
+            "question": "You reach a safe shelter. What should you do first?",
+            "options": {
+              "1": "Go back to check on your house",
+              "2": "Register at the shelter and inform family you're safe",
+              "3": "Leave immediately to find a better place",
+              "4": "Ignore shelter staff instructions"
+            },
+            "explanation": "Register at the shelter so rescue services know you're safe. Contact family members. Follow shelter staff instructions and stay until authorities say it's safe to leave."
+          }
+        }
+      },
+      "emergencyShelter": {
+        "title": "Emergency Shelter",
+        "description": "Learn how to set up and manage an emergency shelter.",
+        "steps": {
+          "1": {
+            "question": "What is the most important item to have in an emergency kit?",
+            "options": {
+              "1": "A smartphone charger",
+              "2": "Clean drinking water (1 gallon per person per day)",
+              "3": "A change of clothes",
+              "4": "A deck of cards for entertainment"
+            },
+            "explanation": "Clean water is the #1 survival priority. Store at least 3 days of water (1 gallon per person per day). You can survive weeks without food, but only 3 days without water."
+          },
+          "2": {
+            "question": "How should you prepare your home before a flood arrives?",
+            "options": {
+              "1": "Open all windows to let water flow through",
+              "2": "Move valuables to upper floors and seal lower openings",
+              "3": "Nothing - modern houses are flood-proof",
+              "4": "Turn on all electronics to keep them charged"
+            },
+            "explanation": "Move important items and electronics to upper floors. Use sandbags or barriers at doors. Turn off electricity at the breaker if flooding is imminent."
+          },
+          "3": {
+            "question": "After the flood, when is it safe to return home?",
+            "options": {
+              "1": "As soon as the water recedes from the street",
+              "2": "When local authorities officially declare it safe",
+              "3": "After 24 hours regardless of conditions",
+              "4": "When your neighbors go back"
+            },
+            "explanation": "Only return when authorities declare it safe. Floodwater can hide dangers (contamination, structural damage, downed power lines). Always have the building inspected first."
+          },
+          "4": {
+            "question": "You find standing water in your home after a flood. What is the main danger?",
+            "options": {
+              "1": "Ruined furniture",
+              "2": "Electrical hazards and contaminated water",
+              "3": "Wet carpets",
+              "4": "Cold temperatures"
+            },
+            "explanation": "Floodwater is often contaminated with sewage, chemicals, and debris. Electrical systems submerged in water create electrocution risk. Never touch electrical equipment in standing water."
+          }
+        }
+      }
+    }
+  },
+  "footer": {
+    "description": "HydroBeacon provides real-time flood alerts, VR/AR training, and emergency response tools to keep communities safe from flood disasters.",
+    "followUs": "Follow Us",
+    "quickLinks": "Quick Links",
+    "legal": "Legal",
+    "version": "Version",
+    "explore": "Explore",
+    "resources": "Resources",
+    "getInvolved": "Get Involved",
+    "emailUs": "Email us",
+    "copyright": "Â© 2025 HydroBeacon. All rights reserved.",
+    "tagline": "Protecting communities through advanced technology",
+    "links": {
+      "privacyPolicy": "Privacy Policy",
+      "termsOfService": "Terms of Service",
+      "communityGuidelines": "Community Guidelines",
+      "cookieStatement": "Cookie Statement",
+      "home": "Home",
+      "aboutUs": "About us",
+      "trainingPrograms": "Training programs",
+      "blogNews": "Blog & news",
+      "resourceLibrary": "Resource library",
+      "safetyDashboard": "Safety dashboard",
+      "trainingDemo": "Training demo",
+      "requestMaterials": "Request materials",
+      "volunteerOpportunities": "Volunteer opportunities",
+      "partnerWithUs": "Partner with us",
+      "reportHazard": "Report a hazard",
+      "feedbackForm": "Feedback form"
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "description": "Get in touch with HydroBeacon team",
+    "name": "Your Name",
+    "email": "Your Email",
+    "subject": "Subject",
+    "message": "Message",
+    "sendMessage": "Send Message",
+    "thankYou": "Thank you for reaching out!"
+  },
+  "training": {
+    "title": "Training Programs",
+    "description": "Comprehensive flood safety and preparedness training",
+    "enrollNow": "Enroll Now",
+    "courseDescription": "Enroll in this comprehensive training course"
+  },
+  "blog": {
+    "title": "Blog",
+    "readMore": "Read More",
+    "publishedOn": "Published on",
+    "noArticles": "No articles available"
+  },
+  "common": {
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address",
+    "city": "City",
+    "state": "State",
+    "zipCode": "Zip Code",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "warning": "Warning",
+    "confirm": "Confirm",
+    "noData": "No data available",
+    "selectOption": "Select an option",
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact",
+    "learnMore": "Learn More"
+  },
+  "errorBoundary": {
+    "title": "Something went wrong",
+    "genericMessage": "An unexpected error occurred. Please try again.",
+    "goHome": "Go to Home"
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

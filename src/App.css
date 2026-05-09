@@ -1,0 +1,895 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&family=Arial:wght@400;700&display=swap');
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+}
+
+:root {
+  --radius: 0.625rem;
+  --background: oklch(1 0 0);
+  --foreground: oklch(0.145 0 0);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.145 0 0);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.145 0 0);
+  /* Primary colors from design rules */
+  --primary: #005F86; /* Deep beacon blue */
+  --primary-foreground: #FFFFFF;
+  --accent: #FF9F1C; /* Alert amber */
+  --accent-foreground: #FFFFFF;
+  /* Secondary colors from design rules */
+  --secondary-light: #CDECF7; /* Mist blue */
+  --secondary-medium: #72C6E0; /* Tide blue */
+  --secondary: #CDECF7;
+  --secondary-foreground: #005F86;
+  --muted: #B5B5B5;
+  --muted-foreground: #808080;
+  /* Neutral colors from design rules */
+  --neutral-black: #000000;
+  --neutral-dark-gray: #808080;
+  --neutral-light-gray: #B5B5B5;
+  --neutral-white: #FFFFFF;
+  --destructive: oklch(0.577 0.245 27.325);
+  --border: #B5B5B5;
+  --input: #B5B5B5;
+  --ring: oklch(0.708 0 0);
+  --chart-1: oklch(0.646 0.222 41.116);
+  --chart-2: oklch(0.6 0.118 184.704);
+  --chart-3: oklch(0.398 0.07 227.392);
+  --chart-4: oklch(0.828 0.189 84.429);
+  --chart-5: oklch(0.769 0.188 70.08);
+  --sidebar: oklch(0.985 0 0);
+  --sidebar-foreground: oklch(0.145 0 0);
+  --sidebar-primary: #005F86;
+  --sidebar-primary-foreground: oklch(0.985 0 0);
+  --sidebar-accent: oklch(0.97 0 0);
+  --sidebar-accent-foreground: oklch(0.205 0 0);
+  --sidebar-border: oklch(0.922 0 0);
+  --sidebar-ring: oklch(0.708 0 0);
+}
+
+.dark {
+  --background: oklch(0.145 0 0);
+  --foreground: oklch(0.985 0 0);
+  --card: oklch(0.205 0 0);
+  --card-foreground: oklch(0.985 0 0);
+  --popover: oklch(0.205 0 0);
+  --popover-foreground: oklch(0.985 0 0);
+  --primary: oklch(0.922 0 0);
+  --primary-foreground: oklch(0.205 0 0);
+  --secondary: oklch(0.269 0 0);
+  --secondary-foreground: oklch(0.985 0 0);
+  --muted: oklch(0.269 0 0);
+  --muted-foreground: oklch(0.708 0 0);
+  --accent: oklch(0.269 0 0);
+  --accent-foreground: oklch(0.985 0 0);
+  --destructive: oklch(0.704 0.191 22.216);
+  --border: oklch(1 0 0 / 10%);
+  --input: oklch(1 0 0 / 15%);
+  --ring: oklch(0.556 0 0);
+  --chart-1: oklch(0.488 0.243 264.376);
+  --chart-2: oklch(0.696 0.17 162.48);
+  --chart-3: oklch(0.769 0.188 70.08);
+  --chart-4: oklch(0.627 0.265 303.9);
+  --chart-5: oklch(0.645 0.246 16.439);
+  --sidebar: oklch(0.205 0 0);
+  --sidebar-foreground: oklch(0.985 0 0);
+  --sidebar-primary: oklch(0.488 0.243 264.376);
+  --sidebar-primary-foreground: oklch(0.985 0 0);
+  --sidebar-accent: oklch(0.269 0 0);
+  --sidebar-accent-foreground: oklch(0.985 0 0);
+  --sidebar-border: oklch(1 0 0 / 10%);
+  --sidebar-ring: oklch(0.556 0 0);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+
+/* Typography Rules from Design Specifications */
+
+/* Primary font: Noto Serif - Headlines, Alerts, signage and all high impact communications */
+/* Secondary font: Arial - Body text, reports, mobile/desktop interfaces, and detailed instructions */
+
+@layer components {
+  .heading-1 {
+    font-family: 'Noto Serif', serif;
+    font-size: 64px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+  }
+
+  .heading-2 {
+    font-family: 'Noto Serif', serif;
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    line-height: 1.1;
+  }
+
+  .heading-3 {
+    font-family: 'Noto Serif', serif;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    line-height: 1.1;
+  }
+
+  .heading-4 {
+    font-family: 'Noto Serif', serif;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+  }
+
+  .heading-5 {
+    font-family: 'Noto Serif', serif;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+  }
+
+  .heading-6 {
+    font-family: 'Noto Serif', serif;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+  }
+
+  .body-text {
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    line-height: 1.2;
+  }
+
+  .body-text-small {
+    font-family: 'Arial', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    line-height: 1.2;
+  }
+
+  .small-text {
+    font-family: 'Arial', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    line-height: 1.2;
+  }
+}
+
+
+/* Button Styles from Design Specifications */
+
+/* Read More Button States */
+.btn-read-more {
+  background-color: var(--primary);
+  color: var(--neutral-white);
+  padding: 8px 16px;
+  border-radius: 4px;
+  border: none;
+  font-family: 'Arial', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-read-more:hover {
+  background-color: #006B94; /* Darker shade of primary */
+  transform: translateY(-1px);
+}
+
+.btn-read-more:active {
+  background-color: #005A7D; /* Even darker shade */
+  transform: translateY(0);
+}
+
+/* Save Button States */
+.btn-save {
+  background-color: var(--secondary-light);
+  color: var(--neutral-black);
+  padding: 8px 16px;
+  border-radius: 4px;
+  border: none;
+  font-family: 'Arial', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-save:hover {
+  background-color: var(--secondary-medium);
+}
+
+.btn-save:active {
+  background-color: #8BCDE0; /* Darker shade of secondary */
+}
+
+/* Login/Sign Up Button */
+.btn-login-signup {
+  background-color: var(--primary);
+  color: var(--neutral-white);
+  padding: 10px 20px;
+  border-radius: 6px;
+  border: none;
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-login-signup:hover {
+  background-color: #006B94;
+  transform: translateY(-1px);
+}
+
+.btn-login-signup:active {
+  background-color: #005A7D;
+  transform: translateY(0);
+}
+
+/* Enroll Now Button */
+.btn-enroll {
+  background-color: var(--primary);
+  color: var(--neutral-white);
+  padding: 12px 24px;
+  border-radius: 6px;
+  border: none;
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-enroll:hover {
+  background-color: #006B94;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 132, 182, 0.3);
+}
+
+.btn-enroll:active {
+  background-color: #005A7D;
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(0, 132, 182, 0.2);
+}
+
+/* Download Button */
+.btn-download {
+  background-color: var(--primary);
+  color: var(--neutral-white);
+  padding: 10px 20px;
+  border-radius: 6px;
+  border: none;
+  font-family: 'Arial', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.btn-download:hover {
+  background-color: #006B94;
+  transform: translateY(-1px);
+}
+
+.btn-download:active {
+  background-color: #005A7D;
+  transform: translateY(0);
+}
+
+/* User Profile Dropdown */
+.user-profile-dropdown {
+  background-color: var(--neutral-white);
+  border: 1px solid var(--neutral-light-gray);
+  border-radius: 6px;
+  padding: 8px 12px;
+  font-family: 'Arial', sans-serif;
+  font-size: 14px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.2s ease;
+}
+
+.user-profile-dropdown:hover {
+  background-color: var(--secondary-light);
+  border-color: var(--primary);
+}
+
+
+/* Icon Usage Rules from Design Specifications */
+
+/* Material Symbols Icons Configuration */
+.material-symbols {
+  font-family: 'Material Symbols Outlined';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px; /* Optical Size: 20px */
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Icon size variations */
+.icon-sm {
+  font-size: 16px;
+}
+
+.icon-md {
+  font-size: 20px; /* Default size from design rules */
+}
+
+.icon-lg {
+  font-size: 24px;
+}
+
+.icon-xl {
+  font-size: 32px;
+}
+
+/* Icon colors based on design palette */
+.icon-primary {
+  color: var(--primary);
+}
+
+.icon-accent {
+  color: var(--accent);
+}
+
+.icon-neutral {
+  color: var(--neutral-dark-gray);
+}
+
+.icon-white {
+  color: var(--neutral-white);
+}
+
+/* Icon button styles */
+.icon-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  border-radius: 4px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.icon-button:hover {
+  background-color: var(--secondary-light);
+}
+
+.icon-button:active {
+  background-color: var(--secondary-medium);
+}
+
+/* Ensure consistent icon alignment in buttons and text */
+.btn-with-icon {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.btn-with-icon .material-symbols,
+.btn-with-icon svg {
+  font-size: 16px;
+  width: 16px;
+  height: 16px;
+}
+
+
+
+/* Emergency Button Styles */
+.btn-emergency {
+  background-color: transparent;
+  color: #EF4444; /* Red color for emergency */
+  border: 2px solid #EF4444;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-family: 'Arial', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.btn-emergency:hover {
+  background-color: #FEF2F2; /* Light red background on hover */
+  border-color: #DC2626; /* Darker red border */
+  color: #DC2626; /* Darker red text */
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(239, 68, 68, 0.2);
+}
+
+.btn-emergency:active {
+  background-color: #FEE2E2; /* Even lighter red background */
+  border-color: #B91C1C; /* Even darker red border */
+  color: #B91C1C; /* Even darker red text */
+  transform: translateY(0);
+  box-shadow: 0 1px 2px rgba(239, 68, 68, 0.1);
+}
+
+
+
+/* UI/UX Improvements - Masking and Layout Fixes */
+
+/* Fix masking issues across all pages */
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+/* Ensure proper overflow handling */
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+  max-width: 100vw;
+}
+
+/* Fix button clickability issues */
+button, .btn, a[role="button"] {
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  position: relative;
+  z-index: 1;
+}
+
+/* Ensure entire button area is clickable */
+button *, .btn *, a[role="button"] * {
+  pointer-events: none;
+}
+
+/* Improved button visibility with better contrast */
+.btn-improved {
+  background-color: #1E40AF; /* Darker blue for better visibility */
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.btn-improved:hover {
+  background-color: #1D4ED8;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(30, 64, 175, 0.3);
+}
+
+.btn-improved:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Light blue button variant */
+.btn-light-blue {
+  background-color: #60A5FA; /* Light blue */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.btn-light-blue:hover {
+  background-color: #3B82F6;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(96, 165, 250, 0.3);
+}
+
+/* Improved spacing and alignment */
+.section-spacing {
+  padding: 4rem 0;
+}
+
+.container-spacing {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 640px) {
+  .container-spacing {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container-spacing {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+/* Consistent button sizes and alignment */
+.btn-group {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btn-group .btn {
+  min-width: 120px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Download button improvements */
+.btn-download-improved {
+  background-color: #1E40AF;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.3s ease;
+  min-width: 140px;
+  justify-content: center;
+}
+
+.btn-download-improved:hover {
+  background-color: #1D4ED8;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(30, 64, 175, 0.3);
+}
+
+/* Watch and View button styles */
+.btn-watch, .btn-view {
+  background-color: #059669; /* Green for watch/view actions */
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.btn-watch:hover, .btn-view:hover {
+  background-color: #047857;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(5, 150, 105, 0.3);
+}
+
+/* Reduced animation intensity for scroll elements */
+.scroll-indicator-subtle {
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+}
+
+.scroll-indicator-subtle:hover {
+  opacity: 1;
+}
+
+/* Fix for text readability in white sections */
+.text-readable {
+  color: #374151; /* Dark gray instead of pure black */
+  text-shadow: none;
+}
+
+.text-readable-light {
+  color: #6B7280; /* Medium gray for less important text */
+}
+
+/* Improved card hover effects */
+.card-hover-improved {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+}
+
+.card-hover-improved:hover {
+  transform: translateY(-4px) scale(1.02);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+/* Ensure proper z-index stacking */
+.header-fixed {
+  z-index: 1000;
+}
+
+.modal-overlay {
+  z-index: 2000;
+}
+
+.dropdown-menu {
+  z-index: 1500;
+}
+
+/* Responsive improvements */
+@media (max-width: 768px) {
+  .btn-group {
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .btn-group .btn {
+    width: 100%;
+    min-width: unset;
+  }
+}
+
+
+
+/* UI/UX Improvements - Additional Fixes for Masking and Alignment Issues */
+
+/* Fix masking issues across all pages */
+.hero-section {
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-section .absolute {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+/* Ensure proper image overlay coverage */
+.hero-image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
+
+/* Fix button alignment issues */
+.btn-group-improved {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 1rem 0;
+}
+
+.btn-group-improved .btn {
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  white-space: nowrap;
+}
+
+/* Consistent table button styling */
+.table-btn {
+  min-width: 80px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.table-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Fix scroll indicator positioning to avoid overlap */
+.scroll-indicator-fixed {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  z-index: 40;
+}
+
+.scroll-indicator-fixed.up {
+  bottom: 7rem;
+}
+
+/* Improve navigation hover states */
+.nav-link-improved {
+  position: relative;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.375rem;
+  transition: all 0.2s ease;
+}
+
+.nav-link-improved:hover {
+  background-color: #B4E2F6; /* Using brand secondary light color */
+  color: #0084B6; /* Using brand primary color */
+}
+
+/* Fix dropdown alignment */
+.dropdown-improved {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #E5E7EB;
+  border-radius: 0.5rem;
+  background: white;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.dropdown-improved:hover {
+  background-color: #B4E2F6;
+  border-color: #0084B6;
+}
+
+/* Ensure consistent spacing in sections */
+.section-consistent {
+  padding: 4rem 0;
+}
+
+.container-consistent {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+@media (min-width: 640px) {
+  .container-consistent {
+    padding: 0 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container-consistent {
+    padding: 0 2rem;
+  }
+}
+
+/* Fix card hover effects to be more subtle */
+.card-subtle-hover {
+  transition: all 0.3s ease;
+}
+
+.card-subtle-hover:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Improve text readability on overlays */
+.text-overlay-improved {
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+/* Fix responsive button behavior */
+@media (max-width: 768px) {
+  .btn-responsive {
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .btn-group-improved {
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .btn-group-improved .btn {
+    width: 100%;
+  }
+}
+
+/* Ensure proper z-index layering */
+.layer-header {
+  z-index: 1000;
+}
+
+.layer-modal {
+  z-index: 2000;
+}
+
+.layer-dropdown {
+  z-index: 1500;
+}
+
+.layer-scroll-indicator {
+  z-index: 40;
+}
+
+.layer-hero-content {
+  z-index: 20;
+}
+
+.layer-hero-overlay {
+  z-index: 10;
+}
+
+.layer-hero-image {
+  z-index: 0;
+}
+
