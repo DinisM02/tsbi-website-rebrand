@@ -5,9 +5,11 @@ import { Button } from './ui/button';
 
 const LanguageSwitcher = () => {
   const { i18n } = useTranslation();
+  const currentLang = (i18n.resolvedLanguage || i18n.language || 'pt').toLowerCase();
+  const isEnglish = currentLang.startsWith('en');
 
   const toggleLanguage = () => {
-    const newLang = i18n.language === 'en' ? 'pt' : 'en';
+    const newLang = isEnglish ? 'pt' : 'en';
     i18n.changeLanguage(newLang);
     localStorage.setItem('i18nextLng', newLang);
   };
@@ -18,11 +20,11 @@ const LanguageSwitcher = () => {
       variant="ghost"
       size="sm"
       className="flex items-center gap-2 text-sm hover:bg-gray-100"
-      title={i18n.language === 'en' ? 'Português' : 'English'}
+      title={isEnglish ? 'Português' : 'English'}
     >
       <Globe className="w-4 h-4" />
       <span className="font-medium">
-        {i18n.language === 'en' ? 'PT' : 'EN'}
+        {isEnglish ? 'PT' : 'EN'}
       </span>
     </Button>
   );

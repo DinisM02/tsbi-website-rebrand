@@ -1,4 +1,4 @@
-﻿import React, { useState } from 'react';
+import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { AlertTriangle, MapPin, Camera, Clock, Phone, Send, CheckCircle } from 'lucide-react';
 import { submitHazardReport } from '../firebase/firestore';
@@ -286,11 +286,11 @@ const ReportHazard = () => {
           <div className="bg-blue-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold text-blue-800 mb-3">{t('reportHazardPage.nextSteps.title')}</h3>
             <ul className="space-y-2 text-blue-700">
-              <li>â€¢ {t('reportHazardPage.nextSteps.items.1')}</li>
-              <li>â€¢ {t('reportHazardPage.nextSteps.items.2')}</li>
-              <li>â€¢ {t('reportHazardPage.nextSteps.items.3')}</li>
-              <li>â€¢ {t('reportHazardPage.nextSteps.items.4')}</li>
-              <li>â€¢ {t('reportHazardPage.nextSteps.items.5')}</li>
+              <li>??? {t('reportHazardPage.nextSteps.items.1')}</li>
+              <li>??? {t('reportHazardPage.nextSteps.items.2')}</li>
+              <li>??? {t('reportHazardPage.nextSteps.items.3')}</li>
+              <li>??? {t('reportHazardPage.nextSteps.items.4')}</li>
+              <li>??? {t('reportHazardPage.nextSteps.items.5')}</li>
             </ul>
           </div>
 

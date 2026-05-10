@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { Menu, X, AlertTriangle, Shield, User, ChevronDown, LogOut, Settings, LayoutDashboard } from 'lucide-react';
 import { Button } from './ui/button';
+import LanguageSwitcher from './LanguageSwitcher';
 import { useAuth } from '../contexts/AuthContext';
 import tsbiLogo from '../assets/tsbi-logo.jpg';
 
@@ -74,6 +75,7 @@ const Header = () => {
 
           {/* Desktop Actions */}
           <div className="hidden md:flex items-center space-x-2 lg:space-x-4">
+            <LanguageSwitcher />
             <Link to="/report-hazard">
               <Button 
                 variant="outline" 
@@ -189,6 +191,9 @@ const Header = () => {
                 </Link>
               ))}
               <div className="px-3 py-2 border-t border-gray-200 mt-2">
+                <div className="flex justify-end mb-2">
+                  <LanguageSwitcher />
+                </div>
                 <Link to="/report-hazard" onClick={() => setIsMenuOpen(false)}>
                   <Button 
                     variant="outline" 

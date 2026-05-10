@@ -46,8 +46,8 @@ const Resources = () => {
         </div>
         
         <div className="relative z-10 container mx-auto px-4 h-[500px] flex flex-col justify-center items-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-center mb-6 drop-shadow-lg">{t('resourcesPage.hero.title')}</h1>
-          <p className="text-xl text-center max-w-3xl mx-auto drop-shadow-md">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center mb-6 drop-shadow-lg">{t('resourcesPage.hero.title')}</h1>
+          <p className="text-lg sm:text-xl text-center max-w-3xl mx-auto drop-shadow-md">
             {t('resourcesPage.hero.description')}
           </p>
         </div>

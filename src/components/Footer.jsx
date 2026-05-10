@@ -94,7 +94,7 @@ const Footer = () => {
 
           {/* Columns */}
           <div>
-            <div className="grid grid-cols-1 sm:grid-cols-4 gap-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
               
               {/* Legal */}
               <div>
@@ -172,11 +172,11 @@ const Footer = () => {
         </div>
 
         {/* Bottom Bar */}
-        <div className="border-t border-blue-500 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
+        <div className="border-t border-blue-500 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center text-center md:text-left gap-3">
           <p className="text-gray-200 text-sm">
             {t('footer.copyright')}
           </p>
-          <div className="mt-4 md:mt-0">
+          <div className="md:mt-0">
             <p className="text-gray-200 text-sm">
               {t('footer.tagline')}
             </p>

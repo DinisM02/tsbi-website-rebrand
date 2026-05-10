@@ -77,8 +77,8 @@ const Contact = () => {
         </div>
 
         <div className="relative z-10 container mx-auto px-4 text-center">
-          <h1 className="text-5xl font-bold mb-6 drop-shadow-lg">{t('contactPage.hero.title')}</h1>
-          <p className="text-xl max-w-2xl mx-auto drop-shadow-md">
+          <h1 className="text-4xl sm:text-5xl font-bold mb-6 drop-shadow-lg">{t('contactPage.hero.title')}</h1>
+          <p className="text-lg sm:text-xl max-w-2xl mx-auto drop-shadow-md">
             {t('contactPage.hero.descriptionLine1')}<br />
             {t('contactPage.hero.descriptionLine2')}
           </p>

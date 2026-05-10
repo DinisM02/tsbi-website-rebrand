@@ -1,4 +1,4 @@
-﻿import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import {
   Headphones,
@@ -88,7 +88,7 @@ const EnrollModal = ({ course, onClose, onSubmit }) => {
         </div>
         {done ? (
           <div className="text-center py-6">
-            <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-3"><span className="text-green-600 text-xl">âœ“</span></div>
+            <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-3"><span className="text-green-600 text-xl">?o"</span></div>
             <p className="font-semibold text-gray-900 mb-1">{t('trainingPage.enrollModal.successTitle')}</p>
             <p className="text-sm text-gray-600">{t('trainingPage.enrollModal.successDescription')}</p>
             <button onClick={onClose} className="mt-4 bg-primary text-white px-6 py-2 rounded-lg text-sm font-medium">{t('trainingPage.enrollModal.close')}</button>
@@ -737,10 +737,10 @@ const Training = () => {
         </div>
 
         <div className="relative z-10 max-w-7xl mx-auto px-4 h-[600px] flex flex-col justify-center items-center text-center">
-          <h1 className="text-5xl md:text-6xl font-bold mb-6 drop-shadow-lg">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6 drop-shadow-lg">
             {t('trainingPage.hero.title')}
           </h1>
-          <p className="text-xl md:text-2xl max-w-4xl mx-auto drop-shadow-md leading-relaxed">
+          <p className="text-lg sm:text-xl md:text-2xl max-w-4xl mx-auto drop-shadow-md leading-relaxed">
             {t('trainingPage.hero.description')}
           </p>
         </div>
@@ -799,7 +799,7 @@ const Training = () => {
               </div>
             </div>
 
-            {/* âœ… VIDEO THUMBNAIL (NO HEADPHONES PLACEHOLDER) */}
+            {/* ?o. VIDEO THUMBNAIL (NO HEADPHONES PLACEHOLDER) */}
             <div className="lg:w-1/2 w-full">
               <button
                 type="button"
@@ -820,7 +820,7 @@ const Training = () => {
 
                 <div className="absolute inset-0 flex items-center justify-center">
                   <div className="flex items-center gap-2 bg-white/95 px-6 py-3 rounded-full shadow-lg group-hover:scale-105 transition-transform">
-                    <span className="text-gray-900 font-bold text-lg">â–¶</span>
+                    <span className="text-gray-900 font-bold text-lg">?-?</span>
                     <span className="text-gray-900 font-semibold">{t('trainingPage.overview.play')}</span>
                   </div>
                 </div>

@@ -113,12 +113,12 @@ const CTASection = () => {
               {t('ctaSection.description')}
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-stretch sm:items-center">
               
               {/* Start Free Trial */}
               <Button
                 size="lg"
-                className="bg-accent hover:bg-accent/90 text-white px-8 py-6 text-lg font-semibold group shadow-xl border-2 border-accent"
+                className="w-full sm:w-auto sm:min-w-[220px] bg-accent hover:bg-accent/90 text-white px-8 py-6 text-lg font-semibold group shadow-xl border-2 border-accent"
                 onClick={() => navigate('/role-selection?next=signup')}
               >
                 {t('ctaSection.startFreeTrial')}
@@ -128,7 +128,7 @@ const CTASection = () => {
               <Button
                 variant="outline"
                 size="lg"
-                className="border-2 border-white bg-white/10 backdrop-blur-sm text-white hover:bg-white hover:text-primary px-8 py-6 text-lg font-semibold shadow-xl"
+                className="w-full sm:w-auto sm:min-w-[220px] border-2 border-white bg-white/10 backdrop-blur-sm text-white hover:bg-white hover:text-primary px-8 py-6 text-lg font-semibold shadow-xl"
                 onClick={() => setShowTrialVideo(true)}
               >
                 {t('ctaSection.watchOverview')}
@@ -138,7 +138,7 @@ const CTASection = () => {
               <Button
                 variant="outline"
                 size="lg"
-                className="border-2 border-white bg-white/20 backdrop-blur-sm text-white hover:bg-white hover:text-primary px-8 py-6 text-lg font-semibold shadow-xl"
+                className="w-full sm:w-auto sm:min-w-[220px] border-2 border-white bg-white/20 backdrop-blur-sm text-white hover:bg-white hover:text-primary px-8 py-6 text-lg font-semibold shadow-xl"
                 onClick={() => {
                   window.open(
                     'https://calendly.com/aswathyjose86',
@@ -196,11 +196,11 @@ const CTASection = () => {
               {t('ctaSection.contactText')}
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center text-sm">
-              <a href="mailto:support@hydrobeacon.org" className="bg-white/20 px-4 py-2 rounded-full text-white border border-white/30 hover:bg-white/30 transition-colors">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-stretch sm:items-center text-sm">
+              <a href="mailto:support@hydrobeacon.org" className="w-full sm:w-auto text-center bg-white/20 px-4 py-2 rounded-full text-white border border-white/30 hover:bg-white/30 transition-colors">
                 {t('ctaSection.contactEmail', { email: 'support@hydrobeacon.org' })}
               </a>
-              <span className="bg-white/20 px-4 py-2 rounded-full text-white border border-white/30">
+              <span className="w-full sm:w-auto text-center bg-white/20 px-4 py-2 rounded-full text-white border border-white/30">
                 {t('ctaSection.available')}
               </span>
             </div>

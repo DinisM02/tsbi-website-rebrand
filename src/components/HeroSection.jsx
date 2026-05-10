@@ -80,17 +80,17 @@ const HeroSection = () => {
 
           {/* Key Features */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10 max-w-4xl mx-auto">
-            <div className="bg-white/20 backdrop-blur-sm rounded-lg p-4 border border-white/30 shadow-lg transition-transform duration-300 hover:scale-110">
+            <div className="bg-white/20 backdrop-blur-sm rounded-lg p-4 border border-white/30 shadow-lg transition-transform duration-300 hover:scale-105 md:hover:scale-110">
               <Shield className="w-8 h-8 text-accent mx-auto mb-2" />
               <h3 className="text-white font-semibold mb-1">{t('heroSection.realTimeAlerts')}</h3>
               <p className="text-white/90 text-sm">{t('heroSection.realTimeAlertsDesc')}</p>
             </div>
-            <div className="bg-white/20 backdrop-blur-sm rounded-lg p-4 border border-white/30 shadow-lg transition-transform duration-300 hover:scale-110">
+            <div className="bg-white/20 backdrop-blur-sm rounded-lg p-4 border border-white/30 shadow-lg transition-transform duration-300 hover:scale-105 md:hover:scale-110">
               <MapPin className="w-8 h-8 text-accent mx-auto mb-2" />
               <h3 className="text-white font-semibold mb-1">{t('heroSection.interactiveMaps')}</h3>
               <p className="text-white/90 text-sm">{t('heroSection.interactiveMapsDesc')}</p>
             </div>
-            <div className="bg-white/20 backdrop-blur-sm rounded-lg p-4 border border-white/30 shadow-lg transition-transform duration-300 hover:scale-110">
+            <div className="bg-white/20 backdrop-blur-sm rounded-lg p-4 border border-white/30 shadow-lg transition-transform duration-300 hover:scale-105 md:hover:scale-110">
               <Play className="w-8 h-8 text-accent mx-auto mb-2" />
               <h3 className="text-white font-semibold mb-1">{t('heroSection.vrArTraining')}</h3>
               <p className="text-white/90 text-sm">{t('heroSection.vrArTrainingDesc')}</p>
