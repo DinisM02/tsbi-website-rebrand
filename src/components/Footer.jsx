@@ -2,7 +2,7 @@
 import { useTranslation } from 'react-i18next';
 import { Github, Mail } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import hydroBeaconLogo from '../assets/hydrobeacon-logo.svg';
+import vigiaLogoDark from '../assets/vigia-logo-dark.svg';
 import LegalModal from './LegalModal';
 
 const Footer = () => {
@@ -36,10 +36,10 @@ const Footer = () => {
           
           {/* Logo, Description, and Social */}
           <div className="space-y-4">
-            <div className="bg-white p-2 sm:p-3 md:p-4 rounded-lg flex items-center justify-center w-fit mx-auto md:mx-0">
+            <div className="flex items-center justify-center w-fit mx-auto md:mx-0">
               <img 
-                src={hydroBeaconLogo}
-                alt="HydroBeacon Moçambique"
+                src={vigiaLogoDark}
+                alt="Vigia Moçambique"
                 className="h-14 sm:h-16 md:h-18 w-auto object-contain"
                 loading="lazy"
                 decoding="async"

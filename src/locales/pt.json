@@ -36,7 +36,7 @@
         "access": "Fluxos de Trabalho de Apoio"
       }
     },
-    "howtitle": "Como você usará o HydroBeacon?",
+    "howtitle": "Como você usará o Vigia?",
     "howDescription": "Escolha seu caminho de acesso primeiro, depois continue para {0}. Isso suporta controle de acesso baseado em função, separação de privacidade e governança de nível agencial.",
     "resident": {
       "title": "Residente Local",
@@ -56,10 +56,10 @@
     "securityNote": "As ferramentas operacionais do respondente são intencionalmente separadas das experiências de residente e ajudante. O acesso é limitado por função e pode ser auditado para controle de governança e privacidade.",
     "changeLater": "Precisa de um caminho diferente mais tarde? Você pode mudar de função antes da autenticação.",
     "backToHome": "Voltar para Início",
-    "tsbiGateway": "Gateway de acesso seguro do HydroBeacon",
+    "tsbiGateway": "Gateway de acesso seguro do Vigia",
     "roleBasedAccess": "Acesso baseado em função",
     "mainTitle": "Acesso controlado para residentes, respondentes e equipes de apoio.",
-    "mainDescription": "O HydroBeacon separa informações de segurança pública de ferramentas operacionais restritas para que as agências possam proteger fluxos de trabalho sensíveis enquanto as comunidades ainda recebem a orientação necessária.",
+    "mainDescription": "O Vigia separa informações de segurança pública de ferramentas operacionais restritas para que as agências possam proteger fluxos de trabalho sensíveis enquanto as comunidades ainda recebem a orientação necessária.",
     "alertsShelt": "Alertas, abrigos, orientação e recursos de segurança pessoal.",
     "restrictedDash": "Painéis restritos, operações em tempo real e coordenação de incidentes.",
     "volunteerOutreach": "Fluxos de trabalho de voluntariado, divulgação e suporte sem permissões operacionais."
@@ -220,7 +220,7 @@
   },
   "signup": {
     "title": "Criar Conta",
-    "subtitle": "Junte-se à Iniciativa HydroBeacon",
+    "subtitle": "Junte-se à Iniciativa Vigia",
     "secureEnrollment": "Inscrição Segura",
     "fullName": "Nome Completo",
     "email": "Endereço de Email",
@@ -285,7 +285,7 @@
     "communityText": "Conecte-se com sua comunidade através de nossa plataforma"
   },
   "footer": {
-    "description": "HydroBeacon Moçambique é um projecto pessoal que reúne alertas de cheias, mapas de risco e formação para ajudar as comunidades moçambicanas a manterem-se seguras.",
+    "description": "Vigia Moçambique reúne alertas de cheias, mapas de risco e formação para ajudar as comunidades moçambicanas a manterem-se seguras.",
     "followUs": "Siga-nos",
     "quickLinks": "Links Rápidos",
     "legal": "Legal",
@@ -294,7 +294,7 @@
     "resources": "Recursos",
     "getInvolved": "Participar",
     "emailUs": "Enviar-nos email",
-    "copyright": "© 2026 HydroBeacon Moçambique · Projecto pessoal de Dinis.",
+    "copyright": "© 2026 Vigia Moçambique. Todos os direitos reservados.",
     "tagline": "Tecnologia ao serviço da prevenção de cheias em Moçambique",
     "links": {
       "privacyPolicy": "Política de Privacidade",
@@ -480,7 +480,7 @@
       "volunteer": "Voluntariado",
       "ngoPartner": "Parceiro ONG",
       "training": "Treinamento",
-      "contactTsbi": "Contato HydroBeacon"
+      "contactTsbi": "Contato Vigia"
     }
   },
   "forgotPasswordPage": {
@@ -563,7 +563,7 @@
   },
   "ctaSection": {
     "title": "Pronto para Proteger a Sua Comunidade?",
-    "description": "Comece a usar o HydroBeacon e prepare a sua família e o seu bairro para a próxima época chuvosa.",
+    "description": "Comece a usar o Vigia e prepare a sua família e o seu bairro para a próxima época chuvosa.",
     "startFreeTrial": "Iniciar Teste Gratuito",
     "watchOverview": "Ver Visão Geral",
     "scheduleDemo": "Agendar Demonstração",
@@ -603,7 +603,7 @@
   },
   "testimonialsSection": {
     "title": "Pensado para Quem Vive o Risco",
-    "description": "Exemplos de como o HydroBeacon pode apoiar diferentes pessoas em Moçambique durante a época chuvosa.",
+    "description": "Exemplos de como o Vigia pode apoiar diferentes pessoas em Moçambique durante a época chuvosa.",
     "partnersTitle": "Instituições de Referência",
     "items": {
       "resident": {
@@ -799,7 +799,7 @@
       "callEmergency": "Se houver perigo imediato, ligue para os serviços de emergência local agora.",
       "callPolice": "Polícia (119)",
       "callFirefighters": "Bombeiros (198)",
-      "tsbiChannels": "Canais de resposta HydroBeacon",
+      "tsbiChannels": "Canais de resposta Vigia",
       "email": "Email",
       "hazardReport": "Relato de risco",
       "openHazardReport": "Abrir página de relato de risco",
@@ -810,11 +810,11 @@
       "emailSubject": "SOS de Emergência"
     },
     "sos": {
-      "title": "SOS de Emergência da HydroBeacon",
+      "title": "SOS de Emergência do Vigia",
       "riskLevel": "Nível de risco: {{level}} ({{percentage}}%)",
       "location": "Localização: {{name}}",
       "coordinates": "Coordenadas: {{lat}}, {{lon}}",
-      "instruction": "Abra o mapa ao vivo da HydroBeacon para orientação de rota e abrigos próximos."
+      "instruction": "Abra o mapa ao vivo do Vigia para orientação de rota e abrigos próximos."
     },
     "geolocation": {
       "notSupported": "Seu navegador não suporta geolocalização",
@@ -828,7 +828,7 @@
     }
   },
   "aboutUs": {
-    "title": "Sobre A Iniciativa HydroBeacon",
+    "title": "Sobre A Iniciativa Vigia",
     "mission": "Nossa Missão",
     "missionDescription": "Empoderar comunidades com inteligência de inundação em tempo real e treinamento de resposta a emergências, salvando vidas e protegendo infraestruturas críticas.",
     "vision": "Nossa Visão",
@@ -842,13 +842,13 @@
   "aboutUsPage": {
     "hero": {
       "alt": "Vista aérea da Avenida 24 de Julho, Maputo",
-      "title": "Sobre HydroBeacon",
+      "title": "Sobre Vigia",
       "description": "Alertas de cheias, mapas de risco e preparação comunitária pensados para Moçambique."
     },
     "mission": {
       "title": "A Nossa Missão",
-      "logoAlt": "Logotipo HydroBeacon",
-      "paragraph1": "O HydroBeacon é um projecto pessoal criado por Dinis com um objectivo claro: ajudar as comunidades moçambicanas a preparar-se, responder e recuperar de cheias e ciclones. Moçambique está a jusante de várias bacias internacionais (Limpopo, Zambeze, Incomáti, Púnguè, Búzi, entre outras) e eventos como o Idai (2019) e o Freddy (2023) mostraram o custo de não ter informação a tempo.",
+      "logoAlt": "Logotipo Vigia",
+      "paragraph1": "O Vigia nasceu com um objectivo claro: ajudar as comunidades moçambicanas a preparar-se, responder e recuperar de cheias e ciclones. Moçambique está a jusante de várias bacias internacionais (Limpopo, Zambeze, Incomáti, Púnguè, Búzi, entre outras) e eventos como o Idai (2019) e o Freddy (2023) mostraram o custo de não ter informação a tempo.",
       "paragraph2": "A plataforma combina dados meteorológicos e hidrológicos abertos, mapas de abrigos e rotas, e conteúdos de formação em português, para que residentes, líderes comunitários e voluntários saibam o que fazer antes, durante e depois de uma cheia."
     },
     "impact": {
@@ -893,7 +893,7 @@
       "title": "Quem Está por Trás",
       "founder": {
         "position": "Fundador e Developer",
-        "description": "Developer moçambicano que concebeu e desenvolve o HydroBeacon de ponta a ponta — do design ao código — com o objectivo de pôr tecnologia útil ao serviço da prevenção de desastres em Moçambique."
+        "description": "Developer moçambicano que concebeu e desenvolve o Vigia de ponta a ponta — do design ao código — com o objectivo de pôr tecnologia útil ao serviço da prevenção de desastres em Moçambique."
       }
     },
     "partnersTitle": "Instituições de Referência",
@@ -907,7 +907,7 @@
         "localAuthorities": "Autoridades Locais"
       }
     },
-    "partnersNote": "Instituições cuja informação e orientações servem de referência. O HydroBeacon é um projecto pessoal e independente, sem afiliação oficial a estas entidades."
+    "partnersNote": "Instituições cuja informação e orientações servem de referência. O Vigia é uma iniciativa independente, sem afiliação oficial a estas entidades."
   },
   "contactPage": {
     "hero": {
@@ -1126,7 +1126,7 @@
     },
     "mission": {
       "title": "Nossa Missão Comunitária",
-      "p1": "A comunidade HydroBeacon existe para salvar vidas e proteger comunidades contra desastres de cheias. Somos unidos pelo compromisso com segurança, preparação e apoio mútuo durante emergências.",
+      "p1": "A comunidade Vigia existe para salvar vidas e proteger comunidades contra desastres de cheias. Somos unidos pelo compromisso com segurança, preparação e apoio mútuo durante emergências.",
       "p2": "Estas diretrizes ajudam a garantir que a nossa comunidade permaneça um espaço positivo, útil e seguro para todos."
     },
     "values": {
@@ -1177,7 +1177,7 @@
       "contactNow": "Para emergências imediatas com risco de vida, contacte diretamente os serviços de emergência:",
       "servicesLabel": "Serviços de Emergência:",
       "servicesValue": "Polícia 119 · Bombeiros 198 · Ambulância 117 (Moçambique)",
-      "hotlineLabel": "Linha Direta de Emergência HydroBeacon:",
+      "hotlineLabel": "Linha Direta de Emergência Vigia:",
       "nonEmergencyLabel": "Suporte Não Emergencial:",
       "note": "Use as nossas plataformas comunitárias para discussões de preparação, não para resposta ativa a emergências."
     },
@@ -1410,7 +1410,7 @@
     },
     "testimonials": {
       "title": "O Que os Participantes Dizem",
-      "description": "Respondentes de emergência, líderes comunitários e residentes confiam no treino HydroBeacon para manter as suas comunidades seguras contra desastres de cheias.",
+      "description": "Respondentes de emergência, líderes comunitários e residentes confiam no treino Vigia para manter as suas comunidades seguras contra desastres de cheias.",
       "items": {
         "1": {
           "content": "Os exercícios em AR pareceram reais e tornaram a nossa equipa mais rápida nas simulações.",
@@ -1547,11 +1547,11 @@
     "lastUpdatedValue": "Janeiro de 2025",
     "acceptance": {
       "title": "Aceitação dos Termos",
-      "text": "Ao aceder ou utilizar os serviços da HydroBeacon (HydroBeacon), concorda em cumprir estes Termos de Serviço e todas as leis e regulamentações aplicáveis. Se não concordar com algum destes termos, está proibido de utilizar os nossos serviços."
+      "text": "Ao aceder ou utilizar os serviços do Vigia (Vigia), concorda em cumprir estes Termos de Serviço e todas as leis e regulamentações aplicáveis. Se não concordar com algum destes termos, está proibido de utilizar os nossos serviços."
     },
     "serviceDescription": {
       "title": "Descrição do Serviço",
-      "intro": "A HydroBeacon oferece:",
+      "intro": "O Vigia oferece:",
       "items": {
         "1": "Notificações de alertas de cheias em tempo real",
         "2": "Simulações de treino de emergência em VR/AR",
@@ -1577,7 +1577,7 @@
     "emergencyDisclaimer": {
       "title": "Isenção de Responsabilidade em Emergência",
       "importantLabel": "IMPORTANTE:",
-      "intro": "Os serviços HydroBeacon são ferramentas complementares e não devem ser a sua única fonte de informação de emergência.",
+      "intro": "Os serviços Vigia são ferramentas complementares e não devem ser a sua única fonte de informação de emergência.",
       "items": {
         "1": "Siga sempre os serviços oficiais de emergência e autoridades locais",
         "2": "Em caso de perigo imediato, ligue para os serviços de emergência (911, 112, etc.)",
@@ -1588,7 +1588,7 @@
     },
     "liability": {
       "title": "Limitação de Responsabilidade",
-      "intro": "A HydroBeacon fornece serviços \"tal como estão\" sem garantias de qualquer tipo. Não somos responsáveis por:",
+      "intro": "O Vigia fornece serviços \"tal como estão\" sem garantias de qualquer tipo. Não somos responsáveis por:",
       "items": {
         "1": "Danos resultantes de interrupções de serviço ou falhas técnicas",
         "2": "Precisão ou pontualidade de alertas e previsões de cheias",
@@ -1734,11 +1734,11 @@
       "sections": {
         "1": {
           "title": "1. Aceitação dos Termos",
-          "text": "Ao aceder e usar os serviços da HydroBeacon, aceita e concorda em ficar vinculado aos termos e disposições deste acordo."
+          "text": "Ao aceder e usar os serviços do Vigia, aceita e concorda em ficar vinculado aos termos e disposições deste acordo."
         },
         "2": {
           "title": "2. Descrição do Serviço",
-          "text": "A HydroBeacon fornece monitorização de cheias, sistemas de alerta precoce e treino de resposta a emergências. Os nossos serviços são concebidos para melhorar a segurança comunitária, mas não devem ser a única fonte de informação de emergência."
+          "text": "O Vigia fornece monitorização de cheias, sistemas de alerta precoce e treino de resposta a emergências. Os nossos serviços são concebidos para melhorar a segurança comunitária, mas não devem ser a única fonte de informação de emergência."
         },
         "3": {
           "title": "3. Responsabilidades do Utilizador",
@@ -1752,7 +1752,7 @@
         },
         "4": {
           "title": "4. Limitação de Responsabilidade",
-          "text": "Embora procuremos precisão, a HydroBeacon não pode garantir integridade ou pontualidade de todos os alertas. Os utilizadores devem sempre seguir orientações oficiais de emergência das autoridades locais."
+          "text": "Embora procuremos precisão, o Vigia não pode garantir integridade ou pontualidade de todos os alertas. Os utilizadores devem sempre seguir orientações oficiais de emergência das autoridades locais."
         }
       }
     },
@@ -1811,10 +1811,10 @@
   "partnerWithUsPage": {
     "hero": {
       "title": "Seja Nosso Parceiro",
-      "description": "Junte forças com a HydroBeacon para criar um mundo mais seguro e resiliente. Juntos, podemos proteger mais comunidades contra desastres de cheias."
+      "description": "Junte forças com o Vigia para criar um mundo mais seguro e resiliente. Juntos, podemos proteger mais comunidades contra desastres de cheias."
     },
     "whyPartner": {
-      "title": "Por Que Fazer Parceria com a HydroBeacon?",
+      "title": "Por Que Fazer Parceria com o Vigia?",
       "description": "As nossas parcerias criam sinergias que ampliam impacto, combinando expertise e recursos para salvar mais vidas e proteger mais comunidades.",
       "cards": {
         "expandedReach": {
@@ -1940,7 +1940,7 @@
     },
     "steps": {
       "title": "Como Se Tornar Parceiro",
-      "description": "Pronto para juntar-se à nossa missão? Veja como iniciar uma parceria com a HydroBeacon.",
+      "description": "Pronto para juntar-se à nossa missão? Veja como iniciar uma parceria com o Vigia.",
       "items": {
         "1": {
           "title": "Contacto Inicial",
@@ -1978,7 +1978,7 @@
         "name": "João Silva",
         "email": "joao@organizacao.com",
         "organization": "Nome da sua organização",
-        "message": "Conte-nos sobre a sua organização e como gostaria de fazer parceria com a HydroBeacon..."
+        "message": "Conte-nos sobre a sua organização e como gostaria de fazer parceria com o Vigia..."
       },
       "cancel": "Cancelar",
       "sending": "A enviar...",
@@ -1995,7 +1995,7 @@
       "description": "Junte-se à nossa missão de proteger comunidades contra desastres de cheias. As suas competências e paixão podem fazer uma diferença real para salvar vidas."
     },
     "whyVolunteer": {
-      "title": "Por Que Ser Voluntário na HydroBeacon?",
+      "title": "Por Que Ser Voluntário no Vigia?",
       "description": "Cause impacto real, desenvolva novas competências e conecte-se com pessoas comprometidas com segurança comunitária.",
       "cards": {
         "saveLives": {
@@ -2050,7 +2050,7 @@
           "title": "Especialista de Ação Comunitária",
           "location": "Comunidades locais",
           "time": "8-12 horas/semana",
-          "description": "Atue com comunidades locais para promover consciência sobre segurança contra cheias e serviços da HydroBeacon. Organize workshops e eventos educativos.",
+          "description": "Atue com comunidades locais para promover consciência sobre segurança contra cheias e serviços do Vigia. Organize workshops e eventos educativos.",
           "requirements": {
             "1": "Fortes competências interpessoais",
             "2": "Experiência em fala pública",
@@ -2094,7 +2094,7 @@
     },
     "howToApply": {
       "title": "Como Candidatar-se",
-      "description": "Pronto para fazer a diferença? Veja como começar a voluntariar na HydroBeacon.",
+      "description": "Pronto para fazer a diferença? Veja como começar a voluntariar no Vigia.",
       "steps": {
         "1": {
           "title": "Escolha sua Função",
@@ -2144,7 +2144,7 @@
   },
   "signUpPage": {
     "createAccount": "Criar Conta",
-    "joinTsbi": "Junte-se à HydroBeacon",
+    "joinTsbi": "Junte-se ao Vigia",
     "badges": {
       "secureEnrollment": "Registo Seguro"
     },
@@ -2515,7 +2515,7 @@
   },
   "contact": {
     "title": "Entre em Contacto",
-    "description": "Entre em contacto com a equipa da Iniciativa HydroBeacon",
+    "description": "Entre em contacto com a equipa da Iniciativa Vigia",
     "name": "Seu Nome",
     "email": "Seu Email",
     "subject": "Assunto",

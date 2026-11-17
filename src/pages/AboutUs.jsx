@@ -2,7 +2,7 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { Shield, Users, MapPin, Award, Clock, BarChart, Github } from 'lucide-react';
 import { OptimizedImage } from '../components/OptimizedImage';
-import hydroBeaconMark from '../assets/hydrobeacon-mark.svg';
+import vigiaMark from '../assets/vigia-mark.svg';
 import heroImage from '../assets/hero-images/pages/about-hero.jpg';
 import heroImageWebp from '../assets/hero-images/pages/about-hero.webp';
 import ScrollIndicator from '../components/ScrollIndicator';
@@ -51,7 +51,7 @@ const AboutUs = () => {
             <div className="md:w-1/2 flex justify-center items-stretch">
               <div className="flex items-center justify-center w-full h-full">
                 <img 
-                  src={hydroBeaconMark} 
+                  src={vigiaMark} 
                   alt={t('aboutUsPage.mission.logoAlt')} 
                   className="w-full max-w-md h-full object-contain"
                   loading="lazy"

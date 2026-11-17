@@ -59,7 +59,7 @@ const RoleSelection = () => {
             <OptimizedImage
               webpSrc={heroImageWebp}
               fallbackSrc={heroImage}
-              alt="HydroBeacon secure role-based access"
+              alt="Vigia secure role-based access"
               className="absolute inset-0 h-full w-full object-cover"
               fetchPriority="high"
             />

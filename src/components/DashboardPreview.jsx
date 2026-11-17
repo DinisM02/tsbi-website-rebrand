@@ -334,7 +334,7 @@ const DashboardPreview = () => {
     // Default monitoring alert when no critical conditions
     if (alerts.length === 0) {
       alerts.push({
-        sender_name: "HydroBeacon Monitoring System",
+        sender_name: "Vigia Monitoring System",
         event: "All Normal",
         start: now - 900, // 15 minutes ago
         end: now + 3600,

@@ -21,11 +21,11 @@ const STATIC_POSTS = [
 7. Waterproof boots and rain gear for all family members
 8. Evacuation route planned (at least two alternatives)
 9. Safe meeting point known by all family members
-10. HydroBeacon app alerts enabled for your location
+10. Vigia app alerts enabled for your location
 
 Review your plan every flood season and keep supplies refreshed.`,
     category: 'Preparedness',
-    author: 'HydroBeacon Team',
+    author: 'Vigia Team',
     image: 'https://images.unsplash.com/photo-1527489377706-5bf97e608852?auto=format&fit=crop&w=1200&q=80',
     createdAt: { seconds: 1745000000 },
     _static: true,
@@ -44,9 +44,9 @@ Community Response Teams (CRTs) are trained volunteers who:
 
 Studies show CRTs reduce casualty rates by up to 40% in areas with frequent flooding.
 
-HydroBeacon supports CRT formation through our training programs and the real-time communication tools built into our platform. If you'd like to start or join a CRT in your area, visit our Volunteer Opportunities page.`,
+Vigia supports CRT formation through our training programs and the real-time communication tools built into our platform. If you'd like to start or join a CRT in your area, visit our Volunteer Opportunities page.`,
     category: 'Community',
-    author: 'HydroBeacon Operations',
+    author: 'Vigia Operations',
     image: 'https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=1200&q=80',
     createdAt: { seconds: 1744000000 },
     _static: true,
@@ -54,8 +54,8 @@ HydroBeacon supports CRT formation through our training programs and the real-ti
   {
     id: 'static-3',
     title: 'Understanding Flood Risk Levels: Low, Medium, High and Critical',
-    excerpt: 'What do the HydroBeacon alert severity levels actually mean? A practical guide to interpreting flood risk data.',
-    content: `The HydroBeacon platform uses a four-tier severity system to communicate flood risk clearly and consistently:
+    excerpt: 'What do the Vigia alert severity levels actually mean? A practical guide to interpreting flood risk data.',
+    content: `The Vigia platform uses a four-tier severity system to communicate flood risk clearly and consistently:
 
 🟡 LOW – River discharge below 40 m³/s, rainfall under 10 mm/h. Normal conditions. Continue monitoring.
 
@@ -67,7 +67,7 @@ HydroBeacon supports CRT formation through our training programs and the real-ti
 
 These thresholds are calibrated using data from OpenWeatherMap and the Open-Meteo global river discharge monitoring system, updated every 2 minutes.`,
     category: 'Safety',
-    author: 'HydroBeacon Data Team',
+    author: 'Vigia Data Team',
     image: 'https://images.unsplash.com/photo-1547683905-f686c993aae5?auto=format&fit=crop&w=1200&q=80',
     createdAt: { seconds: 1743000000 },
     _static: true,
@@ -180,7 +180,7 @@ const Blog = () => {
             <FileText className="w-16 h-16 text-gray-300 mx-auto mb-4" />
             <h2 className="text-2xl font-bold text-gray-900 mb-2">No Posts Yet</h2>
             <p className="text-gray-600 max-w-xl mx-auto">
-              No articles have been published yet. You can explore training materials now or contact HydroBeacon for updates and tailored resources.
+              No articles have been published yet. You can explore training materials now or contact Vigia for updates and tailored resources.
             </p>
             <div className="mt-6 flex flex-col sm:flex-row gap-3 justify-center">
               <Link to="/training" className="inline-flex items-center justify-center rounded-lg bg-primary px-5 py-3 text-sm font-semibold text-white hover:bg-primary/90">

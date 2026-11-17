@@ -49,10 +49,10 @@ export async function sendTestNotification(weatherData, floodData) {
   const riverLevel = floodData?.daily?.river_discharge_mean?.[0] ?? 0;
   const temp = weatherData?.main?.temp ? Math.round(weatherData.main.temp) : 'N/A';
 
-  new Notification('HydroBeacon Flood Alert — Test', {
+  new Notification('Vigia — Alerta de Cheias — Test', {
     body: `Current conditions: ${temp}°C, River: ${riverLevel.toFixed(1)} m³/s. This is a test notification.`,
-    icon: '/hydrobeacon-icon-192.png',
-    tag: 'hydrobeacon-test-alert',
+    icon: '/vigia-icon-192.png',
+    tag: 'vigia-test-alert',
   });
 
   return { ok: true, type: 'success', message: 'Test notification sent successfully.' };

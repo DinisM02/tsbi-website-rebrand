@@ -5,7 +5,7 @@ import { Menu, X, AlertTriangle, Shield, User, ChevronDown, LogOut, Settings, La
 import { Button } from './ui/button';
 import LanguageSwitcher from './LanguageSwitcher';
 import { useAuth } from '../contexts/AuthContext';
-import hydroBeaconMark from '../assets/hydrobeacon-mark.svg';
+import vigiaLogo from '../assets/vigia-logo.svg';
 
 const Header = () => {
   const { t } = useTranslation();
@@ -48,16 +48,10 @@ const Header = () => {
           <div className="flex items-center flex-shrink-0">
             <Link to="/" className="flex items-center">
               <img
-                src={hydroBeaconMark}
-                alt="HydroBeacon"
-                className="h-10 w-10 sm:h-12 sm:w-12 md:h-14 md:w-14 object-contain"
+                src={vigiaLogo}
+                alt="Vigia Moçambique"
+                className="h-10 sm:h-12 md:h-14 w-auto object-contain"
               />
-              <span className="ml-2 hidden sm:flex flex-col leading-tight">
-                <span className="text-lg md:text-xl font-bold text-primary">
-                  Hydro<span className="text-[#F7A21B]">Beacon</span>
-                </span>
-                <span className="text-[10px] md:text-xs font-semibold tracking-[0.25em] text-gray-500">MOÇAMBIQUE</span>
-              </span>
             </Link>
           </div>
 

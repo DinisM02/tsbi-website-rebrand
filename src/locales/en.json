@@ -36,7 +36,7 @@
         "access": "Support Workflows"
       }
     },
-    "howtitle": "How will you use HydroBeacon?",
+    "howtitle": "How will you use Vigia?",
     "howDescription": "Choose your access path first, then continue to {0}. This supports role-based access control, privacy separation, and agency-grade governance.",
     "resident": {
       "title": "Local Resident",
@@ -56,10 +56,10 @@
     "securityNote": "Operational responder tools are intentionally separated from resident and helper experiences. Access is limited by role and can be audited for governance and privacy control.",
     "changeLater": "Need a different path later? You can change role before authentication.",
     "backToHome": "Back to Home",
-    "tsbiGateway": "HydroBeacon secure access gateway",
+    "tsbiGateway": "Vigia secure access gateway",
     "roleBasedAccess": "Role-based access",
     "mainTitle": "Controlled access for residents, responders, and support teams.",
-    "mainDescription": "HydroBeacon separates public safety information from restricted operational tooling so agencies can protect sensitive workflows while communities still receive the guidance they need.",
+    "mainDescription": "Vigia separates public safety information from restricted operational tooling so agencies can protect sensitive workflows while communities still receive the guidance they need.",
     "alertsShelt": "Alerts, shelters, guidance, and personal safety resources.",
     "restrictedDash": "Restricted dashboards, live operations, and incident coordination.",
     "volunteerOutreach": "Volunteer, outreach, and support workflows without operational permissions."
@@ -220,7 +220,7 @@
   },
   "signup": {
     "title": "Create Account",
-    "subtitle": "Join HydroBeacon",
+    "subtitle": "Join Vigia",
     "secureEnrollment": "Secure Enrollment",
     "fullName": "Full Name",
     "email": "Email Address",
@@ -285,7 +285,7 @@
     "communityText": "Connect with your community through our platform"
   },
   "footer": {
-    "description": "HydroBeacon Mozambique is a personal project bringing together flood alerts, risk maps and training to help Mozambican communities stay safe.",
+    "description": "Vigia Mozambique brings together flood alerts, risk maps and training to help Mozambican communities stay safe.",
     "followUs": "Follow Us",
     "quickLinks": "Quick Links",
     "legal": "Legal",
@@ -294,7 +294,7 @@
     "resources": "Resources",
     "getInvolved": "Get Involved",
     "emailUs": "Email us",
-    "copyright": "© 2026 HydroBeacon Mozambique · A personal project by Dinis.",
+    "copyright": "© 2026 Vigia Mozambique. All rights reserved.",
     "tagline": "Technology for flood prevention in Mozambique",
     "links": {
       "privacyPolicy": "Privacy Policy",
@@ -480,7 +480,7 @@
       "volunteer": "Volunteer",
       "ngoPartner": "NGO Partner",
       "training": "Training",
-      "contactTsbi": "Contact HydroBeacon"
+      "contactTsbi": "Contact Vigia"
     }
   },
   "forgotPasswordPage": {
@@ -563,7 +563,7 @@
   },
   "ctaSection": {
     "title": "Ready to Protect Your Community?",
-    "description": "Start using HydroBeacon and get your family and neighbourhood ready for the next rainy season.",
+    "description": "Start using Vigia and get your family and neighbourhood ready for the next rainy season.",
     "startFreeTrial": "Start Free Trial",
     "watchOverview": "Watch Overview",
     "scheduleDemo": "Schedule Demo",
@@ -603,7 +603,7 @@
   },
   "testimonialsSection": {
     "title": "Built for Those Living with the Risk",
-    "description": "Examples of how HydroBeacon can support different people in Mozambique during the rainy season.",
+    "description": "Examples of how Vigia can support different people in Mozambique during the rainy season.",
     "partnersTitle": "Reference Institutions",
     "items": {
       "resident": {
@@ -799,7 +799,7 @@
       "callEmergency": "If there is immediate danger, call your local emergency services now.",
       "callPolice": "Police (119)",
       "callFirefighters": "Firefighters (198)",
-      "tsbiChannels": "HydroBeacon response channels",
+      "tsbiChannels": "Vigia response channels",
       "email": "Email",
       "hazardReport": "Hazard report",
       "openHazardReport": "Open hazard reporting page",
@@ -810,11 +810,11 @@
       "emailSubject": "Emergency SOS"
     },
     "sos": {
-      "title": "Emergency SOS from HydroBeacon",
+      "title": "Emergency SOS from Vigia",
       "riskLevel": "Risk level: {{level}} ({{percentage}}%)",
       "location": "Location: {{name}}",
       "coordinates": "Coordinates: {{lat}}, {{lon}}",
-      "instruction": "Open the HydroBeacon live map for route guidance and nearby shelters."
+      "instruction": "Open the Vigia live map for route guidance and nearby shelters."
     },
     "geolocation": {
       "notSupported": "Your browser does not support geolocation",
@@ -828,7 +828,7 @@
     }
   },
   "aboutUs": {
-    "title": "About HydroBeacon",
+    "title": "About Vigia",
     "mission": "Our Mission",
     "missionDescription": "To empower communities with real-time flood intelligence and emergency response training, saving lives and protecting critical infrastructure.",
     "vision": "Our Vision",
@@ -842,13 +842,13 @@
   "aboutUsPage": {
     "hero": {
       "alt": "Aerial view of Avenida 24 de Julho, Maputo",
-      "title": "About HydroBeacon",
+      "title": "About Vigia",
       "description": "Flood alerts, risk maps and community preparedness built for Mozambique."
     },
     "mission": {
       "title": "Our Mission",
-      "logoAlt": "HydroBeacon Logo",
-      "paragraph1": "HydroBeacon is a personal project created by Dinis with a clear goal: helping Mozambican communities prepare for, respond to and recover from floods and cyclones. Mozambique sits downstream of several international river basins (Limpopo, Zambezi, Incomati, Pungwe, Buzi and others), and events like Cyclone Idai (2019) and Freddy (2023) showed the cost of not having information in time.",
+      "logoAlt": "Vigia Logo",
+      "paragraph1": "Vigia was created with a clear goal: helping Mozambican communities prepare for, respond to and recover from floods and cyclones. Mozambique sits downstream of several international river basins (Limpopo, Zambezi, Incomati, Pungwe, Buzi and others), and events like Cyclone Idai (2019) and Freddy (2023) showed the cost of not having information in time.",
       "paragraph2": "The platform combines open weather and hydrological data, shelter and route maps, and training content in Portuguese, so residents, community leaders and volunteers know what to do before, during and after a flood."
     },
     "impact": {
@@ -893,7 +893,7 @@
       "title": "Who's Behind It",
       "founder": {
         "position": "Founder & Developer",
-        "description": "Mozambican developer who designed and builds HydroBeacon end to end — from design to code — to put useful technology to work for disaster prevention in Mozambique."
+        "description": "Mozambican developer who designed and builds Vigia end to end — from design to code — to put useful technology to work for disaster prevention in Mozambique."
       }
     },
     "partnersTitle": "Reference Institutions",
@@ -907,7 +907,7 @@
         "localAuthorities": "Local Authorities"
       }
     },
-    "partnersNote": "Institutions whose information and guidance serve as reference. HydroBeacon is an independent personal project with no official affiliation to these entities."
+    "partnersNote": "Institutions whose information and guidance serve as reference. Vigia is an independent initiative with no official affiliation to these entities."
   },
   "contactPage": {
     "hero": {
@@ -1126,7 +1126,7 @@
     },
     "mission": {
       "title": "Our Community Mission",
-      "p1": "The HydroBeacon community exists to save lives and protect communities from flood disasters. We are united by our commitment to safety, preparedness, and mutual support during emergencies.",
+      "p1": "The Vigia community exists to save lives and protect communities from flood disasters. We are united by our commitment to safety, preparedness, and mutual support during emergencies.",
       "p2": "These guidelines help ensure our community remains a positive, helpful, and safe space for everyone."
     },
     "values": {
@@ -1177,7 +1177,7 @@
       "contactNow": "For immediate life-threatening emergencies, contact emergency services directly:",
       "servicesLabel": "Emergency Services:",
       "servicesValue": "Police 119 · Firefighters 198 · Ambulance 117 (Mozambique)",
-      "hotlineLabel": "HydroBeacon Emergency Hotline:",
+      "hotlineLabel": "Vigia Emergency Hotline:",
       "nonEmergencyLabel": "Non-Emergency Support:",
       "note": "Use our community platforms for preparedness discussions, not active emergency response."
     },
@@ -1225,7 +1225,7 @@
     },
     "overview": {
       "title": "Why Choose Our Training?",
-      "description": "HydroBeacon offers advanced flood emergency training, combining realistic simulations with expert-led instruction and hands-on exercises.",
+      "description": "Vigia offers advanced flood emergency training, combining realistic simulations with expert-led instruction and hands-on exercises.",
       "playAriaLabel": "Play training preview video",
       "previewAlt": "Flood Response AR Training preview",
       "play": "Play",
@@ -1410,7 +1410,7 @@
     },
     "testimonials": {
       "title": "What Participants Say",
-      "description": "Emergency responders, community leaders, and residents rely on HydroBeacon training to keep their communities safe from flood disasters.",
+      "description": "Emergency responders, community leaders, and residents rely on Vigia training to keep their communities safe from flood disasters.",
       "items": {
         "1": {
           "content": "The AR drills felt real and made our team faster during simulations.",
@@ -1547,11 +1547,11 @@
     "lastUpdatedValue": "January 2025",
     "acceptance": {
       "title": "Acceptance of Terms",
-      "text": "By accessing or using HydroBeacon (HydroBeacon) services, you agree to be bound by these Terms of Service and all applicable laws and regulations. If you do not agree with any of these terms, you are prohibited from using our services."
+      "text": "By accessing or using Vigia (Vigia) services, you agree to be bound by these Terms of Service and all applicable laws and regulations. If you do not agree with any of these terms, you are prohibited from using our services."
     },
     "serviceDescription": {
       "title": "Service Description",
-      "intro": "HydroBeacon provides:",
+      "intro": "Vigia provides:",
       "items": {
         "1": "Real-time flood alert notifications",
         "2": "VR/AR emergency training simulations",
@@ -1577,7 +1577,7 @@
     "emergencyDisclaimer": {
       "title": "Emergency Disclaimer",
       "importantLabel": "IMPORTANT:",
-      "intro": "HydroBeacon services are supplementary tools and should not be your sole source of emergency information.",
+      "intro": "Vigia services are supplementary tools and should not be your sole source of emergency information.",
       "items": {
         "1": "Always follow official emergency services and local authorities",
         "2": "In case of immediate danger, call emergency services (911, 112, etc.)",
@@ -1588,7 +1588,7 @@
     },
     "liability": {
       "title": "Limitation of Liability",
-      "intro": "HydroBeacon provides services \"as is\" without warranties of any kind. We are not liable for:",
+      "intro": "Vigia provides services \"as is\" without warranties of any kind. We are not liable for:",
       "items": {
         "1": "Damages resulting from service interruptions or technical failures",
         "2": "Accuracy or timeliness of flood alerts and predictions",
@@ -1681,7 +1681,7 @@
       "sections": {
         "1": {
           "title": "1. Information We Collect",
-          "intro": "HydroBeacon collects information to provide better services to our users. We collect information in the following ways:",
+          "intro": "Vigia collects information to provide better services to our users. We collect information in the following ways:",
           "items": {
             "1": "Information you give us directly (account registration, contact forms)",
             "2": "Information we get from your use of our services (location data for emergency alerts)",
@@ -1734,11 +1734,11 @@
       "sections": {
         "1": {
           "title": "1. Acceptance of Terms",
-          "text": "By accessing and using HydroBeacon services, you accept and agree to be bound by the terms and provision of this agreement."
+          "text": "By accessing and using Vigia services, you accept and agree to be bound by the terms and provision of this agreement."
         },
         "2": {
           "title": "2. Service Description",
-          "text": "HydroBeacon provides flood monitoring, early warning systems, and emergency response training. Our services are designed to enhance community safety but should not be the sole source of emergency information."
+          "text": "Vigia provides flood monitoring, early warning systems, and emergency response training. Our services are designed to enhance community safety but should not be the sole source of emergency information."
         },
         "3": {
           "title": "3. User Responsibilities",
@@ -1752,7 +1752,7 @@
         },
         "4": {
           "title": "4. Limitation of Liability",
-          "text": "While we strive for accuracy, HydroBeacon cannot guarantee the completeness or timeliness of all alerts. Users should always follow official emergency guidance from local authorities."
+          "text": "While we strive for accuracy, Vigia cannot guarantee the completeness or timeliness of all alerts. Users should always follow official emergency guidance from local authorities."
         }
       }
     },
@@ -1811,10 +1811,10 @@
   "partnerWithUsPage": {
     "hero": {
       "title": "Partner With Us",
-      "description": "Join forces with HydroBeacon to create a safer, more resilient world. Together, we can protect more communities from flood disasters."
+      "description": "Join forces with Vigia to create a safer, more resilient world. Together, we can protect more communities from flood disasters."
     },
     "whyPartner": {
-      "title": "Why Partner with HydroBeacon?",
+      "title": "Why Partner with Vigia?",
       "description": "Our partnerships create synergies that amplify impact, combining expertise and resources to save more lives and protect more communities.",
       "cards": {
         "expandedReach": {
@@ -1940,7 +1940,7 @@
     },
     "steps": {
       "title": "How to Become a Partner",
-      "description": "Ready to join our mission? Here's how to start a partnership with HydroBeacon.",
+      "description": "Ready to join our mission? Here's how to start a partnership with Vigia.",
       "items": {
         "1": {
           "title": "Initial Contact",
@@ -1978,7 +1978,7 @@
         "name": "John Doe",
         "email": "john@organization.com",
         "organization": "Your Organization Name",
-        "message": "Tell us about your organization and how you'd like to partner with HydroBeacon..."
+        "message": "Tell us about your organization and how you'd like to partner with Vigia..."
       },
       "cancel": "Cancel",
       "sending": "Sending...",
@@ -1995,7 +1995,7 @@
       "description": "Join our mission to protect communities from flood disasters. Your skills and passion can make a real difference in saving lives."
     },
     "whyVolunteer": {
-      "title": "Why Volunteer with HydroBeacon?",
+      "title": "Why Volunteer with Vigia?",
       "description": "Make a meaningful impact while developing new skills and connecting with like-minded individuals committed to community safety.",
       "cards": {
         "saveLives": {
@@ -2050,7 +2050,7 @@
           "title": "Community Outreach Specialist",
           "location": "Local communities",
           "time": "8-12 hours/week",
-          "description": "Engage with local communities to promote flood safety awareness and HydroBeacon services. Organize workshops and educational events.",
+          "description": "Engage with local communities to promote flood safety awareness and Vigia services. Organize workshops and educational events.",
           "requirements": {
             "1": "Strong interpersonal skills",
             "2": "Public speaking experience",
@@ -2094,7 +2094,7 @@
     },
     "howToApply": {
       "title": "How to Apply",
-      "description": "Ready to make a difference? Here's how to get started with volunteering at HydroBeacon.",
+      "description": "Ready to make a difference? Here's how to get started with volunteering at Vigia.",
       "steps": {
         "1": {
           "title": "Choose Your Role",
@@ -2144,7 +2144,7 @@
   },
   "signUpPage": {
     "createAccount": "Create Account",
-    "joinTsbi": "Join HydroBeacon",
+    "joinTsbi": "Join Vigia",
     "badges": {
       "secureEnrollment": "Secure Enrollment"
     },
@@ -2515,7 +2515,7 @@
   },
   "contact": {
     "title": "Contact Us",
-    "description": "Get in touch with HydroBeacon team",
+    "description": "Get in touch with Vigia team",
     "name": "Your Name",
     "email": "Your Email",
     "subject": "Subject",

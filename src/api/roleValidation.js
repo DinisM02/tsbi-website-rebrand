@@ -1,5 +1,5 @@
 /**
- * HydroBeacon Role-Based API Validation Layer
+ * Vigia Role-Based API Validation Layer
  * 
  * This file demonstrates how to validate role-based operations.
  * In production, deploy these as Firebase Cloud Functions.
