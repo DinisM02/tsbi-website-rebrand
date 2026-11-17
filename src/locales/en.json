@@ -175,8 +175,7 @@
       "lowRiskCondition": "Normal conditions"
     },
     "alerts": {
-      "title": "Active Alerts & Monitoring"
-      ,
+      "title": "Active Alerts & Monitoring",
       "criticalRiverTitle": "Critical River: {{value}} m³/s",
       "criticalRiverDesc": "River levels critically high. Evacuate if near riverside.",
       "highRiverTitle": "High River: {{value}} m³/s",
@@ -286,17 +285,36 @@
     "communityText": "Connect with your community through our platform"
   },
   "footer": {
-    "about": "About",
-    "services": "Services",
-    "contact": "Contact",
-    "legal": "Legal",
-    "termsOfService": "Terms of Service",
-    "privacyPolicy": "Privacy Policy",
-    "cookieStatement": "Cookie Statement",
-    "communityGuidelines": "Community Guidelines",
+    "description": "HydroBeacon Mozambique is a personal project bringing together flood alerts, risk maps and training to help Mozambican communities stay safe.",
     "followUs": "Follow Us",
-    "rights": "All rights reserved",
-    "version": "Version"
+    "quickLinks": "Quick Links",
+    "legal": "Legal",
+    "version": "Version",
+    "explore": "Explore",
+    "resources": "Resources",
+    "getInvolved": "Get Involved",
+    "emailUs": "Email us",
+    "copyright": "© 2026 HydroBeacon Mozambique · A personal project by Dinis.",
+    "tagline": "Technology for flood prevention in Mozambique",
+    "links": {
+      "privacyPolicy": "Privacy Policy",
+      "termsOfService": "Terms of Service",
+      "communityGuidelines": "Community Guidelines",
+      "cookieStatement": "Cookie Statement",
+      "home": "Home",
+      "aboutUs": "About us",
+      "trainingPrograms": "Training programs",
+      "blogNews": "Blog & news",
+      "resourceLibrary": "Resource library",
+      "safetyDashboard": "Safety dashboard",
+      "trainingDemo": "Training demo",
+      "requestMaterials": "Request materials",
+      "volunteerOpportunities": "Volunteer opportunities",
+      "partnerWithUs": "Partner with us",
+      "reportHazard": "Report a hazard",
+      "feedbackForm": "Feedback form",
+      "imageCredits": "Image credits"
+    }
   },
   "dashboard": {
     "title": "Dashboard",
@@ -529,7 +547,7 @@
     "demoDescription": "Watch this demo to see how our flood monitoring platform works and how it can help keep you safe during flood events.",
     "empoweringCommunities": "Empowering Communities Against Floods",
     "videoUnsupported": "Your browser does not support the video tag.",
-    "imageAlt": "Flood emergency response",
+    "imageAlt": "Flooded street in Manganhe, Beira, during Cyclone Eloise",
     "stats": {
       "livesToProtect": "Lives to Protect",
       "communitiesToServe": "Communities to Serve",
@@ -545,7 +563,7 @@
   },
   "ctaSection": {
     "title": "Ready to Protect Your Community?",
-    "description": "Join thousands of communities already using HydroBeacon to stay safe from flood disasters. Get started today and experience the future of flood safety.",
+    "description": "Start using HydroBeacon and get your family and neighbourhood ready for the next rainy season.",
     "startFreeTrial": "Start Free Trial",
     "watchOverview": "Watch Overview",
     "scheduleDemo": "Schedule Demo",
@@ -584,48 +602,45 @@
     }
   },
   "testimonialsSection": {
-    "title": "Trusted by Communities Worldwide",
-    "description": "Emergency responders, community leaders, and residents rely on HydroBeacon to keep their communities safe from flood disasters.",
-    "partnersTitle": "Welcoming Leading Organizations",
+    "title": "Built for Those Living with the Risk",
+    "description": "Examples of how HydroBeacon can support different people in Mozambique during the rainy season.",
+    "partnersTitle": "Reference Institutions",
     "items": {
-      "sarah": {
-        "name": "Sarah Johnson",
-        "location": "Houston, TX",
-        "role": "Emergency Response Coordinator",
-        "content": "HydroBeacon's real-time alerts saved our community during Hurricane Harvey. The VR training prepared our residents for the actual emergency, and the evacuation routes were accurate and life-saving."
+      "resident": {
+        "name": "Resident",
+        "location": "Beira, Sofala",
+        "content": "Gets phone alerts when the Pungwe or Buzi rivers rise, sees the nearest shelter and the safe route to get there."
       },
-      "chen": {
-        "name": "Dr. Michael Chen",
-        "location": "Miami, FL",
-        "role": "Disaster Management Specialist",
-        "content": "The integration of AI and IoT sensors provides unprecedented accuracy in flood prediction. This platform is revolutionizing how we approach flood safety and community preparedness."
+      "leader": {
+        "name": "Community Leader",
+        "location": "Chókwè, Gaza",
+        "content": "Shares warnings with the neighbourhood, registers vulnerable families and coordinates evacuation when the Limpopo threatens to overflow."
       },
-      "maria": {
-        "name": "Maria Rodriguez",
-        "location": "New Orleans, LA",
-        "role": "Community Leader",
-        "content": "As someone who lived through Katrina, I can't express how valuable this technology is. The mobile app works even when cell towers are down, and the community features keep us connected."
+      "volunteer": {
+        "name": "Volunteer",
+        "location": "Maputo",
+        "content": "Uses the training modules to prepare the community before the rainy season and reports cut-off roads in real time."
       }
     },
     "partners": {
       "items": {
-        "fema": "FEMA",
-        "redCross": "Red Cross",
-        "noaa": "NOAA",
-        "emergencyManagement": "Emergency Management",
-        "weatherService": "Weather Service",
+        "ingd": "INGD",
+        "redCross": "Mozambique Red Cross",
+        "ara": "ARAs (Water Management)",
+        "emergencyManagement": "Local Risk Management Committees",
+        "weatherService": "INAM (Meteorology)",
         "localAuthorities": "Local Authorities"
       }
     },
     "stats": {
-      "livesToProtect": "Lives to Protect",
-      "communitiesToServe": "Communities to Serve",
-      "targetAlertAccuracy": "Target Alert Accuracy",
+      "livesToProtect": "Provinces to Cover",
+      "communitiesToServe": "International Basins",
+      "targetAlertAccuracy": "Portuguese Content",
       "plannedMonitoring": "Planned Monitoring",
       "values": {
-        "livesToProtect": "10,000+",
-        "communitiesToServe": "500+",
-        "targetAlertAccuracy": "95.6%",
+        "livesToProtect": "11",
+        "communitiesToServe": "9",
+        "targetAlertAccuracy": "PT",
         "plannedMonitoring": "24/7"
       }
     }
@@ -782,8 +797,8 @@
       "showingFloodArea": "Showing the live flood area and nearby shelters inside the platform.",
       "immediateEmergency": "Immediate emergency",
       "callEmergency": "If there is immediate danger, call your local emergency services now.",
-      "call112": "Call 112",
-      "call911": "Call 911",
+      "callPolice": "Police (119)",
+      "callFirefighters": "Firefighters (198)",
       "tsbiChannels": "HydroBeacon response channels",
       "email": "Email",
       "hazardReport": "Hazard report",
@@ -826,22 +841,22 @@
   },
   "aboutUsPage": {
     "hero": {
-      "alt": "HydroBeacon mission",
+      "alt": "Aerial view of Avenida 24 de Julho, Maputo",
       "title": "About HydroBeacon",
-      "description": "Protecting communities through advanced flood detection, real-time alerts, and innovative emergency response training."
+      "description": "Flood alerts, risk maps and community preparedness built for Mozambique."
     },
     "mission": {
       "title": "Our Mission",
       "logoAlt": "HydroBeacon Logo",
-      "paragraph1": "HydroBeacon was founded in 2024 with a clear mission: to revolutionize how communities prepare for, respond to, and recover from flood disasters. We combine cutting-edge technology with practical emergency response strategies to save lives and protect property.",
-      "paragraph2": "Our team of experts in meteorology, emergency management, artificial intelligence, and virtual reality training work together to create the most comprehensive flood safety platform available today."
+      "paragraph1": "HydroBeacon is a personal project created by Dinis with a clear goal: helping Mozambican communities prepare for, respond to and recover from floods and cyclones. Mozambique sits downstream of several international river basins (Limpopo, Zambezi, Incomati, Pungwe, Buzi and others), and events like Cyclone Idai (2019) and Freddy (2023) showed the cost of not having information in time.",
+      "paragraph2": "The platform combines open weather and hydrological data, shelter and route maps, and training content in Portuguese, so residents, community leaders and volunteers know what to do before, during and after a flood."
     },
     "impact": {
       "title": "Our Expected Impact",
       "stats": {
-        "livesToProtect": "Lives to Protect",
-        "communitiesToServe": "Communities to Serve",
-        "targetAlertAccuracy": "Target Alert Accuracy",
+        "provinces": "Provinces to Cover",
+        "riverBasins": "International Basins to Track",
+        "language": "Content in Portuguese",
         "plannedMonitoring": "Planned Monitoring"
       }
     },
@@ -864,9 +879,9 @@
           "title": "Timeliness",
           "text": "In emergency situations, every second counts. Our systems are designed to provide the fastest possible alerts and response guidance."
         },
-        "globalPerspective": {
-          "title": "Global Perspective",
-          "text": "Flood disasters affect communities worldwide. We develop solutions that can be adapted to different regions and environmental conditions."
+        "localFocus": {
+          "title": "Focused on Mozambique",
+          "text": "Designed for the Mozambican context: shared river basins, a rainy season from October to April, cyclones in the Mozambique Channel and communities with limited connectivity."
         },
         "dataDriven": {
           "title": "Data-Driven",
@@ -875,65 +890,28 @@
       }
     },
     "team": {
-      "title": "Our Leadership Team",
-      "exploreButton": "Explore Our Team",
-      "showLess": "Show Less",
-      "core": {
-        "aswathy": {
-          "position": "Product Designer & CEO",
-          "description": "Visionary leader with expertise in product design and strategic planning for emergency response solutions."
-        },
-        "francis": {
-          "position": "Associate Product Head",
-          "description": "Community organizer with extensive experience in disaster recovery and resilience building."
-        },
-        "joseph": {
-          "position": "Product Head",
-          "description": "AI and machine learning expert specializing in predictive modeling for natural disasters."
-        }
-      },
-      "full": {
-        "dinis": {
-          "position": "Developer Head",
-          "description": "Lead developer focused on building robust and scalable emergency response platforms."
-        },
-        "vaishnavi": {
-          "position": "UX/UI Designer",
-          "description": "Expert in creating intuitive and accessible interfaces for emergency response applications."
-        },
-        "viktoria": {
-          "position": "UX Designer",
-          "description": "Specialist in user experience design for crisis management and emergency preparedness tools."
-        },
-        "pooja": {
-          "position": "UX/UI Designer",
-          "description": "Creative designer focused on developing user-friendly interfaces for disaster response systems."
-        },
-        "saee": {
-          "position": "UX Researcher",
-          "description": "Research specialist dedicated to understanding user needs in emergency situations."
-        },
-        "jinesh": {
-          "position": "Content Designer",
-          "description": "Content strategist specializing in clear and effective emergency communication design."
-        }
+      "title": "Who's Behind It",
+      "founder": {
+        "position": "Founder & Developer",
+        "description": "Mozambican developer who designed and builds HydroBeacon end to end — from design to code — to put useful technology to work for disaster prevention in Mozambique."
       }
     },
-    "partnersTitle": "Welcoming Partners",
+    "partnersTitle": "Reference Institutions",
     "partners": {
       "items": {
-        "fema": "FEMA",
-        "redCross": "Red Cross",
-        "noaa": "NOAA",
-        "emergencyManagement": "Emergency Management",
-        "weatherService": "Weather Service",
+        "ingd": "INGD",
+        "redCross": "Mozambique Red Cross",
+        "ara": "ARAs (Water Management)",
+        "emergencyManagement": "Local Risk Management Committees",
+        "weatherService": "INAM (Meteorology)",
         "localAuthorities": "Local Authorities"
       }
-    }
+    },
+    "partnersNote": "Institutions whose information and guidance serve as reference. HydroBeacon is an independent personal project with no official affiliation to these entities."
   },
   "contactPage": {
     "hero": {
-      "alt": "Contact HydroBeacon",
+      "alt": "Maputo skyline seen from the bay",
       "title": "Contact Us",
       "descriptionLine1": "Have questions about our flood safety platform?",
       "descriptionLine2": "Need custom training for your organization? We're here to help."
@@ -1024,7 +1002,7 @@
   "resourcesPage": {
     "learnMore": "Learn more",
     "hero": {
-      "alt": "Flood safety resources",
+      "alt": "Aerial view of a flooded town on the Limpopo River",
       "title": "Flood Safety Resources",
       "description": "Access our comprehensive collection of flood safety guides, training materials, and emergency response resources."
     },
@@ -1198,7 +1176,7 @@
       "critical": "CRITICAL:",
       "contactNow": "For immediate life-threatening emergencies, contact emergency services directly:",
       "servicesLabel": "Emergency Services:",
-      "servicesValue": "911 (US), 112 (EU), or your local emergency number",
+      "servicesValue": "Police 119 · Firefighters 198 · Ambulance 117 (Mozambique)",
       "hotlineLabel": "HydroBeacon Emergency Hotline:",
       "nonEmergencyLabel": "Non-Emergency Support:",
       "note": "Use our community platforms for preparedness discussions, not active emergency response."
@@ -1237,7 +1215,7 @@
   },
   "trainingPage": {
     "hero": {
-      "alt": "Flood rescue training",
+      "alt": "Community waiting for rescue during the 2000 Mozambique floods",
       "title": "Immersive Flood Preparedness Training",
       "description": "Experience our cutting-edge AR training modules designed to prepare individuals and communities for flood emergencies."
     },
@@ -1281,12 +1259,54 @@
       "action": "Request Custom Training"
     },
     "courses": {
-      "1": { "title": "Basic Flood Preparedness", "description": "Essential flood safety for families and individuals.", "level": "Beginner", "duration": "4 hours", "format": "In-person", "startDate": "Starts weekly" },
-      "2": { "title": "Community Response Workshop", "description": "Coordinate neighborhood emergency response teams.", "level": "Intermediate", "duration": "1 day", "format": "Hybrid", "startDate": "Monthly" },
-      "3": { "title": "AR Flood Simulation Lab", "description": "Hands-on AR scenarios for decision-making under pressure.", "level": "Intermediate", "duration": "6 hours", "format": "AR Lab", "startDate": "Bi-weekly" },
-      "4": { "title": "Responder Advanced Operations", "description": "Advanced rescue and communication protocols for teams.", "level": "Advanced", "duration": "2 days", "format": "In-person", "startDate": "Quarterly" },
-      "5": { "title": "School Safety Program", "description": "Preparedness training for educators and school staff.", "level": "Beginner", "duration": "3 hours", "format": "On-site", "startDate": "By request" },
-      "6": { "title": "Business Continuity for Floods", "description": "Protect operations and staff during flood disruption.", "level": "Intermediate", "duration": "5 hours", "format": "Workshop", "startDate": "Monthly" }
+      "1": {
+        "title": "Basic Flood Preparedness",
+        "description": "Essential flood safety for families and individuals.",
+        "level": "Beginner",
+        "duration": "4 hours",
+        "format": "In-person",
+        "startDate": "Starts weekly"
+      },
+      "2": {
+        "title": "Community Response Workshop",
+        "description": "Coordinate neighborhood emergency response teams.",
+        "level": "Intermediate",
+        "duration": "1 day",
+        "format": "Hybrid",
+        "startDate": "Monthly"
+      },
+      "3": {
+        "title": "AR Flood Simulation Lab",
+        "description": "Hands-on AR scenarios for decision-making under pressure.",
+        "level": "Intermediate",
+        "duration": "6 hours",
+        "format": "AR Lab",
+        "startDate": "Bi-weekly"
+      },
+      "4": {
+        "title": "Responder Advanced Operations",
+        "description": "Advanced rescue and communication protocols for teams.",
+        "level": "Advanced",
+        "duration": "2 days",
+        "format": "In-person",
+        "startDate": "Quarterly"
+      },
+      "5": {
+        "title": "School Safety Program",
+        "description": "Preparedness training for educators and school staff.",
+        "level": "Beginner",
+        "duration": "3 hours",
+        "format": "On-site",
+        "startDate": "By request"
+      },
+      "6": {
+        "title": "Business Continuity for Floods",
+        "description": "Protect operations and staff during flood disruption.",
+        "level": "Intermediate",
+        "duration": "5 hours",
+        "format": "Workshop",
+        "startDate": "Monthly"
+      }
     },
     "enrollModal": {
       "title": "Enroll in {{course}}",
@@ -1392,12 +1412,30 @@
       "title": "What Participants Say",
       "description": "Emergency responders, community leaders, and residents rely on HydroBeacon training to keep their communities safe from flood disasters.",
       "items": {
-        "1": { "content": "The AR drills felt real and made our team faster during simulations.", "role": "Emergency Coordinator" },
-        "2": { "content": "Clear, practical, and easy to apply in our neighborhood response plan.", "role": "Community Leader" },
-        "3": { "content": "I finally feel confident about evacuation protocols.", "role": "School Administrator" },
-        "4": { "content": "Excellent structure and instructor support throughout the course.", "role": "Volunteer Team Lead" },
-        "5": { "content": "The scenarios matched the real flood risks in our area.", "role": "Municipal Planner" },
-        "6": { "content": "Highly recommended for any local response network.", "role": "Public Safety Officer" }
+        "1": {
+          "content": "The AR drills felt real and made our team faster during simulations.",
+          "role": "Emergency Coordinator"
+        },
+        "2": {
+          "content": "Clear, practical, and easy to apply in our neighborhood response plan.",
+          "role": "Community Leader"
+        },
+        "3": {
+          "content": "I finally feel confident about evacuation protocols.",
+          "role": "School Administrator"
+        },
+        "4": {
+          "content": "Excellent structure and instructor support throughout the course.",
+          "role": "Volunteer Team Lead"
+        },
+        "5": {
+          "content": "The scenarios matched the real flood risks in our area.",
+          "role": "Municipal Planner"
+        },
+        "6": {
+          "content": "Highly recommended for any local response network.",
+          "role": "Public Safety Officer"
+        }
       }
     }
   },
@@ -1756,6 +1794,17 @@
           "title": "3. Managing Cookies",
           "text": "You can control and manage cookies through your browser settings. However, disabling certain cookies may affect the functionality of our website."
         }
+      }
+    },
+    "imageCredits": {
+      "intro": "The Mozambique images used on this site come from Wikimedia Commons and are used under their respective licences.",
+      "note": "Images were resized and cropped to fit the site layout.",
+      "pages": {
+        "home": "Home",
+        "about": "About",
+        "contact": "Contact",
+        "resources": "Resources",
+        "training": "Training"
       }
     }
   },
@@ -2464,37 +2513,6 @@
       }
     }
   },
-  "footer": {
-    "description": "HydroBeacon provides real-time flood alerts, VR/AR training, and emergency response tools to keep communities safe from flood disasters.",
-    "followUs": "Follow Us",
-    "quickLinks": "Quick Links",
-    "legal": "Legal",
-    "version": "Version",
-    "explore": "Explore",
-    "resources": "Resources",
-    "getInvolved": "Get Involved",
-    "emailUs": "Email us",
-    "copyright": "© 2025 HydroBeacon. All rights reserved.",
-    "tagline": "Protecting communities through advanced technology",
-    "links": {
-      "privacyPolicy": "Privacy Policy",
-      "termsOfService": "Terms of Service",
-      "communityGuidelines": "Community Guidelines",
-      "cookieStatement": "Cookie Statement",
-      "home": "Home",
-      "aboutUs": "About us",
-      "trainingPrograms": "Training programs",
-      "blogNews": "Blog & news",
-      "resourceLibrary": "Resource library",
-      "safetyDashboard": "Safety dashboard",
-      "trainingDemo": "Training demo",
-      "requestMaterials": "Request materials",
-      "volunteerOpportunities": "Volunteer opportunities",
-      "partnerWithUs": "Partner with us",
-      "reportHazard": "Report a hazard",
-      "feedbackForm": "Feedback form"
-    }
-  },
   "contact": {
     "title": "Contact Us",
     "description": "Get in touch with HydroBeacon team",
@@ -2551,16 +2569,3 @@
     "goHome": "Go to Home"
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-

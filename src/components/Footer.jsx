@@ -1,8 +1,8 @@
 ﻿import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Facebook, Twitter, Linkedin, Instagram, Mail } from 'lucide-react';
+import { Github, Mail } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import tsbiLogo from '../assets/TSBI logo4.png';
+import hydroBeaconLogo from '../assets/hydrobeacon-logo.svg';
 import LegalModal from './LegalModal';
 
 const Footer = () => {
@@ -38,9 +38,9 @@ const Footer = () => {
           <div className="space-y-4">
             <div className="bg-white p-2 sm:p-3 md:p-4 rounded-lg flex items-center justify-center w-fit mx-auto md:mx-0">
               <img 
-                src={tsbiLogo} 
-                alt="HydroBeacon Logo" 
-                className="h-16 sm:h-20 md:h-22 w-auto object-contain"
+                src={hydroBeaconLogo}
+                alt="HydroBeacon Moçambique"
+                className="h-14 sm:h-16 md:h-18 w-auto object-contain"
                 loading="lazy"
                 decoding="async"
               />
@@ -53,34 +53,15 @@ const Footer = () => {
               </p>
 
               <div className="flex justify-center md:justify-start space-x-3 pt-2">
-                <a href="#" className="text-white bg-blue-600 hover:bg-blue-700 p-2 rounded-full transition-colors">
-                  <Facebook className="w-5 h-5" />
-                </a>
-                <a 
-                  href="https://x.com/thesafetybeacon?s=09" 
-                  target="_blank" 
-                  rel="noopener noreferrer" 
-                  className="text-white bg-black hover:bg-gray-800 p-2 rounded-full transition-colors"
+                <a
+                  href="https://github.com/DinisM02"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white bg-gray-800 hover:bg-gray-900 p-2 rounded-full transition-colors"
+                  title="GitHub"
                 >
-                  <Twitter className="w-5 h-5" />
+                  <Github className="w-5 h-5" />
                 </a>
-                <a 
-                  href="https://www.instagram.com/thesafetybeaconinitiative?igsh=MTIxM3V5dWZpdXVvdw==" 
-                  target="_blank" 
-                  rel="noopener noreferrer" 
-                  className="text-white bg-pink-500 hover:bg-pink-600 p-2 rounded-full transition-colors"
-                >
-                  <Instagram className="w-5 h-5" />
-                </a>
-                <a 
-                  href="https://www.linkedin.com/company/thesafetybeacon-tsbi/" 
-                  target="_blank" 
-                  rel="noopener noreferrer" 
-                  className="text-white bg-blue-500 hover:bg-blue-600 p-2 rounded-full transition-colors"
-                >
-                  <Linkedin className="w-5 h-5" />
-                </a>
-                {/* Email Icon - Corrigido para escuro */}
                 <a 
                   href="mailto:support@hydrobeacon.org" 
                   className="text-white bg-gray-800 hover:bg-gray-900 p-2 rounded-full transition-colors"
@@ -130,6 +111,14 @@ const Footer = () => {
                       className="text-gray-200 hover:text-white transition-colors text-left text-sm"
                     >
                       {t('footer.links.cookieStatement')}
+                    </button>
+                  </li>
+                  <li>
+                    <button
+                      onClick={() => openModal('image-credits', t('footer.links.imageCredits'))}
+                      className="text-gray-200 hover:text-white transition-colors text-left text-sm"
+                    >
+                      {t('footer.links.imageCredits')}
                     </button>
                   </li>
                 </ul>

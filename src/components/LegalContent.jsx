@@ -177,7 +177,36 @@ const LegalContent = ({ type }) => {
     </div>
   );
 
+  const imageCredits = [
+    { key: 'home', title: 'Bairro de Manganhe, Beira, during ciclone Eloise', author: 'Voice of America (VOA)', license: 'Public domain', url: 'https://commons.wikimedia.org/wiki/File:Bairro_de_Manganhe,_Beira,_during_ciclone_Eloise_VOA.jpg' },
+    { key: 'about', title: 'Avenida 24 de Julho, Maputo', author: 'Andrew Moore', license: 'CC BY-SA 2.0', licenseUrl: 'https://creativecommons.org/licenses/by-sa/2.0/', url: 'https://commons.wikimedia.org/wiki/File:Avenida_24_de_Julho_Maputo_(391897906).jpg' },
+    { key: 'contact', title: 'Maputo skyline from cruiseship', author: 'Andrew Moir', license: 'CC BY 2.0', licenseUrl: 'https://creativecommons.org/licenses/by/2.0/', url: 'https://commons.wikimedia.org/wiki/File:Maputo_skyline_from_cruiseship_East_Africa_-_Flickr_-_moron_noodle.jpg' },
+    { key: 'resources', title: 'Flooded town, Limpopo River', author: 'U.S. Department of Defense', license: 'Public domain', url: 'https://commons.wikimedia.org/wiki/File:Flooded_town_Limpopo_River.jpg' },
+    { key: 'training', title: '2000 Mozambique flood – Group waiting', author: 'USAID', license: 'Public domain', url: 'https://commons.wikimedia.org/wiki/File:2000_Mozambique_flood_Group_Waiting_(5687137504).jpg' },
+  ];
+
+  const renderImageCredits = () => (
+    <div className="space-y-4">
+      <p className="text-gray-600">{t('legalContent.imageCredits.intro')}</p>
+      <ul className="space-y-3">
+        {imageCredits.map((c) => (
+          <li key={c.key} className="text-gray-600 text-sm">
+            <span className="font-semibold text-gray-700">{t(`legalContent.imageCredits.pages.${c.key}`)}:</span>{' '}
+            <a href={c.url} target="_blank" rel="noopener noreferrer" className="text-primary underline">{c.title}</a>
+            {' — '}{c.author}{' · '}
+            {c.licenseUrl ? (
+              <a href={c.licenseUrl} target="_blank" rel="noopener noreferrer" className="underline">{c.license}</a>
+            ) : c.license}
+          </li>
+        ))}
+      </ul>
+      <p className="text-gray-500 text-xs">{t('legalContent.imageCredits.note')}</p>
+    </div>
+  );
+
   switch (type) {
+    case 'image-credits':
+      return renderImageCredits();
     case 'privacy-policy':
       return renderPrivacyPolicy();
     case 'terms-of-service':

@@ -175,8 +175,7 @@
       "lowRiskCondition": "Condições normais"
     },
     "alerts": {
-      "title": "Alertas Ativos e Monitoramento"
-      ,
+      "title": "Alertas Ativos e Monitoramento",
       "criticalRiverTitle": "Rio Crítico: {{value}} m³/s",
       "criticalRiverDesc": "Níveis do rio criticamente altos. Evacue se estiver perto das margens.",
       "highRiverTitle": "Rio Alto: {{value}} m³/s",
@@ -286,17 +285,36 @@
     "communityText": "Conecte-se com sua comunidade através de nossa plataforma"
   },
   "footer": {
-    "about": "Sobre",
-    "services": "Serviços",
-    "contact": "Contato",
-    "legal": "Legal",
-    "termsOfService": "Termos de Serviço",
-    "privacyPolicy": "Política de Privacidade",
-    "cookieStatement": "Declaração de Cookies",
-    "communityGuidelines": "Diretrizes da Comunidade",
+    "description": "HydroBeacon Moçambique é um projecto pessoal que reúne alertas de cheias, mapas de risco e formação para ajudar as comunidades moçambicanas a manterem-se seguras.",
     "followUs": "Siga-nos",
-    "rights": "Todos os direitos reservados",
-    "version": "Versão"
+    "quickLinks": "Links Rápidos",
+    "legal": "Legal",
+    "version": "Versão",
+    "explore": "Explorar",
+    "resources": "Recursos",
+    "getInvolved": "Participar",
+    "emailUs": "Enviar-nos email",
+    "copyright": "© 2026 HydroBeacon Moçambique · Projecto pessoal de Dinis.",
+    "tagline": "Tecnologia ao serviço da prevenção de cheias em Moçambique",
+    "links": {
+      "privacyPolicy": "Política de Privacidade",
+      "termsOfService": "Termos de Serviço",
+      "communityGuidelines": "Diretrizes da Comunidade",
+      "cookieStatement": "Declaração de Cookies",
+      "home": "Início",
+      "aboutUs": "Sobre nós",
+      "trainingPrograms": "Programas de treino",
+      "blogNews": "Blog e notícias",
+      "resourceLibrary": "Biblioteca de recursos",
+      "safetyDashboard": "Painel de segurança",
+      "trainingDemo": "Demonstração de treino",
+      "requestMaterials": "Pedir materiais",
+      "volunteerOpportunities": "Oportunidades de voluntariado",
+      "partnerWithUs": "Seja nosso parceiro",
+      "reportHazard": "Reportar um perigo",
+      "feedbackForm": "Formulário de feedback",
+      "imageCredits": "Créditos das imagens"
+    }
   },
   "dashboard": {
     "title": "Painel",
@@ -529,7 +547,7 @@
     "demoDescription": "Veja esta demonstração para entender como nossa plataforma de monitoramento de inundações funciona e como ela pode ajudá-lo a permanecer seguro durante eventos de inundação.",
     "empoweringCommunities": "Fortalecendo Comunidades Contra Inundações",
     "videoUnsupported": "Seu navegador nao suporta a tag de video.",
-    "imageAlt": "Resposta de emergencia a inundacao",
+    "imageAlt": "Rua inundada no bairro de Manganhe, Beira, durante o ciclone Eloise",
     "stats": {
       "livesToProtect": "Vidas a Proteger",
       "communitiesToServe": "Comunidades a Servir",
@@ -545,7 +563,7 @@
   },
   "ctaSection": {
     "title": "Pronto para Proteger a Sua Comunidade?",
-    "description": "Junte-se a milhares de comunidades que já usam o HydroBeacon para se manterem seguras contra desastres de inundação. Comece hoje e experimente o futuro da segurança contra cheias.",
+    "description": "Comece a usar o HydroBeacon e prepare a sua família e o seu bairro para a próxima época chuvosa.",
     "startFreeTrial": "Iniciar Teste Gratuito",
     "watchOverview": "Ver Visão Geral",
     "scheduleDemo": "Agendar Demonstração",
@@ -584,48 +602,45 @@
     }
   },
   "testimonialsSection": {
-    "title": "Confiado por Comunidades em Todo o Mundo",
-    "description": "Socorristas, líderes comunitários e residentes confiam no HydroBeacon para manter as suas comunidades seguras contra desastres de inundação.",
-    "partnersTitle": "Acolhendo Organizações de Referência",
+    "title": "Pensado para Quem Vive o Risco",
+    "description": "Exemplos de como o HydroBeacon pode apoiar diferentes pessoas em Moçambique durante a época chuvosa.",
+    "partnersTitle": "Instituições de Referência",
     "items": {
-      "sarah": {
-        "name": "Sarah Johnson",
-        "location": "Houston, TX",
-        "role": "Coordenadora de Resposta a Emergências",
-        "content": "Os alertas em tempo real do HydroBeacon salvaram a nossa comunidade durante o Furacão Harvey. O treino em VR preparou os nossos residentes para a emergência real, e as rotas de evacuação foram precisas e salvaram vidas."
+      "resident": {
+        "name": "Residente",
+        "location": "Beira, Sofala",
+        "content": "Recebe alertas no telemóvel quando o nível do Púnguè ou do Búzi sobe, vê o abrigo mais próximo e a rota segura até lá."
       },
-      "chen": {
-        "name": "Dr. Michael Chen",
-        "location": "Miami, FL",
-        "role": "Especialista em Gestão de Desastres",
-        "content": "A integração de IA e sensores IoT oferece uma precisão sem precedentes na previsão de inundações. Esta plataforma está a revolucionar a forma como abordamos a segurança contra cheias e a preparação comunitária."
+      "leader": {
+        "name": "Líder Comunitário",
+        "location": "Chókwè, Gaza",
+        "content": "Partilha avisos com o bairro, regista famílias vulneráveis e coordena a evacuação quando o Limpopo ameaça transbordar."
       },
-      "maria": {
-        "name": "Maria Rodriguez",
-        "location": "Nova Orleans, LA",
-        "role": "Líder Comunitária",
-        "content": "Como alguém que viveu o Katrina, não consigo expressar o valor desta tecnologia. A aplicação móvel funciona mesmo quando as torres de rede falham, e as funcionalidades comunitárias mantêm-nos ligados."
+      "volunteer": {
+        "name": "Voluntário",
+        "location": "Maputo",
+        "content": "Usa os módulos de formação para preparar a comunidade antes da época chuvosa e reporta estradas cortadas em tempo real."
       }
     },
     "partners": {
       "items": {
-        "fema": "FEMA",
-        "redCross": "Cruz Vermelha",
-        "noaa": "NOAA",
-        "emergencyManagement": "Gestao de Emergencias",
-        "weatherService": "Servico Meteorologico",
+        "ingd": "INGD",
+        "redCross": "Cruz Vermelha de Moçambique",
+        "ara": "ARAs (Gestão de Águas)",
+        "emergencyManagement": "Comités Locais de Gestão de Risco",
+        "weatherService": "INAM (Meteorologia)",
         "localAuthorities": "Autoridades Locais"
       }
     },
     "stats": {
-      "livesToProtect": "Vidas a Proteger",
-      "communitiesToServe": "Comunidades a Servir",
-      "targetAlertAccuracy": "Precisão Alvo dos Alertas",
+      "livesToProtect": "Províncias a Cobrir",
+      "communitiesToServe": "Bacias Internacionais",
+      "targetAlertAccuracy": "Conteúdo em Português",
       "plannedMonitoring": "Monitorização Planeada",
       "values": {
-        "livesToProtect": "10.000+",
-        "communitiesToServe": "500+",
-        "targetAlertAccuracy": "95,6%",
+        "livesToProtect": "11",
+        "communitiesToServe": "9",
+        "targetAlertAccuracy": "PT",
         "plannedMonitoring": "24/7"
       }
     }
@@ -782,8 +797,8 @@
       "showingFloodArea": "Mostrando a área de inundação ao vivo e abrigos próximos dentro da plataforma.",
       "immediateEmergency": "Emergência imediata",
       "callEmergency": "Se houver perigo imediato, ligue para os serviços de emergência local agora.",
-      "call112": "Ligar para 112",
-      "call911": "Ligar para 911",
+      "callPolice": "Polícia (119)",
+      "callFirefighters": "Bombeiros (198)",
       "tsbiChannels": "Canais de resposta HydroBeacon",
       "email": "Email",
       "hazardReport": "Relato de risco",
@@ -826,22 +841,22 @@
   },
   "aboutUsPage": {
     "hero": {
-      "alt": "Missão HydroBeacon",
+      "alt": "Vista aérea da Avenida 24 de Julho, Maputo",
       "title": "Sobre HydroBeacon",
-      "description": "A proteger comunidades com deteção avançada de cheias, alertas em tempo real e treino inovador de resposta a emergências."
+      "description": "Alertas de cheias, mapas de risco e preparação comunitária pensados para Moçambique."
     },
     "mission": {
       "title": "A Nossa Missão",
       "logoAlt": "Logotipo HydroBeacon",
-      "paragraph1": "A HydroBeacon foi fundada em 2024 com uma missão clara: revolucionar a forma como as comunidades se preparam, respondem e recuperam de desastres de inundação. Combinamos tecnologia de ponta com estratégias práticas de resposta a emergências para salvar vidas e proteger bens.",
-      "paragraph2": "A nossa equipa de especialistas em meteorologia, gestão de emergências, inteligência artificial e treino em realidade virtual trabalha em conjunto para criar a plataforma de segurança contra cheias mais completa disponível atualmente."
+      "paragraph1": "O HydroBeacon é um projecto pessoal criado por Dinis com um objectivo claro: ajudar as comunidades moçambicanas a preparar-se, responder e recuperar de cheias e ciclones. Moçambique está a jusante de várias bacias internacionais (Limpopo, Zambeze, Incomáti, Púnguè, Búzi, entre outras) e eventos como o Idai (2019) e o Freddy (2023) mostraram o custo de não ter informação a tempo.",
+      "paragraph2": "A plataforma combina dados meteorológicos e hidrológicos abertos, mapas de abrigos e rotas, e conteúdos de formação em português, para que residentes, líderes comunitários e voluntários saibam o que fazer antes, durante e depois de uma cheia."
     },
     "impact": {
       "title": "O Nosso Impacto Esperado",
       "stats": {
-        "livesToProtect": "Vidas a Proteger",
-        "communitiesToServe": "Comunidades a Servir",
-        "targetAlertAccuracy": "Precisão Alvo dos Alertas",
+        "provinces": "Províncias a Cobrir",
+        "riverBasins": "Bacias Internacionais a Acompanhar",
+        "language": "Conteúdo em Português",
         "plannedMonitoring": "Monitorização Planeada"
       }
     },
@@ -864,9 +879,9 @@
           "title": "Rapidez",
           "text": "Em situações de emergência, cada segundo conta. Os nossos sistemas são desenhados para fornecer alertas e orientação de resposta o mais rápido possível."
         },
-        "globalPerspective": {
-          "title": "Perspetiva Global",
-          "text": "As cheias afetam comunidades em todo o mundo. Desenvolvemos soluções que podem ser adaptadas a diferentes regiões e condições ambientais."
+        "localFocus": {
+          "title": "Foco em Moçambique",
+          "text": "Desenhado para a realidade moçambicana: bacias partilhadas, época chuvosa de Outubro a Abril, ciclones no Canal de Moçambique e comunidades com conectividade limitada."
         },
         "dataDriven": {
           "title": "Baseado em Dados",
@@ -875,65 +890,28 @@
       }
     },
     "team": {
-      "title": "A Nossa Equipa de Liderança",
-      "exploreButton": "Explorar a Nossa Equipa",
-      "showLess": "Mostrar Menos",
-      "core": {
-        "aswathy": {
-          "position": "Product Designer e CEO",
-          "description": "Líder visionária com especialização em design de produto e planeamento estratégico para soluções de resposta a emergências."
-        },
-        "francis": {
-          "position": "Associate Product Head",
-          "description": "Organizador comunitário com vasta experiência em recuperação de desastres e construção de resiliência."
-        },
-        "joseph": {
-          "position": "Product Head",
-          "description": "Especialista em IA e machine learning com foco em modelação preditiva para desastres naturais."
-        }
-      },
-      "full": {
-        "dinis": {
-          "position": "Developer Head",
-          "description": "Líder de desenvolvimento focado na criação de plataformas robustas e escaláveis para resposta a emergências."
-        },
-        "vaishnavi": {
-          "position": "UX/UI Designer",
-          "description": "Especialista em criar interfaces intuitivas e acessíveis para aplicações de resposta a emergências."
-        },
-        "viktoria": {
-          "position": "UX Designer",
-          "description": "Especialista em experiência do utilizador para gestão de crise e ferramentas de preparação para emergências."
-        },
-        "pooja": {
-          "position": "UX/UI Designer",
-          "description": "Designer criativa focada no desenvolvimento de interfaces intuitivas para sistemas de resposta a desastres."
-        },
-        "saee": {
-          "position": "UX Researcher",
-          "description": "Especialista em investigação dedicada a compreender as necessidades dos utilizadores em situações de emergência."
-        },
-        "jinesh": {
-          "position": "Content Designer",
-          "description": "Estratega de conteúdo com foco em comunicação de emergência clara e eficaz."
-        }
+      "title": "Quem Está por Trás",
+      "founder": {
+        "position": "Fundador e Developer",
+        "description": "Developer moçambicano que concebeu e desenvolve o HydroBeacon de ponta a ponta — do design ao código — com o objectivo de pôr tecnologia útil ao serviço da prevenção de desastres em Moçambique."
       }
     },
-    "partnersTitle": "Parceiros que Acolhemos",
+    "partnersTitle": "Instituições de Referência",
     "partners": {
       "items": {
-        "fema": "FEMA",
-        "redCross": "Cruz Vermelha",
-        "noaa": "NOAA",
-        "emergencyManagement": "Gestao de Emergencias",
-        "weatherService": "Servico Meteorologico",
+        "ingd": "INGD",
+        "redCross": "Cruz Vermelha de Moçambique",
+        "ara": "ARAs (Gestão de Águas)",
+        "emergencyManagement": "Comités Locais de Gestão de Risco",
+        "weatherService": "INAM (Meteorologia)",
         "localAuthorities": "Autoridades Locais"
       }
-    }
+    },
+    "partnersNote": "Instituições cuja informação e orientações servem de referência. O HydroBeacon é um projecto pessoal e independente, sem afiliação oficial a estas entidades."
   },
   "contactPage": {
     "hero": {
-      "alt": "Contato HydroBeacon",
+      "alt": "Vista da cidade de Maputo a partir da baía",
       "title": "Entre em Contacto",
       "descriptionLine1": "Tem perguntas sobre a nossa plataforma de segurança contra cheias?",
       "descriptionLine2": "Precisa de treino personalizado para a sua organização? Estamos aqui para ajudar."
@@ -1024,7 +1002,7 @@
   "resourcesPage": {
     "learnMore": "Saber mais",
     "hero": {
-      "alt": "Recursos de segurança contra cheias",
+      "alt": "Vista aérea de uma vila inundada junto ao rio Limpopo",
       "title": "Recursos de Segurança contra Cheias",
       "description": "Aceda à nossa coleção completa de guias de segurança contra cheias, materiais de treino e recursos de resposta a emergências."
     },
@@ -1198,7 +1176,7 @@
       "critical": "CRÍTICO:",
       "contactNow": "Para emergências imediatas com risco de vida, contacte diretamente os serviços de emergência:",
       "servicesLabel": "Serviços de Emergência:",
-      "servicesValue": "911 (EUA), 112 (UE), ou o número local de emergência",
+      "servicesValue": "Polícia 119 · Bombeiros 198 · Ambulância 117 (Moçambique)",
       "hotlineLabel": "Linha Direta de Emergência HydroBeacon:",
       "nonEmergencyLabel": "Suporte Não Emergencial:",
       "note": "Use as nossas plataformas comunitárias para discussões de preparação, não para resposta ativa a emergências."
@@ -1237,7 +1215,7 @@
   },
   "trainingPage": {
     "hero": {
-      "alt": "Treino de resgate em cheias",
+      "alt": "Comunidade à espera de resgate durante as cheias de 2000 em Moçambique",
       "title": "Treino Imersivo de Preparação para Cheias",
       "description": "Experimente os nossos módulos avançados de treino em AR, concebidos para preparar indivíduos e comunidades para emergências de cheias."
     },
@@ -1281,12 +1259,54 @@
       "action": "Solicitar Treino Personalizado"
     },
     "courses": {
-      "1": { "title": "Preparação Básica para Cheias", "description": "Segurança essencial contra cheias para famílias e indivíduos.", "level": "Iniciante", "duration": "4 horas", "format": "Presencial", "startDate": "Início semanal" },
-      "2": { "title": "Workshop de Resposta Comunitária", "description": "Coordene equipas de resposta de emergência no bairro.", "level": "Intermédio", "duration": "1 dia", "format": "Híbrido", "startDate": "Mensal" },
-      "3": { "title": "Laboratório de Simulação AR de Cheias", "description": "Cenários AR práticos para tomada de decisão sob pressão.", "level": "Intermédio", "duration": "6 horas", "format": "Laboratório AR", "startDate": "Quinzenal" },
-      "4": { "title": "Operações Avançadas para Respondentes", "description": "Protocolos avançados de resgate e comunicação para equipas.", "level": "Avançado", "duration": "2 dias", "format": "Presencial", "startDate": "Trimestral" },
-      "5": { "title": "Programa de Segurança Escolar", "description": "Treino de preparação para educadores e equipa escolar.", "level": "Iniciante", "duration": "3 horas", "format": "No local", "startDate": "Sob solicitação" },
-      "6": { "title": "Continuidade de Negócio para Cheias", "description": "Proteja operações e equipa durante interrupções por cheias.", "level": "Intermédio", "duration": "5 horas", "format": "Workshop", "startDate": "Mensal" }
+      "1": {
+        "title": "Preparação Básica para Cheias",
+        "description": "Segurança essencial contra cheias para famílias e indivíduos.",
+        "level": "Iniciante",
+        "duration": "4 horas",
+        "format": "Presencial",
+        "startDate": "Início semanal"
+      },
+      "2": {
+        "title": "Workshop de Resposta Comunitária",
+        "description": "Coordene equipas de resposta de emergência no bairro.",
+        "level": "Intermédio",
+        "duration": "1 dia",
+        "format": "Híbrido",
+        "startDate": "Mensal"
+      },
+      "3": {
+        "title": "Laboratório de Simulação AR de Cheias",
+        "description": "Cenários AR práticos para tomada de decisão sob pressão.",
+        "level": "Intermédio",
+        "duration": "6 horas",
+        "format": "Laboratório AR",
+        "startDate": "Quinzenal"
+      },
+      "4": {
+        "title": "Operações Avançadas para Respondentes",
+        "description": "Protocolos avançados de resgate e comunicação para equipas.",
+        "level": "Avançado",
+        "duration": "2 dias",
+        "format": "Presencial",
+        "startDate": "Trimestral"
+      },
+      "5": {
+        "title": "Programa de Segurança Escolar",
+        "description": "Treino de preparação para educadores e equipa escolar.",
+        "level": "Iniciante",
+        "duration": "3 horas",
+        "format": "No local",
+        "startDate": "Sob solicitação"
+      },
+      "6": {
+        "title": "Continuidade de Negócio para Cheias",
+        "description": "Proteja operações e equipa durante interrupções por cheias.",
+        "level": "Intermédio",
+        "duration": "5 horas",
+        "format": "Workshop",
+        "startDate": "Mensal"
+      }
     },
     "enrollModal": {
       "title": "Inscrever em {{course}}",
@@ -1392,12 +1412,30 @@
       "title": "O Que os Participantes Dizem",
       "description": "Respondentes de emergência, líderes comunitários e residentes confiam no treino HydroBeacon para manter as suas comunidades seguras contra desastres de cheias.",
       "items": {
-        "1": { "content": "Os exercícios em AR pareceram reais e tornaram a nossa equipa mais rápida nas simulações.", "role": "Coordenador de Emergência" },
-        "2": { "content": "Claro, prático e fácil de aplicar no nosso plano de resposta comunitária.", "role": "Líder Comunitária" },
-        "3": { "content": "Finalmente sinto confiança nos protocolos de evacuação.", "role": "Gestora Escolar" },
-        "4": { "content": "Excelente estrutura e apoio dos instrutores durante todo o curso.", "role": "Líder de Equipa de Voluntários" },
-        "5": { "content": "Os cenários corresponderam aos riscos reais de cheia da nossa área.", "role": "Planeador Municipal" },
-        "6": { "content": "Altamente recomendado para qualquer rede local de resposta.", "role": "Oficial de Segurança Pública" }
+        "1": {
+          "content": "Os exercícios em AR pareceram reais e tornaram a nossa equipa mais rápida nas simulações.",
+          "role": "Coordenador de Emergência"
+        },
+        "2": {
+          "content": "Claro, prático e fácil de aplicar no nosso plano de resposta comunitária.",
+          "role": "Líder Comunitária"
+        },
+        "3": {
+          "content": "Finalmente sinto confiança nos protocolos de evacuação.",
+          "role": "Gestora Escolar"
+        },
+        "4": {
+          "content": "Excelente estrutura e apoio dos instrutores durante todo o curso.",
+          "role": "Líder de Equipa de Voluntários"
+        },
+        "5": {
+          "content": "Os cenários corresponderam aos riscos reais de cheia da nossa área.",
+          "role": "Planeador Municipal"
+        },
+        "6": {
+          "content": "Altamente recomendado para qualquer rede local de resposta.",
+          "role": "Oficial de Segurança Pública"
+        }
       }
     }
   },
@@ -1756,6 +1794,17 @@
           "title": "3. Gerir Cookies",
           "text": "Pode controlar e gerir cookies nas definições do navegador. No entanto, desativar certos cookies pode afetar a funcionalidade do nosso site."
         }
+      }
+    },
+    "imageCredits": {
+      "intro": "As imagens de Moçambique usadas neste site vêm do Wikimedia Commons e são usadas de acordo com as respectivas licenças.",
+      "note": "As imagens foram redimensionadas e recortadas para o layout do site.",
+      "pages": {
+        "home": "Página inicial",
+        "about": "Sobre",
+        "contact": "Contacto",
+        "resources": "Recursos",
+        "training": "Formação"
       }
     }
   },
@@ -2464,37 +2513,6 @@
       }
     }
   },
-  "footer": {
-    "description": "A Iniciativa HydroBeacon fornece alertas de inundação em tempo real, treinamento VR/AR e ferramentas de resposta a emergências para manter as comunidades seguras de desastres de inundação.",
-    "followUs": "Siga-nos",
-    "quickLinks": "Links Rápidos",
-    "legal": "Legal",
-    "version": "Versão",
-    "explore": "Explorar",
-    "resources": "Recursos",
-    "getInvolved": "Participar",
-    "emailUs": "Enviar-nos email",
-    "copyright": "© 2025 HydroBeacon. Todos os direitos reservados.",
-    "tagline": "A proteger comunidades através de tecnologia avançada",
-    "links": {
-      "privacyPolicy": "Política de Privacidade",
-      "termsOfService": "Termos de Serviço",
-      "communityGuidelines": "Diretrizes da Comunidade",
-      "cookieStatement": "Declaração de Cookies",
-      "home": "Início",
-      "aboutUs": "Sobre nós",
-      "trainingPrograms": "Programas de treino",
-      "blogNews": "Blog e notícias",
-      "resourceLibrary": "Biblioteca de recursos",
-      "safetyDashboard": "Painel de segurança",
-      "trainingDemo": "Demonstração de treino",
-      "requestMaterials": "Pedir materiais",
-      "volunteerOpportunities": "Oportunidades de voluntariado",
-      "partnerWithUs": "Seja nosso parceiro",
-      "reportHazard": "Reportar um perigo",
-      "feedbackForm": "Formulário de feedback"
-    }
-  },
   "contact": {
     "title": "Entre em Contacto",
     "description": "Entre em contacto com a equipa da Iniciativa HydroBeacon",
@@ -2551,5 +2569,3 @@
     "goHome": "Ir para Início"
   }
 }
-
-

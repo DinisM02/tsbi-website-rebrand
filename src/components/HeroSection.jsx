@@ -5,7 +5,7 @@ import { Play, ArrowRight, Shield, AlertTriangle, MapPin, X } from 'lucide-react
 import { Button } from './ui/button';
 import { OptimizedImage } from './OptimizedImage';
 import heroImageWebp from '../assets/hero-images/new-hero-main.webp';
-import heroImage from '../assets/hero-images/new-hero-main.png';
+import heroImage from '../assets/hero-images/new-hero-main.jpg';
 
 const HeroSection = () => {
   const { t } = useTranslation();
@@ -55,7 +55,7 @@ const HeroSection = () => {
           webpSrc={heroImageWebp}
           fallbackSrc={heroImage}
           alt={t('heroSection.imageAlt')}
-          className="w-full h-full object-cover object-[20%_center]"
+          className="w-full h-full object-cover object-center"
           fetchPriority="high"
         />
       </div>

@@ -1,95 +1,22 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { Shield, Users, Globe, Award, Clock, BarChart, ChevronDown, ChevronUp } from 'lucide-react';
+import { Shield, Users, MapPin, Award, Clock, BarChart, Github } from 'lucide-react';
 import { OptimizedImage } from '../components/OptimizedImage';
-import tsbiLogo from '../assets/TSBI logo4.png';
+import hydroBeaconMark from '../assets/hydrobeacon-mark.svg';
 import heroImage from '../assets/hero-images/pages/about-hero.jpg';
 import heroImageWebp from '../assets/hero-images/pages/about-hero.webp';
 import ScrollIndicator from '../components/ScrollIndicator';
 
-// Core team images
-import viktoriaImage from '../assets/team/viktoria.png';
-import viktoriaImageWebp from '../assets/team/viktoria.webp';
-import saeeImage from '../assets/team/saee.jpg';
-import saeeImageWebp from '../assets/team/saee.webp';
-import jineshImage from '../assets/team/jinesh.jpg';
-import jineshImageWebp from '../assets/team/jinesh.webp';
-
-// Other team images (no WebP optimization in script)
-import francisImage from '../assets/team/francis.png';
 import dinisImage from '../assets/team/dinis.jpg';
-import vaishnaviImage from '../assets/team/vaishnavi.jpg';
-import josephImage from '../assets/team/joseph.png';
-import poojaImage from '../assets/team/pooja.jpg';
-import aswathyImage from '../assets/team/aswathy.jpeg';
 
 const AboutUs = () => {
   const { t } = useTranslation();
-  const [showFullTeam, setShowFullTeam] = useState(false);
-
-  const coreTeam = [
-    {
-      name: "Aswathy",
-      position: t('aboutUsPage.team.core.aswathy.position'),
-      description: t('aboutUsPage.team.core.aswathy.description'),
-      image: aswathyImage
-    },
-    {
-      name: "Francis",
-      position: t('aboutUsPage.team.core.francis.position'),
-      description: t('aboutUsPage.team.core.francis.description'),
-      image: francisImage
-    },
-    {
-      name: "Joseph",
-      position: t('aboutUsPage.team.core.joseph.position'),
-      description: t('aboutUsPage.team.core.joseph.description'),
-      image: josephImage
-    }
-  ];
-
-  const fullTeam = [
-    ...coreTeam,
-    {
-      name: "Dinis",
-      position: t('aboutUsPage.team.full.dinis.position'),
-      description: t('aboutUsPage.team.full.dinis.description'),
-      image: dinisImage
-    },
-    {
-      name: "Vaishnavi",
-      position: t('aboutUsPage.team.full.vaishnavi.position'),
-      description: t('aboutUsPage.team.full.vaishnavi.description'),
-      image: vaishnaviImage
-    },
-    {
-      name: "Viktoria",
-      position: t('aboutUsPage.team.full.viktoria.position'),
-      description: t('aboutUsPage.team.full.viktoria.description'),
-      image: viktoriaImage,
-      imageWebp: viktoriaImageWebp
-    },
-    {
-      name: "Pooja",
-      position: t('aboutUsPage.team.full.pooja.position'),
-      description: t('aboutUsPage.team.full.pooja.description'),
-      image: poojaImage
-    },
-    {
-      name: "Saee",
-      position: t('aboutUsPage.team.full.saee.position'),
-      description: t('aboutUsPage.team.full.saee.description'),
-      image: saeeImage,
-      imageWebp: saeeImageWebp
-    },
-    {
-      name: "Jinesh",
-      position: t('aboutUsPage.team.full.jinesh.position'),
-      description: t('aboutUsPage.team.full.jinesh.description'),
-      image: jineshImage,
-      imageWebp: jineshImageWebp
-    }
-  ];
+  const founder = {
+    name: 'Dinis',
+    position: t('aboutUsPage.team.founder.position'),
+    description: t('aboutUsPage.team.founder.description'),
+    image: dinisImage,
+  };
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -124,7 +51,7 @@ const AboutUs = () => {
             <div className="md:w-1/2 flex justify-center items-stretch">
               <div className="flex items-center justify-center w-full h-full">
                 <img 
-                  src={tsbiLogo} 
+                  src={hydroBeaconMark} 
                   alt={t('aboutUsPage.mission.logoAlt')} 
                   className="w-full max-w-md h-full object-contain"
                   loading="lazy"
@@ -153,9 +80,9 @@ const AboutUs = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-center text-gray-800 mb-12 drop-shadow-lg">{t('aboutUsPage.impact.title')}</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
-              { number: "10,000+", text: t('aboutUsPage.impact.stats.livesToProtect') },
-              { number: "500+", text: t('aboutUsPage.impact.stats.communitiesToServe') },
-              { number: "95.6%", text: t('aboutUsPage.impact.stats.targetAlertAccuracy') },
+              { number: "11", text: t('aboutUsPage.impact.stats.provinces') },
+              { number: "9", text: t('aboutUsPage.impact.stats.riverBasins') },
+              { number: "PT", text: t('aboutUsPage.impact.stats.language') },
               { number: "24/7", text: t('aboutUsPage.impact.stats.plannedMonitoring') },
             ].map((stat, i) => (
               <div key={i} className="bg-white p-8 rounded-lg shadow-md text-center hover:shadow-lg transition-shadow">
@@ -177,7 +104,7 @@ const AboutUs = () => {
               { icon: <Award className="w-16 h-16 text-primary mr-4" />, title: t('aboutUsPage.values.items.excellence.title'), text: t('aboutUsPage.values.items.excellence.text') },
               { icon: <Users className="w-16 h-16 text-primary mr-4" />, title: t('aboutUsPage.values.items.communityFocused.title'), text: t('aboutUsPage.values.items.communityFocused.text') },
               { icon: <Clock className="w-16 h-16 text-primary mr-4" />, title: t('aboutUsPage.values.items.timeliness.title'), text: t('aboutUsPage.values.items.timeliness.text') },
-              { icon: <Globe className="w-16 h-16 text-primary mr-4" />, title: t('aboutUsPage.values.items.globalPerspective.title'), text: t('aboutUsPage.values.items.globalPerspective.text') },
+              { icon: <MapPin className="w-16 h-16 text-primary mr-4" />, title: t('aboutUsPage.values.items.localFocus.title'), text: t('aboutUsPage.values.items.localFocus.text') },
               { icon: <BarChart className="w-16 h-16 text-primary mr-4" />, title: t('aboutUsPage.values.items.dataDriven.title'), text: t('aboutUsPage.values.items.dataDriven.text') },
             ].map((value, i) => (
               <div key={i} className="flex flex-col items-start text-left p-6 bg-gray-50 rounded-lg shadow-sm hover:shadow-md transition-shadow">
@@ -192,68 +119,36 @@ const AboutUs = () => {
         </div>
       </div>
 
-      {/* Team Section */}
+      {/* Founder Section */}
       <div className="py-16 bg-gray-100">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl md:text-5xl font-bold text-center text-gray-800 mb-12 drop-shadow-lg">{t('aboutUsPage.team.title')}</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {(showFullTeam ? fullTeam : coreTeam).map((member, index) => (
-              <div key={index} className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow text-left">
-                <div className="flex items-start mb-4">
-                  <div className="w-32 h-32 rounded-full mr-4 overflow-hidden flex-shrink-0">
-                    {member.image ? (
-                      member.imageWebp ? (
-                        <OptimizedImage
-                          webpSrc={member.imageWebp}
-                          fallbackSrc={member.image}
-                          alt={member.name}
-                          className="w-full h-full object-cover"
-                          loading="lazy"
-                          style={member.name === 'Aswathy' ? { objectPosition: 'center 20%' } : {}}
-                        />
-                      ) : (
-                        <img 
-                          src={member.image} 
-                          alt={member.name}
-                          className="w-full h-full object-cover"
-                          loading="lazy"
-                          decoding="async"
-                          style={member.name === 'Aswathy' ? { objectPosition: 'center 20%' } : {}}
-                        />
-                      )
-                    ) : (
-                      <div className="w-full h-full bg-primary/20 flex items-center justify-center">
-                        <Users className="w-16 h-16 text-primary" />
-                      </div>
-                    )}
-                  </div>
-                  <div>
-                    <h3 className="text-2xl font-semibold">{member.name}</h3>
-                    <p className="text-xl text-primary mb-2">{member.position}</p>
-                  </div>
-                </div>
-                <p className="text-gray-600 leading-relaxed">{member.description}</p>
+          <div className="max-w-2xl mx-auto bg-white p-6 sm:p-8 rounded-lg shadow-md text-left">
+            <div className="flex flex-col sm:flex-row items-center sm:items-start gap-6 mb-4">
+              <div className="w-32 h-32 rounded-full overflow-hidden flex-shrink-0">
+                <img
+                  src={founder.image}
+                  alt={founder.name}
+                  className="w-full h-full object-cover"
+                  loading="lazy"
+                  decoding="async"
+                />
               </div>
-            ))}
-          </div>
-
-          <div className="text-center mt-8">
-            <button
-              onClick={() => setShowFullTeam(!showFullTeam)}
-              className="inline-flex items-center px-6 py-3 bg-primary text-white rounded-lg hover:bg-primary/90 transition-all duration-300 hover:scale-105 font-semibold shadow-lg hover:shadow-xl"
-            >
-              {showFullTeam ? (
-                <>
-                  {t('aboutUsPage.team.showLess')}
-                  <ChevronUp className="w-5 h-5 ml-2" />
-                </>
-              ) : (
-                <>
-                  {t('aboutUsPage.team.exploreButton')}
-                  <ChevronDown className="w-5 h-5 ml-2" />
-                </>
-              )}
-            </button>
+              <div className="text-center sm:text-left">
+                <h3 className="text-2xl font-semibold">{founder.name}</h3>
+                <p className="text-xl text-primary mb-3">{founder.position}</p>
+                <a
+                  href="https://github.com/DinisM02"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 text-gray-700 hover:text-primary transition-colors"
+                >
+                  <Github className="w-5 h-5" />
+                  GitHub
+                </a>
+              </div>
+            </div>
+            <p className="text-gray-600 text-lg leading-relaxed">{founder.description}</p>
           </div>
         </div>
       </div>
@@ -264,9 +159,9 @@ const AboutUs = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-center text-gray-800 mb-12 drop-shadow-lg">{t('aboutUsPage.partnersTitle')}</h2>
           <div className="flex flex-wrap justify-center gap-12">
             {[
-              { icon: "🏛️", label: t('aboutUsPage.partners.items.fema') },
+              { icon: "🏛️", label: t('aboutUsPage.partners.items.ingd') },
               { icon: "❤️", label: t('aboutUsPage.partners.items.redCross') },
-              { icon: "🌊", label: t('aboutUsPage.partners.items.noaa') },
+              { icon: "🌊", label: t('aboutUsPage.partners.items.ara') },
               { icon: "🚨", label: t('aboutUsPage.partners.items.emergencyManagement') },
               { icon: "⛈️", label: t('aboutUsPage.partners.items.weatherService') },
               { icon: "🏙️", label: t('aboutUsPage.partners.items.localAuthorities') },
@@ -277,6 +172,7 @@ const AboutUs = () => {
               </div>
             ))}
           </div>
+          <p className="text-center text-sm text-gray-500 mt-8 max-w-2xl mx-auto">{t('aboutUsPage.partnersNote')}</p>
         </div>
       </div>
 

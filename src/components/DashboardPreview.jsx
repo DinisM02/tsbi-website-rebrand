@@ -630,11 +630,11 @@ const DashboardPreview = () => {
                 <h4 className="font-semibold text-red-900">{t('dashboardPreview.modal.immediateEmergency')}</h4>
                 <p className="mt-1 text-sm text-red-800">{t('dashboardPreview.modal.callEmergency')}</p>
                 <div className="mt-3 flex flex-wrap gap-3">
-                  <a href="tel:112" className="inline-flex items-center rounded-lg bg-red-600 px-4 py-2 text-sm font-semibold text-white hover:bg-red-700">
-                    {t('dashboardPreview.modal.call112')}
+                  <a href="tel:119" className="inline-flex items-center rounded-lg bg-red-600 px-4 py-2 text-sm font-semibold text-white hover:bg-red-700">
+                    {t('dashboardPreview.modal.callPolice')}
                   </a>
-                  <a href="tel:911" className="inline-flex items-center rounded-lg border border-red-300 px-4 py-2 text-sm font-semibold text-red-700 hover:bg-red-100">
-                    {t('dashboardPreview.modal.call911')}
+                  <a href="tel:198" className="inline-flex items-center rounded-lg border border-red-300 px-4 py-2 text-sm font-semibold text-red-700 hover:bg-red-100">
+                    {t('dashboardPreview.modal.callFirefighters')}
                   </a>
                 </div>
               </div>
@@ -654,7 +654,7 @@ const DashboardPreview = () => {
                 {sosMessage || t('dashboardPreview.modal.preparingSOS')}
               </div>
               <div className="flex flex-wrap gap-3">
-                <a href="tel:112" className="inline-flex items-center rounded-lg bg-red-600 px-4 py-2 text-sm font-semibold text-white hover:bg-red-700">
+                <a href="tel:119" className="inline-flex items-center rounded-lg bg-red-600 px-4 py-2 text-sm font-semibold text-white hover:bg-red-700">
                   {t('dashboardPreview.modal.callEmergency')}
                 </a>
                 <Button variant="outline" onClick={handleShareSOS}>

@@ -71,7 +71,7 @@ const LiveFloodMap = ({
   className = ''
 }) => {
   const center = useMemo(
-    () => (userLocation ? [userLocation[0], userLocation[1]] : [51.505, -0.09]),
+    () => (userLocation ? [userLocation[0], userLocation[1]] : [-25.9692, 32.5732] /* Maputo */),
     [userLocation]
   );
   const riverLevel = floodData?.daily?.river_discharge_mean?.[0] ?? 0;

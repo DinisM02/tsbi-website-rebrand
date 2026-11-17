@@ -13,14 +13,11 @@ const optimizationConfig = {
 
 // Images to optimize (largest first)
 const imagesToOptimize = [
-  { src: 'team/viktoria.png', formats: ['webp', 'original'] },
-  { src: 'hero-images/new-hero-main.png', formats: ['webp', 'original'] },
+  { src: 'hero-images/new-hero-main.jpg', formats: ['webp', 'original'] },
   { src: 'hero-images/pages/contact-hero.jpg', formats: ['webp', 'original'] },
   { src: 'hero-images/pages/about-hero.jpg', formats: ['webp', 'original'] },
   { src: 'hero-images/pages/training-hero.jpg', formats: ['webp', 'original'] },
   { src: 'hero-images/pages/resources-hero.jpg', formats: ['webp', 'original'] },
-  { src: 'team/jinesh.jpg', formats: ['webp', 'original'] },
-  { src: 'team/saee.jpg', formats: ['webp', 'original'] },
 ];
 
 async function optimizeImage(relPath, formats) {

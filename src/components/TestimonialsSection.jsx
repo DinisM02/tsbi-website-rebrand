@@ -1,43 +1,23 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { Star, Quote } from 'lucide-react';
+import { Home, Users, HeartHandshake, MapPin } from 'lucide-react';
+
+const useCaseIcons = { resident: Home, leader: Users, volunteer: HeartHandshake };
 
 const TestimonialsSection = () => {
   const { t } = useTranslation();
-  const testimonials = [
-    {
-      id: 1,
-      name: t('testimonialsSection.items.sarah.name'),
-      role: t('testimonialsSection.items.sarah.role'),
-      location: t('testimonialsSection.items.sarah.location'),
-      avatar: "SJ",
-      content: t('testimonialsSection.items.sarah.content'),
-      rating: 5
-    },
-    {
-      id: 2,
-      name: t('testimonialsSection.items.chen.name'),
-      role: t('testimonialsSection.items.chen.role'),
-      location: t('testimonialsSection.items.chen.location'),
-      avatar: "MC",
-      content: t('testimonialsSection.items.chen.content'),
-      rating: 5
-    },
-    {
-      id: 3,
-      name: t('testimonialsSection.items.maria.name'),
-      role: t('testimonialsSection.items.maria.role'),
-      location: t('testimonialsSection.items.maria.location'),
-      avatar: "MR",
-      content: t('testimonialsSection.items.maria.content'),
-      rating: 5
-    }
-  ];
+  // Illustrative use cases (not real testimonials)
+  const useCases = ['resident', 'leader', 'volunteer'].map((key) => ({
+    id: key,
+    name: t(`testimonialsSection.items.${key}.name`),
+    location: t(`testimonialsSection.items.${key}.location`),
+    content: t(`testimonialsSection.items.${key}.content`),
+  }));
 
   const partners = [
-    { name: t('testimonialsSection.partners.items.fema'), icon: "🏛️" },
+    { name: t('testimonialsSection.partners.items.ingd'), icon: "🏛️" },
     { name: t('testimonialsSection.partners.items.redCross'), icon: "🏥" },
-    { name: t('testimonialsSection.partners.items.noaa'), icon: "🌊" },
+    { name: t('testimonialsSection.partners.items.ara'), icon: "🌊" },
     { name: t('testimonialsSection.partners.items.emergencyManagement'), icon: "🚨" },
     { name: t('testimonialsSection.partners.items.weatherService'), icon: "⛈️" },
     { name: t('testimonialsSection.partners.items.localAuthorities'), icon: "🏢" }
@@ -63,37 +43,28 @@ const TestimonialsSection = () => {
           </p>
         </div>
 
-        {/* Testimonials Grid */}
+        {/* Use Cases Grid */}
         <div className="grid md:grid-cols-3 gap-8 mb-16">
-          {testimonials.map((testimonial) => (
-            <div key={testimonial.id} className="bg-gray-50 rounded-xl p-8 relative">
-              <Quote className="w-8 h-8 text-primary/20 absolute top-4 right-4" />
-              
-              {/* Rating */}
-              <div className="flex items-center mb-4">
-                {[...Array(testimonial.rating)].map((_, i) => (
-                  <Star key={i} className="w-5 h-5 text-yellow-400 fill-current" />
-                ))}
-              </div>
-
-              {/* Content */}
-              <blockquote className="text-gray-700 mb-6 leading-relaxed">
-                "{testimonial.content}"
-              </blockquote>
-
-              {/* Author */}
-              <div className="flex items-center">
-                <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center text-white font-semibold mr-4">
-                  {testimonial.avatar}
+          {useCases.map((useCase) => {
+            const Icon = useCaseIcons[useCase.id];
+            return (
+              <div key={useCase.id} className="bg-gray-50 rounded-xl p-8">
+                <div className="flex items-center mb-4">
+                  <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center text-white mr-4 flex-shrink-0">
+                    <Icon className="w-6 h-6" />
+                  </div>
+                  <div>
+                    <div className="font-semibold text-gray-900">{useCase.name}</div>
+                    <div className="text-sm text-gray-500 flex items-center gap-1">
+                      <MapPin className="w-3.5 h-3.5" />
+                      {useCase.location}
+                    </div>
+                  </div>
                 </div>
-                <div>
-                  <div className="font-semibold text-gray-900">{testimonial.name}</div>
-                  <div className="text-sm text-gray-600">{testimonial.role}</div>
-                  <div className="text-sm text-gray-500">{testimonial.location}</div>
-                </div>
+                <p className="text-gray-700 leading-relaxed">{useCase.content}</p>
               </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
 
         {/* Partners Section */}

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 72" role="img" aria-label="HydroBeacon Moçambique">
+  <defs>
+    <linearGradient id="hbDropL" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0A7FB0"/>
+      <stop offset="1" stop-color="#005F86"/>
+    </linearGradient>
+    <clipPath id="hbClipL">
+      <path d="M32 4C32 4 12 27.5 12 40.5a20 20 0 0 0 40 0C52 27.5 32 4 32 4Z"/>
+    </clipPath>
+  </defs>
+  <g transform="translate(0 4)">
+    <path d="M32 4C32 4 12 27.5 12 40.5a20 20 0 0 0 40 0C52 27.5 32 4 32 4Z" fill="url(#hbDropL)"/>
+    <g clip-path="url(#hbClipL)" fill="none" stroke-linecap="round">
+      <path d="M8 46c4-3.5 8-3.5 12 0s8 3.5 12 0 8-3.5 12 0 8 3.5 12 0" stroke="#7FD3F0" stroke-width="3.2"/>
+      <path d="M8 53c4-3.5 8-3.5 12 0s8 3.5 12 0 8-3.5 12 0 8 3.5 12 0" stroke="#FFFFFF" stroke-width="3.2" opacity=".9"/>
+    </g>
+    <circle cx="32" cy="31" r="4.6" fill="#F7A21B"/>
+    <g fill="none" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round">
+      <path d="M24.5 23.5a10.6 10.6 0 0 0 0 15"/>
+      <path d="M39.5 23.5a10.6 10.6 0 0 1 0 15"/>
+    </g>
+  </g>
+  <text x="66" y="40" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="30" font-weight="700" fill="#005F86" letter-spacing="-0.5">Hydro<tspan fill="#F7A21B">Beacon</tspan></text>
+  <text x="67" y="60" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#4B6B7D" letter-spacing="3">MOÇAMBIQUE</text>
+</svg>

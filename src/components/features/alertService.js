@@ -51,7 +51,7 @@ export async function sendTestNotification(weatherData, floodData) {
 
   new Notification('HydroBeacon Flood Alert — Test', {
     body: `Current conditions: ${temp}°C, River: ${riverLevel.toFixed(1)} m³/s. This is a test notification.`,
-    icon: '/tsbi-logo.jpg',
+    icon: '/hydrobeacon-icon-192.png',
     tag: 'hydrobeacon-test-alert',
   });
 

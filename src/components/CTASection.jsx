@@ -139,13 +139,7 @@ const CTASection = () => {
                 variant="outline"
                 size="lg"
                 className="w-full sm:w-auto sm:min-w-[220px] border-2 border-white bg-white/20 backdrop-blur-sm text-white hover:bg-white hover:text-primary px-8 py-6 text-lg font-semibold shadow-xl"
-                onClick={() => {
-                  window.open(
-                    'https://calendly.com/aswathyjose86',
-                    '_blank',
-                    'noopener,noreferrer'
-                  );
-                }}
+                onClick={() => navigate('/contact')}
               >
                 {t('ctaSection.scheduleDemo')}
               </Button>
